@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
+##ADDED THESE GEMS ONLY TO DEFAULT CONFIG
 gem 'elasticsearch-persistence', git: 'git://github.com/elastic/elasticsearch-rails.git', branch: '5.x'
+gem 'ox'
+
+##ENDED
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.9'

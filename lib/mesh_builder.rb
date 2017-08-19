@@ -17,6 +17,7 @@ module MeshBuilder
 
 		IO.readlines("#{Rails.root}/vendor/MESH_ASCII_2017.bin").each do |line|
 			
+			exit if records > 10
 			
 			if line =~ /^\*NEWRECORD/
 				if m
