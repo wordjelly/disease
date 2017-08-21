@@ -26,7 +26,6 @@ class Mesh
 	##MESH "MN" -> list of numbers
 	attribute :numbers, String, default:[]
 	
-
 	##MESH "MS"
 	attribute :description, String
 
@@ -36,6 +35,8 @@ class Mesh
 	##MESH "ENTRY"
 	attribute :other_names, String, default:[]
 
+	##these are for use in the meta_data.rb object.
+	##where for a given descriptor there are numerous qualifiers.
 	attribute :qualifier_names, String, default: []
 
 

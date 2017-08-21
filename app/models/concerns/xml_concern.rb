@@ -14,7 +14,7 @@ module Concerns::XmlConcern
   
   ## convenience method called by yielder when we have all the data of the element, so you can do whatever you want with the element here.
   def gather_element(element_name)
-      true
+      
   end
 
   ##sets all element attributes to nil
