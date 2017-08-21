@@ -36,6 +36,7 @@ class Mesh
 	##MESH "ENTRY"
 	attribute :other_names, String, default:[]
 
+	attribute :qualifier_names, String, default: []
 
 
 end

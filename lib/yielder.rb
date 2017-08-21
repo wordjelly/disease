@@ -7,22 +7,40 @@ class Yielder < ::Ox::Sax
   	end
     
     def start_element(name)
-        @item = @item_class.new if name =~ /#{@item_class.Root}/
-        @item.current_tag = name
+       
+        @item.gather_element(name) if @item
+        if name =~ /#{@item_class.item_element}/
+          @item = @item_class.new
+          puts "starting new item"
+          gets.chomp
+        else
+          @item.reset_element(name) if @item
+        end
+        @item.current_tag = name if @item
     end
 
     def attr(name,value)
-    	
+      if @item
+        @item.current_tag_attributes_hash ||= {}
+        @item.current_tag_attributes_hash[name] = value
+      end      
     end
 
     ##the text of the current tag.
     def text(value)
-    	@item.current_tag_text = value
-    	@item.print_tag_with_text
+    	if @item
+        @item.current_tag_text = value
+      end      
     end
 
+
+    ##this is necessary to call for the last element, because it 
+    ##will never be gathered otherwise.
     def end_element(name)
-    	
+      if ((@item) && (name == @item.current_tag))
+        @item.gather_element(name)
+        @item.reset_element(name)
+      end
     end
 
 end

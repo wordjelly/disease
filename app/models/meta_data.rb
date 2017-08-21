@@ -1,20 +1,27 @@
 require 'elasticsearch/persistence/model'
 class MetaData
 	include Elasticsearch::Persistence::Model
-	attribute :current_tag, String
-	attribute :current_tag_text, String
-	attribute :all_text, String
+	include Concerns::XmlConcern
+	attr_accessor :mesh
+
+	def self.item_element
+		"PubmedArticle"
+	end
+
 	
-
-	def self.Root
-		"top"
+	def tag_and_text
+		if current_tag =~ /DescriptorName/
+			#@mesh = Mesh.new({:ui => })
+		
+		end
 	end
 
-	def print_tag_with_text
-		puts "current tag is: #{current_tag}"
-		puts "current text is: #{current_tag_text}"
-		#all_text += ("#{current_tag}:" + current_tag_text)
-		#puts "all text becomes: #{all_text}"
+	def gather_element(element_name)
+		if super(element_name)
+			puts "printing element."
+			puts current_tag
+			puts current_tag_text
+			puts current_tag_attributes_hash	
+		end
 	end
-
 end
