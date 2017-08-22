@@ -14,17 +14,7 @@ module MeshBuilder
 		record = false
 		m = nil
 		records = 0
-		index_name = "meshes"
-		begin
-		puts Mesh.gateway.client.indices.delete index: index_name
-		puts Mesh.gateway.client.indices.create index: index_name,
-             body: {
-                
-                            mappings: Mesh.mappings.to_hash 
-                   }
-        rescue => e
-        	puts e.to_s
-        end
+		Mesh.create_index! force: true
 		
 		IO.readlines("#{Rails.root}/vendor/MESH_ASCII_2017.bin").each do |line|
 			

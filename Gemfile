@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ##ADDED THESE GEMS ONLY TO DEFAULT CONFIG
-gem 'elasticsearch-persistence', git: 'git://github.com/elastic/elasticsearch-rails.git', branch: '5.x'
+gem 'elasticsearch-persistence', '~> 0.1.8'
 gem 'ox'
 
 ##ENDED
@@ -37,7 +37,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
+  gem 'byebug', '9.0.3'
 end
 
 group :development do
