@@ -1,4 +1,5 @@
 module MeshBuilder
+	include Es
 	##returns the contents of the line after the equal to sign
 	def self.line_content(line)
 		line_content = nil
@@ -10,14 +11,24 @@ module MeshBuilder
 	end
 
 	def self.read_ascii_bin
-		
 		record = false
 		m = nil
 		records = 0
-
+		index_name = "meshes"
+		begin
+		puts Mesh.gateway.client.indices.delete index: index_name
+		puts Mesh.gateway.client.indices.create index: index_name,
+             body: {
+                
+                            mappings: Mesh.mappings.to_hash 
+                   }
+        rescue => e
+        	puts e.to_s
+        end
+		
 		IO.readlines("#{Rails.root}/vendor/MESH_ASCII_2017.bin").each do |line|
 			
-			exit if records > 10
+			
 			
 			if line =~ /^\*NEWRECORD/
 				if m
@@ -29,7 +40,7 @@ module MeshBuilder
 			end
 
 			
-			if line=~/^MH/
+			if line=~/^MH\s/
 				m.name = line_content(line)
 			elsif line=~/^MN/
 				m.numbers << line_content(line)

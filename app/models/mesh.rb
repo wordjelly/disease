@@ -1,6 +1,7 @@
 require 'elasticsearch/persistence/model'
 class Mesh
 	include Elasticsearch::Persistence::Model
+	include Es
 	
 	before_save{
 		arr = []
@@ -16,28 +17,28 @@ class Mesh
 	}
 
 	##MESH "UI"
-	attribute :ui, String
+	attribute :ui, String, mapping:{type: 'string',index: 'not_analyzed'}
 
-	attribute :parents, String, default: []
+	attribute :parents, String, default: [], mapping: {type: 'string', index: 'not_analyzed'}
 
 	##MESH "MH"
-	attribute :name, String
+	attribute :name, String, mapping:{type: 'string'}
 	
 	##MESH "MN" -> list of numbers
-	attribute :numbers, String, default:[]
+	attribute :numbers, String, default:[], mapping:{type: 'string',index: 'not_analyzed'}
 	
 	##MESH "MS"
-	attribute :description, String
+	attribute :description, String, mapping:{type: 'string'}
 
 	##MESH "AN"
-	attribute :annotation, String
+	attribute :annotation, String, mapping:{type: 'string'}
 
 	##MESH "ENTRY"
-	attribute :other_names, String, default:[]
+	attribute :other_names, String, default:[], mapping:{type: 'string'}
 
 	##these are for use in the meta_data.rb object.
 	##where for a given descriptor there are numerous qualifiers.
-	attribute :qualifier_names, String, default: []
+	attribute :qualifier_names, String, default: [], mapping:{type: 'string'}
 
 
 end

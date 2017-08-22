@@ -13,6 +13,7 @@ class Yielder < ::Ox::Sax
           if @item
             puts "this is the previous item to be saved."
             puts @item.attributes.to_s
+            ##call save here.
             gets.chomp
           end
           @item = @item_class.new

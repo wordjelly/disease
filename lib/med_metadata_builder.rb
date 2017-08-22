@@ -15,15 +15,6 @@ module MedMetadataBuilder
 		io = IO.read("#{Rails.root}/vendor/medsample1.xml")
 		puts "finished reading."
 
-=begin
-		io = StringIO.new(%{
-		<top dog="text" dog_attr="text y">
-		  <middle>
-		    <bottom/>
-		  </middle>
-		</top>
-		})
-=end
 		Ox.sax_parse(handler, io)
 		
 		##so first step is to know when an article has started
