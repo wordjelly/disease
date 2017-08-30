@@ -6,7 +6,8 @@ class Test
 	attribute :sample_type, String
 
 	##calls the JSON_URL, and parses the file returned to build a database of tests.
-	def self.build
+	def self.read
+		Test.create_index! force: true
 		json_tests = JSON.parse(IO.read("#{Rails.root}/vendor/testsearchnames.json"))
 		
 		counter = 0

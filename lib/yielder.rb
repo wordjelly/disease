@@ -7,14 +7,10 @@ class Yielder < ::Ox::Sax
   	end
     
     def start_element(name)
-       
         @item.gather_element(name) if @item
         if name =~ /#{@item_class.item_element}/
           if @item
-            puts "this is the previous item to be saved."
-            puts @item.attributes.to_s
-            ##call save here.
-            gets.chomp
+            @item.save
           end
           @item = @item_class.new
         else

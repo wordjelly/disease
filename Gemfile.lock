@@ -57,6 +57,7 @@ GEM
     debug_inspector (0.0.3)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
+    down (4.0.1)
     elasticsearch (5.0.4)
       elasticsearch-api (= 5.0.4)
       elasticsearch-transport (= 5.0.4)
@@ -95,6 +96,7 @@ GEM
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     json (1.8.6)
+    left-pad (1.1.0)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.6)
@@ -191,9 +193,12 @@ PLATFORMS
 DEPENDENCIES
   byebug (= 9.0.3)
   coffee-rails (~> 4.1.0)
+  down
   elasticsearch-persistence (~> 0.1.8)
   jbuilder (~> 2.0)
   jquery-rails
+  left-pad
+  nokogiri
   ox
   rails (= 4.2.9)
   sass-rails (~> 5.0)

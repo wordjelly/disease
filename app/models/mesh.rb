@@ -45,7 +45,7 @@ class Mesh
 		line_content
 	end
 
-	def self.read_ascii_bin
+	def self.read
 		record = false
 		m = nil
 		records = 0
@@ -53,7 +53,7 @@ class Mesh
 		
 		IO.readlines("#{Rails.root}/vendor/MESH_ASCII_2017.bin").each do |line|
 			
-			exit if records > 10
+			#exit if records > 10
 			
 			if line =~ /^\*NEWRECORD/
 				if m
