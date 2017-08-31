@@ -1,9 +1,10 @@
 require 'elasticsearch/persistence/model'
 require 'net/ftp'
+require 'open-uri'
 class MetaData
 	include Elasticsearch::Persistence::Model
 	include Concerns::XmlConcern
-	attr_accessor :mesh
+	include Concerns::EsBulkIndexConcern
 
 	## => tag : AbstractText
 	attribute :abstract_text, String
@@ -34,11 +35,18 @@ class MetaData
 	def self.item_element
 		"PubmedArticle"
 	end
-	
+		
+	def self.bulk_size
+		8000
+	end
 
-	after_save {
-		#puts "saved: #{self.id.to_s}"
-	}
+	def self.dummy
+		a = MetaData.new
+		a.abstract_text = "hello this is the abstract_text"
+		a.article_title = "title of the abstract "
+		a.descriptors = ["desc1","desc2"]
+		a
+	end
 
 	## [Hash] returns the paths of the xml.gz files already downloaded to the pubmed_metadata_files folder
 	## structure is: 
@@ -123,24 +131,31 @@ class MetaData
 
 
 	def gather_element(element_name)
-		#puts "printing element."
-		#puts current_tag
-		#puts current_tag_text
-		#puts current_tag_attributes_hash
-		#puts "is it regex equal to article title ?"
-		#puts "#{current_tag.to_s =~ /ArticleTitle/i}"
-		#puts "is it equal."
-		#puts "#{current_tag.to_s.strip == 'ArticleTitle'}"
-		if current_tag.to_s =~ /ArticleTitle/i
+		if current_tag.to_s == "ArticleTitle"
 			self.article_title = current_tag_text
-		elsif current_tag.to_s =~ /AbstractText/i
+		elsif current_tag.to_s == "AbstractText"
 			self.abstract_text = current_tag_text
-		elsif current_tag.to_s =~ /DescriptorName/i
+		elsif current_tag.to_s == "DescriptorName"
 			self.descriptors << current_tag_text
 			self.descriptor_uis << current_tag_attributes_hash[:UI]
-		elsif current_tag.to_s =~ /QualifierName/i
+		elsif current_tag.to_s == "QualifierName"
 			self.qualifiers << current_tag_text
 			self.qualifier_uis << current_tag_attributes_hash[:UI]
 		end
 	end
+
+	################### DOM PARSING ATTEMPTS #####################
+
+	def self.nokogiri_parse
+		doc = Nokogiri::XML File.read("#{Rails.root}/vendor/pubmed_metadata_unzipped/medline17n0001.xml")
+		doc.css(self.item_element).each_with_index {|article,index|
+			puts "doing article: #{index}"
+			item = self.new
+			item.abstract_text = article.css("AbstractText").text
+			item.article_title = article.css("ArticleTitle").text
+			self.add_bulk_item(item)
+		}
+		doc = nil
+	end
+
 end

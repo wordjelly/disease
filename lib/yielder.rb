@@ -10,9 +10,10 @@ class Yielder < ::Ox::Sax
         @item.gather_element(name) if @item
         if name =~ /#{@item_class.item_element}/
           if @item
-            @item.save
+            @item_class.add_bulk_item(@item)
           end
           @item = @item_class.new
+          
         else
           @item.reset_element(name) if @item
         end
