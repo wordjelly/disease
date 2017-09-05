@@ -40,13 +40,7 @@ class MetaData
 		8000
 	end
 
-	def self.dummy
-		a = MetaData.new
-		a.abstract_text = "hello this is the abstract_text"
-		a.article_title = "title of the abstract "
-		a.descriptors = ["desc1","desc2"]
-		a
-	end
+	
 
 	## [Hash] returns the paths of the xml.gz files already downloaded to the pubmed_metadata_files folder
 	## structure is: 
@@ -95,10 +89,11 @@ class MetaData
 
 	def self.index_metadata_file(file_path)
 		puts "adding metadata from: #{file_path} to index"
-		proc = Proc.new { |item|}
-		handler = Yielder.new(proc,MetaData)
-		io = IO.read(file_path)
-		Ox.sax_parse(handler, io)
+		nokogiri_parse(file_path)
+		#proc = Proc.new { |item|}
+		#handler = Yielder.new(proc,MetaData)
+		#io = IO.read(file_path)
+		#Ox.sax_parse(handler, io)
 	end
 
 	def self.index_metadata(max_files)
@@ -110,7 +105,7 @@ class MetaData
 		files.each_with_index {|file_path,count|
 			puts "indexing file: #{count}"
 			self.index_metadata_file(file_path)
-			break if count > max_files
+			break if (count+1) >= max_files
 		}
 	end
 
@@ -118,9 +113,6 @@ class MetaData
 	## the unzips all files(whether earlier downloaded or downloaded new)
 	## then indexes(first_n_files) into the index
 	## before running this def ensure that there are directories in the vendor directory called "pubmed_metadata_files","pubmed_metadata_unzipped", and give them full permissions.
-	## currently takes around 7 minutes for 30,000
-	## for 800 files: 5600 minutes :
-	## 
 	def self.pipeline(n)
 		self.download(n)
 		self.unzip
@@ -146,16 +138,61 @@ class MetaData
 
 	################### DOM PARSING ATTEMPTS #####################
 
-	def self.nokogiri_parse
-		doc = Nokogiri::XML File.read("#{Rails.root}/vendor/pubmed_metadata_unzipped/medline17n0001.xml")
+	def self.nokogiri_parse(file_path="#{Rails.root}/vendor/medsample1.xml")
+		doc = Nokogiri::XML File.read(file_path)
 		doc.css(self.item_element).each_with_index {|article,index|
-			puts "doing article: #{index}"
+			if(index % 1000 == 0)
+				puts "doing article: #{index}"	
+			end
 			item = self.new
 			item.abstract_text = article.css("AbstractText").text
 			item.article_title = article.css("ArticleTitle").text
+			article.css("DescriptorName").map{|c| 
+				item.descriptors << c.text
+			}
+			article.css("QualifierName").map{|c|
+				item.qualifiers << c.text
+			}
 			self.add_bulk_item(item)
 		}
+		self.flush_bulk
 		doc = nil
 	end
 
+
+	########### query for comparing tests with symptoms ##########
+
+=begin
+	{
+	    "query": {
+	        "bool": {
+	            "minimum_number_should_match": 1, 
+	            "must": [
+	               {
+	                 "match": {
+	                    "abstract_text": "sedimentation"
+	                 }
+	               }
+	            ],
+	            "should": [
+	               {
+	                   "multi_match": {
+	                      
+	                          "query": "sedimentation",
+	                          "type": "phrase",
+	                          "slop": 50,
+	                          "fields":["abstract_text","article_title"]
+	                      
+	                   }
+	               }
+	            ]
+	        }
+	    },
+	    "filter": {
+	        "term": {
+	           "descriptors": "Fever"
+	        }
+	    }
+	}
+=end
 end

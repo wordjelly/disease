@@ -40,6 +40,11 @@ module Concerns::EsBulkIndexConcern
 		reset_bulk_items
 	end
 
+	## call this method at the end somewhere in the place where you are adding bulk items.
+	def self.flush_bulk
+		index_bulk_items
+	end
+
 	def self.add_bulk_item(item)
 		#puts "item time: #{Time.now.to_i}"
 	  	if total_items = self.bulk_items.size
