@@ -163,6 +163,7 @@ class MetaData
 	########### query for comparing tests with symptoms ##########
 
 =begin
+
 	{
 	    "query": {
 	        "bool": {

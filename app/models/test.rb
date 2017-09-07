@@ -46,4 +46,23 @@ class Test
 		}
 	end
 
+	## calculate the relevant phrases from inside a test name.
+	## first split the name into individual shingles.
+	## for each shingle
+	## A]
+	## filter : [entire name]
+	## query : shingle (not followed or preceeded by what it is usually followed by or preceeded by.)
+	## B]
+	## filter : [must not have entire name]
+	## query : shingle (same clause as above.)
+	## C]
+	## ratio of these two will give you the relevance of using the shingle in place of the term.
+	## then for the main correlation
+
+	## still dont know how to do this.
+	## see how often the test comes with the disease
+	## if a disease is prolific -> it should absorb a percentage of all tests
+	## filter with disease : 
+	## filter with all other diseases :
+	## that's it.
 end
