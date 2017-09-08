@@ -1,7 +1,8 @@
 require 'elasticsearch/persistence/model'
 class Mesh
 	include Elasticsearch::Persistence::Model
-	
+	include Concerns::EsConcern
+	TOTAL_RECORDS = 28471
 	################# SYMPTOM => DISEASE TFIDF ############
 
 	def self.assoc
@@ -45,7 +46,12 @@ class Mesh
 		line_content
 	end
 
-	def self.read
+	
+	def self.build_index
+		if Mesh.get_count == TOTAL_RECORDS
+			puts "meshes index upto date."
+			return
+		end
 		record = false
 		m = nil
 		records = 0
@@ -58,7 +64,7 @@ class Mesh
 			if line =~ /^\*NEWRECORD/
 				if m
 					m.save
-					puts "saving record: #{records}"
+					puts "saving record: #{records}" if (records % 1000 == 0)
 					records+=1
 				end
 				m = Mesh.new

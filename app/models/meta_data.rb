@@ -3,6 +3,7 @@ require 'net/ftp'
 require 'open-uri'
 class MetaData
 	include Elasticsearch::Persistence::Model
+	include Concerns::EsConcern
 	include Concerns::XmlConcern
 	include Concerns::EsBulkIndexConcern
 
@@ -32,6 +33,14 @@ class MetaData
 	## => tag : QualifierName => UI
 	attribute :qualifier_uis, String, default: [], mapping: {index: 'not_analyzed'}
 
+
+	## does the article have any symptoms in the descriptors.
+	attribute :has_symptom, Boolean
+
+
+	## does the article have any diseases mentioned in the descriptors.
+	attribute :has_disease, Boolean
+
 	def self.item_element
 		"PubmedArticle"
 	end
@@ -54,7 +63,7 @@ class MetaData
 	
 	## downloads all the metadata files from the pubmed ftp url
 	## => ftp://ftp.ncbi.nlm.nih.gov/pubmed/baseline
-	def self.download(n)
+	def self.download(from,to)
 		files_already_downloaded = self.zipped_files
 		server = "ftp.ncbi.nlm.nih.gov"
 		BasicSocket.do_not_reverse_lookup = true
@@ -65,26 +74,35 @@ class MetaData
 		  files = ftp.list("*.gz")
 		  puts "got ftp files list"
 		  files.each_with_index { |file, i|
-		  	break if i >= n
-		  	puts "downloading file: #{i + 1}"
-		  	begin
-			    filename = file.split(/\s/).last
-			    unless files_already_downloaded[filename]
-				  	ftp.getbinaryfile(filename, "#{Rails.root}/vendor/pubmed_metadata_files/#{filename}",1024) do |chunk|
+		  	break if i > to
+		  	if i >= from
+			  	puts "downloading file: #{i}"
+			  	begin
+				    filename = file.split(/\s/).last
+				    unless files_already_downloaded[filename]
+					  	ftp.getbinaryfile(filename, "#{Rails.root}/vendor/pubmed_metadata_files/#{filename}",1024) do |chunk|
+					  	end
+					  	puts "downloaded file : #{filename} number: #{i} of #{files.size - 1}"
+					else
+						puts "file : #{filename} already exists"
 				  	end
-				  	puts "downloaded file : #{filename} number: #{i + 1} of #{files.size}"
-				else
-					puts "file : #{filename} already exists"
+			  	rescue => e
+			  		puts "encountered error downloading file: #{filename}"
 			  	end
-		  	rescue => e
-		  		puts "encountered error downloading file: #{filename}"
 		  	end
 		  }
 		end
 	end
 
+	## unzips all the files in the pubmed_metadata_files into the pubmed_metadata_unzipped folder
 	def self.unzip
 		system("sh #{Rails.root}/lib/unzip_metadata_files.sh")
+	end
+
+	## deletes all files from the pubmed_metadata_files and pubmed_metadata_unzipped folders.
+	def self.delete_all_metadata_files
+		system("sh #{Rails.root}/lib/delete_metadata_files.sh")
+		Rails.logger.info("MetaData files deleted")
 	end
 
 	def self.index_metadata_file(file_path)
@@ -96,7 +114,7 @@ class MetaData
 		#Ox.sax_parse(handler, io)
 	end
 
-	def self.index_metadata(max_files)
+	def self.index_metadata
 		puts "rebuilding index"
 		MetaData.create_index! force:true
 		puts "index rebuilt."
@@ -105,19 +123,24 @@ class MetaData
 		files.each_with_index {|file_path,count|
 			puts "indexing file: #{count}"
 			self.index_metadata_file(file_path)
-			break if (count+1) >= max_files
+			#break if (count+1) >= max_files
 		}
 	end
 
-	## first downloads(first_n_files) , provided that file is not already downloaded.
+	## first builds the meshes index
+	## then deletes all the metadata files zipped and unzipped
+	## first downloads(from,to) , provided that file is not already downloaded.
 	## the unzips all files(whether earlier downloaded or downloaded new)
-	## then indexes(first_n_files) into the index
+	## then indexes(all files which were unzipped) into the index
 	## before running this def ensure that there are directories in the vendor directory called "pubmed_metadata_files","pubmed_metadata_unzipped", and give them full permissions.
-	def self.pipeline(n)
-		self.download(n)
+	def self.pipeline(from=0,to=1)
+		Mesh.build_index
+		Test.build_index
+		self.delete_all_metadata_files
+		self.download(from,to)
 		self.unzip
 		start_time = Time.now.to_i
-		self.index_metadata(n)
+		self.index_metadata
 		puts "time taken : #{Time.now.to_i - start_time}"
 	end
 
@@ -139,6 +162,9 @@ class MetaData
 	################### DOM PARSING ATTEMPTS #####################
 
 	def self.nokogiri_parse(file_path="#{Rails.root}/vendor/medsample1.xml")
+		symptom_hash = Symptom.symptom_hash
+		disease_hash = Dise.disease_hash
+
 		doc = Nokogiri::XML File.read(file_path)
 		doc.css(self.item_element).each_with_index {|article,index|
 			if(index % 1000 == 0)
@@ -149,10 +175,13 @@ class MetaData
 			item.article_title = article.css("ArticleTitle").text
 			article.css("DescriptorName").map{|c| 
 				item.descriptors << c.text
+				item.has_disease = !disease_hash[c.text].nil?
+				item.has_symptom = !symptom_hash[c.text].nil?
 			}
 			article.css("QualifierName").map{|c|
 				item.qualifiers << c.text
 			}
+			
 			self.add_bulk_item(item)
 		}
 		self.flush_bulk

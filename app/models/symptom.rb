@@ -4,6 +4,18 @@ class Symptom
 	include Elasticsearch::Persistence::Model
 	attribute :name, String
 
+	## @return [Hash] of symptom names.
+	## key -> symptom name
+	## value -> 1
+	def self.symptom_hash
+		symptoms = {}
+		IO.readlines("#{Rails.root}/vendor/pubmed_symptoms_list.txt").each do |line|
+			symptom = line.split(/\t/)[0]
+			symptoms[symptom] = 1
+		end
+		symptoms		
+	end
+
 	def self.read
 
 		IO.readlines("#{Rails.root}/vendor/pubmed_symptoms_list.txt").each do |line|

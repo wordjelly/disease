@@ -1,10 +1,11 @@
 require 'elasticsearch/persistence/model'
 class Test
 	include Elasticsearch::Persistence::Model
+	include Concerns::EsConcern
 	attribute :name, String
 	attribute :description, String
 	attribute :sample_type, String
-
+	TOTAL_RECORDS = 74
 	##calls the JSON_URL, and parses the file returned to build a database of tests.
 	def self.read_from_local_file
 		Test.create_index! force: true
@@ -37,13 +38,21 @@ class Test
 	end
 
 	## ensure that the tests file is present at vendor/simple_tests_name.json, as a simple json array of names.
-	def self.create_tests
+	def self.build_index
+		if Test.get_count == TOTAL_RECORDS
+			puts "tests index exists and uptodate."
+			return
+		end
 		tests_file = IO.read("#{Rails.root}/vendor/simple_test_names.json")
 		JSON.parse(tests_file).each_with_index.map{|test_name,key|
 			t = Test.new(:name => test_name)
-			puts "key is: #{key}"
-			puts "saved: #{t.save}, #{key}"
 		}
+		puts "created tests index."
+	end
+
+
+	def self.calculate_test_to_symptom_ratios
+		
 	end
 
 	## calculate the relevant phrases from inside a test name.
