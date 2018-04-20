@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ##ADDED THESE GEMS ONLY TO DEFAULT CONFIG
-gem 'elasticsearch-persistence', '~> 0.1.8'
+gem 'elasticsearch-persistence'
 gem 'ox'
 gem 'down'
 gem 'nokogiri'

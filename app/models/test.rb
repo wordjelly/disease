@@ -46,6 +46,7 @@ class Test
 		tests_file = IO.read("#{Rails.root}/vendor/simple_test_names.json")
 		JSON.parse(tests_file).each_with_index.map{|test_name,key|
 			t = Test.new(:name => test_name)
+			t.save
 		}
 		puts "created tests index."
 	end
