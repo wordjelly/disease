@@ -23,14 +23,20 @@ module Concerns::EsBulkIndexConcern
 		self.total_items_bulked += self.bulk_items.size
 	end
 
-	def self.index_bulk_items
+	
+	
+	def self.do_bulk
 		add_total
 	  	puts "building bulk items"
-	  	bulk_request = bulk_items.map{|c| 
-	  		c = 
-	  		{
-	  			index:  { _index: c.class.index_name, _id: c.id, _type: c.class.document_type, data: c.as_json }
-	  		}
+	  	bulk_request = bulk_items.map{|c|
+
+	  		unless c.is_a? Hash
+				c = {
+	  					index:  { _index: c.class.index_name, _id: c.id, _type: c.	class.document_type, data: c.as_json }
+	  				}	  			
+	  		end
+
+	  		c
 	  	}
 	  	puts "making bulk call"
 	  	resp = gateway.client.bulk body: bulk_request
@@ -40,17 +46,17 @@ module Concerns::EsBulkIndexConcern
 		reset_bulk_items
 	end
 
-	## call this method at the end somewhere in the place where you are adding bulk items.
-	def self.flush_bulk
-		index_bulk_items
-	end
-
 	def self.add_bulk_item(item)
 		#puts "item time: #{Time.now.to_i}"
 	  	if total_items = self.bulk_items.size
 	  		bulk_items << item if total_items < self.bulk_size
-	  		index_bulk_items if total_items >= self.bulk_size
+	  		do_bulk if total_items >= self.bulk_size
 	  	end
+	end
+
+	## call this method at the end somewhere in the place where you are adding bulk items.
+	def self.flush_bulk
+		do_bulk
 	end
 
   end
