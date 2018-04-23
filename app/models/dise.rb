@@ -107,6 +107,15 @@ class Dise
 		flush_bulk
 	end
 
+	## @param[Array] symptoms : list of symptoms to check correlations.
+	## @return[Hash] symptom => uniqness to the set of symptoms [0 -> 1]
+	## this needs to be decided how exactly to base this
+	## but hereonwards my next step will be gathering symptoms from textbooks by correlation analysis of distances. and second job is to find the simple correlation of lay man's english to symptoms.
+	## after that we can try some gimicks, but the base will be built. 
+	def symptom_correlations(symptoms)
+
+	end
+
 	## for this what i want to do is to follow this process
 	## let us say someone presents with pain in the neck.
 	## it can be associated with 500 diseases
@@ -116,7 +125,7 @@ class Dise
 	## and aggregate by other symptoms count.
 	## let us consider a symptom like "fever"
 	## let us take "Edema"
-	def self.assoc
+	def self.assoc(symptom="Edema")
 		response = Dise.gateway.client.search index: Dise.index_name, body: {
 				query: {
 					bool: {
@@ -127,7 +136,7 @@ class Dise
 						],
 						filter: {
 							term: {
-								symptoms: "Edema"
+								symptoms: symptom
 							}
 						}
 					}
@@ -140,21 +149,23 @@ class Dise
 					}
 				}
 			}
-		mash = Hashie::Mash.new response
+		mash = Hashie::Mash.new response	
+		primary_symptom_count = nil
+		half_strenght_symptoms = {}
+		mash.aggregations.co_assoc["buckets"].each do |bucket|
+			if bucket["key"] == symptom 
+				primary_symptom_count = bucket["doc_count"]
+			else
+				puts "primary_symptom_count : #{primary_symptom_count}"
+				puts "bucket doc count:"
+				puts bucket["doc_count"]
+				strength = bucket["doc_count"].to_f/primary_symptom_count.to_f
+				
+				half_strenght_symptoms[bucket["key"]] = (0.5 - strength).abs if strength.between?(0.45,0.55)
+			end 
+		end
 
-
-
-		mash.aggregations.co_assoc.each do |symptom|
-			## we want something that is at exactly 50 percent.
-			## then we want to traverse further down.
-			## there are 5 things which are present 50% of the times.
-			## thereafter , we need to know their degree of correlation with each other.
-			## so we score them like that.
-		end 
-
-		## so we will get the fields which occur with this field.
-		## I want a field that occurs with this field, about 50 of the times.
-		## then we divide from there onwards.
+		half_strenght_symptoms = half_strenght_symptoms.to_a.sort { |a, b| a[1] <=> b[1] }[0..5]
 
 	end
 
