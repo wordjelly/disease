@@ -107,25 +107,17 @@ class Dise
 		flush_bulk
 	end
 
-	## @param[Array] symptoms : list of symptoms to check correlations.
-	## @return[Hash] symptom => uniqness to the set of symptoms [0 -> 1]
-	## this needs to be decided how exactly to base this
-	## but hereonwards my next step will be gathering symptoms from textbooks by correlation analysis of distances. and second job is to find the simple correlation of lay man's english to symptoms.
-	## after that we can try some gimicks, but the base will be built. 
-	def symptom_correlations(symptoms)
+	def self.association_query(symptom,include_fields=[])
+		aggregations = {
+					co_assoc: {
+						terms: {
+							field: "symptoms"
+						}
+					}
+				}
 
-	end
+		aggregations[:co_assoc][:terms][:include] = include unless include_fields.empty?
 
-	## for this what i want to do is to follow this process
-	## let us say someone presents with pain in the neck.
-	## it can be associated with 500 diseases
-	## so suppose i know which symptom is present with this symptom half the times, and not half the times.
-	## so unless we find symptoms that tend to divide the occorruence of the disesase, it is pointless.
-	## so basically take all the diseases, which have this symptom
-	## and aggregate by other symptoms count.
-	## let us consider a symptom like "fever"
-	## let us take "Edema"
-	def self.assoc(symptom="Edema")
 		response = Dise.gateway.client.search index: Dise.index_name, body: {
 				query: {
 					bool: {
@@ -141,14 +133,35 @@ class Dise
 						}
 					}
 				},
-				aggregations: {
-					co_assoc: {
-						terms: {
-							field: "symptoms"
-						}
-					}
-				}
+				aggregations: aggregations
 			}
+
+		response
+
+	end
+
+	## @param[Array] symptoms : list of symptoms to check correlations.
+	## @return[Hash] symptom => uniqness to the set of symptoms [0 -> 1]
+	## this needs to be decided how exactly to base this
+	## but hereonwards my next step will be gathering symptoms from textbooks by correlation analysis of distances. and second job is to find the simple correlation of lay man's english to symptoms.
+	## after that we can try some gimicks, but the base will be built. 
+	def symptom_correlations(symptoms)
+		symptoms.each_with_index{|s,key|
+			response = association_query(s,symptoms.except(s.to_s))
+		}
+	end
+
+	## for this what i want to do is to follow this process
+	## let us say someone presents with pain in the neck.
+	## it can be associated with 500 diseases
+	## so suppose i know which symptom is present with this symptom half the times, and not half the times.
+	## so unless we find symptoms that tend to divide the occorruence of the disesase, it is pointless.
+	## so basically take all the diseases, which have this symptom
+	## and aggregate by other symptoms count.
+	## let us consider a symptom like "fever"
+	## let us take "Edema"
+	def self.assoc(symptom="Edema")
+		response = association_query(symptom)
 		mash = Hashie::Mash.new response	
 		primary_symptom_count = nil
 		half_strenght_symptoms = {}
@@ -165,7 +178,10 @@ class Dise
 			end 
 		end
 
+
 		half_strenght_symptoms = half_strenght_symptoms.to_a.sort { |a, b| a[1] <=> b[1] }[0..5]
+
+
 
 	end
 
