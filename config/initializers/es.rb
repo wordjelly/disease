@@ -1,1 +1,1 @@
-Elasticsearch::Persistence.client = Elasticsearch::Client.new hosts: [ { host: 'localhost', port: 9400 }]
+Elasticsearch::Persistence.client = Elasticsearch::Client.new hosts: [ { host: 'localhost', port: 9200 }]

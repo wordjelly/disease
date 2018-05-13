@@ -3,6 +3,17 @@ require 'net/ftp'
 class Symptom
 	include Elasticsearch::Persistence::Model
 	attribute :name, String
+	attribute :associated_symptom_choices, Array[Hash], mapping: {
+		type: "object",
+		properties: {
+			name: {
+				type: "keyword"
+			},
+			score: {
+				type: "float"
+			}
+		}
+	}
 
 	## @return [Hash] of symptom names.
 	## key -> symptom name

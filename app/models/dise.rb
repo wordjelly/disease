@@ -15,24 +15,7 @@ class Dise
 		document
 	end
 
-	def create_or_update_request_body
-		{
-			scripted_upsert: true,
-			script: {
-				source: "if(ctx._source.symptoms == null){ctx._source.symptoms = new ArrayList(); ctx._source.symptoms.add(params.symptoms[0]); ctx._source.name = params.name} else { ctx._source.symptoms.add(params.symptoms[0])}",
-				lang: "painless",
-				params: {
-					name: self.name,
-					symptoms: self.symptoms,
-					symptom_tfidf: self.symptom_tfidf
-				}
-			},
-			upsert: {
-				
-			}
-		}
-	end
-
+	
 	def crud
 		
 		self.name = "test"
@@ -59,6 +42,78 @@ class Dise
 	end
 
 	
+
+
+	
+	
+
+	
+
+	
+	
+
+
+	## @return [Hash] of disease names.
+	## key -> disease name
+	## value -> 1
+	def self.disease_hash
+		diseases = {}
+		IO.readlines("#{Rails.root}/vendor/pubmed_diseases_list.txt").each do |line|
+			disease = line.split(/\t/)[0]
+			diseases[disease] = 1
+		end
+		diseases	
+	end
+
+
+##########################################################################
+##
+##
+## WORKING CODE
+##
+##
+##########################################################################
+	
+	######################################################################
+	##
+	##
+	## CREATE INDEX FROM THE NATURE SYMPTOMS CSV FILES.
+	##
+	## CALL self.build, and it will drop the diseases index, and recreate it.
+	## this only reads from the file mentioned in the default argument in the self.build function.
+	## 
+	######################################################################
+
+	def create_or_update_request_body
+		{
+			scripted_upsert: true,
+			script: {
+				source: "if(ctx._source.symptoms == null){ctx._source.symptoms = new ArrayList(); ctx._source.symptoms.add(params.symptoms[0]); ctx._source.name = params.name} else { ctx._source.symptoms.add(params.symptoms[0])}",
+				lang: "painless",
+				params: {
+					name: self.name,
+					symptoms: self.symptoms,
+					symptom_tfidf: self.symptom_tfidf
+				}
+			},
+			upsert: {
+				
+			}
+		}
+	end
+
+	def self.build(file_path="#{Rails.root}/vendor/pubmed_symptoms_to_diseases_tfidf.txt")
+
+		Dise.gateway.delete_index!
+		Dise.gateway.create_index!
+
+		IO.readlines(file_path).each do |line|
+			process_line(line)
+		end
+		flush_bulk
+	end
+
+
 	## @param[String] line : string, from pubmed_symptoms_to_diseases_tfidf
 	def self.process_line(line)
 		disease = Dise.new
@@ -95,18 +150,14 @@ class Dise
 		add_bulk_item(bulk_update_item)
 	end
 
-	
-	def self.build(file_path="#{Rails.root}/vendor/pubmed_symptoms_to_diseases_tfidf.txt")
 
-		Dise.gateway.delete_index!
-		Dise.gateway.create_index!
-
-		IO.readlines(file_path).each do |line|
-			process_line(line)
-		end
-		flush_bulk
-	end
-
+	#####################################################################
+	##
+	##
+	## ASSOCIATION FUNCTIONS.
+	##
+	##
+	#####################################################################
 	def self.association_query(symptom,include_fields=[])
 		aggregations = {
 					co_assoc: {
@@ -116,7 +167,7 @@ class Dise
 					}
 				}
 
-		aggregations[:co_assoc][:terms][:include] = include unless include_fields.empty?
+		aggregations[:co_assoc][:terms][:include] = include_fields unless include_fields.empty?
 
 		response = Dise.gateway.client.search index: Dise.index_name, body: {
 				query: {
@@ -137,64 +188,89 @@ class Dise
 			}
 
 		response
-
 	end
 
-	## @param[Array] symptoms : list of symptoms to check correlations.
-	## @return[Hash] symptom => uniqness to the set of symptoms [0 -> 1]
-	## this needs to be decided how exactly to base this
-	## but hereonwards my next step will be gathering symptoms from textbooks by correlation analysis of distances. and second job is to find the simple correlation of lay man's english to symptoms.
-	## after that we can try some gimicks, but the base will be built. 
-	def symptom_correlations(symptoms)
-		symptoms.each_with_index{|s,key|
-			response = association_query(s,symptoms.except(s.to_s))
-		}
+	## 
+	def self.get_assoc
+		## get all the symptoms, sort by descending order, and take each at a time and get these results.
+		aggregation =  {
+					common_symptoms: {
+						terms: {
+							field: "symptoms"
+						}
+					}
+				}
+
+		response = Dise.gateway.client.search index: Dise.index_name, body: {
+				query: {
+					bool: {
+						must: [
+							{
+								match_all: {}
+							}
+						]
+					}
+				},
+				aggregations: aggregation
+			}
+		mash = Hashie::Mash.new response
+		mash.aggregations.common_symptoms["buckets"].each do |bucket|
+			assoc(bucket["key"])
+			exit(1)
+		end
 	end
 
-	## for this what i want to do is to follow this process
-	## let us say someone presents with pain in the neck.
-	## it can be associated with 500 diseases
-	## so suppose i know which symptom is present with this symptom half the times, and not half the times.
-	## so unless we find symptoms that tend to divide the occorruence of the disesase, it is pointless.
-	## so basically take all the diseases, which have this symptom
-	## and aggregate by other symptoms count.
-	## let us consider a symptom like "fever"
-	## let us take "Edema"
-	def self.assoc(symptom="Edema")
-		response = association_query(symptom)
+	def self.assoc(symptom)
+
+		response = association_query(symptom,[])
 		mash = Hashie::Mash.new response	
 		primary_symptom_count = nil
-		half_strenght_symptoms = {}
+		half_strength_symptoms = {}
 		mash.aggregations.co_assoc["buckets"].each do |bucket|
-			if bucket["key"] == symptom 
+			#puts bucket.to_s
+			if bucket["key"].downcase == symptom.downcase 
 				primary_symptom_count = bucket["doc_count"]
 			else
-				puts "primary_symptom_count : #{primary_symptom_count}"
-				puts "bucket doc count:"
-				puts bucket["doc_count"]
+				#puts "primary_symptom_count : #{primary_symptom_count}"
+				#puts "bucket doc count:"
+				#puts bucket["doc_count"]
+
 				strength = bucket["doc_count"].to_f/primary_symptom_count.to_f
-				
-				half_strenght_symptoms[bucket["key"]] = (0.5 - strength).abs if strength.between?(0.45,0.55)
+	
+				#puts "the 0.5 minus strength abs is"
+
+				abs_strength = (0.5 - strength).abs
+
+				#puts "symptom :#{bucket['key']} => #{abs_strength}"
+
+				half_strength_symptoms[bucket["key"]] = abs_strength
+
 			end 
 		end
 
+		half_strength_symptoms = half_strength_symptoms.to_a.sort { |a, b| a[1] <=> b[1] }[0..5]
 
-		half_strenght_symptoms = half_strenght_symptoms.to_a.sort { |a, b| a[1] <=> b[1] }[0..5]
-
-
-
-	end
-
-
-	## @return [Hash] of disease names.
-	## key -> disease name
-	## value -> 1
-	def self.disease_hash
-		diseases = {}
-		IO.readlines("#{Rails.root}/vendor/pubmed_diseases_list.txt").each do |line|
-			disease = line.split(/\t/)[0]
-			diseases[disease] = 1
+		## so now we have to create this 
+		symp = Symptom.new
+		symp.name = symptom
+		symp.associated_symptom_choices = []
+		half_strength_symptoms.each do |s|
+			symp.associated_symptom_choices << {:name => s[0], :score => s[1]}
 		end
-		diseases	
+		#puts symp.associated_symptom_choices.to_s
+		symp.save
+
 	end
+
+
+
+
+##########################################################################
+##
+##
+## END
+##
+##
+##########################################################################
+
 end
