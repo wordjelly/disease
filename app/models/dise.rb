@@ -150,6 +150,76 @@ class Dise
 		add_bulk_item(bulk_update_item)
 	end
 
+	#####################################################################
+	##
+	## COMPOSITE FUNCTIONS.
+	##
+	#####################################################################
+
+	def self.composite_query(after=nil)
+
+		aggregations = {
+					my_buckets: {
+						composite: {
+							size: 100,
+			                sources: [
+			                    { 
+			                    	symptom_thing: 
+			                    		{ 
+			                    			terms: 
+			                    				{ 
+			                    					field: "symptoms",
+			                    					order: "desc" 
+			                    				} 
+			                    		} 
+			                	}
+			                ]
+			            }
+					}
+				}
+
+		if after
+			aggregations[:my_buckets][:composite][:after] = {
+				symptom_thing: after
+			}
+		end
+
+		Dise.gateway.client.search index: Dise.index_name, body:
+		{
+				query: {
+					bool: {
+						must: [
+							{
+								match_all: {}
+							}
+						],
+						filter: {
+							term: {
+								symptoms: symptom
+							}
+						}
+					}
+				},
+				aggregations: aggregations
+		}
+
+	end
+
+	def self.composite_agg
+
+		symptom = "Edema"
+		has_more_results = true
+		while has_more_results
+			mash = Hashie::Mash.new composite_query
+			has_more_results = false if mash.aggregations.my_buckets["buckets"].size == 0
+			mash.aggregations.my_buckets["buckets"].each do |bucket|
+				puts bucket.to_s
+			end	
+		end
+		
+
+	end
+
 
 	#####################################################################
 	##
@@ -166,6 +236,9 @@ class Dise
 						}
 					}
 				}
+
+
+
 
 		aggregations[:co_assoc][:terms][:include] = include_fields unless include_fields.empty?
 
@@ -192,11 +265,12 @@ class Dise
 
 	## 
 	def self.get_assoc
-		## get all the symptoms, sort by descending order, and take each at a time and get these results.
+
 		aggregation =  {
 					common_symptoms: {
 						terms: {
-							field: "symptoms"
+							field: "symptoms",
+							size: 100
 						}
 					}
 				}
@@ -234,6 +308,8 @@ class Dise
 				#puts "primary_symptom_count : #{primary_symptom_count}"
 				#puts "bucket doc count:"
 				#puts bucket["doc_count"]
+				## we only want those symptoms which have fewer counts than this.
+				## then we want to sort ascending.
 
 				strength = bucket["doc_count"].to_f/primary_symptom_count.to_f
 	
@@ -257,6 +333,8 @@ class Dise
 		half_strength_symptoms.each do |s|
 			symp.associated_symptom_choices << {:name => s[0], :score => s[1]}
 		end
+
+		## we want to add this to the bulker.
 		#puts symp.associated_symptom_choices.to_s
 		symp.save
 
