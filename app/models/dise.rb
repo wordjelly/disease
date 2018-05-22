@@ -15,7 +15,7 @@ class Dise
 		document
 	end
 
-	
+=begin
 	def crud
 		
 		self.name = "test"
@@ -40,7 +40,7 @@ class Dise
 			}
 		}
 	end
-
+=end
 	
 
 
@@ -102,6 +102,8 @@ class Dise
 		}
 	end
 
+
+
 	def self.build(file_path="#{Rails.root}/vendor/pubmed_symptoms_to_diseases_tfidf.txt")
 
 		Dise.gateway.delete_index!
@@ -156,7 +158,7 @@ class Dise
 	##
 	#####################################################################
 
-	def self.composite_query(after=nil)
+	def self.symptom_co_occurrence_query(symptom,after=nil)
 
 		aggregations = {
 					my_buckets: {
@@ -205,20 +207,76 @@ class Dise
 
 	end
 
-	def self.composite_agg
-
-		symptom = "Edema"
-		has_more_results = true
-		while has_more_results
-			mash = Hashie::Mash.new composite_query
-			has_more_results = false if mash.aggregations.my_buckets["buckets"].size == 0
-			mash.aggregations.my_buckets["buckets"].each do |bucket|
-				puts bucket.to_s
-			end	
-		end
-		
+	## first do a scripted metric to get all the branch scores
+	## then do a pipeline extended stats aggregation to get the standard deviation for the branch score
+	## then we can store those results into the symptom document.
+	## and use it to interpret, it value in any given document.
+	## only here it does not factor in the frequency in any way
+	## we have to factor in the frequency into this.
+	## otherwise
+	def self.branch_score_extended_stats_aggregation(symptom="Seizures")
 
 	end
+
+	def self.generate_branch_score(parent_symptom_doc_count, symptom_doc_count)
+
+		half_doc_count = parent_symptom_doc_count/2.0
+		ratio_of_parent_half_to_symptom = half_doc_count/symptom_doc_count.to_f
+		closeness_to_one = (1 - ratio_of_parent_half_to_symptom).abs
+		real_closeness_to_one = 1/closeness_to_one
+		real_closeness_to_one
+
+	end
+
+
+	## creates symptoms
+	## to each symptom adds the list of branch_score and co_occurrence score
+	## the branch score at this stage needs to be worked over again to factor in the various co-occurrence scores.
+	## now we have to deal with intersecting the branch scores.
+	def self.create_symptom(symptom="Diarrhea",count=5000)
+
+		has_more_results = true
+		after = nil
+			
+		half_doc_count = count.to_f/2.0
+		counts_hash = {}
+		co_occurrence_count_hash = {}
+
+		while has_more_results == true
+			mash = Hashie::Mash.new symptom_co_occurrence_query(symptom,after)
+			has_more_results = false if mash.aggregations.my_buckets["buckets"].size == 0
+			mash.aggregations.my_buckets["buckets"].each do |bucket|
+				after = bucket["key"]["symptom_thing"]
+				doc_count = bucket["doc_count"]
+				#diff = doc_count - half_doc_count
+				counts_hash[after] = generate_branch_score(count,doc_count)
+				co_occurrence_count_hash[after] = doc_count
+			end	
+	
+			counts_hash = counts_hash.sort_by{|k,v| v}.to_h
+			array_for_update = []
+			counts_hash.each_pair do |k,v|
+				array_for_update << {name: k, branch_score: v, co_occurrence: co_occurrence_count_hash[k]}
+			end
+
+			s = Symptom.new(name: symptom)
+			s.count = count
+			array_for_update.each_slice(100) do |slice|
+				s.associated_symptoms = slice
+				bulk_update_item = {
+					update: {
+						_index: s.class.index_name, _type: s.class.document_type, _id: s.name, data: s.update_associated_symptom_scores(slice)
+					}
+				}
+				add_bulk_item(bulk_update_item)
+			end
+
+		end
+
+		flush_bulk
+
+	end
+
 
 
 	#####################################################################
