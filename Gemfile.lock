@@ -78,6 +78,7 @@ GEM
     elasticsearch-transport (5.0.4)
       faraday
       multi_json
+    engtagger (0.2.1)
     equalizer (0.0.11)
     erubis (2.7.0)
     execjs (2.7.0)
@@ -196,6 +197,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   down
   elasticsearch-persistence
+  engtagger
   jbuilder (~> 2.0)
   jquery-rails
   left-pad
@@ -210,4 +212,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.16.1
+   1.17.1
