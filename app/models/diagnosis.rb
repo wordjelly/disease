@@ -13,6 +13,13 @@ class Diagnosis
 
 	@@_current_diagnosis = nil
 
+
+	#####################################################################
+	##
+	## STEP ONE : CALL parse_textbook
+	##
+	#####################################################################
+
 	## @return[Diagnosis] diagnosis: returns a new diagnosis, if the line is considered as the beginning of a diagnosis 
 	def self.is_diagnosis?(line)	
 		diagnosis = nil
@@ -27,27 +34,40 @@ class Diagnosis
 		diagnosis
 	end
 
-	## each term has to be created
-	## 
+
+	def self.parse_textbook(txt_file_path="#{Rails.root}/vendor/wills_eye_manual.txt")
+		
+		Diagnosis.create_index! force: true
+		@@_current_diagnosis = nil
+		IO.read(txt_file_path).each_line do |l|
+			if diagnosis = is_diagnosis?(l)
+				puts "got a diagnosis: #{diagnosis.title}"
+				if @@_current_diagnosis
+					puts "saving diagnosis."
+					puts @@_current_diagnosis.attributes
+					add_bulk_item(@@_current_diagnosis)
+				end 
+				@@_current_diagnosis = diagnosis
+			else
+				puts "adding buffer line #{l}"
+				@@_current_diagnosis.buffer += l if @@_current_diagnosis
+			end
+		end
+		flush_bulk
+	end
 
 
-	## two options, how well does something qualify as a symptom
-	## how well does it qualify as a sign
-	## how well does it qualify as a test
-	## distance from workup.
-	## whereever it happens to score the highest.
-	## that is where it will go.
-	## as a function of what ?
-	## closest to.
-	## then get a count of that
-	## so put into an array
-	## sublime_text has 300 entries
-	## a new document for each occurrence.
-	## yes can be done,
-	## but how do we split ?
-	## extract phrases ?
+	#####################################################################
+	##
+	## STEP TWO : CALL parse_diagnosis_data
+	##
+	#####################################################################
+
+
 	def self.parse_diagnosis_data
-		puts $tgr
+
+		Information.create_index! force: true
+		
 		Diagnosis.all.each  do |diag|
 
 			
@@ -111,37 +131,120 @@ class Diagnosis
 
 			end			
 
-			#flush_bulk
-
-			#exit(1)
-
 		end
-		## we go over all the diagnosis
-		## we parse the buffer.
-		## we calculate distance from "symptoms", "signs", "work-up", "treatment"
-		## we divide into phrases.
-		## we locate the positions of 
+
 	end
 
-	def self.parse_textbook(txt_file_path="#{Rails.root}/vendor/wills_eye_manual.txt")
+	#####################################################################
+	##
+	## STEP THREE : CALL GET_TERMS
+	##
+	#####################################################################
+
+	def self.get_terms
+		Entity.create_index! force: true
+		has_more_results = true
+		after = nil
+		while has_more_results == true
+			mash = Hashie::Mash.new composite_aggregations(after)
+			mash.aggregations.my_buckets["buckets"].each do |bucket|
+				after = bucket["key"]["symptom_thing"]
+				get_closest_for_term(after)
+			end
+			has_more_results = false if mash.aggregations.my_buckets["buckets"].size == 0
+		end
+	end
+
+	def self.composite_aggregations(after)
+		aggregations = {
+					my_buckets: {
+						composite: {
+							size: 100,
+			                sources: [
+			                    { 
+			                    	symptom_thing: 
+			                    		{ 
+			                    			terms: 
+			                    				{ 
+			                    					field: "name",
+			                    					order: "desc" 
+			                    				} 
+			                    		} 
+			                	}
+			                ]
+			            }
+					}
+				}
+
+		if after
+			aggregations[:my_buckets][:composite][:after] = {
+				symptom_thing: after
+			}
+		end
+
+		Information.gateway.client.search index: Information.index_name, body:
+		{
+				query: {
+					match_all: {}
+				},
+				aggregations: aggregations
+		}
+
+	end
+
+	def self.get_closest_for_term(term)
 		
-		Diagnosis.create_index! force: true
-		@@_current_diagnosis = nil
-		IO.read(txt_file_path).each_line do |l|
-			if diagnosis = is_diagnosis?(l)
-				puts "got a diagnosis: #{diagnosis.title}"
-				if @@_current_diagnosis
-					puts "saving diagnosis."
-					puts @@_current_diagnosis.attributes
-					add_bulk_item(@@_current_diagnosis)
-				end 
-				@@_current_diagnosis = diagnosis
-			else
-				puts "adding buffer line #{l}"
-				@@_current_diagnosis.buffer += l if @@_current_diagnosis
+		aggregations = {
+			closest_aggregation: {
+				terms: {
+					field: "closest",
+					order: {
+						_count: "desc"
+					}
+				}
+			}
+		}
+
+		response = Information.gateway.client.search index: Information.index_name, body: {
+			query: {
+				bool: {
+					must: [
+						{
+							match_all: {}
+						}
+					],
+					filter: {
+						term: {
+							name: term
+						}
+					}
+				}
+			},
+			aggregations: aggregations
+		}
+
+		mash = Hashie::Mash.new response
+		
+		if mash.aggregations.closest_aggregation["buckets"].size  == 1
+			return if mash.aggregations.closest_aggregation["buckets"][0]["doc_count"] == 1
+			e = Entity.new(name: term, medical_type: mash.aggregations.closest_aggregation["buckets"][0]['key'])
+			
+			add_bulk_item(e)
+
+		else
+
+			if mash.aggregations.closest_aggregation["buckets"][0]["doc_count"] > mash.aggregations.closest_aggregation["buckets"][1]["doc_count"]
+
+				e = Entity.new(name: term, medical_type: mash.aggregations.closest_aggregation["buckets"][0]['key'])
+
+				puts "creating entity"
+				puts e.to_json
+
+				add_bulk_item(e)
+
 			end
 		end
-		flush_bulk
 	end
+
 
 end

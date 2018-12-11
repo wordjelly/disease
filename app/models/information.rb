@@ -11,7 +11,4 @@ class Information
 	attribute :name, String, mapping: { type: 'keyword'}
 	attribute :diagnosis_name, String, mapping: { type: 'keyword'}
 
-
-
-
 end
