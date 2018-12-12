@@ -4,7 +4,8 @@ class MeshesControllerTest < ActionController::TestCase
 
   test "runner" do
     
-    Diagnosis.get_terms
+    #Diagnosis.parse_diagnosis_data
+    #Diagnosis.get_terms
 
   end
 

@@ -3,16 +3,26 @@ require 'elasticsearch/persistence/model'
 class Diagnosis
 	
 	include Elasticsearch::Persistence::Model
+
 	include Concerns::EsConcern
+
 	include Concerns::EsBulkIndexConcern
 
+	COMPONENTS = ["symptoms","workup","signs","treatment"]
+
 	attribute :title, String,  mapping: { type: 'keyword' }
+	
 	attribute :symptoms, Array,  mapping: { type: 'keyword' }
-	attribute :tests, Array,  mapping: { type: 'keyword' }
-	attribute :buffer, String, mapping: {type: "text"}
+	
+	attribute :workup, Array,  mapping: { type: 'keyword' }
+	
+	attribute :signs, Array, mapping: {type: 'keyword'}
+
+	attribute :treatment, Array, mapping: {type: 'keyword'}
+
+	attribute :buffer, String, mapping: {type: 'text'}
 
 	@@_current_diagnosis = nil
-
 
 	#####################################################################
 	##
@@ -26,7 +36,7 @@ class Diagnosis
 		line.strip.scan(/^(?<title>[A-Z\-\s]+$)/){|title|
 			title_without_space = title[0].gsub(/\s/,'')
 			if title_without_space =~ /CHAPTER/
-				puts "got chapter"
+				#puts "got chapter"
 			else
 				diagnosis = Diagnosis.new(title: title[0], buffer: "")
 			end
@@ -41,15 +51,15 @@ class Diagnosis
 		@@_current_diagnosis = nil
 		IO.read(txt_file_path).each_line do |l|
 			if diagnosis = is_diagnosis?(l)
-				puts "got a diagnosis: #{diagnosis.title}"
+				#puts "got a diagnosis: #{diagnosis.title}"
 				if @@_current_diagnosis
-					puts "saving diagnosis."
-					puts @@_current_diagnosis.attributes
+					#puts "saving diagnosis."
+					#puts @@_current_diagnosis.attributes
 					add_bulk_item(@@_current_diagnosis)
 				end 
 				@@_current_diagnosis = diagnosis
 			else
-				puts "adding buffer line #{l}"
+				#puts "adding buffer line #{l}"
 				@@_current_diagnosis.buffer += l if @@_current_diagnosis
 			end
 		end
@@ -70,67 +80,13 @@ class Diagnosis
 		
 		Diagnosis.all.each  do |diag|
 
-			
-			word_positions = {}
+			information_objects = Information.derive_information(diag.buffer)
 
-			diag.buffer.split(/\./).each do |sentence|
-				## now split this into the individual texts.
-				if sentence.strip.blank?
-				else
-					s = sentence.strip
-					tagged = $tgr.add_tags(s)
-					word_list = $tgr.get_words(s)
-					word_list.keys.each do |term|
-						word_positions[term] = [diag.buffer.index(term)] unless word_positions[term]
-					end
-				end
+			information_objects.keys.each do |io|
+				information_objects[io].diagnosis_name = diag.title
+				information_objects[io].diagnosis_id = diag.id
+				add_bulk_item(information_objects[io])
 			end
-
-			puts "word positions are:"
-			puts word_positions.to_s
-
-			## now we have the word positions.
-			## now look, how far each word is from the individual things.
-			word_positions.keys.each do |term|
-				
-				information = Information.new
-				
-				distances = {}
-				
-				if word_positions[term][0] != nil
-
-					if word_positions["Signs"]
-						distances["Signs"] = word_positions[term][0] - word_positions["Signs"][0] 
-					end
-
-					if word_positions["Symptoms"]
-						distances["Symptoms"] = word_positions[term][0] - word_positions["Symptoms"][0]
-					end
-
-					if word_positions["Work-Up"]
-						distances["Work-Up"] = word_positions[term][0] - word_positions["Work-Up"][0]
-					end
-
-					if word_positions["Treatment"]
-						distances["Treatment"] = word_positions[term][0] - word_positions["Treatment"][0]
-					end
-					
-					distances = distances.sort_by { |k,v|  v}.to_h
-
-					positive_distances = distances.keys.select{|c| distances[c] > 0}
-
-					information.closest = positive_distances[0] unless positive_distances.blank?
-
-					information.diagnosis_name = diag.title
-
-					information.name = term
-
-					add_bulk_item(information) unless information.closest.blank?
-
-				end
-
-			end			
-
 		end
 
 	end
@@ -155,6 +111,9 @@ class Diagnosis
 		end
 	end
 
+	## basically whatever you want to scroll.
+	## this is that aggregation.
+	## it accepts an after parameter.
 	def self.composite_aggregations(after)
 		aggregations = {
 					my_buckets: {
@@ -237,8 +196,8 @@ class Diagnosis
 
 				e = Entity.new(name: term, medical_type: mash.aggregations.closest_aggregation["buckets"][0]['key'])
 
-				puts "creating entity"
-				puts e.to_json
+				#puts "creating entity"
+				#puts e.to_json
 
 				add_bulk_item(e)
 
@@ -246,5 +205,80 @@ class Diagnosis
 		end
 	end
 
+
+	#####################################################################
+	##
+	## STEP FOUR : ALLOT TO DIAGNOSIS OBJECTS
+	##
+	#####################################################################
+
+	def self.allot_to_diagnosis
+			
+		Entity.all.each do |entity|
+			puts "doing entity #{entity.to_json}"
+			proc_to_call_on_each_aggregated_term = Proc.new{|diagnosis_id,options|
+				entity = options["entity"]
+				puts "updating diagnosis of: #{diagnosis_id} with medical type: #{entity.medical_type} and name: #{entity.name}"
+				#Diagnosis.gateway.client.update index: Diagnosis.index_name, type: "diagnosis", id: diagnosis_id, body: { script: { source: "ctx._source.#{entity.medical_type.downcase}.add(params.medical_type)", params: { medical_type: entity.name } } } 
+
+				if Diagnosis::COMPONENTS.include? entity.medical_type.downcase
+
+					update_hash = {
+						update: {
+							_index: Diagnosis.index_name,
+							_type: "diagnosis",
+							_id: diagnosis_id,
+							data: { 
+								script: 
+								{
+									source: "ctx._source.#{entity.medical_type.downcase}.add(params.value)",
+									lang: 'painless', 
+									params: { value: entity.name }
+								}
+							}
+						}
+					}
+
+					#Diagnosis.gateway.client.update index: Diagnosis.index_name, type: "diagnosis", id: diagnosis_id, body: { script: { source: "ctx._source.#{entity.medical_type}.add(params.medical_type)", params: { medical_type: entity.name } } }
+					add_bulk_item(update_hash)
+
+				end
+			}
+			paged_aggregation("Information","diagnosis_id",{
+				term: {
+					name: entity.name
+				}
+			},nil,proc_to_call_on_each_aggregated_term,{"entity" => entity})
+		end
+
+	end
+
+	def self.tt
+
+		proc_to_call_on_each_aggregated_term = Proc.new{|diagnosis_id,options|
+			entity = options["entity"]
+			puts "updating diagnosis of: #{diagnosis_id} with medical type: #{entity.medical_type} and name: #{entity.name}"
+
+			update_hash = {
+				update: {
+					_index: Diagnosis.index_name,
+					_type: "diagnosis",
+					_id: diagnosis_is,
+					data: { script: { source: "ctx._source.#{entity.medical_type}.add(params.medical_type)", params: { medical_type: entity.name } } }
+				}
+			}
+
+			#Diagnosis.gateway.client.update index: Diagnosis.index_name, type: "diagnosis", id: diagnosis_id, body: { script: { source: "ctx._source.#{entity.medical_type}.add(params.medical_type)", params: { medical_type: entity.name } } }
+			add_bulk_item(update_hash)
+		}
+
+		entity = Entity.new(name: "zoster", medical_type: "Signs")
+
+		paged_aggregation("Information","diagnosis_name",{
+			term: {
+				name: "zoster"
+			}
+		},nil,proc_to_call_on_each_aggregated_term,{"entity" => entity})
+	end
 
 end
