@@ -165,13 +165,13 @@ until resolved (which can take several months).
 
 
     test "derives all phrases correctly" do 
-    	#puts " --------- PARSING TEXTBOOK ---------- "
-    	#Diagnosis.parse_textbook
-    	#puts " --------- building information ---------- "
-    	#Diagnosis.parse_diagnosis_data
-    	#puts " --------- building entities -------------- "
-    	#Diagnosis.get_terms
-    	#puts " --------- alloting diagnosis ------------- "
+    	puts " --------- PARSING TEXTBOOK ---------- "
+    	Diagnosis.parse_textbook
+    	puts " --------- building information ---------- "
+    	Diagnosis.parse_diagnosis_data
+    	puts " --------- building entities -------------- "
+    	Diagnosis.get_terms
+    	puts " --------- alloting diagnosis ------------- "
     	Diagnosis.allot_to_diagnosis
     end	
 

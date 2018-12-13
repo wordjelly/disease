@@ -20,7 +20,6 @@ class Symptom
 	}
 
 
-
 	## returns the script and body for a bunch of symptom scores to be updated.
 	## if the associated_symptom name exists, then it will update branch_score and co_occurrence if either of these are not null in the incoming associated_symptom.
 	## if the name does not exist, the whole associated symptom will be added.

@@ -12,13 +12,41 @@ class Diagnosis
 
 	attribute :title, String,  mapping: { type: 'keyword' }
 	
-	attribute :symptoms, Array,  mapping: { type: 'keyword' }
+	attribute :symptoms, Array,  mapping: {
+		type: 'keyword', 
+		fields: {
+            raw: { 
+              type:  'text'
+            }
+        }
+	}
 	
-	attribute :workup, Array,  mapping: { type: 'keyword' }
+	attribute :workup, Array,  mapping: { 
+		type: 'keyword', 
+		fields: {
+            raw: { 
+              type:  'text'
+            }
+        }
+	}
 	
-	attribute :signs, Array, mapping: {type: 'keyword'}
+	attribute :signs, Array, mapping: { 
+		type: 'keyword', 
+		fields: {
+            raw: { 
+              type:  'text'
+            }
+        }
+	}
 
-	attribute :treatment, Array, mapping: {type: 'keyword'}
+	attribute :treatment, Array, mapping: { 
+		type: 'keyword', 
+		fields: {
+            raw: { 
+              type:  'text'
+            }
+        }
+	}
 
 	attribute :buffer, String, mapping: {type: 'text'}
 
