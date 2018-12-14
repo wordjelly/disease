@@ -31,62 +31,63 @@ class Information
 				tagged = $tgr.add_tags(s)
 				word_list = $tgr.get_words(s)
 				word_list.keys.each do |term|
-					if text.rindex(term)
-						word_positions[term] = [text.rindex(term)] unless word_positions[term]
-					end
+					word_positions[term] ||= []
+					text.scan(/#{Regexp.escape(term)}/){|match| 
+						#puts "match is: #{match}"
+						#puts "regexp last match."
+						#puts Regexp.last_match.offset(0)
+						word_positions[term].push(Regexp.last_match.offset(0))
+					}
+					#puts " ----------- word position[term] is -------------"
+					#puts word_positions[term]
+					word_positions[term].flatten!
+					#puts word_positions[term].to_s
 				end
 			end
 		end
 
-		#puts word_positions.to_json
 
+		["Signs","Symptoms","WorkUp","Treatment"].each do |heading|
+			word_positions[heading] = word_positions[heading].sort if word_positions[heading]
+		end
 
 		## now we have the word positions.
 		## now look, how far each word is from the individual things.
 		word_positions.keys.each do |term|
 			
-			information = Information.new
-			
 			distances = {}
 			
-			unless ["Signs","Symptoms","Work-Up","Treatment"].include? term
+			unless ["Signs","Symptoms","WorkUp","Treatment"].include? term
 
-				if word_positions["Signs"]
-					distances["Signs"] = word_positions[term][0] - word_positions["Signs"][0] 
-				end
 
-				if word_positions["Symptoms"]
-					distances["Symptoms"] = word_positions[term][0] - word_positions["Symptoms"][0]
-				end
+				word_positions[term].sort.each do |position|
 
-				if word_positions["WorkUp"]
-					distances["WorkUp"] = word_positions[term][0] - word_positions["WorkUp"][0]
-				end
+					["Signs","Symptoms","WorkUp","Treatment"].each do |heading|
+						distances[heading] = position - word_positions[heading][0] if word_positions[heading]
+					end					
 
-				if word_positions["Treatment"]
-					distances["Treatment"] = word_positions[term][0] - word_positions["Treatment"][0]
-				end
-				
-				#if term == "Retinoscopy"
-				#	puts "distances are:"
-				#	puts distances.to_s
-				#end
+					distances = distances.sort_by { |k,v|  v}.to_h
 
-				distances = distances.sort_by { |k,v|  v}.to_h
+					positive_distances = distances.keys.select{|c| distances[c] > 0}
 
-				positive_distances = distances.keys.select{|c| distances[c] > 0}
+					information = Information.new
 
-				information.closest = positive_distances[0] unless positive_distances.blank?
+					information.closest = positive_distances[0] unless positive_distances.blank?
 
-				information.name = term
+					information.name = term
 
-				information_objects[term] = information unless information.closest.blank?
+					information_objects[term] ||= []
+
+					information_objects[term] << information unless information.closest.blank?
+	
+				end	
 
 			end
 
 		end		
 
 		information_objects
+		#puts information_objects.to_s
 
 	end
 

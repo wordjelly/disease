@@ -61,12 +61,20 @@ class Diagnosis
 	## @return[Diagnosis] diagnosis: returns a new diagnosis, if the line is considered as the beginning of a diagnosis 
 	def self.is_diagnosis?(line)	
 		diagnosis = nil
-		line.strip.scan(/^(?<title>[A-Z\-\s]+$)/){|title|
-			title_without_space = title[0].gsub(/\s/,'')
-			if title_without_space =~ /CHAPTER/
+		line.scan(/^(?<title>[A-Z\-\/\s\n\t\r\d\.]+)$/){|title|
+			title_without_space = title[0].gsub(/\s|\d|\./,'')
+			if title_without_space =~ /CHAPTER|FIGURE/
 				#puts "got chapter"
+			elsif title_without_space.blank?
+
+			elsif title[0].gsub(/\s|\d/,'')[-1] == "."
+
 			else
-				diagnosis = Diagnosis.new(title: title[0], buffer: "")
+				if title[0] =~ /IDIOPATHIC ORBITAL/
+					puts "title is : #{title[0]}"
+					puts title[0].strip.gsub(/\n|\r|\t/,' ').gsub(/\d|\./,'').strip
+				end
+				diagnosis = Diagnosis.new(title: title[0].strip.gsub(/\n|\r|\t/,' ').gsub(/\d|\./,'').strip, buffer: "")
 			end
 		}
 		diagnosis
@@ -75,23 +83,60 @@ class Diagnosis
 
 	def self.parse_textbook(txt_file_path="#{Rails.root}/vendor/wills_eye_manual.txt")
 		
-		Diagnosis.create_index! force: true
-		@@_current_diagnosis = nil
+		## first replace all new lines with spaces.
+		## then 
+=begin
+		
+		text = IO.read(txt_file_path).gsub(/\n|\r|\t/,' ')
+		results = text.split(/^(?<title>[A-Z\-\/\s\d\.]+)$/)
+		diagnosis = nil
+		results[1..-1].each_slice(2) do |title,text|
+			title = title.gsub(/\d|\./,'').strip
+			if title.gsub(/\s/,'') =~ /CHAPTER|FIGURE/
+				
+				if diagnosis
+					diagnosis.buffer += title
+					diagnosis.buffer += text
+				end
+			elsif title.gsub(/\s/,'') =~ /^\d+$/
+				if diagnosis
+					diagnosis.buffer += title
+					diagnosis.buffer += text
+				end
+			elsif title.strip.blank?
+				if diagnosis
+					diagnosis.buffer += title unless title.blank?
+					diagnosis.buffer += text unless text.blank?
+				end
+			else
+				add_bulk_item(diagnosis) if diagnosis
+				diagnosis = Diagnosis.new(title: title, buffer: text)
+			end
+		end
+=end
+
 		IO.read(txt_file_path).each_line do |l|
 			if diagnosis = is_diagnosis?(l)
 				#puts "got a diagnosis: #{diagnosis.title}"
 				if @@_current_diagnosis
-					#puts "saving diagnosis."
-					#puts @@_current_diagnosis.attributes
-					add_bulk_item(@@_current_diagnosis)
+					
+					if @@_current_diagnosis.buffer.blank?
+						@@_current_diagnosis.title += " " + diagnosis.title
+					else
+						add_bulk_item(@@_current_diagnosis)
+						@@_current_diagnosis = diagnosis
+					end
+				else
+					@@_current_diagnosis = diagnosis
 				end 
-				@@_current_diagnosis = diagnosis
+				
 			else
 				#puts "adding buffer line #{l}"
 				@@_current_diagnosis.buffer += l if @@_current_diagnosis
 			end
 		end
 		flush_bulk
+
 	end
 
 
@@ -111,9 +156,11 @@ class Diagnosis
 			information_objects = Information.derive_information(diag.buffer)
 
 			information_objects.keys.each do |io|
-				information_objects[io].diagnosis_name = diag.title
-				information_objects[io].diagnosis_id = diag.id
-				add_bulk_item(information_objects[io])
+				information_objects[io].each do |info_object|
+					info_object.diagnosis_name = diag.title
+					info_object.diagnosis_id = diag.id
+					add_bulk_item(info_object)
+				end
 			end
 		end
 
@@ -214,21 +261,14 @@ class Diagnosis
 		
 		if mash.aggregations.closest_aggregation["buckets"].size  == 1
 			return if mash.aggregations.closest_aggregation["buckets"][0]["doc_count"] == 1
-			e = Entity.new(name: term, medical_type: mash.aggregations.closest_aggregation["buckets"][0]['key'])
-			
+			found_in_diseases = Entity.gather_found_in_diseases(term)
+			e = Entity.new(name: term, medical_type: mash.aggregations.closest_aggregation["buckets"][0]['key'], found_in_diseases: found_in_diseases)
 			add_bulk_item(e)
-
 		else
-
 			if mash.aggregations.closest_aggregation["buckets"][0]["doc_count"] > mash.aggregations.closest_aggregation["buckets"][1]["doc_count"]
-
-				e = Entity.new(name: term, medical_type: mash.aggregations.closest_aggregation["buckets"][0]['key'])
-
-				#puts "creating entity"
-				#puts e.to_json
-
+				found_in_diseases = Entity.gather_found_in_diseases(term)
+				e = Entity.new(name: term, medical_type: mash.aggregations.closest_aggregation["buckets"][0]['key'], found_in_diseases: found_in_diseases)
 				add_bulk_item(e)
-
 			end
 		end
 	end
@@ -247,7 +287,6 @@ class Diagnosis
 			proc_to_call_on_each_aggregated_term = Proc.new{|diagnosis_id,options|
 				entity = options["entity"]
 				puts "updating diagnosis of: #{diagnosis_id} with medical type: #{entity.medical_type} and name: #{entity.name}"
-				#Diagnosis.gateway.client.update index: Diagnosis.index_name, type: "diagnosis", id: diagnosis_id, body: { script: { source: "ctx._source.#{entity.medical_type.downcase}.add(params.medical_type)", params: { medical_type: entity.name } } } 
 
 				if Diagnosis::COMPONENTS.include? entity.medical_type.downcase
 
@@ -267,7 +306,6 @@ class Diagnosis
 						}
 					}
 
-					#Diagnosis.gateway.client.update index: Diagnosis.index_name, type: "diagnosis", id: diagnosis_id, body: { script: { source: "ctx._source.#{entity.medical_type}.add(params.medical_type)", params: { medical_type: entity.name } } }
 					add_bulk_item(update_hash)
 
 				end
@@ -281,32 +319,16 @@ class Diagnosis
 
 	end
 
-	def self.tt
+	###############################################################################################
+	##
+	##
+	##
+	## STEP FOUR ACTUAL.
+	##
+	##
+	##
+	#################################################################################################
 
-		proc_to_call_on_each_aggregated_term = Proc.new{|diagnosis_id,options|
-			entity = options["entity"]
-			puts "updating diagnosis of: #{diagnosis_id} with medical type: #{entity.medical_type} and name: #{entity.name}"
 
-			update_hash = {
-				update: {
-					_index: Diagnosis.index_name,
-					_type: "diagnosis",
-					_id: diagnosis_is,
-					data: { script: { source: "ctx._source.#{entity.medical_type}.add(params.medical_type)", params: { medical_type: entity.name } } }
-				}
-			}
-
-			#Diagnosis.gateway.client.update index: Diagnosis.index_name, type: "diagnosis", id: diagnosis_id, body: { script: { source: "ctx._source.#{entity.medical_type}.add(params.medical_type)", params: { medical_type: entity.name } } }
-			add_bulk_item(update_hash)
-		}
-
-		entity = Entity.new(name: "zoster", medical_type: "Signs")
-
-		paged_aggregation("Information","diagnosis_name",{
-			term: {
-				name: "zoster"
-			}
-		},nil,proc_to_call_on_each_aggregated_term,{"entity" => entity})
-	end
 
 end

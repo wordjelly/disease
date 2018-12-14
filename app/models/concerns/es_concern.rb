@@ -33,18 +33,22 @@ module Concerns::EsConcern
 		## @param[Array] sources_array : (OPTIONAL), the sources array for the composite aggregation, 
 		## @param[Proc] proc_to_call_on_each_aggregated_term : (REQUIRED), a proc that is to be called on each aggregated term, it will accept two arguments, the term and the #options argument that is passed into this function.
 		## @param[Hash] options : a hash of additional options that is passed into the proc alongwith the aggregated term.
+		## @return[Array] proc_results : the results of calling the proc each time on the aggregated term.
 		def self.paged_aggregation(search_class,field_name,query,sources_array,proc_to_call_on_each_aggregated_term,options)
 			after = nil
 			has_more_results = true
+			proc_results = []
 			while has_more_results == true
 				mash = Hashie::Mash.new composite_aggregation_structure(search_class,field_name,after,query,sources_array)
 				mash.aggregations.composite_buckets["buckets"].each do |bucket|
 					#puts "bucket is: #{bucket}"
 					after = bucket["key"]["composite_agg"]
-					proc_to_call_on_each_aggregated_term.call(after,options)
+					k = proc_to_call_on_each_aggregated_term.call(after,options)
+					proc_results << k if k
 				end
 				has_more_results = false if mash.aggregations.composite_buckets["buckets"].size == 0
 			end
+			proc_results
 		end
 
 
