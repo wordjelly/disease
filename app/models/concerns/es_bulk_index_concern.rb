@@ -28,6 +28,10 @@ module Concerns::EsBulkIndexConcern
 	def self.do_bulk
 		add_total
 	  	puts "building bulk items"
+	  	if bulk_items.blank?
+	  		puts "nothing to bulk"
+	  		return
+	  	end
 	  	bulk_request = bulk_items.map{|c|
 
 	  		unless c.is_a? Hash

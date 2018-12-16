@@ -82,9 +82,7 @@ class Diagnosis
 
 
 	def self.parse_textbook(txt_file_path="#{Rails.root}/vendor/wills_eye_manual.txt")
-		
-		## first replace all new lines with spaces.
-		## then 
+			
 =begin
 		
 		text = IO.read(txt_file_path).gsub(/\n|\r|\t/,' ')
@@ -184,16 +182,15 @@ class Diagnosis
 			end
 			has_more_results = false if mash.aggregations.my_buckets["buckets"].size == 0
 		end
+		flush_bulk
 	end
 
-	## basically whatever you want to scroll.
-	## this is that aggregation.
-	## it accepts an after parameter.
+	
 	def self.composite_aggregations(after)
 		aggregations = {
 					my_buckets: {
 						composite: {
-							size: 100,
+							size: 10,
 			                sources: [
 			                    { 
 			                    	symptom_thing: 
@@ -259,15 +256,38 @@ class Diagnosis
 
 		mash = Hashie::Mash.new response
 		
+
+
 		if mash.aggregations.closest_aggregation["buckets"].size  == 1
+			if term == "ANCA"
+				puts " --------- DOING ANCA ------------"
+				puts "buckets are:"
+				puts mash.aggregations.closest_aggregation
+				puts mash.aggregations.closest_aggregation["buckets"]
+				puts mash.aggregations.closest_aggregation.buckets.to_s
+				puts mash.aggregations.closest_aggregation.buckets.size
+			end
 			return if mash.aggregations.closest_aggregation["buckets"][0]["doc_count"] == 1
+			
+			if term == "ANCA"
+				puts " --------- DOING ANCA ------------"
+				puts "buckets are:"
+				puts mash.aggregations.closest_aggregation
+				puts mash.aggregations.closest_aggregation["buckets"]
+				puts mash.aggregations.closest_aggregation.buckets.to_s
+				puts mash.aggregations.closest_aggregation.buckets.size
+			end
+
 			found_in_diseases = Entity.gather_found_in_diseases(term)
-			e = Entity.new(name: term, medical_type: mash.aggregations.closest_aggregation["buckets"][0]['key'], found_in_diseases: found_in_diseases)
+			
+			e = Entity.new(name: term, medical_type: mash.aggregations.closest_aggregation["buckets"][0]['key'], found_in_diseases: found_in_diseases, lab_test: 1)
+
+
 			add_bulk_item(e)
 		else
 			if mash.aggregations.closest_aggregation["buckets"][0]["doc_count"] > mash.aggregations.closest_aggregation["buckets"][1]["doc_count"]
 				found_in_diseases = Entity.gather_found_in_diseases(term)
-				e = Entity.new(name: term, medical_type: mash.aggregations.closest_aggregation["buckets"][0]['key'], found_in_diseases: found_in_diseases)
+				e = Entity.new(name: term, medical_type: mash.aggregations.closest_aggregation["buckets"][0]['key'], found_in_diseases: found_in_diseases, lab_test: 1)
 				add_bulk_item(e)
 			end
 		end
@@ -315,6 +335,8 @@ class Diagnosis
 					name: entity.name
 				}
 			},nil,proc_to_call_on_each_aggregated_term,{"entity" => entity})
+
+			flush_bulk
 		end
 
 	end

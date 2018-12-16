@@ -13,6 +13,26 @@ class Information
 	attribute :diagnosis_id, String, mapping: {type: 'keyword'}
 	
 
+	MEDICAL_TYPES = ["Signs","Symptoms","WorkUp","Treatment"]
+
+	## @param[Hash] phrases_hash : key:(String), value: can be anything.
+	## @param[Array] ignore : array of strings to ignore while collapsing the hash. See following description 
+	## @return 
+	## given a hash with two phrases : "good dog" , and "dog", will delete the "dog" key, as long as "dog" is not a part of the ignore array
+	def self.collapse(phrases_hash,ignore=[])
+		phrases_hash.keys.each do |key|
+			phrases_hash.delete(key) if phrases_hash.keys.detect{ |larger_key|
+			  ((larger_key.size > key.size) && (larger_key =~ /#{Regexp.escape(key)}/) && !(ignore.include? key))
+			}
+		end
+		phrases_hash
+	end
+
+	## write the collapse first.
+	## so how do we we decide the collapse
+	## 
+	## i.e if the term is present as a part of a larger term, then we don't want the smaller term.
+
 	## @return[Array] information_objects : array of information objects, with name and closest added to each object
 	def self.derive_information(text)
 
@@ -28,8 +48,10 @@ class Information
 			if sentence.strip.blank?
 			else
 				s = sentence.strip
-				tagged = $tgr.add_tags(s)
+				#tagged = $tgr.add_tags(s)
 				word_list = $tgr.get_words(s)
+				word_list = collapse(word_list)
+				## we want to write a collapse function.
 				word_list.keys.each do |term|
 					word_positions[term] ||= []
 					text.scan(/#{Regexp.escape(term)}/){|match| 
@@ -47,7 +69,12 @@ class Information
 		end
 
 
-		["Signs","Symptoms","WorkUp","Treatment"].each do |heading|
+		## first we want to sort for all of them.
+		## then we want to collapse, excluding certain terms.
+		## i.e the following.
+		word_positions = collapse(word_positions,MEDICAL_TYPES)
+
+		MEDICAL_TYPES.each do |heading|
 			word_positions[heading] = word_positions[heading].sort if word_positions[heading]
 		end
 
@@ -57,12 +84,12 @@ class Information
 			
 			distances = {}
 			
-			unless ["Signs","Symptoms","WorkUp","Treatment"].include? term
+			unless MEDICAL_TYPES.include? term
 
 
 				word_positions[term].sort.each do |position|
 
-					["Signs","Symptoms","WorkUp","Treatment"].each do |heading|
+					MEDICAL_TYPES.each do |heading|
 						distances[heading] = position - word_positions[heading][0] if word_positions[heading]
 					end					
 

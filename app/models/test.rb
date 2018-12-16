@@ -6,6 +6,54 @@ class Test
 	attribute :description, String
 	attribute :sample_type, String
 	TOTAL_RECORDS = 74
+
+	def self.tests_to_human_readable_json
+		json_tests = JSON.parse(IO.read("#{Rails.root}/vendor/testsearchnames.json"))
+		tests_array = []
+		json_tests["data"].each do |test_as_array|
+			tests_array << test_as_array[0]
+		end
+		IO.write("#{Rails.root}/vendor/tests_array.json",JSON.generate(tests_array))
+	end
+
+	## take the tests json file and convert it to an array of just the names of the tests.
+	## will split tests where names are provided with abbreviations.
+	## for eg : ACE (Angiotensin Converting Enzyme) is split into two elements
+	## ACE, (Angiotensin Converting Enzyme)
+	## will also remove all punctuations and replace them with spaces
+	## then we implement collapsible matching, where we don't allow matches on individual terms in the results, against entire terms in the 
+	def self.test_to_array
+		json_tests = JSON.parse(IO.read("#{Rails.root}/vendor/testsearchnames.json"))
+		tests_array = []
+		json_tests["data"].each do |test_as_array|
+			tests_array << test_as_array[0]
+		end
+		tests_array = pre_process(tests_array)
+		tests_array
+	end
+
+	def self.pre_process(tests_array)
+		#tests_array = ["Viral PCR (CSF)"]
+		elements_to_add = []
+		elements_to_remove = []
+		tests_array.map{|c|
+			explanation = nil
+			abbreviation = nil
+			c.scan(/(?<explanation>[a-zA-Z0-9\-\.\s]+)(?<abbr>\([A-Z0-9\-\.]+\))?/){|explanation,abbr|
+				elements_to_add << abbr.gsub(/\(|\)/,'') unless abbr.blank?
+				elements_to_add << explanation unless abbr.blank?
+				elements_to_remove << c unless abbr.blank?
+			}
+		}
+
+		tests_array = tests_array - elements_to_remove + elements_to_add
+		tests_array.flatten.compact.uniq.map{|c|
+			 	c.gsub(/[[:punct:]]/,' ').strip
+		    }.compact.uniq
+
+	end
+
+
 	##calls the JSON_URL, and parses the file returned to build a database of tests.
 	def self.read_from_local_file
 		Test.create_index! force: true
