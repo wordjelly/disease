@@ -1,4 +1,4 @@
-class DiagnosisController < ApplicationController
+class DiagnosesController < ApplicationController
 	
   def query
   	'''
@@ -42,13 +42,29 @@ class DiagnosisController < ApplicationController
   end
 
   def index
-  	@diagnosis = []
+
+  	@diagnoses = []
   	
 	r = Entity.gateway.client.search index: Entity.index_name, scroll: '1m', body: JSON.parse(query)
 
 	m = Hashie::Mash.new r
 
-	
+	m.aggregations.top.buckets.each do |bucket|
+		puts bucket.to_s
+		d = Diagnosis.new(title: bucket['key'], workup: [])
+		#puts " ---------- workup ----------"
+		#puts bucket.workup
+		#puts " ---------- workup -> hits --------"
+		#puts bucket.workup.hits
+		#puts " ---------- workup -> hits -> hits --------"
+		#puts bucket.workup.hits.hits
+		bucket.workup.investigations.hits.hits.each do |hit|
+			d.workup << hit._source.name
+		end
+		IO.write("diagnoses.json",JSON.generate(@diagnoses))
+		@diagnoses << d
+
+	end
 
   end
 
