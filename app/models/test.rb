@@ -2,10 +2,86 @@ require 'elasticsearch/persistence/model'
 class Test
 	include Elasticsearch::Persistence::Model
 	include Concerns::EsConcern
+	include Concerns::EsBulkIndexConcern
+
 	attribute :name, String
 	attribute :description, String
 	attribute :sample_type, String
 	TOTAL_RECORDS = 74
+	TEST_NAMES_TXT_FILES = ["tests_array.json"]
+
+	## take all the test names.
+	## and then search for diagnosis, where they exist, 
+	## exactly, and then push them to the head of the list.
+	def self.add_direct_test_matches_to_diagnosis
+
+		test_to_array.each do |test|
+
+
+
+			p = Proc.new{|args|	
+
+				hit = args[:hit]
+				
+				source = """
+					ctx._source.workup.add(params.test_name)
+				"""
+
+				params = {test_name: args[:test_name]}
+
+			
+				update_hash = {
+					update: {
+						_index: Diagnosis.index_name,
+						_type: "diagnosis",
+						_id: hit._id.to_s,
+						data: { 
+							script: 
+							{
+								source: source,
+								lang: 'painless', 
+								params: params
+							}
+						}
+					}
+				}
+
+				
+
+				add_bulk_item(update_hash)
+
+			}
+
+			r = Diagnosis.gateway.client.search index: Diagnosis.index_name, scroll: '1m', body: {
+				query: {
+					match: {
+						workup_text: {
+							query: test,
+							minimum_should_match: '100%'
+						}
+					}
+				}
+			}
+
+			initial_response = Hashie::Mash.new r
+
+			initial_response.hits.hits.each do |hit|
+				p.call({:test_name => test}.merge(hit: hit))
+			end
+
+			while r = Diagnosis.gateway.client.scroll(body: { scroll_id: r['_scroll_id'] }, scroll: '5m') and not r['hits']['hits'].empty? do
+				scroll_response = Hashie::Mash.new r
+				scroll_response.hits.hits.each do |hit|
+					p.call({:test_name => test}.merge(hit: hit))
+				end
+	        end
+
+			flush_bulk
+
+		end
+
+	end
+
 
 	def self.tests_to_human_readable_json
 		json_tests = JSON.parse(IO.read("#{Rails.root}/vendor/testsearchnames.json"))
@@ -16,6 +92,17 @@ class Test
 		IO.write("#{Rails.root}/vendor/tests_array.json",JSON.generate(tests_array))
 	end
 
+	## first let me assign the right thing at this stage.
+	## @return[Array] array of strings, the names of the tests as got from pure text files, eval is called directly on the IO read of these files, expeting them to be evalable arrays.
+	def self.read_raw_text_files
+		tests_array = []
+		TEST_NAMES_TXT_FILES.each do |file_name|
+			k = eval(IO.read("#{Rails.root}/vendor/#{file_name}"))
+			tests_array = tests_array + k
+		end
+		tests_array
+	end
+
 	## take the tests json file and convert it to an array of just the names of the tests.
 	## will split tests where names are provided with abbreviations.
 	## for eg : ACE (Angiotensin Converting Enzyme) is split into two elements
@@ -23,12 +110,16 @@ class Test
 	## will also remove all punctuations and replace them with spaces
 	## then we implement collapsible matching, where we don't allow matches on individual terms in the results, against entire terms in the 
 	def self.test_to_array
-		json_tests = JSON.parse(IO.read("#{Rails.root}/vendor/testsearchnames.json"))
+		#json_tests = JSON.parse(IO.read("#{Rails.root}/vendor/testsearchnames.json"))
 		tests_array = []
-		json_tests["data"].each do |test_as_array|
-			tests_array << test_as_array[0]
-		end
+		#json_tests["data"].each do |test_as_array|
+		#	tests_array << test_as_array[0]
+		#end
+		tests_array = read_raw_text_files
+		tests_array.flatten!
 		tests_array = pre_process(tests_array)
+		puts "tests array is:"
+		puts tests_array.to_s
 		tests_array
 	end
 

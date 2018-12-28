@@ -17,6 +17,7 @@ class MeshesControllerTest < ActionController::TestCase
   end
 =end
 
+=begin
   test "intuit" do 
 
   	query = '''
@@ -65,22 +66,30 @@ class MeshesControllerTest < ActionController::TestCase
 
 	puts m.aggregations
 
-	## what we wanna pack into it, is the diagnoses.
-	## we output a simple table and display them.
-	## so that we know what we are getting.
 
   end
-
+=end
+	
+  ## take all the tests and search for them, wherever they are found.
+  ## with a minimum should match.
+  ## and see what you get.
+	
   test "full process" do
 
-  	#Test.tests_to_human_readable_json
-
-  	#puts Test.test_to_array
 
     #Diagnosis.create_index! force: true
-	
 	#puts " --------- PARSING TEXTBOOK ---------- "
 	#Diagnosis.parse_textbook
+		
+	#puts " -------- clear diagnosis -------- "
+	#Diagnosis.clear_workup
+
+	#exit(1)
+	#puts " --------- adding tests ------------- "
+	#Test.add_direct_test_matches_to_diagnosis
+
+	#Diagnosis.update_to_remote
+
 	
 	#puts " --------- building information ---------- "
 	#Diagnosis.parse_diagnosis_data
@@ -91,8 +100,17 @@ class MeshesControllerTest < ActionController::TestCase
 	#puts " --------- alloting diagnosis ------------- "
 	#Diagnosis.allot_to_diagnosis
 
+	#puts " --------- clearing entity scores ------------ "
+	#Entity.clear_scores
+
 	#puts " --------- updating lab test scores ----------- "
 	#Entity.score(Test.test_to_array,"lab_test")
+
+	#puts " -------- clear diagnosis -------- "
+	#Diagnosis.clear_workup
+
+	#puts " -------- updating diagnosis with workups ---------- "
+	#Entity.update_diagnosis_index
 
   end
 

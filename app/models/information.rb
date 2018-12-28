@@ -28,6 +28,68 @@ class Information
 		phrases_hash
 	end
 
+	## some regexes used to filter out undesirable terms.
+	## these are some weird terms we found in all this.
+	def self.filter_terms(word_positions)
+		filters = {
+			"case_sensitive" => [
+				"H AP T E R",
+				"^(AM|PM)$",
+				"\:\d+\s(AM|PM)$",
+				"signs|symptoms|treatment|work\-up|diagnosis"
+			],
+			"case_insensitive" => [
+				"^([^A-Za-z]+)$",
+				"([[:punct:]]|^|\s)(week|month|year|hour|minute|second|ml|l|gm|mm|cm|kg)s?([[:punct:]]|\s|$)"
+			]
+		}
+			
+		## so somehow we are getting diagnosis, signs, symptoms, treatment, workup into this mess.
+		## we need to ensure that they don't pollute this space.
+		## so we knock that off as well.
+
+		word_positions.reject!{|c,v|
+			regex_match = false
+			
+			filters["case_sensitive"].each do |f|
+				 if c =~ /#{f}/
+				 	regex_match = true
+				 	break
+				 end
+			end
+			
+			#if c == "2 mL"
+			#	puts "Regex match beore going to case insentive is: #{regex_match}"	
+			#elsif c == "1 month"
+			#	puts "for one month, regex match is: #{regex_match}"
+			#end
+			
+			unless regex_match == true
+				filters["case_insensitive"].each do |f|
+					if c =~ /#{f}/i
+				 		regex_match = true
+				 		break
+				 	#else
+				 		#if c == "2 mL"
+						#	puts "didnt get for 2ml with pattern: #{f}"
+							#puts "Regex match beore going to case insentive is: #{regex_match}"	
+						#	gets.chomp
+						#elsif c == "1 month"
+							#puts "for one month, regex match is: #{regex_match}"
+						#	puts "didnt get for 1 month with pattern: #{f}"
+						#end
+				 	end
+				end
+			end
+			#if regex_match == true
+			#	puts "rejecting : #{c}"
+			#	gets.chomp
+			#end
+			regex_match
+		}
+		word_positions
+	end
+
 	## write the collapse first.
 	## so how do we we decide the collapse
 	## 
@@ -74,9 +136,17 @@ class Information
 		## i.e the following.
 		word_positions = collapse(word_positions,MEDICAL_TYPES)
 
+		## get rid of terms that match the filter regexes, defined in the
+		## #filter_terms.
+		word_positions = filter_terms(word_positions)
+
+
 		MEDICAL_TYPES.each do |heading|
 			word_positions[heading] = word_positions[heading].sort if word_positions[heading]
 		end
+
+		## remove words with only numbers, and punctuations.
+		## 
 
 		## now we have the word positions.
 		## now look, how far each word is from the individual things.
@@ -88,6 +158,9 @@ class Information
 
 
 				word_positions[term].sort.each do |position|
+
+					## some regexex to filter terms.
+
 
 					MEDICAL_TYPES.each do |heading|
 						distances[heading] = position - word_positions[heading][0] if word_positions[heading]

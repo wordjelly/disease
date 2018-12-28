@@ -37,11 +37,34 @@ class Entity
 		}
 	}
 =end
-
-	## we want to search for the disease
-	## then we want to aggregate by the 
+	
 
 	attribute :found_in_diseases, Array, mapping: {type: 'keyword'}
+
+	## call clear scores,
+	def self.clear_scores
+		Entity.all.each do |entity|
+			## update the lab_test score to 0.
+			update_hash = {
+				update: {
+					_index: index_name,
+					_type: "diagnosis",
+					_id: entity.id.to_s,
+					data: { 
+						script: 
+						{
+							source: "ctx._source.lab_test = 1;",
+							lang: 'painless'
+						}
+					}
+				}
+			}
+
+			add_bulk_item(update_hash) 
+		
+		end
+
+	end
 
 	def self.score(array_of_terms,term_type)
 
@@ -137,4 +160,106 @@ class Entity
 		paged_aggregation("Information","diagnosis_name",{term: {name: {value: name}}},nil,	p,{})
 	end
 
+	def self.query_for_lab_test
+
+		'''
+	  		{
+			  "query": {
+			    "match_all": {}
+			  },
+			  "aggs": {
+			    "top": {
+			      "terms": {
+			        "field": "found_in_diseases",
+			        "size": 600
+			      },
+			      "aggs": {
+			        "workup": {
+			          "filter": {
+			            "term": {
+			              "medical_type": "WorkUp"
+			            }
+			          },
+			          "aggs": {
+			            "investigations": {
+			              "top_hits": {
+			                "size": 10,
+			                "sort": [
+			                  {
+			                    "lab_test": {
+			                      "order": "desc"
+			                    }
+			                  }
+			                ]
+			              }
+			            }
+			          }
+			        }
+			      }
+			    }
+			  }
+			}
+  		'''
+
+	end
+
+	## takes each 
+	def self.update_diagnosis_index
+		
+		p = Proc.new{|args|	
+
+			hit = args[:hit]
+			
+			source = ""
+			params = {}
+
+			if args[:lab_test] == true
+				source = source + "ctx._source.workup.add(params.entity_name);"
+				params[:entity_name] = args[:entity_name]
+			end
+
+			#puts hit.to_s
+
+			update_hash = {
+				update: {
+					_index: Diagnosis.index_name,
+					_type: "diagnosis",
+					_id: hit._id.to_s,
+					data: { 
+						script: 
+						{
+							source: source,
+							lang: 'painless', 
+							params: params
+						}
+					}
+				}
+			}
+
+			#puts "update hash."
+			#puts update_hash.to_s
+			#gets.chomp
+
+			add_bulk_item(update_hash)
+
+		}
+
+		r = Entity.gateway.client.search index: Entity.index_name, scroll: '1m', body: JSON.parse(query_for_lab_test)
+
+		m = Hashie::Mash.new r
+
+		m.aggregations.top.buckets.each do |bucket|
+			
+			bucket.workup.investigations.hits.hits.each do |hit|
+				puts "bucket key is: #{bucket['key']}"
+				puts "entity name is : #{hit._source.name}"
+				#gets.chomp
+				Diagnosis.find_all_by_name(bucket['key'],p,{lab_test: true, entity_name: hit._source.name})
+			end
+
+		end
+
+		flush_bulk
+
+	end
 end

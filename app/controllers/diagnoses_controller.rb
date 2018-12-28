@@ -44,7 +44,7 @@ class DiagnosesController < ApplicationController
   def index
 
   	@diagnoses = []
-  	
+=begin
 	r = Entity.gateway.client.search index: Entity.index_name, scroll: '1m', body: JSON.parse(query)
 
 	m = Hashie::Mash.new r
@@ -65,7 +65,11 @@ class DiagnosesController < ApplicationController
 		@diagnoses << d
 
 	end
-
+=end
+	
+	@diagnoses = Diagnosis.all
+	@diagnoses.reject!{|c| c.workup.blank?}	
+	
   end
 
 end

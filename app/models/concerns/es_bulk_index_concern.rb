@@ -10,7 +10,7 @@ module Concerns::EsBulkIndexConcern
 
 	##override in implementing model.
 	def self.bulk_size
-	  1000
+	  5000
 	end
 
 	def self.reset_bulk_items
