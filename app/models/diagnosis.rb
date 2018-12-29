@@ -16,7 +16,7 @@ class Diagnosis
 			nGram_filter: {
 				type: "nGram",
 				min_gram: 1,
-				max_gram: 10,
+				max_gram: 20,
 				token_chars: [
 					"letter",
 					"digit",
@@ -106,8 +106,11 @@ class Diagnosis
 
 
 	attribute :workup_text, String, mapping: { type: 'text'}
+	
 	attribute :symptoms_text, String, mapping: {type: 'text'}
+
 	attribute :signs_text, String, mapping: {type: 'text'}
+	
 	attribute :treatment_text, String, mapping: {type: 'text'}
 
 
@@ -116,26 +119,78 @@ class Diagnosis
 	attribute :signs_started, Boolean, mapping: {type: 'boolean'}
 	attribute :treatment_started, Boolean, mapping: {type: 'boolean'}
 
+
+
 	@@_current_diagnosis = nil
 
-	#####################################################################
+	########################################################
+	##
+	## EVENTS AND METHODS FOR WILLS EYE MANUAL.
 	##
 	##
-	## EVENTS.
-	##
-	##
-	#####################################################################
+	######################################################
+	##@return[String] section_name:  if it is a section, will return the name of the section, otherwise will return nil.
+	def self.is_section?(line)
+
+		section_name = nil
+
+		line.scan(/^(?<title>[A-Z\(\)\-\/\s\n\t\r\d\.\']+)$/){|title|
+			title_without_space = title[0].gsub(/\s|\d|\./,'')
+			if title_without_space =~ /CHAPTER|FIGURE/
+	
+			elsif title_without_space.blank?
+
+			elsif title[0].gsub(/\s|\d/,'')[-1] == "."
+
+			else
+				section_name = title[0].strip.gsub(/\n|\r|\t/,' ').gsub(/\d|\./,'').strip
+			end
+		}
+
+	end
+
+	## closes all non active hooks.
+	def close_hooks(active_hook)
+		["signs","symptoms","treatment","workup"].reject{|c| c == active_hook}.each do |hook|
+			self.send("#{hook}_started=",false)
+		end
+	end
 
 	def start_symptoms?(l)
+		unless self.symptoms_started == true
+			#puts "workup started is not true."
+			if (l.strip =~ /Symptoms/) != nil
+				self.symptoms_started = true 
+				close_hooks("symptoms")
+			end
+			#puts "self workup started becomes: #{self.workup_started}"
+			return self.symptoms_started
+		else
+			return false
+		end
 	end
 
-	def end_symptoms?(l)
+	def symptoms_on?(l)
+		self.symptoms_started
 	end
 
+	
 	def start_signs?(l)
+		unless self.signs_started == true
+			#puts "workup started is not true."
+			if (l.strip =~ /Signs/) != nil
+				self.signs_started = true 
+				close_hooks("signs")
+			end
+			#puts "self workup started becomes: #{self.workup_started}"
+			return self.signs_started
+		else
+			return false
+		end
 	end
 
-	def end_signs?(l)
+	def signs_on?(l)
+		self.signs_started
 	end
 
 	def start_workup?(l)
@@ -143,6 +198,7 @@ class Diagnosis
 			#puts "workup started is not true."
 			if (l.strip =~ /Work\-Up/) != nil
 				self.workup_started = true 
+				close_hooks("workup")
 			end
 			#puts "self workup started becomes: #{self.workup_started}"
 			return self.workup_started
@@ -161,20 +217,11 @@ class Diagnosis
 	end
 
 	def start_treatment?(l)
-		if self.title =~ /EPISCLERITIS/
-			#puts "checking for start treatment with line: #{l}"
-			#puts "treatment started is currently: #{self.treatment_started}"
-		end
 		unless self.treatment_started == true
-			
 			if (l.strip =~ /Treatment/)
 				self.treatment_started = true
+				close_hooks("treatment")
 			end
-			#if self.title =~ /EPISCLERITIS/
-				#{}"regex returned: #{self.treatment_started}"
-				#gets.chomp
-			
-			#end
 			return self.treatment_started
 		else
 			return false
@@ -188,6 +235,23 @@ class Diagnosis
 	def end_treatment?(l)
 	end
 
+	## this api needs a great deal of normalization.
+	## especially regarding updating to remote.
+	## first normalize all this to something called
+	## wills.
+	## then move to parse churchill.
+	## this some kind of sax parser.
+	## what i need to define is the tag regex.
+	## its start and end.
+	## and the section regex.
+	## then we can do it for any textbook.
+	## today i can finish for wills and churchill.
+	## let that be the main plan for today
+	## then i also need a list of these tests 
+	## and their meanings.
+	## to be added into the index.
+
+
 	#####################################################################
 	##
 	## STEP ONE : CALL parse_textbook
@@ -197,7 +261,7 @@ class Diagnosis
 	## @return[Diagnosis] diagnosis: returns a new diagnosis, if the line is considered as the beginning of a diagnosis 
 	def self.is_diagnosis?(line)	
 		diagnosis = nil
-		line.scan(/^(?<title>[A-Z\(\)\-\/\s\n\t\r\d\.]+)$/){|title|
+		line.scan(/^(?<title>[A-Z\(\)\-\/\s\n\t\r\d\.\']+)$/){|title|
 			title_without_space = title[0].gsub(/\s|\d|\./,'')
 			if title_without_space =~ /CHAPTER|FIGURE/
 	
@@ -206,11 +270,7 @@ class Diagnosis
 			elsif title[0].gsub(/\s|\d/,'')[-1] == "."
 
 			else
-				diagnosis = Diagnosis.new(title: title[0].strip.gsub(/\n|\r|\t/,' ').gsub(/\d|\./,'').strip, buffer: "", workup_started: false, treatment_started: false, workup_text: "", treatment_text: "")
-				#if diagnosis.title =~ /EPISCLERITIS/
-				#	puts  "----------- GOT EPISCLERITIS ----------- "
-				#	gets.chomp
-				#end
+				diagnosis = Diagnosis.new(title: title[0].strip.gsub(/\n|\r|\t/,' ').gsub(/\d|\./,'').strip, buffer: "", workup_started: false, treatment_started: false, workup_text: "", treatment_text: "", signs_started: false, signs_text: "", symptoms_started: false, symptoms_text: "")
 			end
 		}
 		diagnosis
@@ -219,9 +279,17 @@ class Diagnosis
 
 	
 
-	def self.parse_textbook(txt_file_path="#{Rails.root}/vendor/wills_eye_manual.txt")
+	def self.parse_textbook(txt_file_path="#{Rails.root}/vendor/wills.txt")
+		
+		s = IO.read(txt_file_path)
+		puts "the encoding is: ---- > "
+		puts s.encoding
+		s.force_encoding('UTF-8')
+		s = s.encode('UTF-8', 'binary', invalid: :replace, undef: :replace, replace: '')
+
+		s.split(/\r|\n|\t/).each do |l|
+
 			
-		IO.read(txt_file_path).each_line do |l|
 			if diagnosis = is_diagnosis?(l)
 				#if diagnosis.title =~ /EPISCLERITIS/
 				#	puts "proceeding for episcleritis."
@@ -261,38 +329,50 @@ class Diagnosis
 
 				## its not a diagnosis.
 				if @@_current_diagnosis
-					#if @@_current_diagnosis.title =~ /EPISCLERITIS/
-					#	puts " ------- there is a diagnosis ---------"
-					#	gets.chomp
-					#end
+					
 
-					## we already have a diagnosis.		
-					#if @@_current_diagnosis.title =~ /EPISCLERITIS/
-						#puts "line is: #{l}"
-					#end
+					if @@_current_diagnosis.start_symptoms?(l)
+						
+					end
+
+
+					if @@_current_diagnosis.symptoms_on?(l)
+						
+						@@_current_diagnosis.symptoms_text += l
+						
+					end
+
+	
+					if @@_current_diagnosis.start_signs?(l)
+						
+					end
+
+
+					if @@_current_diagnosis.signs_on?(l)
+						
+						@@_current_diagnosis.signs_text += l
+						
+					end					
+
+
 					if @@_current_diagnosis.start_workup?(l)
-						#if @@_current_diagnosis.title =~ /EPISCLERITIS/
-						#	puts " -- workup started -- "
-						#	gets.chomp
-						#end
+						
 					end
+
 					if @@_current_diagnosis.workup_on?(l)
-						#if @@_current_diagnosis.title =~ /EPISCLERITIS/
-						#	puts "adding workup text"
-						#	gets.chomp
+						
 						@@_current_diagnosis.workup_text += l
-						#end
+						
 					end
+
 					if @@_current_diagnosis.start_treatment?(l)
-						#if @@_current_diagnosis.title =~ /EPISCLERITIS/
-						#	puts " -- treatment started - "
-						#end
+						
 					end
+
 					if @@_current_diagnosis.treatment_on?(l)
-						#if  @@_current_diagnosis.title =~ /EPISCLERITIS/
-						#	puts " -- adding treatment text -- "
-							@@_current_diagnosis.treatment_text += l
-						#end
+						
+						@@_current_diagnosis.treatment_text += l
+						
 					end 
 				end
 			end
@@ -612,6 +692,10 @@ class Diagnosis
 
 	end
 
+
+# so now we have to set the symptoms for the diagnosis.
+# how to find the symptoms.
+# how to coaggregate them.	
 
 	def self.update_to_remote
 		bulk_arr = []

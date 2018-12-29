@@ -77,20 +77,22 @@ class MeshesControllerTest < ActionController::TestCase
   test "full process" do
 
 
-    #Diagnosis.create_index! force: true
-	#puts " --------- PARSING TEXTBOOK ---------- "
-	#Diagnosis.parse_textbook
-		
-	#puts " -------- clear diagnosis -------- "
-	#Diagnosis.clear_workup
+  	# so you want to show the first 10 sentences
 
-	#exit(1)
+    Diagnosis.create_index! force: true
+    
+    #exit(1)
+	#puts " --------- PARSING TEXTBOOK ---------- "
+	Diagnosis.parse_textbook
+
+	#
 	#puts " --------- adding tests ------------- "
-	#Test.add_direct_test_matches_to_diagnosis
+	Test.add_direct_test_matches_to_diagnosis
+
+	exit(1)
 
 	#Diagnosis.update_to_remote
 
-	
 	#puts " --------- building information ---------- "
 	#Diagnosis.parse_diagnosis_data
 	
@@ -111,6 +113,7 @@ class MeshesControllerTest < ActionController::TestCase
 
 	#puts " -------- updating diagnosis with workups ---------- "
 	#Entity.update_diagnosis_index
+
 
   end
 

@@ -13,3 +13,4 @@
 /tmp
 /vendor/pubmed_metadata_files
 /vendor/pubmed_metadata_unzipped
+/config/initializers/*

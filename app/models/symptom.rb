@@ -20,6 +20,21 @@ class Symptom
 	}
 
 
+	def self.parse_wills_eye_manual_symptoms(txt_file_path="#{Rails.root}/vendor/wills_eye_manual_symptoms.txt")
+
+		IO.read(txt_file_path).each_line do |line|
+
+			## => if its all capital, then its a symptom
+			## => split the subsequent paragraphs into
+			## => differential diagnosis, based on 
+			## => commas, search for them in the diagnosis
+			## => and update 100% matches only.
+			## => 
+
+		end
+
+	end
+
 	## returns the script and body for a bunch of symptom scores to be updated.
 	## if the associated_symptom name exists, then it will update branch_score and co_occurrence if either of these are not null in the incoming associated_symptom.
 	## if the name does not exist, the whole associated symptom will be added.
