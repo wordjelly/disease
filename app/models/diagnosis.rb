@@ -698,6 +698,7 @@ class Diagnosis
 # how to coaggregate them.	
 
 	def self.update_to_remote
+		
 		bulk_arr = []
 		Diagnosis.all.each do |diagnosis|
 			update_hash = {

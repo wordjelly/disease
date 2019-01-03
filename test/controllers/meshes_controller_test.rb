@@ -80,7 +80,7 @@ class MeshesControllerTest < ActionController::TestCase
   	# so you want to show the first 10 sentences
 
     Diagnosis.create_index! force: true
-    
+	exit(1)    
     #exit(1)
 	#puts " --------- PARSING TEXTBOOK ---------- "
 	Diagnosis.parse_textbook
@@ -89,7 +89,7 @@ class MeshesControllerTest < ActionController::TestCase
 	#puts " --------- adding tests ------------- "
 	Test.add_direct_test_matches_to_diagnosis
 
-	exit(1)
+	
 
 	#Diagnosis.update_to_remote
 

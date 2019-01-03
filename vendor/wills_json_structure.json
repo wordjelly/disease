@@ -1,0 +1,26 @@
+{
+	"name" : "_doc",
+	"process_with" : "title_processor", 
+	"components" : [
+		{
+		    "name" : "symptoms",
+			"process_with" : "symptoms_processor",
+			"components" : []
+		},
+		{
+			"name" : "signs", 
+			"process_with" : "signs_processor",
+			"components" : []
+		},
+		{
+			"name" : "treatment", 
+			"process_with" : "treatment_processor",
+			"components" : []
+		},
+		{
+			"name" : "workup",
+			"process_with" : "workup_processor",
+			"components" : []
+		}
+	]		
+}
