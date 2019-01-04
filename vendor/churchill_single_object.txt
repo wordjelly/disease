@@ -1,0 +1,260 @@
+[START_SECTION]Abdominal Pain
+Abdominal pain is an extremely common presenting symptom. The pain
+may be acute (sudden onset) or chronic (lasting for more than a few days
+or presenting intermittently). It is important to be able to distinguish
+causes of abdominal pain which need urgent surgery, e.g. ruptured
+aortic aneurysm, perforated diverticular disease, from those that do not,
+e.g. biliary colic, ureteric colic, acute pancreatitis. The causes of
+abdominal pain are legion and the list below contains some of the more
+common causes but is not intended to be comprehensive.
+
+Causes
+Gastrointestinal
+GUT
+Gastroduodenal
+• Peptic ulcer
+• Gastritis
+• Malignancy
+• Gastric volvulus
+Intestinal
+• Appendicitis
+• Obstruction
+• Diverticulitis (Fig. 1)
+• Gastroenteritis
+• Mesenteric adenitis
+• Strangulated hernia
+
+[START_SECTION]• Inflammatory bowel disease
+• Intussusception
+• Volvulus
+• TB • (common in parts of the world where TB is endemic)
+
+FIGURE 1 Diverticular disease.
+A barium enema showing numerous diverticulae in the sigmoid colon.
+
+Hepatobiliary
+• Acute cholecystitis
+• Chronic cholecystitis
+• Cholangitis
+• Hepatitis
+
+Pancreatic
+• Acute pancreatitis
+• Chronic pancreatitis
+• Malignancy
+
+Splenic
+• Infarction
+• Spontaneous rupture
+
+Urinary Tract
+• Cystitis
+
+[START_SECTION]• Acute retention of urine
+• Acute pyelonephritis
+• Ureteric colic
+• Hydronephrosis
+• Tumour
+• Pyonephrosis
+• Polycystic kidney
+
+Gynaecological
+• Ruptured ectopic pregnancy
+• Torsion of ovarian cyst
+• Ruptured ovarian cyst
+• Salpingitis
+• Severe dysmenorrhoea
+• Mittelschmerz
+• Endometriosis
+• Red degeneration of a fibroid
+
+Vascular
+• Aortic aneurysm
+• Mesenteric embolus
+• Mesenteric angina (claudication)
+• Mesenteric venous thrombosis
+• Ischaemic colitis
+• Acute aortic dissection
+
+Peritoneum
+• Secondary peritonitis
+• Primary peritonitis
+
+Abdominal Wall
+• Strangulated hernia
+• Rectus sheath haematoma
+• Cellulitis
+
+[START_SECTION]Retroperitoneum
+• Retroperitoneal haemorrhage, e.g. anticoagulants
+
+Referred Pain
+• Myocardial infarction
+• Pericarditis
+• Testicular torsion
+• Pleurisy
+• Herpes zoster
+• Lobar pneumonia
+• Thoracic spine disease, e.g. disc, tumour
+
+‘Medical’ Causes
+• Hypercalcaemia
+• Uraemia
+• Diabetic ketoacidosis
+• Sickle cell disease
+• Addison’s disease
+• Acute intermittent porphyria
+• Henoch–Schönlein purpura
+• Tabes dorsalis
+
+History
+Age
+Certain conditions are more likely to occur in certain age groups, e.g.
+mesenteric adenitis in children, diverticular disease in the elderly.
+
+Pain
+■ Time and mode of onset, e.g. sudden, gradual.
+■ Character, e.g. dull, vague, cramping, sharp, burning.
+
+[START_SECTION]■ Severity.
+■ Constancy, e.g. continuous (peritonitis); intermittent (pain of intestinal
+colic).
+■ Location: where did it start? Has it moved?
+■ Radiation, e.g. loin to groin in ureteric colic.
+■ Effect of respiration, movement, food, defecation, micturition and
+menstruation.
+■ Vomiting.
+■ Did vomiting precede the pain?
+■ Frequency.
+■ Character, e.g. bile, faeculent, blood, coffee grounds.
+
+Defecation
+■ Constipation: absolute constipation with colicky abdominal pain,
+distension and vomiting suggests intestinal obstruction.
+■ Diarrhoea: frequency, consistency of stools, blood, mucus, pus.
+
+Fever
+■ Any rigors.
+
+Past history
+■ Previous surgery, e.g. adhesions may cause intestinal obstruction.
+■ Recent trauma, e.g. delayed rupture of spleen.
+■ Menstrual history, e.g. ectopic pregnancy.
+
+Examination
+General
+Is the patient lying comfortably? Is the patient lying still but in pain, e.g.
+peritonitis? Is the patient writhing in agony, e.g. ureteric or biliary colic?
+Is the patient flushed, suggesting pyrexia?
+
+[START_SECTION]Pulse, temperature, respiration
+Pulse and temperature are raised in inflammatory conditions. They may
+also be raised with impending infarction of bowel. An increased
+respiratory rate might suggest chest infection referring pain to the
+abdomen.
+
+Cervical lymphadenopathy
+Associated with mesenteric adenitis.
+
+Chest
+Referred pain from lobar pneumonia.
+
+Abdomen
+■ Inspection. Does the abdomen move on respiration? Look for scars,
+distension, visible peristalsis (usually due to chronic obstruction in
+patient with very thin abdominal wall). Check the hernial orifices. Are
+there any obvious masses, e.g. visible, pulsatile mass to suggest aortic
+aneurysm?
+■ Palpation. The patient should be relaxed, lying flat, with arms by side.
+Be gentle and start as far from the painful site as possible. Check for
+guarding and rigidity. Check for masses, e.g. appendix mass, pulsatile
+expansile mass to suggest aortic aneurysm. Carefully examine the
+hernial orifices. Examine the testes to exclude torsion.
+■ Percussion, e.g. tympanitic note with distension with intestinal
+obstruction; dullness over bladder due to acute retention.
+■ Auscultation. Take your time (30–60 s); e.g. silent abdomen of
+peritonitis; high-pitched tinkling bowel sounds of intestinal obstruction.
+
+Rectal examination
+Always carry out a rectal examination.
+
+[START_SECTION]Vaginal examination
+There may be discharge or tenderness associated with pelvic
+inflammatory disease. Examine the uterus and adnexa, e.g. pregnancy,
+fibroids, ectopic pregnancy.
+
+General Investigations
+■ FBC, ESR
+Hb ↓ peptic ulcer disease, malignancy. WCC ↑ infective/inflammatory
+disease, e.g. appendicitis, diverticulitis. ESR ↑ Crohn’s disease, TB.
+■ U&Es
+Urea and creatinine↑uraemia. Electrolyte disturbances in vomiting and
+diarrhoea.
+■ LFTs
+Abnormal in cholangitis and hepatitis. Often abnormal in acute
+cholecystitis.
+■ Serum amylase
+Markedly raised in acute pancreatitis. Often moderately raised with
+perforated peptic ulcer or infarcted bowel.
+■ MSU
+Blood, protein, culture positive in pyelonephritis. Red cells in ureteric
+colic.
+■ CXR
+Gas under diaphragm (perforated viscus). Lower lobar pneumonia
+(referred pain).
+■ AXR
+Obstruction – dilated loops of bowel. Site of obstruction. Local ileus
+(sentinel loop) – pancreatitis, acute appendicitis. Toxic dilatation –
+dilated, featureless, oedematous colon in ulcerative colitis or Crohn’s
+disease. Renal calculi. Calcified aortic aneurysm. Air in biliary tree
+(gallstone ileus). Gallstones (10% radio-opaque).
+■ US
+Localised abscesses, e.g. appendix abscess, paracolic abscess in
+
+[START_SECTION]diverticular disease. Free fluid – peritonitis, ascites. Aortic aneurysm.
+Ectopic pregnancy. Ovarian cyst. Gallstones. Empyema, mucocele of
+gall bladder. Kidney – cysts, tumour.
+
+Specific Investigations
+■ Blood glucose
+Raised in diabetic ketoacidosis.
+■ Serum calcium
+Hypercalcaemia.
+■ CRP
+Crohn’s disease.
+■ VDRL
+Syphilis (tabes dorsalis).
+■ Sickling test
+Sickle cell disease.
+■ Urinary porphobilinogens
+Acute intermittent porphyria.
+■ ABGs
+Metabolic acidosis, e.g. uraemia, infarcted bowel, sepsis, diabetic
+ketoacidosis.
+■ βHCG
+Pregnancy. Ectopic pregnancy.
+■ ECG
+Myocardial infarction (referred pain).
+■ OGD
+Peptic ulcer. Malignancy.
+■ IVU
+Stones. Obstruction.
+■ Barium enema
+Carcinoma. Volvulus. Intussusception.
+■ Small bowel enema
+Small bowel Crohn’s disease. Lymphoma of small bowel. Carcinoma of
+small bowel.
+
+[START_SECTION]■ Duplex Doppler
+Superior mesenteric artery stenosis (mesenteric angina). Superior
+mesenteric artery thrombosis. Mesenteric venous thrombosis.
+■ Angiography
+Superior mesenteric embolus or thrombosis.
+■ CT
+Aneurysm. Pancreatitis. Tumour.
+■ MRCP
+Biliary tract disease.
+• Always examine the hernial orifices.
+• Always check for localised tenderness if colicky abdominal
+pain becomes constant. Tachycardia, fever and a raised white
+cell count suggests infarction.

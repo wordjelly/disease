@@ -6,11 +6,12 @@ class Churchill::ChurchillObject < SaxObject
 
 	def title_processor(line)
 		## if it has start object, and is one of the list of the titles.
-		puts "line coming in: #{line}"
+		#puts "line coming in: #{line}"
 		line.scan(/\[START_SECTION\](?<title>[A-Z\sa-z]+)/) do |title|
-			puts "title is: #{title}"
-			puts "title 0 is: #{title[0]}"
+			#puts "title is: #{title}"
+			#puts "title 0 is: #{title[0]}"
 			if titles[title[0]]	
+				puts "got title ------------ #{line}"
 				return ["on",clear_numbers_newlines_and_excess_spaces(title[0])]			
 			else
 				return ["off",title[0]]

@@ -10,7 +10,19 @@ class SaxObject
 	attribute :content_text, String
 	attr_accessor :components
 	attr_accessor :state
+	## whether the field should be added to the searchable all field for 
+	## the search query.
+	attr_accessor :searchable
 	
+	## the important thing at this stage is to be able to put this into 
+	## universal index.
+	## by defining a mapping
+	## into universal terms.
+	## signs symptoms workup,
+	## why not search content.raw for all?
+	## only the workup should be common.
+	## you can define one field as workup.
+	## wherever the tests are .
 
 	SETTINGS = {
 		index: { 
@@ -76,9 +88,11 @@ class SaxObject
 		to_mapping
 	end
 
-
+	## if a particular item is searchable, then 
+	## we can on calling to_mapping, set that mapping on it.
 	def to_mapping
 		
+		######################### BASIC MAPPING ############################
 		mapping = {
 			self.name.to_sym => {
 				:properties => {
@@ -87,17 +101,32 @@ class SaxObject
           	}
 		}
 
-		
+		######################## MERGE SEARCHABLE AT ROOT DOC ##############
+		mapping[self.name.to_sym][:properties].merge!({
+			:searchable => {
+				:type => "text"
+			}
+		}) if self.name == "_doc"
+
+
+		######################## COPY FIELD TO SEARCHABLE IF SEARCHABLE #####
+		unless self.searchable.blank?
+			mapping[self.name.to_sym][:properties][:content_text][:copy_to] = "searchable"
+		end
+
+		####################### SET FIELD TYPE AS NESTED UNLESS ITS ROOT DOC## 
 		unless self.name == "_doc"
 			mapping[self.name.to_sym].merge!(:type => "nested") 
 		end
-		
+
+
+		###################### CALL PUT MAPPING ON ALL COMPONENTS ############
 		self.components.each do |component|
-			puts "doing component -----------> #{component.attributes}"
 			mapping[self.name.to_sym][:properties].merge!(component.to_mapping)
 		end
 
 		mapping
+
 	end
 
 	## deletes any existing index and recreates it with the defined mappings and settings.
@@ -154,11 +183,21 @@ class SaxObject
 
 	def satisfies_condition?(line)
 		response = self.send(self.process_with,line)
-		puts "line is: #{line} self name is: #{self.name}, response 0 is: #{response[0]}"
+		#puts "line is: #{line} self name is: #{self.name}, response 0 is: #{response[0]}"
 		if response[0] == "on"
 			#puts "going to switch off, except #{self.name}"
 			self.state = "on"
 			SaxParser.switch_off(self.name)
+			if self.name == "_doc"
+				#puts "on for title with line: #{response[1]}"
+				# prematurely committing.
+				# because it thinks that this is the end.
+				unless self.content_text.blank?
+					commit
+					self.state = "on"
+					## so it's not getting the second one.
+				end
+			end
 		elsif response[0] == "off"
 			self.components.each do |component|
 				component.satisfies_condition?(line)
@@ -169,15 +208,8 @@ class SaxObject
 			## is the self _doc ?
 			## in that case, if anything was already there, it should be committed.
 			## all the children should be cleared.
-			if self.name == "_doc"
-				puts "on for title with line: #{response[1]}"
-				unless self.content_text.blank?
-					commit
-					self.state = "on"
-					## so it's not getting the second one.
-				end
-			end
-			self.content_text+= response[1]
+
+			self.content_text += " " + response[1]
 		end 
 	end
 
@@ -221,7 +253,7 @@ class SaxObject
 	end
 
 	def clear_numbers_newlines_and_excess_spaces(text)
-		text.strip.gsub(/\n|\r|\t/,' ').gsub(/\d|\./,'').strip
+		text.strip.gsub(/\n|\r|\t/,' ').gsub(/\d|\./,'')
 	end
 
 	#####################################################################

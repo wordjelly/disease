@@ -10,7 +10,8 @@
 		{
 			"name" : "history", 
 			"process_with" : "history_processor",
-			"components" : []
+			"components" : [],
+			"searchable" : true
 		},
 		{
 			"name" : "examination", 
