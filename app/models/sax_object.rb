@@ -217,16 +217,16 @@ class SaxObject
 
 	## deletes any existing index and recreates it with the defined mappings and settings.
 	## @return[Boolean] true if the index was successfully created. 
-	def delete_and_create_index
+	def delete_and_create_index(cli=Elasticsearch::Persistence.client)
 		begin
-			Elasticsearch::Persistence.client.indices.delete index: get_index_name
+			cli.indices.delete index: get_index_name
 		rescue => e
 			puts "index doesnt exist."
 		end
 		#if (Elasticsearch::Persistence.client.indices.exists? index: get_index_name)
 			
 		#end
-		Elasticsearch::Persistence.client.indices.create index: get_index_name, body: {
+		cli.indices.create index: get_index_name, body: {
 			settings: SaxObject::SETTINGS,
 			mappings: to_mapping
 		}
@@ -340,6 +340,57 @@ class SaxObject
 		end
 	end
 
+	def update_to_remote
+		## will have to put the mappping first.
+		## then we have to send the documents in bulk.
+		delete_and_create_index($remote_es_client)
+		bulk_arr = []
+		## will hav to scroll all.
+		r = Elasticsearch::Persistence.client.search index: get_index_name, scroll: '1m', body: {
+			query: {
+				match_all: {
+
+				}
+			}
+		}
+
+		initial_response = Hashie::Mash.new r
+
+		initial_response.hits.hits.each do |hit|
+			#puts "hit id is:"
+			#puts hit._id.to_s
+			#puts "hit source is:"
+			#puts hit._source.to_s
+			puts hit._source.to_json
+			#k = SaxObject.new(hit._source.to_hash)
+
+			bulk_arr << {
+				index: 
+				{
+					_index: get_index_name, _id: hit._id, _type: "_doc", data: JSON.parse(hit._source.to_json)
+				}
+			}
+		end
+
+		while r = Elasticsearch::Persistence.client.scroll(body: { scroll_id: r['_scroll_id'] }, scroll: '5m') and not r['hits']['hits'].empty? do
+			scroll_response = Hashie::Mash.new r
+			scroll_response.hits.hits.each do |hit|
+				bulk_arr << {
+					index: {
+						_index: get_index_name, _id: hit._id, _type: "_doc", data: JSON.parse(hit._source.to_json)
+					}
+				}
+				if bulk_arr.size > 100
+					puts "bulking ----------------"
+					response = $remote_es_client.bulk body: bulk_arr
+					puts response.to_s
+					bulk_arr.clear
+				end
+			end
+        end
+        $remote_es_client.bulk body: bulk_arr
+	end
+
 	###################################################################3
 	##
 	##
@@ -368,9 +419,11 @@ class SaxObject
 
 	def as_json(options={})
 		result = super(options)
-		self.components.map{|c|
-			result.merge!({c.name.to_s => c.as_json})
-		}
+		unless self.components.blank?
+			self.components.map{|c|
+				result.merge!({c.name.to_s => c.as_json})
+			}
+		end
 		result
 	end
 

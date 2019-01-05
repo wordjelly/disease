@@ -23,6 +23,9 @@ class Textbook
 
 		SaxParser.update_workup
 
+		puts "updating to remote."
+		SaxParser.get_object.update_to_remote
+
 	end
 
 
