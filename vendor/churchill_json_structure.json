@@ -1,6 +1,7 @@
 {
 	"name" : "_doc",
 	"process_with" : "title_processor", 
+	"textbook_name" : "Churchill Medicine",
 	"components" : [
 		{
 		    "name" : "causes",
@@ -21,12 +22,14 @@
 		{
 			"name" : "general_investigations",
 			"process_with" : "general_investigations_processor",
-			"components" : []
+			"components" : [],
+			"contains_tests" : true
 		},
 		{
 			"name" : "special_investigations",
 			"process_with" : "special_investigations_processor",
-			"components" : []
+			"components" : [],
+			"contains_tests" : true
 		}
 	]		
 }

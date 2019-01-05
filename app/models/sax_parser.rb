@@ -11,9 +11,8 @@ class SaxParser
 	attribute :hierarchy, String
 	attribute :text, String
 	attribute :sax_object_class, String
-
-	attr_accessor :current_sax_object
-	@@current_sa_object
+	attribute :textbook_name, String
+	@@root_sax_object
 	## @param[String] file_path : path to the file which is to be parsed.
 	## @param[String] hierarchy : json_string with the structure of the file to be prepared, basically a bunch of nested SaxObjects represented as json. Will call JSON.parse(hierarchy) before setting hierarchy value.
 	## @example : 
@@ -66,8 +65,7 @@ class SaxParser
 		raise "please provide hierarchy json string" unless args[:hierarchy]
 		self.hierarchy = JSON.parse(args[:hierarchy])
 		self.sax_object_class = args[:sax_object_class] || "SaxObject"
-		self.current_sax_object = self.sax_object_class.constantize.new(self.hierarchy)
-		@@current_sa_object = self.sax_object_class.constantize.new(self.hierarchy)
+		@@root_sax_object = self.sax_object_class.constantize.new(self.hierarchy)
 		super(args)
 	end
 
@@ -88,16 +86,92 @@ class SaxParser
 	end
 
 	def self.get_object
-		@@current_sa_object
+		@@root_sax_object
 	end
 
 	def on_line(l)
-		@@current_sa_object.satisfies_condition?(l)
+		@@root_sax_object.satisfies_condition?(l)
 	end	
 
 	def self.switch_off(except)
-		@@current_sa_object.switch_off(except)
+		@@root_sax_object.switch_off(except)
 	end
 
+	########################################################################
+	##
+	##
+	## update test names to all objects.
+	##
+	##
+	########################################################################
+
+	def self.update_workup
+
+		Test.test_to_array.each do |test|
+
+			p = Proc.new{|args|	
+
+				hit = args[:hit]
+				
+				source = """
+					if(ctx._source.workup == null){
+						ctx._source.workup = [];
+					}
+					ctx._source.workup.add(params.test_name)
+				"""
+
+				params = {test_name: args[:test_name]}
+
+				update_hash = {
+					update: {
+						_index: get_object.get_index_name,
+						_type: "_doc",
+						_id: hit._id.to_s,
+						data: { 
+							script: 
+							{
+								source: source,
+								lang: 'painless', 
+								params: params
+							}
+						}
+					}
+				}
+
+				
+
+				add_bulk_item(update_hash)
+
+			}
+
+			r = Elasticsearch::Persistence.client.search index: get_object.get_index_name, scroll: '1m', body: {
+				query: {
+					match: {
+						workup_text: {
+							query: test,
+							minimum_should_match: '100%'
+						}
+					}
+				}
+			}
+
+			initial_response = Hashie::Mash.new r
+
+			initial_response.hits.hits.each do |hit|
+				p.call({:test_name => test}.merge(hit: hit))
+			end
+
+			while r = Elasticsearch::Persistence.client.scroll(body: { scroll_id: r['_scroll_id'] }, scroll: '5m') and not r['hits']['hits'].empty? do
+				scroll_response = Hashie::Mash.new r
+				scroll_response.hits.hits.each do |hit|
+					p.call({:test_name => test}.merge(hit: hit))
+				end
+	        end
+
+			flush_bulk
+
+		end
+
+	end
 
 end

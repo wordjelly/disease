@@ -70,10 +70,12 @@ class SaxParserTest < ActiveSupport::TestCase
 		puts "Count is: #{count}"
 		## index should contain one object.
 		assert_equal count, 2
-
+	
 	end
+
 =end
 
+=begin
 	def test_parses_churchill
 
 		sp = SaxParser.new({:file_path => "#{Rails.root}/vendor/churchill_dd.txt", :hierarchy => IO.read("#{Rails.root}/vendor/churchill_json_structure.json"), :sax_object_class => "Churchill::ChurchillObject"})
@@ -82,7 +84,71 @@ class SaxParserTest < ActiveSupport::TestCase
 
 		sp.analyze_file		
 
+		SaxParser.update_workup	
+
+	end
+=end
+
+
+	def test_adds_textbook
+
+		Textbook.add_textbook("#{Rails.root}/vendor/churchill_dd.txt","#{Rails.root}/vendor/churchill_json_structure.json","Churchill::ChurchillObject")
+
 	end
 
+
+	def test_searches_textbook
+
+		# so we want to aggregate titles and names of diseases
+=begin
+		GET documents-*/_search
+		{
+		  "query": {
+		    "bool": {
+		      "should": [
+		        {
+		          "match": {
+		            "title_text": {
+		              "query": "pain",
+		              "boost" : 2
+		            }
+		          }
+		        },
+		        {
+		          "match": {
+		            "searchable": "pain"
+		          }
+		        }
+		      ]
+		    }
+		  },
+		  "aggs": {
+		    "disease_aggs": {
+		      "terms": {
+		        "field": "title_text",
+		        "order": {
+		          "max_score": "desc"
+		        }, 
+		        "size": 100
+		      },
+		      "aggs": {
+		        "max_score": {
+		          "max": {
+		            "script": "_score"
+		          }
+		        },
+		        "workup_aggs": {
+		          "terms": {
+		            "field": "workup",
+		            "size": 10
+		          }
+		        }
+		      }
+		    }
+		  }
+		}
+
+=end
+	end
 
 end

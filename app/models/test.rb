@@ -17,19 +17,19 @@ class Test
 
 		test_to_array.each do |test|
 
-
-
 			p = Proc.new{|args|	
 
 				hit = args[:hit]
 				
 				source = """
-					ctx._source.workup.add(params.test_name)
+					if(ctx._source.work_up == null){
+						ctx._source.work_up = [];
+					}
+					ctx._source.work_up.add(params.test_name)
 				"""
 
 				params = {test_name: args[:test_name]}
 
-			
 				update_hash = {
 					update: {
 						_index: Diagnosis.index_name,

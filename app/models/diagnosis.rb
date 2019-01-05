@@ -119,8 +119,6 @@ class Diagnosis
 	attribute :signs_started, Boolean, mapping: {type: 'boolean'}
 	attribute :treatment_started, Boolean, mapping: {type: 'boolean'}
 
-
-
 	@@_current_diagnosis = nil
 
 	########################################################
