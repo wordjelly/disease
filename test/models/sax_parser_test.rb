@@ -89,66 +89,57 @@ class SaxParserTest < ActiveSupport::TestCase
 	end
 =end
 
-
-	def test_adds_textbook
+=begin
+	def test_adds_churchill
 
 		Textbook.add_textbook("#{Rails.root}/vendor/churchill_dd.txt","#{Rails.root}/vendor/churchill_json_structure.json","Churchill::ChurchillObject")
 
 	end
 
 
-	def test_searches_textbook
+	def test_adds_obstetrics_algorithms
 
-		# so we want to aggregate titles and names of diseases
-=begin
-		GET documents-*/_search
-		{
-		  "query": {
-		    "bool": {
-		      "should": [
-		        {
-		          "match": {
-		            "title_text": {
-		              "query": "pain",
-		              "boost" : 2
-		            }
-		          }
-		        },
-		        {
-		          "match": {
-		            "searchable": "pain"
-		          }
-		        }
-		      ]
-		    }
-		  },
-		  "aggs": {
-		    "disease_aggs": {
-		      "terms": {
-		        "field": "title_text",
-		        "order": {
-		          "max_score": "desc"
-		        }, 
-		        "size": 100
-		      },
-		      "aggs": {
-		        "max_score": {
-		          "max": {
-		            "script": "_score"
-		          }
-		        },
-		        "workup_aggs": {
-		          "terms": {
-		            "field": "workup",
-		            "size": 10
-		          }
-		        }
-		      }
-		    }
-		  }
-		}
+		Textbook.add_textbook("#{Rails.root}/vendor/obstetric_screening_algorithms.txt","#{Rails.root}/vendor/obs_json_structure.json","Obstetrics::ObsObject")		
 
+	end
+
+	
+	def test_adds_wills_eye_manual
+
+		Textbook.add_textbook("#{Rails.root}/vendor/wills.txt","#{Rails.root}/vendor/wills_json_structure.json","Wills::WillsObject")
+
+	end
+
+
+	def test_adds_dewhurst
+		Textbook.add_textbook("#{Rails.root}/vendor/dewhurst.txt","#{Rails.root}/vendor/dewhurst_json_structure.json","Obstetrics::DewhurstObject")		
+	end
 =end
+
+=begin
+	def test_parses_table_of_contents_oxford_endocrine
+
+		Oxford::Oxford.parse_table_of_contents("#{Rails.root}/vendor/oxford_endocrinology_contents.txt","oxford_endo_topics")
+
+	end
+=end
+
+=begin
+	def test_parses_table_of_contents_oxford_ent
+
+		Oxford::Oxford.parse_table_of_contents("#{Rails.root}/vendor/oxford_ent_contents.txt","oxford_ent_topics")
+
+	end
+=end
+
+=begin
+	def test_parses_oxford_endocrinology
+		Textbook.add_textbook("#{Rails.root}/vendor/oxford_endocrinology.txt","#{Rails.root}/vendor/oxford_endo_json_structure.json","Oxford::Endocrine")
+	end
+=end
+
+	def test_parses_oxford_ent
+		Textbook.add_textbook("#{Rails.root}/vendor/oxford_ent.txt","#{Rails.root}/vendor/oxford_ent_json_structure.json","Oxford::Ent")
 	end
 
 end

@@ -1,0 +1,373 @@
+Detailed contents
+
+1
+
+Overview
+Using this book 2
+
+1
+
+Otolaryngology as a subject and career 3
+Students and Otolaryngology 4
+ENT learning aims and objectives for clinical
+medical students 5
+Student Otolaryngology curriculum 6
+Research 8
+Critical appraisal of the literature 9
+2
+
+The ENT examination
+Equipment 12
+
+11
+
+Examination of the ear 14
+Examination of the nose 22
+Rigid nasal endoscopy 24
+Examination of the mouth, larynx, and pharynx 26
+Flexible laryngoscopy 28
+Stroboscopy 30
+Examination of the neck 32
+Cranial nerve examination 34
+3
+
+Common methods of presentation
+Hoarse voice 42
+Epistaxis (nosebleed) 44
+Dysphagia (swallowing difficulty) 46
+Globus (a feeling of a lump in the throat) 48
+Neck mass 50
+Mouth or tongue ulcer 52
+
+41
+
+xii
+
+DETAILED CONTENTS
+
+Stridor 54
+Facial nerve palsy 56
+Nasal obstruction 57
+Otorrhea 58
+Dizziness and vertigo 59
+Otalgia (earache) 60
+Hearing loss 62
+Tinnitus 64
+Facial pain 65
+4
+
+Investigations in ENT
+Hearing physiology 68
+
+67
+
+Pure tone audiometry (PTA) 70
+Speech audiometry 72
+Tympanometry 74
+Objective hearing assessment 76
+Pediatric hearing assessment 77
+Electronystagmography (ENG) 78
+Calorics 79
+CT scan 80
+MRI scan 81
+PET scan 82
+Skin prick testing 83
+5
+
+The mouth, tonsils, and adenoids
+Anatomy 86
+Oral ulcers—benign 88
+Oral ulcers—malignant 90
+White patches in the mouth 92
+Miscellaneous mouth conditions 94
+Pharyngitis 96
+Tonsillitis 98
+
+85
+
+DETAILED CONTENTS
+
+Infectious mononucleosis 99
+Tonsillectomy 100
+Tonsillar tumors 102
+Adenoidal enlargement 104
+Obstructive sleep apnea 106
+6
+
+The nose and sinuses
+Structure and function of the nose 110
+
+109
+
+Rhinitis 116
+Medical treatment of rhinitis 118
+Surgical treatment of nasal obstruction 120
+Olfaction 121
+Sinusitis 122
+Acute sinusitis 123
+Recurrent acute sinusitis 124
+Chronic sinusitis 125
+Pediatric sinusitis 126
+Complications of sinusitis 128
+Fungal sinusitis 131
+Nasal polyps 132
+Unusual nasal polyps 134
+Septal problems 136
+Septal perforation 137
+Granulomatous conditions 138
+Sinonasal masses 140
+Allergy and immunotherapy 141
+7
+
+The salivary glands
+Structure and function of the salivary glands 144
+Disorders of salivation 147
+Salivary gland tumors 148
+Sialadenitis 152
+
+143
+
+xiii
+
+xiv
+
+DETAILED CONTENTS
+
+Sialolithiasis 153
+Other inflammatory conditions 154
+Pseudosalivary swellings 156
+Salivary gland surgery 158
+8
+
+The larynx
+Structure and function of the larynx 162
+
+161
+
+The vocal cords 166
+Congenital laryngeal lesions 168
+Infections of the larynx 170
+Cancer of the larynx 174
+Treatment of laryngeal cancer 176
+Benign lesions of the larynx 180
+Stridor 185
+The emergency airway 186
+Tracheostomy care and tracheostomy tubes 188
+9
+
+The esophagus
+Introduction 192
+
+191
+
+Globus 193
+Laryngopharyngeal reflux 194
+Neurological causes of swallowing problems 195
+Post-cricoid web 196
+Achalasia 197
+Zenker’s diverticulum 198
+Esophageal tumors 200
+Barrett’s esophagus 202
+10
+
+The neck
+Anatomy of the neck 204
+Investigation of neck masses 208
+Congenital neck remnants 210
+
+203
+
+DETAILED CONTENTS
+
+Neck infections 214
+Lymph node enlargement 215
+Neoplastic lymphadenopathy 216
+Neck hernias 218
+11
+
+The thyroid and parathyroid glands
+Embryology and anatomy of the thyroid 220
+
+219
+
+Thyroid enlargement (goiter) 222
+Thyroid neoplasia 224
+Thyroid investigations 226
+Treatment of thyroid conditions 228
+Risks and complications of thyroid surgery 229
+Parathyroid embryology and function 230
+Hyperparathyroidism 231
+12
+
+The external ear
+Structure and function 234
+
+233
+
+Congenital abnormalities 236
+Infection of the pinna 238
+Trauma to the pinna 240
+Otitis externa 242
+Necrotizing otitis externa 244
+Malignancy of the pinna 246
+Malignancy of the external auditory canal 248
+Miscellaneous conditions 250
+13
+
+The middle ear
+Structure and function 254
+Congenital abnormalities 257
+Acute otitis media 258
+Complications of acute otitis media 260
+Glue ear 261
+
+253
+
+xv
+
+xvi
+
+DETAILED CONTENTS
+
+Chronic suppurative otitis media without
+cholesteatoma 262
+Chronic suppurative otitis media with
+cholesteatoma 264
+Mastoid surgery 266
+Complications of chronic suppurative
+otitis media 268
+Otosclerosis 270
+Trauma 272
+Neoplasia 273
+14
+
+The inner ear
+Structure and function of the inner ear 276
+
+275
+
+Sensorineural hearing loss (SNHL) 280
+Presbyacusis 282
+Noise-induced hearing loss 284
+Idiopathic sudden hearing loss 286
+Tinnitus 288
+Autoimmune ear disease 290
+Ototoxicity 292
+Hereditary hearing loss 294
+Syndromic hearing loss 296
+Syndromic hearing loss II 298
+Nonorganic hearing loss (NOHL) 299
+Labyrinthitis (vestibular neuronitis) 300
+Benign paroxysmal positional vertigo 302
+Meniere’s disease/syndrome 304
+Treatment of Meniere’s disease 306
+Vascular causes of inner ear dysfunction 308
+15
+
+The skull base
+Overview 310
+Anatomic considerations 312
+
+309
+
+DETAILED CONTENTS
+
+Acoustic neuroma 314
+Glomus jugulare tumors 316
+Nasopharyngeal carcinoma (NPC) 318
+Juvenile angiofibroma 320
+Sinonasal malignancy 322
+Temporal bone fractures 324
+Complications of surgery 326
+16
+
+Facial plastic surgery and reconstruction
+Principles of reconstruction 328
+
+327
+
+Wound healing 329
+Scar revision 330
+Common local and regional flaps 332
+Pedicled flaps 336
+Free flaps 338
+Principles of aesthetic examination 342
+Rhytidectomy 352
+Skin resurfacing 354
+Botulinum toxin injections 356
+17
+
+Common operations
+Obtaining informed consent 360
+Presenting information to patients 361
+Establishing capacity to make decisions 362
+Tonsillectomy 364
+Adenoidectomy 366
+Tympanostomy tube insertion 367
+Tympanoplasty 368
+Septoplasty and turbinate reduction 370
+Direct laryngoscopy 371
+Complications of ear surgery 372
+
+359
+
+xvii
+
+xviii
+
+DETAILED CONTENTS
+
+Complications of nasal surgery 373
+Complications of head and neck surgery 374
+18
+
+Ward care
+Preoperative care 376
+
+375
+
+Special considerations 378
+Postoperative care 380
+Care of reconstructive flaps 384
+Tracheostomy care 386
+Communication with patients and relatives 387
+Discharge planning 388
+19
+
+Practical procedures
+How to cauterize the nose 390
+
+389
+
+How to pack the nose 392
+How to remove foreign bodies 394
+How to irrigate an ear 398
+How to dry a draining ear 400
+How to instill eardrops 402
+How to drain a hematoma of the auricle 404
+How to drain a peritonsillar abscess 406
+How to perform fine needle aspiration
+cytology (FNAC) 408
+20
+
+ENT emergencies
+Epistaxis 410
+Sudden-onset hearing loss 412
+Facial palsy or VII nerve palsy 414
+Periorbital cellulitis 417
+Fractured nose 418
+Penetrating neck injury 420
+Esophageal foreign bodies 422
+
+409
+
+DETAILED CONTENTS
+
+Caustic ingestion 423
+Secondary tonsillar hemorrhage 424
+21
+
+Glossary of ENT terms and eponyms
+Index 435
+
+425

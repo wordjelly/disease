@@ -1,0 +1,27 @@
+{
+	"name" : "_doc",
+	"process_with" : "title_processor", 
+	"textbook_name" : "DewHurst Gynecology And Obstetrics",
+	"searchable" : true,
+	"components" : [
+		{
+			"name" : "Epidemiology", 
+			"process_with" : "epidemiology_processor",
+			"components" : [],
+			"searchable" : true
+		},
+		{
+			"name" : "Diagnosis", 
+			"process_with" : "diagnosis_processor",
+			"components" : [],
+			"searchable" : true,
+			"contains_tests" : true
+		},
+		{
+			"name" : "Management", 
+			"process_with" : "management_processor",
+			"components" : [],
+			"searchable" : true
+		}
+	]		
+}

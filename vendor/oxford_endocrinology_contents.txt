@@ -1,0 +1,1165 @@
+Detailed contents
+Part 1 Thyroid
+1 Anatomy and physiology of the thyroid
+
+2
+
+Anatomy 2
+Physiology 4
+2 Thyroid investigations
+
+7
+
+Tests of hormone concentration 7
+Tests of homeostatic control 7
+Antibody screen 10
+Scintiscanning 11
+Ultrasound (US) scanning 13
+Fine needle aspiration (FNAC) cytology 14
+Computed tomography (CT) 14
+Additional laboratory investigations 15
+Sick euthyroid syndrome (non-thyroidal illness syndrome) 15
+Atypical clinical situations 16
+3 Thyrotoxicosis
+
+17
+
+Etiology 17
+Manifestations of hyperthyroidism 19
+Treatment 21
+Thyroid crisis (storm) 28
+Thyrotoxicosis in pregnancy 31
+Hyperthyroidism in children 35
+Secondary hyperthyroidism 36
+4 Graves’ ophthalmopathy, dermopathy, and acropachy
+
+39
+
+Graves’ ophthalmopathy 39
+Graves’ dermopathy 43
+Thyroid acropachy 43
+5 Multinodular goiter and solitary adenomas
+Background 44
+Clinical evaluation 45
+Studies 46
+Treatment 47
+Pathology 48
+Thyroid nodules in pregnant mothers 48
+
+44
+
+x
+
+DETAILED CONTENTS
+
+6 Thyroiditis
+
+49
+
+Background 49
+Chronic autoimmune thyroiditis 50
+Other types of thyroiditis 51
+7 Hypothyroidism
+
+53
+
+Background 53
+Clinical picture 55
+Treatment of hypothyroidism 56
+Treatment of subclinical hypothyroidism 57
+Management of myxedema coma 58
+Congenital hypothyroidism 60
+8 Amiodarone and thyroid function
+
+62
+
+Background 62
+Pathogenesis 63
+Diagnosis and treatment 64
+9 Thyroid cancer
+
+66
+
+Epidemiology 66
+Etiology 67
+Papillary thyroid carcinoma 68
+Staging of DTC 69
+Surgery 70
+Postoperative thyroid hormone therapy 70
+Radioactive iodine therapy 71
+Management of recurrent disease 74
+Follicular thyroid carcinoma (FTC) 75
+Follow-up of papillary and follicular thyroid carcinoma 76
+Medullary thyroid carcinoma (MTC) 78
+Anaplastic (undifferentiated) thyroid cancer 79
+Lymphoma 79
+
+Part 2 Pituitary
+10 Pituitary gland anatomy and physiology
+
+82
+
+Embryology and anatomy 82
+Anterior gland physiology 83
+Posterior gland physiology 85
+11 Imaging
+Background 86
+MRI appearances 86
+Pituitary adenomas 87
+Craniopharyngiomas/Rathke’s cleft cyst 88
+
+86
+
+DETAILED CONTENTS
+
+12 Pituitary function testing
+
+89
+
+Background 89
+Lactotropes 89
+Thyrotropes 89
+Gonadotropes 90
+Corticotropes 91
+Somatotropes 93
+13 Hypopituitarism
+
+94
+
+Deﬁnition 94
+Etiologies of hypopituitarism 94
+Features 95
+Investigations 97
+Treatment 97
+14 Anterior pituitary hormone replacement
+
+98
+
+Background 98
+Glucocorticoids replacement 98
+Growth hormone replacement 99
+Thyroid hormone replacement 100
+Sex hormone replacement 100
+15 Pituitary tumor basics
+
+101
+
+Epidemiology 101
+Classiﬁcation 101
+Pathophysiology 102
+Investigations 102
+Management and natural history 103
+16 Prolactinomas
+
+104
+
+Epidemiology 104
+Etiology and pathogenesis 104
+Clinical features 104
+Investigations 106
+Hyperprolactinemia and drugs 106
+Idiopathic hyperprolactinemia 106
+Treatment 107
+Management of prolactinomas in pregnancy 109
+17 Acromegaly
+Deﬁnition 110
+Epidemiology 110
+Etiologies of acromegaly 110
+Pathophysiology 110
+Clinical features 110
+Investigations 112
+Management 114
+Mortality data 115
+
+110
+
+xi
+
+xii
+
+DETAILED CONTENTS
+
+18 Cushing’s disease
+
+116
+
+Deﬁnition 116
+Epidemiology 116
+Differential diagnosis 116
+Etiologies of CS 116
+Clinical features of CS 117
+Investigations 118
+Treatment 122
+Follow-up 124
+19 Gonadotropinomas
+
+125
+
+Epidemiology 125
+Pathology 125
+Clinical features 125
+Investigations 126
+Management 126
+Follow-up and prognosis 126
+20 Thyrotropinomas
+
+128
+
+Epidemiology 128
+Clinical features 128
+Investigations 128
+Management 128
+21 Craniopharyngiomas and Rathke’s cleft cysts
+
+130
+
+Craniopharyngiomas 130
+Epidemiology 130
+Pathology 130
+Clinical features 130
+Investigations 131
+Management 131
+Follow-up 131
+Rathke’s cleft cysts (RCC) 132
+Epidemiology 132
+Pathology 132
+Clinical features 132
+Investigations 132
+Management 132
+Follow-up 133
+22 Parasellar tumors
+Meningiomas 134
+Germ cell tumor (GCT) 134
+Gangliocytomas 134
+Chordomas/condrosarcomas 135
+Hamartomas 135
+Metastatic tumors to the pituitary 135
+
+134
+
+DETAILED CONTENTS
+
+23 Inﬂammatory and inﬁltrative pituitary diseases
+
+136
+
+Background 136
+Investigations 137
+Lymphocytic hypophysitis 137
+Sarcoidosis 138
+Langerhans’ cell histiocytosis 139
+Hemochromatosis 139
+24 Surgical treatment of pituitary tumours
+
+140
+
+Transsphenoidal surgery (TSS) 140
+Transfrontal craniotomy 143
+25 Medical treatment of pituitary tumors
+
+144
+
+Dopamine agonists (DA) 144
+Somatostatin analogs 145
+Growth hormone receptor antagonists 146
+26 Pituitary radiotherapy
+
+147
+
+Background 147
+Techniques 147
+Efﬁcacy 148
+Complications 149
+27 Diabetes insipidus (DI)
+
+151
+
+Deﬁnition 151
+Classiﬁcation and etiologies 151
+Features 152
+Investigations 153
+Treatment 154
+Caveats for water deprivation study 155
+28 Hyponatremia
+
+156
+
+Incidence 156
+Etiologies 156
+Neurosurgical hyponatremia 157
+Classiﬁcation and clinical features 157
+Investigations 158
+Hyponatremia treatment 158
+29 Syndrome of inappropriate ADH (SIADH)
+Deﬁnition 159
+Features 159
+Criteria for diagnosis 159
+Types of SIADH 159
+Treatment 160
+
+159
+
+xiii
+
+xiv
+
+DETAILED CONTENTS
+
+30 Pineal gland
+
+161
+
+Physiology 161
+Pineal and intracranial germ cell tumors 161
+Features 161
+Investigations and staging 161
+Management 162
+Prognosis 162
+
+Part 3 Adrenals
+31 Anatomy and physiology
+
+164
+
+Anatomy 164
+Physiology 166
+32 Imaging
+
+168
+
+Computed tomography (CT) scanning 168
+Magnetic resonance imaging (MRI) 168
+Ultrasound (US) imaging 168
+Normal adrenal 169
+Radionucleotide imaging 169
+Positron emission tomography (PET) 169
+Venous sampling 169
+33 Mineralocorticoid excess
+
+170
+
+Deﬁnitions 170
+34 Primary aldosteronism
+
+171
+
+Epidemiology 171
+Pathophysiology 171
+Clinical features 171
+Conn’s syndrome—aldosterone-producing adenoma 171
+Bilateral adrenal hyperplasia (bilateral idiopathic
+hyperaldosteronism) 173
+Glucocorticoid-remedial aldosteronism (GRA) 173
+Aldosterone-producing carcinoma 173
+Screening 174
+Conﬁrmation of diagnosis 176
+Localization and conﬁrmation of differential diagnosis 179
+Treatment 180
+35 Excess other mineralocorticoids
+Epidemiology 182
+Apparent mineralocorticoid excess 182
+Licorice ingestion 183
+Ectopic ACTH syndrome 183
+Deoxycorticosterone (DOC) excess 183
+
+182
+
+DETAILED CONTENTS
+
+36 Adrenal Cushing’s syndrome
+
+184
+
+Deﬁnition and epidemiology 184
+Pathophysiology 184
+Clinical features 185
+Investigations 185
+Treatment 186
+Prognosis 186
+Subclinical Cushing’s syndrome 187
+37 Adrenal surgery
+
+188
+
+Adrenalectomy 188
+38 Renal tubular abnormalities
+
+190
+
+Background 190
+Liddle’s syndrome 190
+Bartter’s syndrome 191
+39 Mineralocorticoid deﬁciency
+
+192
+
+Epidemiology 192
+Causes 192
+Treatment 192
+40 Adrenal insufﬁciency
+
+193
+
+Deﬁnition 193
+Epidemiology 194
+Pathophysiology 195
+41 Addison’s disease
+
+196
+
+Causes of primary adrenal insufﬁciency 196
+Autoimmune adrenalitis 197
+Clinical features 198
+Autoimmune polyglandular syndrome (APS) type 1 198
+APS types 2–4 199
+Investigation of primary adrenal insufﬁciency 200
+Treatment 203
+42 Long-term glucocorticoid administration
+
+206
+
+Short-term steroids 206
+Steroid cover 206
+Long-term steroids 207
+Cushing’s syndrome 207
+43 Adrenal incidentalomas
+Deﬁnition and epidemiology 208
+Importance 208
+
+208
+
+xv
+
+xvi
+
+DETAILED CONTENTS
+
+Differential diagnosis of an incidentally detected adrenal
+nodule 208
+Investigations 209
+Management 209
+44 Pheochromocytomas and paragangliomas
+
+210
+
+Deﬁnition 210
+Incidence 210
+Epidemiology 210
+Pathophysiology 212
+Clinical features 213
+Complications 213
+Investigations 214
+Management 218
+
+Part 4 Reproductive endocrinology
+45 Hirsutism
+
+222
+
+Deﬁnition 222
+Physiology of hair growth 222
+Androgen production in women 223
+Evaluation 224
+46 Polycystic ovary syndrome (PCOS)
+
+227
+
+Deﬁnition 227
+Epidemiology 227
+Other causes of hyperandrogenic anovulation 228
+Features 230
+Laboratory evaluation 232
+Management 234
+47 Congenital adrenal hyperplasia (CAH) in adults
+
+239
+
+Deﬁnition 239
+Epidemiology 239
+Pathogenesis 239
+Biochemistry 240
+Clinical presentation 241
+Laboratory evaluation 242
+Management 244
+Monitoring of treatment 246
+Prognosis 247
+48 Androgen-secreting tumors
+Deﬁnition 249
+Epidemiology and pathology 249
+Clinical features 250
+
+249
+
+DETAILED CONTENTS
+
+Laboratory evaluation 250
+Management 251
+Prognosis 251
+49 Menstrual function disorders
+
+252
+
+Deﬁnitions 252
+Clinical evaluation 253
+Laboratory evaluation 255
+Management 256
+50 Premature ovarian insufﬁciency (POI)
+
+257
+
+Deﬁnition 257
+Epidemiology 257
+Pathogenesis 259
+Clinical presentation 260
+Laboratory evaluation 261
+Management 262
+Prognosis 263
+51 Menopause
+
+264
+
+Deﬁnition 264
+Long-term consequences 266
+Clinical presentation 266
+Evaluation (if HRT is being considered) 267
+Hormone replacement therapy (HT) 268
+52 Oral contraceptive pill (OCP)
+
+275
+
+Introduction 275
+Beneﬁts 276
+Risks 277
+Practical issues 279
+53 Testicular physiology
+
+280
+
+Anatomy 280
+Regulation of testicular function 281
+Physiology 283
+54 Male hypogonadism
+Deﬁnition 284
+Epidemiology 284
+Secondary hypogonadism
+(hypogonadotropic hypogonadism) 285
+Primary hypogonadism
+(hypergonadotropic hypogonadism) 289
+Clinical assessment 293
+
+284
+
+xvii
+
+xviii
+
+DETAILED CONTENTS
+
+55 Androgen therapy
+
+296
+
+Treatment goals 296
+Indications for treatment 297
+Risks and side effects 298
+56 Gynecomastia
+
+301
+
+Deﬁnition 301
+Evaluation 303
+Management 305
+57 Erectile dysfunction
+
+306
+
+Deﬁnition 306
+Physiology of male sexual function 306
+Pathophysiology 307
+Evaluation 308
+Management 311
+58 Testicular tumors
+
+314
+
+Epidemiology 314
+Risk factors 314
+Prognosis 315
+59 Infertility
+
+316
+
+Deﬁnition 316
+Causes 317
+Evaluation 319
+Management 324
+Ovulation induction 328
+60 Disorders of sexual differentiation
+
+332
+
+Clinical presentation 332
+Evaluation 333
+Androgen insensitivity syndrome 335
+True hermaphroditism 336
+General principles of management 337
+61 Transsexualism
+
+339
+
+Deﬁnition 339
+Epidemiology 339
+Etiology 339
+Management 340
+
+Part 5 Endocrine disorders of pregnancy
+62 Thyroid disorders
+Normal physiology 346
+Maternal hyperthyroidism 347
+
+346
+
+DETAILED CONTENTS
+
+Maternal hypothyroidism 349
+Postpartum thyroid dysfunction 350
+Thyroid cancer in pregnancy 351
+63 Pituitary disorders
+
+352
+
+Normal anatomical changes during pregnancy 352
+Normal physiology during pregnancy 353
+Prolactinoma in pregnancy 354
+Cushing’s syndrome 356
+Acromegaly 357
+Hypopituitarism in pregnancy 358
+64 Adrenal disorders during pregnancy
+
+361
+
+Normal changes during pregnancy 361
+Addison’s disease in pregnancy 362
+Congenital adrenal hyperplasia 363
+Pheochromocytoma 364
+
+Part 6 Calcium and bone metabolism
+65 Calcium and bone physiology
+
+366
+
+Bone turnover 366
+Bone mass during life 367
+Calcium 368
+66 Investigation of bone
+
+369
+
+Bone turnover markers 369
+Bone imaging 370
+Bone mass measurements 371
+Bone biopsy 372
+67 Investigation of calcium, phosphate, and magnesium
+
+373
+
+Blood concentration 373
+Urine excretion 374
+Calcium-regulating hormones 375
+68 Hypercalcemia
+Epidemiology 376
+Causes 376
+Clinical features 377
+Hyperparathyroidism 379
+Treatment 382
+Complications of parathyroidectomy 384
+Other causes of hypercalcemia 385
+Familial hypocalciuric hypercalcemia (FHH) 387
+Vitamin D intoxication 387
+Sarcoidosis 388
+
+376
+
+xix
+
+xx
+
+DETAILED CONTENTS
+
+69 Hypocalcemia
+
+389
+
+Causes 389
+Clinical features 391
+Investigation 393
+Treatment 394
+70 Rickets and osteomalacia
+
+396
+
+Deﬁnitions 396
+Clinical features 396
+Diagnosis 397
+Vitamin D deﬁciency 399
+Hypophosphatemia 401
+71 Hypomagnesemia
+
+403
+
+Introduction 403
+Treatment 404
+72 Osteoporosis
+
+405
+
+Introduction 405
+Pathology 406
+Epidemiology 408
+Presentation 409
+Investigation 410
+Treatment 413
+Complications of therapy 417
+73 Paget’s disease
+
+421
+
+Pathology 421
+Epidemiology 422
+Clinical features 422
+Investigation 423
+Complications 424
+Treatment 425
+Monitoring therapy 426
+74 Inherited disorders of bone
+
+427
+
+Osteogenesis imperfecta 427
+
+Part 7 Pediatric endocrinology
+75 Growth and stature
+Growth 430
+Short stature 434
+Genetic short stature 436
+Constitutional delay of growth and puberty 436
+Growth hormone deﬁciency 437
+Tall stature and rapid growth 445
+
+430
+
+DETAILED CONTENTS
+
+76 Puberty
+
+447
+
+Normal puberty 447
+Precocious puberty 449
+Delayed or absent puberty 453
+77 Sexual differentiation
+
+455
+
+Normal sexual differentiation 455
+Assessment of ambiguous genitalia 456
+Disorders of sex development (DSD) 457
+Congenital adrenal hyperplasia 459
+
+Part 8 Neuroendocrine disorders
+78 The neuroendocrine system
+
+464
+
+Introduction 464
+79 Carcinoid tumors
+
+465
+
+Deﬁnition and classiﬁcation 465
+Incidence 465
+Carcinoid syndrome 466
+Diagnostic investigations 467
+Tumor localization and staging 468
+Treatment 469
+Prognosis 471
+80 Insulinomas
+
+472
+
+Deﬁnition 472
+Incidence 472
+Clinical presentation 472
+Biochemical investigations 472
+Tumor localization 473
+Treatment 474
+Prognosis 474
+81 Gastrinomas
+
+475
+
+Deﬁnition 475
+Prevalence 475
+Clinical presentation 475
+Biochemical investigations 476
+Treatment 477
+82 Glucagonomas
+Deﬁnition 478
+Incidence 478
+Clinical presentation 478
+Biochemical investigations 479
+
+478
+
+xxi
+
+xxii
+
+DETAILED CONTENTS
+
+Tumour localization 479
+Treatment 480
+83 VIPomas
+
+481
+
+Deﬁnition 481
+Clinical presentation 481
+Biochemical investigations 482
+Tumor localization 482
+Treatment 482
+84 Somatostatinomas
+
+483
+
+Deﬁnition 483
+Clinical features 483
+Biochemical investigations 484
+Tumor localization 484
+Treatment 484
+
+Part 9 Inherited endocrine syndromes and
+multiple endocrine neoplasia (MEN)
+85 McCune–Albright syndrome
+
+486
+
+Deﬁnition 486
+Genetics 486
+Clinical features 487
+Prognosis 488
+86 Neuroﬁbromatosis
+
+489
+
+Deﬁnition 489
+NF1 490
+87 Von Hippel–Lindau disease
+
+492
+
+Deﬁnition 492
+Genetics 493
+Clinical features 494
+Prognosis 495
+88 Carney complex
+
+496
+
+Deﬁnition 496
+Genetics 496
+Clinical presentation 496
+89 Cowden syndrome
+Incidence 497
+Genetics 497
+Clinical presentation 497
+
+497
+
+DETAILED CONTENTS
+
+90 POEMS syndrome
+
+498
+
+Deﬁnition 498
+Clinical presentation 498
+Treatment 498
+91 MEN type 1
+
+499
+
+Deﬁnition 499
+Genetics 499
+Clinical features 499
+Management 501
+Mutational analysis 501
+Screening 502
+92 MEN type 2
+
+503
+
+Deﬁnition 503
+Genetics 503
+Clinical features—MEN2a 504
+Clinical features—MEN2b 505
+Management 505
+Mutational analysis 506
+Screening 506
+93 Inherited primary hyperparathyroidism
+
+507
+
+Epidemiology 507
+Causes 507
+HPT-JT 507
+FIHP 508
+94 Inherited renal calculi
+
+509
+
+Deﬁnition 509
+Genetics 510
+Management 511
+
+Part 10 Miscellaneous endocrinology
+95 Hypoglycemia
+
+514
+
+Deﬁnition (Whipple’s triad) 514
+Epidemiology 515
+Pathophysiology 516
+Clinical features 517
+Management 519
+Postprandial reactive hypoglycemia (PRH) 520
+96 Obesity
+Deﬁnition 522
+Epidemiology 523
+Etiology 524
+
+522
+
+xxiii
+
+xxiv
+
+DETAILED CONTENTS
+
+Pathophysiology 526
+Consequences of obesity 527
+Evaluation of an obese patient 528
+Investigations 529
+Management 530
+97 Endocrinology and aging
+
+534
+
+Introduction 534
+Fluid and electrolyte homeostasis in the elderly 535
+Bone disease 537
+GH and IGF-1 in the elderly 538
+Gonadal function in the elderly 539
+Adrenal function in the elderly 541
+Thyroid disease 542
+98 Endocrinology of critical illness
+
+544
+
+Endocrine dysfunction and AIDS 544
+Cancer 549
+Syndromes of ectopic hormone production 550
+Liver disease 554
+Renal disease 556
+Endocrinology in the critically ill 558
+99 Perioperative management of endocrine patients
+
+561
+
+Transsphenoidal surgery/craniotomy 561
+Thyroidectomy 564
+Parathyroidectomy 565
+Pheochromocytoma 567
+100 Syndromes of hormone resistance
+
+569
+
+Deﬁnition 569
+Thyroid hormone resistance 569
+Androgen resistance 569
+Glucocorticoid resistance 569
+ACTH resistance 570
+Mineralocorticoid resistance 570
+Differential diagnosis of possible manifestations of
+endocrine disorders 571
+101 Stress and the endocrine system
+
+575
+
+Deﬁnition 575
+Endocrine effects of stress 576
+Metabolism 576
+102 Alternative or complementary therapy
+and endocrinology
+Introduction 577
+Alternative therapy used in patients with diabetes
+mellitus 578
+
+577
+
+DETAILED CONTENTS
+
+Alternative therapy used in menopause 580
+Alternative therapy used by patients with
+osteoporosis 582
+Miscellaneous 584
+
+Part 11 Diabetes
+103 Classiﬁcation and diagnosis
+
+586
+
+Background 586
+Diagnosis 586
+Classiﬁcation 587
+Genetics 590
+104 General management and treatment
+
+593
+
+Background 593
+Assessment of the newly diagnosed patient 594
+Dietary advice 595
+Oral hypoglycemic agents 595
+Insulin 599
+105 Diabetic eye disease
+
+604
+
+Epidemiology 604
+Clinical features and histological features 605
+Eye screening 607
+Treatment 609
+Surgical treatment 610
+106 Diabetic renal disease
+
+612
+
+Background 612
+Deﬁnition 612
+Epidemiology 613
+Making the diagnosis 613
+Pathology 614
+Pathogenesis 614
+Natural history 615
+Treatment 616
+107 Diabetic neuropathy
+
+619
+
+Deﬁnition 619
+Pathology 619
+Pathogenesis 620
+Peripheral sensorimotor neuropathy 621
+Autonomic neuropathy 624
+108 Macrovascular disease
+Epidemiology 627
+Pathogenesis 628
+
+627
+
+xxv
+
+xxvi
+
+DETAILED CONTENTS
+
+Lipid abnormalities found in patients with diabetes 629
+Hypertension 632
+109 Diabetic foot
+
+636
+
+Risk factors for foot ulcer development 637
+Treatment 638
+110 Diabetes and pregnancy
+
+641
+
+Background 641
+Risks 641
+Known diabetics and pregnancy 642
+Gestational diabetes 644
+111 Intercurrent events or disease
+
+648
+
+Surgery 648
+Skin, connective tissue, or joint disease 649
+112 Emergencies in diabetes
+
+651
+
+Diabetic ketoacidosis 651
+Hyperosmolar, nonketotic hyperglycemia 655
+Hypoglycemia 656
+
+Part 12 Lipids and hyperlipidemia
+113 Lipids and coronary heart disease
+
+660
+
+Physiology 660
+Pathogenesis 661
+Atherosclerosis 662
+CHD/atherosclerosis risk factors 662
+Assessment of CHD risk 663
+114 Primary hyperlipidemias
+
+669
+
+Background 669
+Polygenic hypercholesterolemia 669
+Familial hypercholesterolemia (FH) 669
+Clinical characterization 670
+Familial defective apolipoprotein B-100 (FDB) 671
+Familial hypertrigyceridemia 671
+Rare genetic hypertriglyceridemias 671
+Familial combined hyperlipidemia (FCHL) 672
+Familial dysbetalipoproteinemia 672
+Rare familial mixed dyslpidemias 673
+115 Secondary hyperlipidemias
+Background 674
+Causes 674
+
+674
+
+DETAILED CONTENTS
+
+116 Management of dyslipidemia
+
+677
+
+Background 677
+Primary and secondary prevention 677
+Drug therapy 678
+Aims of treatment 684
+
+Part 13 Laboratory endocrinology
+117 Pitfalls in laboratory endocrinology
+
+688
+
+Introduction 688
+Pre-analytical factors 689
+Analytical factors 690
+Post-analytical factors 691
+118 Reference intervals
+Introduction 693
+Thyroid function 693
+Adrenal and gonadal function 694
+Pituitary hormones 695
+Bone biochemistry 696
+Plasma gastrointestinal and pancreatic hormones 696
+Tumor markers 697
+Urinary collections 697

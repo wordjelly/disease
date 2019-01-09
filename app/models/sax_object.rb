@@ -120,22 +120,17 @@ class SaxObject
 			self.name.to_sym => {
 				:properties => {
 		          	:content_text => {
-						:type => 'keyword', 
-						:fields => {
-					        :raw => { 
-					          	:type =>  'text',
-						 	    :analyzer => "nGram_analyzer",
-								:search_analyzer => "whitespace_analyzer"
-					        }
-					    },
+						:type => 'text', 
+						:analyzer => "standard",
+						:search_analyzer => "whitespace_analyzer",
 						:copy_to => []
 					},
 					:title_text => {
 						:type => 'keyword', 
 						:fields => {
 					        :raw => { 
-					          	:type =>  'text',
-						 	    :analyzer => "nGram_analyzer",
+					          	:type =>  'text', 
+								:analyzer => "standard",
 								:search_analyzer => "whitespace_analyzer"
 					        }
 					    },
@@ -145,8 +140,8 @@ class SaxObject
 						:type => 'keyword', 
 						:fields => {
 					        :raw => { 
-					          	:type =>  'text',
-						 	    :analyzer => "nGram_analyzer",
+					          	:type =>  'text', 
+								:analyzer => "standard",
 								:search_analyzer => "whitespace_analyzer"
 					        }
 					    },
@@ -293,21 +288,28 @@ class SaxObject
 			self.components.each do |component|
 				component.satisfies_condition?(line)
 			end
-		end
+		end 
+		add_line(response[1])
+	end
+
+	def add_line(response_text)
 		if self.state == "on"
 			## is the self _doc ?
 			## in that case, if anything was already there, it should be committed.
 			## all the children should be cleared.
-			if self.name == "_doc"
-				if self.title_text.blank?
-					self.title_text = response[1]
+			unless response_text.blank?
+				if self.name == "_doc"
+					if self.title_text.blank?
+						self.title_text = response_text
+					else
+						## here we have to add the first line from the content into the title.
+						self.content_text += " " + response_text
+					end
 				else
-					self.content_text += " " + response[1]
+					self.content_text += " " + response_text
 				end
-			else
-				self.content_text += " " + response[1]
 			end
-		end 
+		end
 	end
 
 	####################################################################

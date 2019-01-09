@@ -1,26 +1,31 @@
 {
 	"name" : "_doc",
 	"process_with" : "title_processor", 
+	"textbook_name" : "Wills Eye Manual",
 	"components" : [
 		{
 		    "name" : "symptoms",
 			"process_with" : "symptoms_processor",
-			"components" : []
+			"components" : [],
+			"searchable" : true
 		},
 		{
 			"name" : "signs", 
 			"process_with" : "signs_processor",
-			"components" : []
+			"components" : [],
+			"searchable" : true
 		},
 		{
 			"name" : "treatment", 
 			"process_with" : "treatment_processor",
-			"components" : []
+			"components" : [],
+			"searchable" : true
 		},
 		{
 			"name" : "workup",
 			"process_with" : "workup_processor",
-			"components" : []
+			"components" : [],
+			"contains_tests" : true
 		}
 	]		
 }

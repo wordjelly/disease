@@ -27,9 +27,9 @@ module Concerns::EsBulkIndexConcern
 	
 	def self.do_bulk
 		add_total
-	  	puts "building bulk items"
+	  	#puts "building bulk items"
 	  	if bulk_items.blank?
-	  		puts "nothing to bulk"
+	  		#puts "nothing to bulk"
 	  		return
 	  	end
 	  	bulk_request = bulk_items.map{|c|
@@ -42,11 +42,13 @@ module Concerns::EsBulkIndexConcern
 
 	  		c
 	  	}
-	  	puts "making bulk call"
+	  	#puts "making bulk call"
 	  	resp = gateway.client.bulk body: bulk_request
-		puts "completed bulk of #{bulk_size} items."
-		puts "total bulked : #{total_items_bulked}"
-		puts "#{Time.now.to_i}"
+		if total_items_bulked.size > 0
+			puts "completed bulk of #{bulk_size} items."
+			puts "total bulked : #{total_items_bulked}"
+			puts "#{Time.now.to_i}"
+		end
 		reset_bulk_items
 	end
 

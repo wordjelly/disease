@@ -1,0 +1,8 @@
+{
+	"name" : "_doc",
+	"process_with" : "title_processor", 
+	"textbook_name" : "Oxford Endocrinology Manual",
+	"contains_tests" : true,
+	"searchable" : true,
+	"components" : []		
+}

@@ -118,8 +118,8 @@ class Test
 		tests_array = read_raw_text_files
 		tests_array.flatten!
 		tests_array = pre_process(tests_array)
-		puts "tests array is:"
-		puts tests_array.to_s
+		#puts "tests array is:"
+		#puts tests_array.to_s
 		tests_array
 	end
 

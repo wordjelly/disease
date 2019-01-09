@@ -1,0 +1,2627 @@
+DewhurstÕs Textbook of 
+Obstetrics & Gynaecology
+ This book is dedicated to my wife, Gill, and my children, Alastair, Nicholas 
+and Timothy, and to the memory of Sir Jack Dewhurst. 
+DewhurstÕs 
+Textbook of 
+Obstetrics & 
+Gynaecology 
+EDITED BY 
+D. KEITH EDMONDS FRCOG, RRACOG 
+Consultant Obstetrician and Gynaecologist 
+Queen CharlotteÕs & Chelsea Hospital 
+London, UK 
+EIGHTH EDITION 
+A John Wiley & Sons, Ltd., Publication
+This edition fi rst published 2012 © 2007, 1999, 1995, 1986, 1981, 1976 Blackwell Science; 
+1972 Blackwell Publishing Ltd; 2012 John Wiley and Sons, Ltd. 
+Wiley-Blackwell is an imprint of John Wiley & Sons, formed by the merger of WileyÕs global 
+Scientifi c, Technical and Medical business with Blackwell Publishing. 
+Registered offi ce: John Wiley & Sons, Ltd, The Atrium, Southern Gate, Chichester, West Sussex, 
+PO19 8SQ, UK 
+Editorial offi ces: 9600 Garsington Road, Oxford, OX4 2DQ, UK 
+The Atrium, Southern Gate, Chichester, West Sussex, PO19 8SQ, UK 
+111 River Street, Hoboken, NJ 07030-5774, USA 
+For details of our global editorial offi ces, for customer services and for information about how 
+to apply for permission to reuse the copyright material in this book please see our website at 
+www.wiley.com/wiley-blackwell 
+The right of the author to be identifi ed as the author of this work has been asserted in 
+accordance with the UK Copyright, Designs and Patents Act 1988. 
+All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, 
+or transmitted, in any form or by any means, electronic, mechanical, photocopying, recording or 
+otherwise, except as permitted by the UK Copyright, Designs and Patents Act 1988, without the 
+prior permission of the publisher. 
+Designations used by companies to distinguish their products are often claimed as trademarks. 
+All brand names and product names used in this book are trade names, service marks, 
+trademarks or registered trademarks of their respective owners. The publisher is not associated 
+with any product or vendor mentioned in this book. This publication is designed to provide 
+accurate and authoritative information in regard to the subject matter covered. It is sold on the 
+understanding that the publisher is not engaged in rendering professional services. If 
+professional advice or other expert assistance is required, the services of a competent 
+professional should be sought. 
+The contents of this work are intended to further general scientifi c research, understanding, and 
+discussion only and are not intended and should not be relied upon as recommending or 
+promoting a specifi c method, diagnosis, or treatment by physicians for any particular patient. 
+The publisher and the author make no representations or warranties with respect to the 
+accuracy or completeness of the contents of this work and specifi cally disclaim all warranties, 
+including without limitation any implied warranties of fi tness for a particular purpose. In view 
+of ongoing research, equipment modifi cations, changes in governmental regulations, and the 
+constant fl ow of information relating to the use of medicines, equipment, and devices, the 
+reader is urged to review and evaluate the information provided in the package insert or 
+instructions for each medicine, equipment, or device for, among other things, any changes in the 
+instructions or indication of usage and for added warnings and precautions. Readers should 
+consult with a specialist where appropriate. The fact that an organization or Website is referred 
+to in this work as a citation and/or a potential source of further information does not mean that 
+the author or the publisher endorses the information the organization or Website may provide 
+or recommendations it may make. Further, readers should be aware that Internet Websites listed 
+in this work may have changed or disappeared between when this work was written and when 
+it is read. No warranty may be created or extended by any promotional statements for this 
+work. Neither the publisher nor the author shall be liable for any damages arising herefrom. 
+Library of Congress Cataloging-in-Publication Data 
+DewhurstÕs textbook of obstetrics & gynaecology. Ð 8th ed. / edited by D. Keith Edmonds. 
+p. ; cm. 
+DewhurstÕs textbook of obstetrics and gynaecology 
+Textbook of obstetrics & gynaecology 
+Includes bibliographical references and index. 
+ISBN-13: 978-0-470-65457-6 (hardcover : alk. paper) 
+ISBN-10: 0-470-65457-0 (hardcover : alk. paper) 
+1. Gynecology. 2. Obstetrics. I. Dewhurst, John, Sir, 1920Ð II. Edmonds, D. 
+Keith. III. Title: DewhurstÕs textbook of obstetrics and gynaecology. IV. Title: Textbook of 
+obstetrics & gynaecology. 
+[DNLM: 1. Genital Diseases, Female. 2. Pregnancy Complications. WP 100] 
+RG101.D5573 2011 
+618Ðdc22 
+2011011044 
+A catalogue record for this book is available from the British Library. 
+Wiley also publishes its books in a variety of electronic formats. Some content that appears in 
+print may not be available in electronic books. 
+Set in 9.25 on 12 pt Palatino by Toppan Best-set Premedia Limited 
+01 2012
+Contents 
+v 
+Contributors, viii 
+Professor Sir John Dewhurst, xiii 
+Preface to the Eighth Edition, xiv 
+Preface to the First Edition, xv 
+Section 1 Obstetrics 
+Part 1 Basic Science 
+1 Maternal Physiology, 5 
+Fiona Broughton Pipkin 
+2 The Placenta and Fetal Membranes, 16 
+Berthold Huppertz and John C.P. Kingdom 
+3 Normal Fetal Growth, 26 
+Jason Gardosi 
+Part 2 Normal Pregnancy 
+4 Pre-conception Counselling, 35 
+Mandish K. Dhanjal 
+5 Antenatal Care, 42 
+George Attilakos and Timothy G. Overton 
+Part 3 Early Pregnancy Problems 
+6 Spontaneous Miscarriage, 53 
+Catriona M. Stalder 
+7 Recurrent Miscarriage, 60 
+Siobhan Quenby 
+8 Gestational Trophoblast Tumours, 66 
+Philip Savage and Michael Seckl 
+9 Ectopic Pregnancy, 76 
+Davor Jurkovic 
+10 Induced Abortion, 88 
+Gillian Flett and Allan Templeton 
+Part 4 Maternal Medicine 
+11 Hypertensive Disorders, 101 
+Jason J.S. Waugh and Maria C. Smith 
+12 Heart Disease in Pregnancy, 111 
+Catherine Nelson-Piercy 
+13 Diabetes and Endocrine Disease in Pregnancy, 121 
+Anne Dornhorst and Catherine Williamson 
+14 Renal Disease, 137 
+Sarah Winfi eld and John M. Davison 
+15 Haematological Problems in Pregnancy, 151 
+Peter Clark, Andrew J. Thomson and Ian A. Greer 
+16 Miscellaneous Medical Disorders, 173 
+Andrew McCarthy 
+Part 5 Fetal Medicine 
+17 Antenatal Screening, 185 
+Ruwan C. Wimalasundera 
+18 Disorders of Fetal Growth and Assessment of 
+Fetal Well-being, 200 
+Gordon C.S. Smith and Christoph C. Lees 
+19 Fetal Medical Conditions, 208 
+Janet Brennand 
+20 Fetal Anomalies, 219 
+Sailesh Kumar 
+21 Multiple Pregnancy, 230 
+Mark D. Kilby and Dick Oepkes 
+Part 6 Birth 
+22 The Normal Mechanisms of Labour, 247 
+AndrŽs L—pez Bernal and Errol R. Norwitz 
+23 Post-term Pregnancy, 269 
+Aaron B. Caughey
+vi Contents 
+24 Induction and Augmentation of Labour, 287 
+Jane E. Norman 
+25 Obstetric Emergencies, 296 
+Sara Paterson-Brown 
+26 Malpresentation, Malposition, 
+Cephalopelvic Disproportion and Obstetric 
+Procedures, 311 
+Sabaratnam Arulkumaran 
+27 Fetal Monitoring During Labour, 326 
+Sara Paterson-Brown 
+28 Preterm Labour, 338 
+Phillip Bennett 
+29 Analgesia, Anaesthesia and Resuscitation, 356 
+Felicity Plaat 
+Part 7 Postnatal Care 
+30 Puerperium and Lactation, 365 
+D. Keith Edmonds 
+31 Neonatal Care for Obstetricians, 377 
+Glynn Russell 
+32 Obstetric Statistics, 394 
+James J. Walker 
+Section 2 Gynaecology 
+Part 8 Gynaecology 
+33 Clinical Anatomy of the Pelvis and 
+Reproductive Tract, 413 
+Alan Farthing 
+34 Normal and Abnormal Development of the 
+Genital Tract, 421 
+D. Keith Edmonds 
+35 The Role of Ultrasound in Gynaecology, 435 
+Tom Bourne 
+36 Hysteroscopy and Laparoscopy, 448 
+Adam Magos 
+Part 9 Childhood and Adolescence 
+37 Puberty and Its Disorders, 471 
+D. Keith Edmonds 
+38 Gynaecological Disorders of Childhood and 
+Adolescence, 480 
+D. Keith Edmonds 
+Part 10 Menstruation 
+39 The Menstrual Cycle, 487 
+William L. Ledger 
+40 Contraception and Sterilization, 495 
+Sharon T. Cameron and Anna Glasier 
+41 Polycystic Ovary Syndrome and Secondary 
+Amenorrhoea, 513 
+Adam Balen 
+42 Menstrual Problems: Heavy Menstrual Bleeding and 
+Primary Dysmenorrhoea, 534 
+Andrew W. Horne and Hilary O.D. Critchley 
+43 Premenstrual Syndrome, 544 
+P.M. Shaughn OÕBrien 
+44 Menopause and the Postmenopausal Woman, 553 
+Nick Panay 
+Part 11 Inability to Conceive 
+45 Infertility, 567 
+Mark Hamilton 
+46 Assisted Reproduction, 580 
+Geoffrey Trew and Stuart Lavery 
+Part 12 Pelvic Pain 
+47 Pelvic Infection, 597 
+Jonathan D.C. Ross 
+48 Chronic Pelvic Pain, 607 
+R. William Stones 
+49 Endometriosis, 615 
+Stephen Kennedy and Philippe Koninckx 
+Part 13 Urogynaecology 
+50 Uterovaginal Prolapse, 627 
+Anthony R.B. Smith 
+51 Urinary Incontinence, 635 
+Dudley Robinson and Linda Cardozo 
+Part 14 Benign Gynaecological Disease 
+52 Benign Diseases of the Vulva, 695 
+Fiona M. Lewis and Sallie M. Neill 
+53 Benign Diseases of the Vagina, Cervix 
+and Ovary, 706 
+D. Keith Edmonds 
+54 Benign Disease of the Uterus, 715 
+Aradhana Khaund and Mary Ann Lumsden
+Contents vii 
+Part 15 Gynaecological Oncology 
+55 Malignant Disease of the Vulva and the Vagina, 729 
+David M. Luesley 
+56 Premalignant and Malignant Disease of the Cervix, 747 
+Mahmood I. Shafi 
+57 Epithelial Ovarian Cancer, 760 
+Hani Gabra and Sarah Blagden 
+58 Endometrial Cancer, 776 
+Sean Kehoe 
+Part 16 Miscellaneous Topics 
+59 Sexual Dysfunction, 785 
+Claudine Domoney 
+60 Domestic Violence and Sexual Assault, 798 
+Maureen Dalton 
+61 Ethical Dilemmas in Obstetrics and 
+Gynaecology, 805 
+Sheila McLean 
+62 The Law and the Obstetrician and 
+Gynaecologist, 815 
+Bertie Leigh 
+Index, 823 
+Colour plate sections can be found facing pages 432 
+(Plates 8.1Ð52.10) and 656 (Plates 52.11Ð55.7)
+Contributors 
+viii 
+Sir Sabaratnam Arulkumaran PhD, FRCS, FRCOG 
+Professor and Head of Obstetrics and Gynaecology 
+Deputy Head of Clinical Sciences 
+St George Õ s University of London 
+London, UK 
+George Attilakos MD, MRCOG 
+Consultant in Obstetrics and Fetal Medicine 
+Fetal Medicine Unit 
+University College London Hospitals NHS Foundation Trust 
+London, UK 
+Adam Balen MD, DSc, FRCOG 
+Professor of Reproductive Medicine and Surgery 
+Leeds Teaching Hospitals; 
+The Leeds Centre for Reproductive Medicine 
+Seacroft Hospital 
+Leeds, UK 
+Phillip Bennett BSc, PhD, MD, FRCOG 
+Professor of Obstetrics and Gynaecology 
+Imperial College London 
+London, UK 
+Sarah Blagden PhD, FRCP 
+Senior Lecturer in Medical Oncology 
+Ovarian Cancer Action Research Centre 
+Imperial College London Hammersmith Campus 
+London, UK 
+Tom Bourne PhD, FRCOG 
+Consultant Gynaecologist 
+Queen Charlotte Õ s & Chelsea Hospital 
+Imperial College NHS Trust 
+London, UK 
+Janet Brennand MD, FRCOG 
+Consultant in Fetal and Maternal Medicine 
+Southern General Hospital; 
+Honorary Clinical Senior Lecturer 
+University of Glasgow 
+Glasgow, UK 
+Fiona Broughton Pipkin MA, Dphil, 
+FRCOG ad eundem 
+Professor of Perinatal Physiology 
+Department of Obstetrics and Gynaecology 
+City Hospital 
+Nottingham, UK 
+Sharon T. Cameron MD, FRCOG 
+Consultant Gynaecologist 
+NHS Lothian and Part - time Senior Lecturer 
+Department of Reproductive and Developmental Sciences 
+University of Edinburgh; 
+Chalmers Sexual and Reproductive Health Service 
+Royal Infi rmary of Edinburgh 
+Edinburgh, UK 
+Linda Cardozo MD, FRCOG 
+Professor of Urogynaecology 
+Department of Urogynaecology 
+King Õ s College Hospital 
+London, UK 
+Aaron B. Caughey MD, MPP, MPH, PhD 
+Professor and Chair 
+Department of Obstetrics and Gynaecology 
+Oregon Health & Science University 
+Portland, OR, USA 
+Peter Clark BSc, MD, FRCP, FRCPath 
+Consultant Haematologist and Honorary Reader 
+Department of Transfusion Medicine 
+Ninewells Hospital and Medical School 
+Dundee, UK 
+Hilary O.D. Critchley BSc, MD, FRCOG, FMedSci 
+MRC Centre for Reproductive Health 
+University of Edinburgh 
+The Queen Õ s Medical Research Institute 
+Edinburgh, UK 
+Contributors ix 
+Maureen Dalton FRCOG, FFFLM, FFSRH 
+Clinical Lead Adviser Peninsula SARCs (Exeter, Plymouth and 
+Truro) 
+Consultant Obstetrician and Gyanecologist 
+Royal Devon and Exeter Hospital 
+Exeter, UK 
+John M. Davison BSc, MD, MSC, FRCOG 
+Institute of Cellular Medicine 
+Newcastle University 
+Newcastle upon Tyne, UK 
+Mandish K. Dhanjal BSc, MRCP, FRCOG 
+Consultant Obstetrician and Gynaecologist 
+Honorary Senior Lecturer 
+Queen Charlotte Õ s & Chelsea Hospital 
+Imperial College Healthcare NHS Trust 
+London, UK 
+Claudine Domoney MBBChir, MRCOG 
+Consultant Obstetrician and Gynaecologist, 
+Chair of the Institute of Psychosexual Medicine 
+Chelsea and Westminster Hospital 
+London, UK 
+Anne Dornhorst DM, FRCPath, FRCP 
+Hammersmith Hospital 
+Imperial College Healthcare NHS Trust 
+London, UK 
+Alan Farthing MD, FRCOG 
+Consultant Gynaecologist 
+Imperial College NHS Trust 
+London, UK 
+Gillian Flett FRCOG, FFSRH, MIPM 
+Clinical Lead Sexual Health 
+Consultant Sexual and Reproductive Health 
+Centre for Sexual and Reproductive Health 
+Aberdeen, UK 
+Hani Gabra PhD, FRCP 
+Professor of Medical Oncology 
+Ovarian Cancer Action Research Centre 
+Imperial College London Hammersmith Campus 
+London, UK 
+Jason Gardosi MD, FRCSE, FRCOG 
+Honorary Professor of Maternal and Perinatal Health 
+University of Warwick; 
+Director 
+West Midlands Perinatal Institute 
+Birmingham, UK 
+Anna Glasier BSc, MD, DSc, FRCOG, FFPHC, OBE 
+Honorary Professor 
+University of Edinburgh Clinical Sciences and Community 
+Health 
+Edinburgh; 
+School of Hygiene and Tropical Medicine 
+University of London 
+London, UK 
+Ian A. Greer MD, MFFP, FRCP, FRCOG 
+Consultant Obstetrician and Executive Pro - Vice - Chancellor 
+Faculty of Health and Life Sciences 
+University of Liverpool 
+Liverpool, UK 
+Mark Hamilton MD, FRCOG 
+Department of Obstetrics and Gynaecology 
+University of Aberdeen 
+Aberdeen Maternity Hospital 
+Aberdeen, UK 
+Andrew W. Horne PhD, MRCOG 
+MRC Centre for Reproductive Health 
+University of Edinburgh 
+The Queen Õ s Medical Research Institute 
+Edinburgh, UK 
+Berthold Huppertz PhD 
+Professor of Cell Biology 
+Institute of Cell Biology, Histology and Embryology 
+Medical University of Graz 
+Graz, Austria 
+Davor Jurkovic MD, FRCOG 
+Consultant Gynaecologist 
+Pregnancy and Gynaecology Assessment Unit 
+King Õ s College Hospital 
+London, UK 
+Sean Kehoe MA, MD, DCH, FRCOG, FHEA 
+Lead Gynaecological Oncologist 
+Oxford Gynaecological Cancer Centre 
+Churchill Hospital 
+Oxford, UK 
+x Contributors 
+Stephen Kennedy MA, MD, MRCOG 
+Professor of Reproductive Medicine and Head of Department 
+Nuffi eld Department of Obstetrics and Gynaecology; 
+Co - Director 
+Oxford Maternal and Perinatal Health Institute 
+Green Templeton College 
+University of Oxford; 
+Clinical Director Women Õ s Services 
+Oxford Radcliffe Hospitals NHS Trust 
+The Women Õ s Centre 
+Oxford, UK 
+Aradhana Khaund MD, MRCOG 
+Locum Consultant in Obstetrics and Gynaecology 
+Department of Obstetrics and Gynaecology 
+Southern General Hospital 
+South Glasgow University Hospitals 
+Glasgow, UK 
+Mark D. Kilby MD, FRCOG 
+Professor of Fetal Medicine 
+School of Clinical and Experimental Medicine 
+College of Medical and Dental Sciences 
+University of Birmingham; 
+Fetal Medicine Centre 
+Birmingham Women Õ s Foundation Trust 
+Birmingham, UK 
+John C.P. Kingdom MD, FRCSC, FRCOG 
+Department of Obstetrics and Gynecology 
+Samuel Lunenfeld Research Institute 
+Mount Sinai Hospital 
+Toronto, Canada 
+Philippe Koninckx MD, PhD 
+Nuffi eld Department of Obstetrics and Gynaecology 
+University of Oxford 
+Oxford, UK; 
+Department of Obstetrics and Gynecology 
+University of Leuven 
+Leuven, Belgium 
+Sailesh Kumar FRCS, FRCOG, FRANZCOG, DPhil(Oxon), 
+CMFM 
+Consultant and Senior Lecturer in Fetal Medicine, Obstetrics and 
+Gynaecology 
+Queen Charlotte Õ s & Chelsea Hospital 
+Imperial College London 
+London, UK 
+Stuart Lavery MBBS, MRCOG 
+Hammersmith Hospital 
+London, UK 
+William L. Ledger MA, DPhil, FRCOG, FRANZCOG 
+Professor and Head of Department of Obstetrics and 
+Gynaecology 
+University of New South Wales 
+Royal Hospital for Women 
+Sydney, Australia 
+Christoph C. Lees MD, MRCOG 
+Consultant in Obstetrics and Fetal Ð Maternal Medicine 
+Lead, Fetal Medicine 
+The Rosie Hospital 
+Addenbrookes NHS Trust 
+Cambridge, UK 
+Bertie Leigh Hon FRCPCH, FRCOG ad eundem 
+Solicitor 
+Senior Partner Hempsons 
+Hempsons 
+London, UK 
+Fiona M. Lewis MD, FRCP 
+Wexham Park Hospital 
+Slough, UK; 
+St John Õ s Institute of Dermatology 
+St Thomas . Hospital 
+London, UK 
+AndrŽs L —pez Bernal MD, DPhil ( Oxon) 
+School of Clinical Sciences 
+University of Bristol; 
+St Michael . s Hospital 
+Bristol, UK 
+David M. Luesley MA, MD, FRCOG 
+Professor of Gyanecological Oncology 
+University of Birmingham 
+Birmingham, UK 
+Mary Ann Lumsden MD, FRCOG 
+Head of Section 
+Reproductive and Maternal Medicine 
+University of Glasgow 
+Royal Infi rmary 
+Glasgow, UK 
+Andrew McCarthy FRCOG 
+Consultant Obstetrician 
+Imperial College Healthcare 
+London, UK 
+Contributors xi 
+Sheila McLean LLB, MLitt, PhD, LLD (Edin), 
+LLD (Abertay, Dundee), FRSE, FRCGP, FBS, FMedSci, 
+FRCP (Ed), FRSA 
+Professor of Law and Ethics in Medicine 
+Institute of Law and Ethics in Medicine 
+University of Glasgow 
+Glasgow, UK 
+Adam Magos BSc, MB, BS, MD, FRCOG 
+Consultant Gynaecologist/Honorary Senior Lecturer 
+Royal Free Hospital 
+London, UK 
+Sallie M. Neill FRCP 
+St John Õ s Institute of Dermatology 
+St Thomas Õ s Hospital 
+London, UK 
+Catherine Nelson -Piercy MA, FRCP, FRCOG 
+Consultant Obstetric Physician 
+Professor of Obstetric Medicine 
+Guy Õ s and St Thomas Õ Foundation Trust 
+Queen Charlotte Õ s & Chelsea Hospital 
+London, UK 
+Jane E. Norman MD, FRCOG 
+Professor of Maternal and Fetal Health 
+MRC Centre for Reproductive Biology 
+University of Edinburgh 
+The Queen Õ s Medical Research Centre 
+Edinburgh, UK 
+Errol R. Norwitz MD, DPhil ( Oxon) 
+Department of Obstetrics 
+Gynecology and Reproductive Sciences Yale 
+New Haven Hospital 
+New Haven, CT, USA 
+P.M. Shaughn O ÕBrien DSc, MD, FRCOG 
+Professor of Obstetrics and Gynaecology 
+Keele University School of Medicine 
+Stoke on Trent, UK 
+Dick Oepkes MD, PhD 
+Department of Obstetrics 
+Leiden University Medical Centre 
+Leiden, Netherlands 
+Timothy G. Overton BSc, MRCGP, MD, FRCOG 
+Consultant in Obstetrics and Fetal Medicine 
+St Michael Õ s Hospital 
+University Hospitals Bristol NHS Foundation Trust 
+Bristol, UK 
+Nick Panay BSc, MRCOG, MFSRH 
+Consultant Gynaecologist, Specialist in Reproductive Medicine 
+Queen Charlotte Õ s & Chelsea Hospital; 
+Chelsea and Westminster Hospital 
+West London Menopause & PMS Centre; 
+Honorary Senior Lecturer 
+Imperial College London 
+London, UK 
+Sara Paterson -Brown FRCS, FRCOG 
+Consultant Obstetrician and Gynaecologist 
+Clinical Lead for Labour Ward and Maternity Risk 
+Queen Charlotte Õ s & Chelsea Hospital 
+Imperial College NHS Healthcare Trust 
+London, UK 
+Felicity Plaat BA, MBBS, FRCA 
+Consultant Anaesthetist & Honorary Senior Lecturer 
+Queen Charlotte Õ s & Chelsea Hospital 
+Imperial College School of Medicine 
+London, UK 
+Siobhan Quenby BSc, MBBS, MD, FRCOG 
+Professor of Obstetrics 
+Clinical Science Research Institute 
+University of Warwick 
+University Hospital Ð Walsgrave Campus 
+Coventry, UK 
+Dudley Robinson MD, FRCOG 
+Consultant Urogynaecologist/Honorary Senior Lecturer 
+Department of Urogynaecology 
+King Õ s College Hospital 
+London, UK 
+Jonathan D.C. Ross MD, FRCP 
+Professor of Sexual Health and HIV 
+Whittall Street Clinic 
+Birmingham, UK 
+Glynn Russell MBChB, FCPSA, FRCP, FRCPCH 
+Division of Neonatology 
+Imperial College Healthcare NHS Trust 
+London, UK 
+Philip Savage PhD, FRCP 
+Consultant in Medical Oncology 
+Charing Cross Hospital 
+Imperial Hospitals NHS Trust 
+London, UK 
+xii Contributors 
+Michael Seckl PhD, FRCP 
+Director 
+Charing Cross Gestational Trophoblastic Disease Centre and 
+Supraregional Tumour Masker Assay Service 
+Charing Cross Hospital 
+Imperial College NHS Healthcare Trust 
+London, UK 
+Mahmood I. Shafi MB, Bch, MD, DA, FRCOG 
+Consultant Gynaecological Surgeon and Oncologist 
+Addenbrookes Hospital 
+Cambridge, UK 
+Anthony R.B. Smith MD, FRCOG 
+The Warrell Unit 
+St Mary Õ s Hospital 
+Manchester, UK 
+Gordon C.S. Smith MD, PhD 
+Department of Obstetrics and Gynaecology 
+The Rosie Hospital 
+Addenbrookes NHS Trust 
+Cambridge, UK 
+Maria C. Smith MD, MRCOG 
+Senior Lecturer/Consultant Obstetrician 
+Reproductive and Vascular Biology Group 
+Institute of Cellular Medicine 
+Newcastle University 
+Newcastle upon Tyne, UK 
+Catriona M. Stalder MBChB, MRCOG 
+Consultant Obstetrician & Gynaecologist 
+Queen Charlotte Õ s & Chelsea Hospital 
+London, UK 
+Peter Stewart MA (Oxon), BMBCH (Oxon), FRCOG 
+Royal Hallamshire Hospital 
+Sheffi eld, UK 
+R. William Stones MD, FRCOG 
+The Puribai Kanji Jamal Professor and Chair 
+Department of Obstetrics and Gynaecology 
+Aga Khan University 
+Nairobi, Kenya 
+Allan Templeton CBE, MD, FRCOG, FRCP, FMedSci 
+University of Aberdeen 
+Aberdeen Maternity Hospital 
+Aberdeen, UK 
+Andrew J. Thompson BSc, MD, MRCOG 
+Consultant Obstetrician and Gynaecologist 
+Royal Alexandra Hospital 
+Paisley, UK 
+Geoffrey Trew MBBS, MRCOG 
+Hammersmith Hospital 
+London, UK 
+James J. Walker MD, FRCP, FRCOG, FRSM 
+Department of Obstetrics and Gynaecology 
+St James Õ s University Hospital 
+Leeds, UK 
+Jason Waugh BSc (hons), MBBS, DA, MRCOG 
+Consultant Obstetrics and Maternal Medicine 
+Royal Victoria Infi rmary 
+Newcastle upon Tyne, UK 
+Catherine Williamson MD 
+Institute of Reproductive and Developmental Biology 
+Imperial College London 
+London, UK 
+Ruwan C. Wimalasundera BSc, MBBS, MRCOG 
+Consultant Obstetrician & Lead for Fetal Medicine 
+Queen Charlotte Õ s & Chelsea Hospital 
+Imperial College NHS Healthcare Trust 
+London, UK 
+Sarah Winfi eld BSc, MBBS, MRCOG 
+Consultant Obstetrician 
+Leeds Teaching Hospitals NHS Trust 
+Leeds, UK 
+Professor Sir John Dewhurst 
+xiii 
+Professor Sir John Dewhurst died on 1 December 2006. 
+Jack, as he was known to all his colleagues, was a doyen 
+amongst obstetricians and gynaecologists of the twentieth 
+century. His reputation was internationally renowned 
+and he became a worldwide expert in paediatric and adolescent 
+gynaecology, for which he received due accolade. 
+He was also an outstanding teacher of obstetrics and 
+gynaecology, and, as such, this textbook, which he began 
+in the 1970s, is testament to his dedication to the passing 
+on of knowledge to others. In 1976 he became President 
+of the Royal College of Obstetricians and Gynaecologists, 
+a post he held for 3 years, for which he was subsequently 
+knighted. He retired in 1986 after a long and dis tinguished 
+career, but his legacy lives on and he will be remembered 
+with great affection and professional respect by all who 
+knew him. 
+Keith Edmonds 
+December 2011
+Preface to the Eighth Edition 
+xiv 
+As I write this, it is almost 40 years since the 1st edition 
+of DewhurstÕ s Postgraduate Obstetrics and Gynaecology was 
+published. There are only a very few books that have 
+stood the test of such longevity and it is a tribute to the 
+concept that Jack Dewhurst had that the book continues 
+now into its 8th edition. Jack Õ s concept was to provide the 
+postgraduate student with an advanced and integrated 
+text for education and it is that philosophy which carries 
+into this, the 8th, edition. No textbook can be totally comprehensive, 
+and any postgraduate student reading this 
+text we hope will be stimulated by the knowledge gained 
+to go on and acquire further, more in - depth and specialist 
+knowledge. 
+This edition has been redesigned with the hope that the 
+readers will acquire knowledge in as quick and as comprehensive 
+a way as possible. The specialty continues to 
+develop and advance and gynaecology particularly is 
+becoming increasingly a medical specialty and less of a 
+surgical one. This of course is to the benefi t of women as 
+therapeutic advances offer them an increasing range of 
+options to improve their quality of life. Obstetrics becomes 
+increasingly focused on differentiating between the 
+normal and the complicated pregnancy, with increasing 
+emphasis on improved treatments for medically compromised 
+mothers and fetuses and subsequently neonates. 
+Again, quality of life is the overriding tenet as the practice 
+of obstetrics and gynaecology improves worldwide. 
+It is still extremely sad that a quarter of a million 
+women die every year worldwide as a result of childbirth 
+and it is hoped that this volume will make some contribution 
+towards improving these fi gures. 
+Many new authors have accepted the challenge to contribute 
+to this edition and, along with those authors who 
+have contributed in the past, I offer my sincere thanks for 
+the time and effort they have put into constructing their 
+chapters. We hope we have done this in a way that the 
+reader will fi nd intellectually challenging and rewarding. 
+Finally, I would like to thank my secretary, Liz Manson, 
+who has been the tower of strength behind the production 
+of this volume, and also the team at Blackwell Publishing, 
+which has changed several times during the nidation of 
+this edition but has never wavered in their endeavour to 
+achieve the fi nal vision. 
+Keith Edmonds 
+December 2011 
+Preface to the First Edition 
+xv 
+Our purpose in writing this book has been to produce a 
+comprehensive account of what the specialist in training 
+in obstetrics and gynaecology must know. Unfortunately 
+for him, he must now know a great deal, not only about 
+his own subject, but about certain aspects of closely allied 
+specialties such as endocrinology, biochemistry, cytogenetics, 
+psychiatry, etc. Accordingly we have tried to offer 
+the postgraduate student not only an advanced textbook 
+in obstetrics and gynaecology but one which integrates 
+the relevant aspects of other subjects which nowadays 
+impinge more and more on the clinical fi eld. 
+To achieve this aim within, we hope, a reasonable 
+compass we have assumed some basic knowledge which 
+the reader will have assimilated throughout his medical 
+training, and we have taken matters on from there. 
+Fundamental facts not in question are stated as briefl y as 
+is compatible with accuracy and clarity, and discussion is 
+then devoted to more advanced aspects. We acknowledge 
+that it is not possible even in this way to provide all the 
+detail some readers may wish, so an appropriate bibliography 
+is provided with each chapter. Wherever possible 
+we have tried to give a positive opinion and our reasons 
+for holding it, but to discuss nonetheless other important 
+views; this we believe to be more helpful than a complete 
+account of all possible opinions which may be held. We 
+have chosen moreover to lay emphasis on fundamental 
+aspects of the natural and the disease processes which are 
+discussed; we believe concentration on these basic physiological 
+and pathological features to be important to the 
+proper training of a specialist. Clinical matters are, of 
+course, dealt with in detail too, whenever theoretical discussion 
+of them is rewarding. There are, however, some 
+clinical aspects which cannot, at specialist level, be considered 
+in theory with real benefi t; examples of these are 
+how to palpate a pregnant woman Õ s abdomen and how 
+to apply obstetric forceps. In general these matters are 
+considered very briefl y or perhaps not at all; this is not a 
+book on how things are done, but on how correct treatment 
+is chosen, what advantages one choice has over 
+another, what complications are to be expected, etc. 
+Practical matters, we believe, are better learnt in practice 
+and with occasional reference to specialized textbooks 
+devoted solely to them. 
+A word may be helpful about the manner in which the 
+book is set out. We would willingly have followed the 
+advice given to Alice when about to testify at the trial of 
+the Knave of Hearts in Wonderland, Ô Begin at the beginning, 
+keep on until you come to the end and then stop Õ . 
+But this advice is diffi cult to follow when attempting to 
+fi nd the beginning of complex subjects such as those to 
+which this book is devoted. Does the beginning lie with 
+fertilization; or with the events which lead up to it; or 
+with the genital organs upon the correct function of which 
+any pregnancy must depend; or does it lie somewhere 
+else? And which direction must we follow then? The disorders 
+of reproduction do not lie in a separate compartment 
+from genital tract disease, but each is clearly 
+associated with the other for at least part of a woman Õ s 
+life. Although we have attempted to integrate obstetrics 
+with gynaecology and with their associated specialties, 
+some separation is essential in writing about them, and 
+the plan we have followed is broadly this Ð we begin with 
+the female child in utero , follow her through childhood to 
+puberty, through adolescence to maturity, through pregnancy 
+to motherhood, through her reproductive years to 
+the climacteric and into old age. Some events have had to 
+be taken out of order, however, although reiteration has 
+been avoided by indicating to the reader where in the 
+book are to be found other sections dealing with different 
+aspects of any subject under consideration. We hope that 
+our efforts will provide a coherent, integrated account of 
+the fi eld we have attempted to cover which will be to the 
+satisfaction of our readers. 
+Sir John Dewhurst 
+1972 
+Section 1 
+Obstetrics
+Part 1 
+Basic Science
+Chapter 1 
+Maternal Physiology 
+Fiona Broughton Pipkin 
+Department of Obstetrics and Gynaecology, City Hospital, Nottingham, UK 
+DewhurstÕs Textbook of Obstetrics & Gynaecology, Eighth Edition. Edited by D. Keith Edmonds. 
+© 2012 John Wiley and Sons, Ltd. Published 2012 by John Wiley and Sons, Ltd. 
+The physiological changes of pregnancy are strongly 
+proactive, not reactive, with the luteal phase of every 
+ovulatory menstrual cycle Ô rehearsing Õ for pregnancy [1] . 
+Most pregnancy - driven changes are qualitatively in place 
+by the end of the fi rst trimester, only maturing in magnitude 
+thereafter. This chapter gives a brief overview of the 
+major changes. 
+Maternal response to pregnancy 
+Normal pregnancy evokes a systemic infl ammatory 
+response, which includes the endothelium [2] . This may 
+explain the greater risk of cardiovascular disease in later 
+life of parous women in comparison with nulliparous 
+women. Markers of oxidative Ô stress Õ rise progressively 
+throughout the fi rst and second trimesters, but plasma 
+concentrations of some endogenous antioxidants, such as 
+superoxide dismutase, rise in parallel. The free radical 
+superoxide is generated through a variety of pathways, 
+including placental ones, but is more damaging when 
+converted to the peroxide radical, a reaction catalysed by 
+free iron in the plasma. Increasing concern is being 
+expressed about over - supplementation with iron, especially 
+in conjunction with vitamin C (which increases 
+absorption) in pregnant women without evidence of iron 
+defi ciency and several studies have shown evidence of 
+increased oxidative stress in such women [3] . Conversely, 
+the low dietary selenium intake in women in the UK may 
+predispose to lower activity of the antioxidant glutathione 
+peroxidase and thioredoxin systems in pregnancy. 
+Immunology 
+Only two types of fetal tissue come into direct contact 
+with maternal tissues: the villous trophoblast and the 
+extravillous trophoblast. Villous trophoblast, which is a 
+continuous syncytium, is bathed in maternal blood but 
+seems to be immunologically inert and never expresses 
+HLA class I or class II molecules. Extravillous trophoblast 
+is directly in contact with maternal endometrial/decidual 
+tissues and does not express the major T - cell ligands, 
+HLA - A or HLA - B; the HLA class I molecules which are 
+expressed are the trophoblast - specifi c HLA - G and HLA - C 
+and HLA - E. The decidual uterine natural killer (NK) cells, 
+the main type of decidual lymphocyte, differ from those 
+in the systemic circulation. They express surface killer 
+immunoglobulin- like receptors (KIRs), which bind to 
+HLA - C and HLA - G on trophoblast. HLA - E and HLA - G 
+are effectively monomorphic, but HLA - C is polymorphic, 
+with two main groups, HLA - C1 and the HLA - C2. The 
+KIRs are very highly polymorphic, but again fall into two 
+main classes, KIR - A (non - activating) and KIR - B (multiply 
+activating). Thus the very polymorphic KIR in maternal 
+tissues and the polymorphic HLA - C in the fetus make up 
+a potentially very variable receptor Ð ligand system. 
+The effect of this on implantation has been inferred 
+from indirect evidence. Both recurrent miscarriage and 
+pre - eclampsia are associated with poor trophoblast invasion. 
+The maternal KIR genotype may be AA, AB or BB. 
+Since the identifi able trophoblast HLA - C allotypes are 
+HLA - C1 and HLA - C2, there are nine possible combinations. 
+It has been shown that if the maternal KIR haplotype 
+is AA, and the trophoblast expresses any HLA - C2, 
+then the possibility of miscarriage or pre - eclampsia is 
+signifi cantly increased. However, even one KIR - B provides 
+protection [4] . HLA - C2 is highly inhibitory to trophoblast 
+migration, and thus appears to need Ô activating 
+KIR Õ to overcome it. 
+The uterus 
+The fi rst - trimester human embryo appears to gain nutrients 
+histiotrophically, from the endometrial glands. These 
+5
+6 Chapter 1 
+Fig. 1.1 Flow chart of the probable sequence of initial 
+cardiovascular activation. ALD, aldosterone; BP, systemic arterial 
+blood pressure; CO, cardiac output; HR, heart rate; PROG, 
+progesterone; PV, plasma volume; RAS, renin Ð angiotensin 
+system; Symp NS, sympathetic nervous system; TPR, total 
+peripheral resistance; U Na , urinary sodium excretion. 
+glandular secretions are rich in carbohydrates, lipids and 
+growth factors and can well support early growth while 
+the conceptus is small [5] . The outer third of the myometrium, 
+as well as the endometrium, is anatomically 
+changed by pregnancy, and once a pregnancy has gone 
+beyond the fi rst trimester, these changes appear to be 
+irreversible. The most striking change is in the spiral 
+arteries, which undergo extensive remodelling. Extravillous 
+trophoblast attacks these vessels as interstitial cells 
+within the stroma, and as endovascular cells within the 
+vascular lumen. In normal pregnancy, the summed effects 
+are the conversion of these vessels into fl oppy thin - walled 
+vessels that do not respond to vasoconstrictor stimuli, so 
+allowing the maximum fl ow to reach the placenta. This 
+remodelling is only completed in the early second trimester, 
+but is impaired in both pre - eclampsia and normotensive 
+intrauterine growth restriction. 
+The uterus must be maintained in quiescence until 
+labour is initiated. The mechanisms responsible for this 
+have not been fully elucidated, but include locally - 
+generated nitric oxide, probably acting through cyclic 
+GMP or voltage - gated potassium channels, while a 
+number of hormones such as prostacyclin, prostaglandin 
+(PG)E2 and calcitonin gene - related peptide act through G s 
+receptors, and are relaxatory. 
+The cardiovascular system 
+There is a signifi cant fall in total peripheral resistance by 
+6 weeks Õ gestation to a nadir of about 40% by mid - 
+gestation, resulting in a fall in afterload. This is Ô perceived Õ 
+as circulatory underfi lling, which activates the renin Ð 
+angiotensin Ð aldosterone system and allows the necessary 
+expansion of the plasma volume (PV) (Fig. 1.1 ) [6,7] . By 
+the late third trimester, the PV has increased from its 
+baseline by about 50% in a fi rst pregnancy and 60% in a 
+second or subsequent pregnancy. The bigger the expansion, 
+the bigger, on average, the birthweight of the 
+baby. The total extracellular fl uid volume rises by about 
+16% by term, so the percentage rise in PV is disproportionate 
+to the whole. The plasma osmolality falls by about 
+10 mosmol/kg as water is retained. 
+The heart rate rises synchronously, by 10 Ð 15 bpm, so 
+the cardiac output begins to rise [8] . There is probably a 
+fall in barorefl ex sensitivity as pregnancy progresses, 
+and heart rate variability falls. Stroke volume rises a little 
+later in the fi rst trimester. These two factors push the 
+cardiac output up by 35 Ð 40% in a fi rst pregnancy, and by 
+about 50% in later pregnancies; it can rise by a further 
+third in labour (Fig. 1.2 ). Table 1.1 summarizes the percentage 
+changes in some cardiovascular variables during 
+pregnancy. 
+Measuring systemic arterial blood pressure in pregnancy 
+is notoriously diffi cult, but there is now broad consensus 
+that Korotkoff 5 should be used with auscultatory 
+techniques [9] . However measured, there is a small fall in 
+systolic, and a greater fall in diastolic, blood pressure 
+during the fi rst half of pregnancy, resulting in an increased 
+pulse pressure. The blood pressure then rises steadily, in 
+parallel with an increase in peripheral sympathetic activity, 
+and even in normotensive women there may be some 
+late overshoot of non - pregnant values. Supine hypotension 
+occurs in about 8% of women in late gestation as the 
+uterus falls back onto the inferior vena cava, reducing 
+venous return. 
+The pressor response to angiotensin II is reduced in 
+normal pregnancy but is unchanged to noradrenaline. 
+The reduced sensitivity to angiotensin II presumably protects 
+against the potentially pressor levels of angiotensin 
+II found in normal pregnancy and is associated with 
+lower receptor density; plasma noradrenaline is not 
+increased in normal pregnancy. Pregnancy does not alter 
+the response of intramyometrial arteries to a variety of 
+vasoconstrictors. Nitric oxide may modulate myogenic 
+tone and fl ow - mediated responses in the resistance vasculature 
+of the uterine circulation in normal pregnancy. 
+The venous pressure in the lower circulation rises, 
+for both mechanical and hydrodynamic reasons. The 
+pulmonary circulation is able to absorb high rates of 
+fl ow without an increase in pressure so pressure in the 
+right ventricle, and the pulmonary arteries and capillaries, 
+does not change. Pulmonary resistance falls in 
+early pregnancy, and does not change thereafter. There 
+is progressive venodilatation and rises in venous distensibility 
+and capacitance throughout a normal pregnancy, 
+possibly because of increased local nitric oxide 
+synthesis.
+Maternal Physiology 7 
+Fig. 1.2 Major haemodynamic changes 
+associated with normal human pregnancy. 
+The marked augmentation of cardiac 
+output results from asynchronous increases 
+in both heart rate (HR) and stroke volume 
+(SV). Despite the increases in cardiac 
+output, blood pressure (BP) decreases for 
+most of pregnancy. This implies a very 
+substantial reduction in total peripheral 
+vascular resistance (TPVR). 
+Table 1.1 Percentage changes in some cardiovascular variables 
+during pregnancy. 
+First 
+trimester 
+Second 
+trimester 
+Third 
+trimester 
+Heart rate (bpm) +11 +13 +16 
+Stroke volume (mL) +31 +29 +27 
+Cardiac output (L/min) +45 +47 +48 
+Systolic blood pressure 
+(mmHg) 
+.1 +1 +6 
+Diastolic blood pressure 
+(mmHg) 
+.6 .3 +7 
+MPAP (mmHg) +5 +5 +5 
+Total peripheral resistance 
+(resistance units) 
+.27 .27 .29 
+MPAP, mean pulmonary artery pressure. Data are derived from 
+studies in which pre -conception values were determined. The mean 
+values shown are those at the end of each trimester and are thus 
+not necessarily the maxima. Note that most changes are near 
+maximal by the end of the fi rst trimester. 
+Source: data from Robson et al. [8]. 
+The respiratory system 
+Tidal volume rises by about 30% in early pregnancy to 
+40 Ð 50% above non - pregnant values by term, with a fall in 
+expiratory reserve and residual volume (Fig. 1.3 ) [10] . 
+Neither forced expiratory volume in 1 s (FEV 1 ) nor peak 
+expiratory fl ow rate are affected by pregnancy, even in 
+women with asthma. The rise in tidal volume is largely 
+driven by progesterone, which appears to decrease the 
+threshold and increase the sensitivity of the medulla 
+oblongata to carbon dioxide. Respiratory rate does not 
+change, so the minute ventilation rises by a similar 
+amount. This over - breathing begins in every luteal phase; 
+the Pco2 is lowest in early gestation. Progesterone also 
+increases erythrocyte carbonic anhydrase concentration, 
+which will also lower Pco2. Carbon dioxide production 
+rises sharply during the third trimester, as fetal metabolism 
+increases. The fall in maternal Pco2 allows more 
+effi cient placental transfer of carbon dioxide from the 
+fetus, which has a Pco2 of around 55 mmHg (7.3 kPa). The 
+fall in Pco2 results in a fall in plasma bicarbonate concentration 
+(to about 18 Ð 22 mmol/L compared with the 
+normal of 24 Ð 28 mmol/L), which contributes to the fall in 
+plasma osmolality; the peripheral venous pH rises slightly 
+(Table 1.2 and Fig. 1.4 ). 
+The increased alveolar ventilation results in a much 
+smaller proportional rise in Po2 from about 96.7 to 
+101.8 mmHg (12.9 Ð 13.6 kPa). This increase is offset by the 
+rightward shift of the maternal oxyhaemoglobin dissociation 
+curve caused by an increase in 2,3 - diphosphoglycerate 
+(2,3 - DPG) in the erythrocytes. This facilitates oxygen 
+unloading to the fetus, which has both a much lower Po2 
+(25 Ð 30 mmHg, 3.3 Ð 4.0 kPa) and a marked leftward shift of 
+the oxyhaemoglobin dissociation curve, due to the lower 
+sensitivity of fetal haemoglobin to 2,3 - DPG. 
+There is an increase of about 16% in oxygen consumption 
+by term due to increasing maternal and fetal demands. 
+Since the increase in oxygen - carrying capacity of the 
+blood (see section Haematology) is about 18%, there is 
+8 Chapter 1 
+Haematology 
+The circulating red cell mass rises by 20 Ð 30% during pregnancy, 
+with increases in both cell number and size. It rises 
+more in women with multiple pregnancies, and substantially 
+more with iron supplementation ( . 29% compared 
+with 17%). Serum iron concentration falls, the absorption 
+of iron from the gut rises and iron - binding capacity rises 
+in a normal pregnancy, since there is increased synthesis 
+of the .1 - globulin, transferrin. Plasma folate concentration 
+halves by term, because of greater renal clearance, 
+although red cell folate concentrations fall less. In the late 
+1990s, one - fi fth of the female population aged 16 Ð 64 in 
+the UK were estimated to have serum ferritin levels below 
+15 . g/L, indicative of low irons stores [12] ; a similar 
+survey appears not to have been undertaken since then 
+(UK Scientifi c Advisory Committee on Nutrition Report 
+actually a fall in arteriovenous oxygen difference. 
+Pulmonary blood fl ow, of course, rises in parallel with 
+cardiac output and enhances gas transfer. 
+Pregnancy places greater demands on the cardiovascular 
+than the respiratory system [11] . This is shown in the 
+response to moderate exercise (Table 1.3 ). 
+Fig. 1.3 Alterations in lung volumes 
+associated with normal human pregnancy. 
+In general terms, inspiratory reserve and 
+tidal volumes increase at the expense of 
+expiratory reserve and residual volumes. 
+Fig. 1.4 Flow chart of the effects of over - breathing. HCO 3
+. , 
+bicarbonate; Na + , sodium; Pco2 , carbon dioxide tension; 
+PROG, progesterone. 
+Table 1.2 The infl uence of pregnancy on some respiratory 
+variables. 
+Non-pregnant Pregnant Ð term 
+PO2 (mmHg) 93 (12.5 kPa) 102 (13.6 kPa) 
+O2 consumption (mL/min) 200 250 
+PCO2 (mmHg) 35Ð40 (4.7 Ð5.3 kPa) 30 (4.0 kPa) 
+Venous pH 7.35 7.38 
+Table 1.3 Although the increases in resting cardiac output and 
+minute ventilation are of the same order of magnitude in 
+pregnancy, there is less spare capacity for increases in cardiac 
+output on moderate exercise than for increases in respiration. 
+Resting Exercise 
+Cardiac 
+output 
++33% (4.5 Ð6L/min) +167% (up to 12 L/min) 
+Minute 
+ventilation 
++40% (7.5 Ð10.5 L/min) +1000% (up to .80L/min)
+Maternal Physiology 9 
+placenta, suggesting strongly that the control of fi brinolysis 
+during pregnancy is signifi cantly affected by placentally 
+derived mediators. Table 1.4 summarizes changes 
+in some coagulation and fi brinolytic variables during 
+pregnancy. 
+2008). Pregnant adolescents seem to be at particular risk 
+of iron defi ciency. Even relatively mild maternal anaemia 
+is associated with increased placental weight/birthweight 
+ratios and decreased birthweight. However, inappropriate 
+supplementation can itself be associated with pregnancy 
+problems (see above) [13] . Erythropoietin rises in 
+pregnancy, more so if iron supplementation is not taken 
+(55% compared with 25%) but the changes in red cell 
+mass antedate this; human placental lactogen may stimulate 
+haematopoiesis. 
+Pro rata, the PV increases more than the red cell mass, 
+which leads to a fall in the various concentration measures 
+that incorporate the PV, such as the haematocrit, 
+haemoglobin concentration and red cell count. The fall in 
+packed cell volume from about 36% in early pregnancy 
+to about 32% in the third trimester is a sign of normal 
+plasma volume expansion. 
+The total white cell count rises, mainly because of 
+increased polymorphonuclear leucocytes. Neutrophil 
+numbers rise with oestrogen concentrations and peak 
+at about 33 weeks, stabilizing after that until labour and 
+the early puerperium, when they rise sharply. Their 
+phagocytic function increases during gestation. T and B 
+lymphocyte counts do not change but their function is 
+suppressed, making pregnant women more susceptible to 
+viral infections, malaria and leprosy. The uterine NK cells 
+express receptors that recognize the otherwise anomalous 
+combination of human lymphocyte antigens (HLA - C, - E 
+and - G) expressed by the invasive cytotrophoblasts. This 
+is likely to be central to the maternal recognition of the 
+conceptus [14] (see above). 
+Platelet count and platelet volume are largely unchanged 
+in most pregnant women, although their survival is 
+reduced. Platelet reactivity is increased in the second and 
+third trimesters and does not return to normal until about 
+12 weeks after delivery. 
+Coagulation 
+Continuing low - grade coagulopathy is a feature of 
+normal pregnancy [15] . Several of the potent procoagulatory 
+factors rise from at least the end of the fi rst trimester 
+(Fig. 1.5 ). For example, factors VII, VIII and X all rise, 
+and absolute plasma fi brinogen doubles, while antithrombin 
+III, an inhibitor of coagulation, falls. The erythrocyte 
+sedimentation rate rises early in pregnancy due 
+to the increase in fi brinogen and other physiological 
+changes. Protein C, which inactivates factors V and VIII, 
+is probably unchanged in pregnancy, but concentrations 
+of protein S, one of its cofactors, fall during the fi rst two 
+trimesters. An estimated 5 Ð 10% of the total circulating 
+fi brinogen is consumed during placental separation, 
+and thromboembolism is one of the main causes of 
+maternal death in the UK. Plasma fi brinolytic activity is 
+decreased during pregnancy and labour, but returns to 
+non - pregnant values within an hour of delivery of the 
+Fig. 1.5 Alterations in the coagulation pathways associated with 
+human pregnancy. Factors which increase during normal 
+pregnancy are in bold type. Modifi ed from Letsky EA. The 
+haematological system. In: Chamberlain G, Broughton Pipkin F 
+(eds) Clinical Physiology in Obstetrics , 3rd edn. Oxford: Blackwell 
+Science, 1998: 71 Ð 110. 
+Table 1.4 Percentage changes in some coagulation (upper) and 
+fi brinolytic variables and fi bronectin levels are expressed from 
+postpartum data in the same women. The mean values shown 
+are those at the end of each trimester and are thus not 
+necessarily the maxima. Note the very large rise in PAI - 2 
+(placental type PAI ) and TAT III complexes in the fi rst trimester. 
+First 
+trimester 
+Second 
+trimester 
+Third 
+trimester 
+PAI-1 (mg/mL) .10 +68 +183 
+PAI-2 (mg/mL) +732 +1804 +6554 
+t-PA (mg/mL) .24 .19 +63 
+Protein C (% activity) .12 +10 +9 
+AT III (% activity) .21 .14 .10 
+TAT III +362 +638 +785 
+Fibronectin (mg/L) +3 .12 +53 
+PAI, plasminogen activator inhibitor; t -PA, tissue plasminogen 
+activator antigen; AT III, antithrombin III; TAT III, thrombin Ð 
+antithrombin III complex. 
+Source: Data from Halligan et al. [16].
+10 Chapter 1 
+50 mmol/L, but creatinine clearance begins to fall during 
+the last couple of months of pregnancy, so plasma creatinine 
+concentration rises again. 
+Total body water rises by about 20% during pregnancy 
+(. 8.5 L) with a very sharp fall in plasma osmolality 
+between weeks 4 and 6 after conception, possibly through 
+the actions of human chorionic gonadotrophin (hCG). 
+The volume - sensing arginine vasopressin release mechanisms 
+evidently adjust as pregnancy progresses. As well 
+as water present in the fetus, amniotic fl uid, placenta and 
+maternal tissues, there is also oedema fl uid and increased 
+hydration of the connective tissue ground substance with 
+laxity and swelling of connective tissue. 
+The pregnant woman accumulates some 950 mmol of 
+sodium in the face of high circulating concentrations of 
+progesterone, which competes with aldosterone at the 
+distal tubule. The potentially natriuretic prostacyclin also 
+rises markedly, with a small rise in atrial natriuretic 
+peptide (ANP). This stimulates the renin Ð angiotensin 
+system, with increased synthesis and release of aldosterone 
+from the fi rst trimester. The raised plasma prolactin 
+may also contribute to sodium retention. It is 
+assumed that glomerulotubular balance must also change 
+in pregnancy to allow the sodium retention that actually 
+occurs. There is a fall of some 4 Ð 5 mmol/L in plasma 
+sodium by term, but plasma chloride does not change. 
+Curiously, some 350 mmol of potassium are also retained 
+during pregnancy, in the face of the much - increased GFR, 
+substantially raised aldosterone concentrations and a 
+relatively alkaline urine. Renal tubular potassium reabsorption 
+evidently adjusts appropriately to the increased fi ltered 
+potassium load. 
+Serum uric acid concentration falls by about one - 
+quarter in early pregnancy, with an increase in its fractional 
+excretion secondary to a decrease in net tubular 
+reabsorption. The kidney excretes a progressively smaller 
+proportion of the fi ltered uric acid, so some rise in serum 
+uric acid concentration during the second half of pregnancy 
+is normal. A similar pattern is seen in relation to 
+urea, which is also partly reabsorbed in the nephron. 
+Glucose excretion may rise 10 - fold as the greater fi ltered 
+load exceeds the proximal tubular Tmax for glucose 
+(. 1.6 Ð 1.9 mmol/min). If the urine of pregnant women is 
+tested suffi ciently often, glycosuria will be detected in 
+50%. The excretion of most amino acids increases, which 
+is curious since these are used by the fetus to synthesize 
+protein. The pattern of excretion is not constant, and 
+differs between individual amino acids. Excretion of the 
+water - soluble vitamins is also increased. The mechanism 
+for all these is inadequate tubular reabsorption in the face 
+of a 50% rise in GFR. 
+Urinary calcium excretion is also twofold to threefold 
+higher in normal pregnancy than in the non - pregnant 
+woman, even though tubular reabsorption is enhanced, 
+presumably under the infl uence of the increased concentrations 
+of 1,25 - dihydroxyvitamin D. To counter this, 
+The renal system 
+The kidneys increase in size in pregnancy mainly because 
+renal parenchymal volume rises by about 70% with 
+marked dilatation of the calyces, renal pelvis and ureters 
+in most women [17] . Ureteric tone does not decrease, but 
+bladder tone does. The effective renal plasma fl ow (ERPF) 
+is increased by at least 6 weeks Õ gestation and rises to 
+some 80% by mid - pregnancy falling thereafter to about 
+65% above non - pregnant values (Fig. 1.6 ). This increase 
+is proportionally greater than the increase in cardiac 
+output, presumably refl ecting specifi c vasodilatation, 
+probably via increased renal prostacyclin synthesis. The 
+glomerular fi ltration rate (GFR) also increases, by about 
+45% by the ninth week, only rising thereafter by another 
+5 Ð 10%, but this is largely maintained to term, so the fi ltration 
+fraction falls during the fi rst trimester, is stable 
+during the second, and rises towards non - pregnant values 
+thereafter. However, these major increments do not 
+exhaust the renal reserve. The differential changes in 
+ERPF and GFR in late pregnancy suggest a mechanism 
+acting preferentially at the efferent arterioles, possibly 
+through angiotensin II. 
+The fi ltered load of metabolites therefore increases 
+markedly, and reabsorptive mechanisms frequently do 
+not keep up (e.g. glucose and amino acids; see below). 
+These changes have profound effects on the concentrations 
+of certain plasma metabolites and electrolytes and 
+Ô normal Õ laboratory reference ranges may thus be inappropriate 
+in pregnancy. For example, plasma creatinine 
+concentration falls signifi cantly by the fourth week of 
+gestation and continues to fall to mid - pregnancy, to below 
+Fig. 1.6 The changes in renal function during pregnancy are 
+largely complete by the end of the fi rst trimester and are thus 
+proactive not reactive to the demands of pregnancy. The 
+fi ltration fraction falls during the fi rst trimester but begins to 
+return to non - pregnant levels during the third trimester. 
+(Reproduced from Bayliss and Davison [17] , with permission.) 
+Maternal Physiology 11 
+Carbohydrates/insulin resistance 
+Pregnancy is hyperlipidaemic and glucosuric. Although 
+neither the absorption of glucose from the gut nor the 
+half- life of insulin seem to change, and the insulin 
+response is well - maintained, by 6 Ð 12 weeks Õ gestation 
+fasting plasma glucose concentrations have fallen by 
+0.11 mmol/L, and by the end of the fi rst trimester the 
+increase in blood glucose following a carbohydrate load 
+is less than outside pregnancy [21] . This increased sensitivity 
+stimulates glycogen synthesis and storage, deposition 
+of fat and transport of amino acids into cells. The 
+uptake of amino acids by the mother for gluconeogenesis 
+may also be enhanced. After mid - pregnancy, resistance to 
+the action of insulin develops progressively and plasma 
+glucose concentrations rise, though remaining below 
+non- pregnant levels (Fig. 1.7 ). Glucose crosses the placenta 
+readily and the fetus uses glucose as its primary 
+energy substrate, so this rise is presumably benefi cial to 
+the fetus. Fetal and maternal glucose concentrations are 
+signifi cantly correlated. 
+The insulin resistance is presumably largely endocrine - 
+driven, possibly via increased cortisol or human placental 
+lactogen. Plasma leptin concentrations are directly correlated 
+with insulin resistance during pregnancy [22] 
+while concentrations of glucagons and the catecholamines 
+are unaltered. Adiponectin concentrations fall in 
+pregnancy and are negatively correlated with fasting 
+insulin concentrations and white fat mass. Adiponectin 
+concentrations are also low in other insulin - resistant 
+states, but whether this is cause or effect is still 
+uncertain. 
+Lipids 
+Total plasma cholesterol falls early in pregnancy, reaching 
+its lowest point at 6 Ð 8 weeks, but then rises to term. There 
+is a striking increase in circulating free fatty acids and 
+complex lipids in pregnancy, with approximately threefold 
+increases in very low density lipoprotein (VLDL) 
+triglycerides and a 50% increase in VLDL cholesterol 
+by 36 weeks [23] , which is probably driven by oestrogens. 
+High - density lipoprotein (HDL) cholesterol is also 
+increased. Birthweight and placental weight are directly 
+related to maternal VLDL triglyceride levels at term. 
+The hyperlipidaemia of normal pregnancy is not atherogenic 
+because the pattern of increase is not that of atherogenesis, 
+although pregnancy can unmask pathological 
+hyperlipidaemia. 
+Lipids undergo peroxidation in all tissues as part of 
+normal cellular function. Excess production of lipid can 
+result in oxidative stress, with damage to the cell membrane. 
+During normal pregnancy, increases in plasma 
+lipid peroxides appear by the second trimester in step 
+with the general rise in lipids and may taper off later 
+in gestation [24] . As the peroxide levels rise so do those 
+of vitamin E and some other antioxidants; this rise 
+is proportionately greater than that of peroxides so 
+intestinal absorption doubles by 24 weeks, after which it 
+stabilizes. Renal bicarbonate reabsorption and hydrogen 
+ion excretion appear to be unaltered during pregnancy. 
+Although pregnant women can acidify their urine, it is 
+usually mildly alkaline. 
+Total protein and albumin excretion both rise during 
+pregnancy, to at least 36 weeks, due to the increased GFR, 
+and changes in both glomerular and tubular function. 
+Thus in late pregnancy, an upper limit of normal of 
+200 mg total protein excretion per 24 - hour collection is 
+accepted. The assessment of proteinuria in pregnancy 
+using dipsticks has been shown to give highly variable 
+data. 
+The gastrointestinal system 
+Taste often alters very early in pregnancy. The whole 
+intestinal tract has decreased motility during the fi rst two 
+trimesters, with increased absorption of water and salt, 
+tending to increase constipation. Heartburn is common as 
+a result of increased intragastric pressure. Hepatic synthesis 
+of albumin, plasma globulin and fi brinogen increases, 
+the latter two suffi ciently to give increased plasma concentrations 
+despite the increase in PV. Total hepatic synthesis 
+of globulin increases under oestrogen stimulation, 
+so the hormone - binding globulins rise. There is decreased 
+hepatic extraction of circulating amino acids. 
+The gallbladder increases in size and empties more 
+slowly during pregnancy but the secretion of bile is 
+unchanged. Cholestasis is almost physiological in pregnancy 
+and may be associated with generalized pruritus 
+but only rarely produces jaundice. 
+Energy requirements 
+The energy cost of pregnancy includes Ô stored Õ energy in 
+maternal and fetal tissues, and the greater energy expenditure 
+needed for maintenance and physical activity. The 
+weight gained during pregnancy arises from the products 
+of conception, the increased size of maternal tissues such 
+as the uterus and breasts, and the greater maternal fat 
+stores. The basal metabolic rate has risen by about 5% by 
+the end of pregnancy in a woman of normal weight [18] . 
+The average weight gain over pregnancy in a woman of 
+normal body mass index (BMI) is about 12.5 kg. The 
+average weight gain from pre - pregnancy values at 6 Ð 18 
+months after delivery is 1 Ð 2 kg, but in about one - fi fth of 
+women can be 5 kg or more [19] . Obese women usually 
+put on less weight during pregnancy, but retain more post 
+partum. A 5 - year follow - up of nearly 3000 women found 
+that parous women gained 2 Ð 3 kg more than nulliparous 
+women during this time. They also had signifi cantly 
+greater increases in waist/hip ratio, an independent risk 
+factor for future cardiovascular disease [20] . 
+12 Chapter 1 
+binding globulins for thyroxine, corticosteroids and the 
+sex steroids, also affect the mother Õ s endocrinological 
+function. The fetoplacental unit synthesizes very large 
+amounts of oestrogens and progesterone, both probably 
+being concerned with uterine growth and quiescence 
+and with mammary gland development. However, they 
+also stimulate synthesis of a variety of other important 
+hormones. Oestrogens stimulate both the synthesis of 
+vascular endothelial growth factor (VEGF) and its 
+tyrosine kinase receptors and angiogenesis; the two are 
+linked. VEGF appears to interact with other placentally 
+produced hormones and angiopoietin - 2 as major players 
+in the development of the villous capillary bed in early 
+human pregnancy. The peroxisome proliferator - activated 
+receptor - . (PPAR . ) is a member of the nuclear receptor 
+superfamily and has an important role in modulating 
+expression of numerous other genes. It is expressed in 
+human villous and extravillous cytotrophoblast. PPAR . 
+binds to, and is activated by, natural ligands such as 
+eicosanoids, fatty acids and oxidized low - density lipoproteins. 
+Studies in knockout mice have shown it to be essential 
+for placental development. 
+The hypothalamus and pituitary gland 
+The pituitary gland increases in weight by 30% in fi rst 
+pregnancies and by 50% subsequently. The number of 
+lactotrophs is increased and plasma prolactin begins 
+to rise within a few days of conception and by term 
+may be 10 Ð 20 times as high as in the non - pregnant 
+woman; the secretion of other anterior pituitary hormones 
+is unchanged or reduced. hCG and the gonadotrophins 
+share a common . - subunit, and the rapidly 
+rising hCG concentration suppresses secretion of both 
+follicle- stimulating hormone and luteinizing hormone, 
+thus inhibiting ovarian follicle development by a blunting 
+of response to gonadotrophin - releasing hormone. 
+physiological activities are protected. Lipid peroxidation 
+is also active in the placenta, increasing with gestation. 
+Since the placenta contains high concentrations of unsaturated 
+fats under conditions of low P a o2 , antioxidants such 
+as vitamin A, the carotenoids and provitamin A carotenoids 
+are required to protect both mother and fetus from 
+free radical activity. 
+Early in pregnancy fat is deposited but from mid - 
+pregnancy it is also used as a source of energy, mainly by 
+the mother so that glucose is available for the growing 
+fetus [25] and to provide energy stores for the high metabolic 
+demands of late pregnancy and lactation. The accurate 
+measurement of pregnancy - related fat deposition is 
+technically diffi cult, but total accretion is estimated at 
+about 2 Ð 6 kg. The absorption of fat from the intestine is 
+not directly altered during pregnancy. The hormone 
+leptin acts as a sensor alerting the brain to the extent of 
+body fat stores. Concentrations rise threefold during 
+pregnancy and are directly correlated with total body fat; 
+they are not related to the basal metabolic rate during 
+gestation. Recent animal studies suggest that the hypothalamus, 
+which contains the appetite - regulating centres, 
+is desensitized to the effects of leptin in pregnancy. This 
+allows the mother to eat more than she otherwise would 
+consider doing, with consequent fat deposition. 
+Endocrine systems 
+The placenta is a powerhouse of hormone production 
+from the beginning of gestation and challenges the mother 
+Õ s autonomy. 
+Placental hormones 
+hCG is the signal for pregnancy, but indirect effects, such 
+as the oestrogen - driven increased hepatic synthesis of the 
+Fig. 1.7 Responses in normal pregnant 
+women to a 50 - g oral glucose load during 
+early and late pregnancy. During early 
+pregnancy there is a normal plasma insulin 
+response with a relative reduction in 
+plasma glucose concentrations compared 
+with the non - pregnant state. In contrast, 
+during late pregnancy plasma glucose 
+concentrations reach higher levels after a 
+delay despite a considerably enhanced 
+insulin response, a pattern which could be 
+explained by relative resistance to insulin. 
+Maternal Physiology 13 
+albumin concentration falls, but unbound ionized calcium 
+is unchanged. Synthesis of 1,25 - dihydroxycholecalciferol 
+increases, promoting enhanced gastrointestinal calcium 
+absorption. Parathyroid hormone (PTH) regulates the 
+synthesis of 1,25 - dihydroxyvitamin D in the proximal 
+convoluted tubule. There is a fall in intact PTH during 
+pregnancy but a doubling of 1,25 - dihydroxyvitamin D; 
+PTH - related protein (PTHrP) is also present in the maternal 
+circulation. The main sources of PTHrP are the fetal 
+parathyroid gland and the placenta. It is presumably placentally 
+derived PTHrP that is transferred into the maternal 
+circulation and affects calcium homeostasis by acting 
+through the PTH receptor. 
+Renal hormones 
+The renin Ð angiotensin system is activated from very early 
+in pregnancy (see section on the cardiovascular system 
+above). A vasodilator component to the renin Ð angiotensin 
+system has recently been described in which angiotensin 
+1 Ð 7 is the agonist; angiotensin 1 Ð 7 rises during pregnancy 
+and may stimulate release of both nitric oxide and prostacyclin. 
+Synthesis of erythropoietin appears to be stimulated 
+by hCG; its concentration rises from the fi rst 
+trimester, peaking in mid - gestation and falling somewhat 
+thereafter. Prostacyclin is a potent vasodilator, synthesized 
+mainly in the renal endothelium. Concentrations 
+begin to rise rapidly by 8 Ð 10 weeks of gestation, being 
+fourfold higher than non - pregnant values by the end of 
+the fi rst trimester. 
+The pancreas 
+The size of the islets of Langerhans and the number of . 
+cells increase during pregnancy, as does the number of 
+receptor sites for insulin. The functions of the pancreas in 
+pregnancy are considered above. 
+The endothelium 
+The endothelium synthesizes a variety of hormones, both 
+vasodilator (e.g. prostacyclin, VEGF - A, nitric oxide) and 
+vasoconstrictor (e.g. endothelin - 1). The vasodilators are 
+mostly upregulated in pregnancy, and allow the early fall 
+in total peripheral resistance. Interestingly, although the 
+lipid profi le in pregnancy appears to be atherogenic, 
+endothelial function in normal pregnancy, as assessed 
+by fl ow - mediated dilatation, is not impaired. This may be 
+due to the increased oestradiol concentrations, which 
+upregulate endothelial nitric oxide synthase. 
+Conclusion 
+This chapter attempts to outline the physiology of normal 
+pregnancy. The changes mostly begin very early indeed, 
+and it may be that two of the major problems of pregnancy, 
+intrauterine growth retardation and pre - eclampsia, 
+Thyroid - stimulating hormone (TSH) secretion responds 
+normally to hypothalamic thyrotropin - releasing hormone 
+(also synthesized in the placenta). Adrenocorticotrophic 
+hormone (ACTH) concentrations rise during pregnancy, 
+partly because of placental synthesis of ACTH and of a 
+corticotrophin - releasing hormone and do not respond to 
+normal control mechanisms. 
+The adrenal gland 
+Both the plasma total and the unbound cortisol and other 
+corticosteroid concentrations rise in pregnancy, from about 
+the end of the fi rst trimester. Concentrations of cortisol - 
+binding globulin double. Excess glucocorticoid exposure 
+in utero appears to inhibit fetal growth in both animals 
+and humans. However, the normal placenta synthesizes 
+a pregnancy - specifi c 11 . - hydroxysteroid dehydrogenase, 
+which inhibits transfer of maternal cortisol. The marked 
+rise in secretion of the mineralocorticoid aldosterone in 
+pregnancy has already been mentioned. Synthesis of the 
+weaker mineralocorticoid 11 - deoxycorticosterone is also 
+increased by the eighth week of pregnancy, and actually 
+increases proportionally more than any other cortical 
+steroid, possibly due to placental synthesis. 
+The measurement of plasma catecholamines has inherent 
+diffi culties, but there is now broad consensus that 
+plasma catecholamine concentrations fall from the fi rst to 
+the third trimester. There is some blunting of the rise in 
+noradrenaline (refl ecting mainly sympathetic nerve activity) 
+seen on standing and isometric exercise in pregnancy, 
+but the adrenaline response (predominantly adrenal) is 
+unaltered [26] . 
+The thyroid gland 
+hCG may suppress TSH in early pregnancy because they 
+share a common . - subunit. The thyroid remains normally 
+responsive to stimulation by TSH and suppression 
+by triiodothyronine (T3). There is a threefold rise in 
+the thyroid Õ s clearance of iodine, allowing the absolute 
+iodine uptake to remain within the non - pregnant range. 
+Thyroid - binding globulin concentrations double during 
+pregnancy, but other thyroid - binding proteins do not 
+increase. Overall, free plasma T3 and thyroxine (T4) concentrations 
+remain at the same levels as outside pregnancy 
+(although total levels are raised), and most 
+pregnant women are euthyroid. Free T4 may fall in late 
+gestation [27] . 
+Calcitonin, another thyroid hormone, rises during the 
+fi rst trimester, peaks in the second and falls thereafter, 
+although the changes are not large. It may contribute to 
+the regulation of 1,25 - dihydroxyvitamin D. 
+The parathyroid glands and 
+calcium metabolism 
+Calcium homeostasis changes markedly in pregnancy 
+[28,29] . Maternal total plasma calcium falls because 
+14 Chapter 1 
+5 Burton GJ , Jauniaux E , Charnock - Jones DS . Human early placental 
+development: potential roles of the endometrial glands . 
+Placenta 2007 ; 28 ( Suppl 1 ): S64 Ð S69 . 
+6 Chapman AB , Abraham WT , Zamudio S et al . Temporal relationships 
+between hormonal and hemodynamic changes in 
+early human pregnancy . Kidney Int 1998 ; 54 : 2056 Ð 2063 . 
+7 Ganzevoort W , Rep A , Bonsel GJ , de Vries JI , Wolf H . Plasma 
+volume and blood pressure regulation in hypertensive pregnancy. 
+J Hypertension 2004 ; 22 : 1235 Ð 1242 . 
+8 Robson SC , Hunter S , Boys RJ , Dunlop W . Serial study of 
+factors infl uencing changes in cardiac output during human 
+pregnancy . Am J Physiol 1989 ; 256 : H1060 Ð H1065 . 
+9 de Swiet M , Shennan A . Blood pressure measurement in pregnancy 
+. Br J Obstet Gynaecol 1996 ; 103 : 862 Ð 863 . 
+10 de Swiet M . The respiratory system . In: Chamberlain G , 
+Broughton Pipkin F (eds) Clinical Physiology in Obstetrics , 3rd 
+edn . Oxford : Blackwell Science , 1998 : 111 Ð 128 . 
+11 Bessinger RC , McMurray RG , Hackney AC . Substrate utilisation 
+and hormonal responses to moderate intensity exercise 
+during pregnancy and after delivery . Am J Obstet Gynecol 2002 ; 
+86 : 757 Ð 764 . 
+12 Heath AL , Fairweather - Tait SJ . Clinical implications of changes 
+in the modern diet: iron intake, absorption and status . Best Pract 
+Res Clin Haematol 2002 ; 15 : 225 Ð 241 . 
+13 Scholl TO . Iron status during pregnancy: setting the stage for 
+mother and infant . Am J Clin Nutr 2005 ; 81 : 1218S Ð 1222S . 
+14 Apps R , Murphy SP , Fernando R , Gardner L , Ahad T , Moffett 
+A . Human leucocyte antigen (HLA) expression of primary trophoblast 
+cells and placental cell lines, determined using single 
+antigen beads to characterise allotype specifi cities of anti - HLA 
+antibodies. Immunology 2009 ; 127 : 26 Ð 39 . 
+15 Brenner B . Haemostatic changes in pregnancy . Thromb Res 
+2004 ; 114 : 409 Ð 414 . 
+16 Halligan A , Bonnar J , Sheppard B , Darling M , Walshe J . 
+Haemostatic, fi brinolytic and endothelial variables in normal 
+pregnancies and pre - eclampsia . Br J Obstet Gynaecol 1994 ; 101 : 
+488 Ð 492 . 
+17 Bayliss C , Davison JM . The urinary system . In: Chamberlain G , 
+Broughton Pipkin F (eds) Clinical Physiology in Obstetrics , 3rd 
+edn . Oxford : Blackwell Science , 1998 : 263 Ð 307 . 
+18 Butte NF , King JC . Energy requirements during pregnancy and 
+lactation. Public Health Nutrition 2005 ; 8 : 1010 Ð 1027 . 
+19 Gunderson EP , Abrams B , Selvin S . Does the pattern of postpartum 
+weight change differ according to pregravid body size? 
+Int J Obes Relat Metab Disord 2001 ; 25 : 853 Ð 862 . 
+20 Gunderson EP . Childbearing and obesity in women: weight 
+before, during, and after pregnancy . Obstet Gynecol Clin North 
+Am 2009 ; 36 : 317 Ð 332 . 
+21 Butte NF . Carbohydrate and lipid metabolism in pregnancy: 
+normal compared with gestational diabetes mellitus . Am J Clin 
+Nutr 2000 ; 71 ( 5 Suppl): 1256S Ð 1261S . 
+22 Eriksson B , L š f M , Olausson H , Forsum E . Body fat, insulin 
+resistance, energy expenditure and serum concentrations of 
+leptin, adiponectin and resistin before, during and after pregnancy 
+in healthy Swedish women . Br J Nutr 2010 ; 103 : 50 Ð 57 . 
+23 Herrera E , Ortega H , Alvino G , Giovannini N , Amusquivar E , 
+Cetin I . Relationship between plasma fatty acid profi le and 
+antioxidant vitamins during normal pregnancy . Eur J Clin Nutr 
+2004 ; 58 : 1231 Ð 1238 . 
+are initiated even before the woman knows that she is 
+pregnant. Better understanding of the mechanisms of 
+very early normal pregnancy adaptation may help us to 
+understand the abnormal. 
+Summary box 1.1 
+¥ Each ovulatory menstrual cycle prepares the potential 
+mother for the physiological changes of pregnancy. 
+Progesterone is the prime mover, and before conception 
+initiates such changes as increased tidal volume, heart rate 
+and glomerular fi ltration rate, as well as endometrial 
+priming. These changes are proactive, not reactive, and in 
+normal pregnancy are greater than physiologically 
+necessary. 
+¥ Early pregnancy is associated with a systemic 
+infl ammatory response. The mother Õs immune response is 
+altered to allow implantation and placentation and the 
+remodelling of the spiral arteries. 
+¥ Total peripheral resistance falls very early, followed by the 
+blood pressure; plasma volume and cardiac output rise. 
+Alveolar ventilation and oxygen -carrying capacity increase 
+more than oxygen consumption. Even normal pregnancy is 
+associated with low -grade coagulopathy. 
+¥ Renal fi ltration increases very early. The rise in fi ltered 
+sodium load activates the renin Ðangiotensin system, 
+allowing sodium retention and the increased plasma 
+volume. Plasma concentrations of various analytes are 
+reduced both because of increased fi ltration and plasma 
+volume expansion. Aminoaciduria and glycosuria are 
+common. 
+¥ The average weight gain over pregnancy in a woman of 
+normal BMI is about 12.5 kg. Some of this is usually 
+retained after delivery. Pregnancy is associated with insulin 
+resistance and hyperlipidaemia; there is considerable fat 
+deposition. 
+¥ The placenta is a powerhouse of hormone and cytokine 
+synthesis, modifying the mother Õs physiology for the 
+demands of pregnancy. 
+References 
+1 Chapman AB , Zamudio S , Woodmansee W et al . Systemic and 
+renal hemodynamic changes in the luteal phase of the menstrual 
+cycle mimic early pregnancy . Am J Physiol 1997 ; 273 : 
+F777 Ð F782 . 
+2 Redman CWG , Sargent IL . Placental stress and pre - eclampsia: 
+a revised view . Placenta 2009 ; 30 ( Suppl 1 ): 38 Ð 42 . 
+3 Milman N . Iron and pregnancy: a delicate balance . Ann 
+Haematol 2006 ; 85 : 559 Ð 565 . 
+4 Moffett A , Hiby SE . How does the maternal immune system 
+contribute to the development of pre - eclampsia? Placenta 
+2007 ; 28 ( Suppl . 1 ): S51 Ð S56 . 
+Maternal Physiology 15 
+24 Poston L , Raijmakers MT . Trophoblast oxidative stress, antioxidants 
+and pregnancy outcome: a review . Placenta 2004 ; 25 ( Suppl 
+A ): S72 Ð S78 . 
+25 Kopp - Hoolihan LE , van Loan MD , Wong WW , King JC . 
+Longitudinal assessment of energy balance in well - nourished, 
+pregnant women . Am J Clin Nutr 1999 ; 69 : 697 Ð 704 . 
+26 Barron WM , Mujais SK , Zinaman M , Bravo EL , Lindheimer 
+MD . Plasma catecholamine responses to physiologic stimuli 
+in normal human pregnancy . Am J Obstet Gynecol 1986; 154: 
+80 Ð 84. 
+27 Ramsay ID . The thyroid gland . In: Chamberlain G , Broughton 
+Pipkin F (eds) Clinical Physiology in Obstetrics , 3rd edn . Oxford : 
+Blackwell Science , 1998 : 374 Ð 384 . 
+28 Prentice A . Maternal calcium metabolism and bone mineral 
+status . Am J Clin Nutr 2000 ; 71 ( 5 Suppl): 1312S Ð 1316S . 
+29 Haig D . Evolutionary confl icts in pregnancy and calcium 
+metabolism: a review . Placenta 2004 ; 25 ( Suppl A ): S10 Ð S15 . 
+Further reading 
+Broughton Pipkin F . Maternal physiology . In: Chamberlain G , 
+Steer P (eds) Turnbull Õ s Obstetrics , 3rd edn. London : Churchill 
+Livingstone , 2001 . 
+Chamberlain G , Broughton Pipkin F (eds) Clinical Physiology in 
+Obstetrics , 3rd edn. Oxford : Blackwell Science , 1998 . 
+Chapter 2 
+The Placenta and Fetal Membranes 
+Berthold Huppertz 1 and John C.P. Kingdom 2 
+1 Institute of Cell Biology, Histology and Embryology, Medical University of Graz, Graz, Austria 
+2 Department of Obstetrics and Gynaecology, Samuel Lunenfeld Research Institute, Mount Sinai Hospital, Toronto, Canada 
+DewhurstÕs Textbook of Obstetrics & Gynaecology, Eighth Edition. Edited by D. Keith Edmonds. 
+© 2012 John Wiley and Sons, Ltd. Published 2012 by John Wiley and Sons, Ltd. 
+The placenta was already recognized and venerated by 
+the early Egyptians, while it was the Greek physician 
+Diogenes of Apollonia ( c . 480 bc ) who fi rst ascribed the 
+function of fetal nutrition to the organ. Aristotle (384 to 
+322 bc ) reported that the chorion membranes fully enclose 
+the fetus, but it was only in 1559 during the Renaissance 
+that Realdus Columbus introduced the term Ô placenta Õ , 
+derived from the Latin for a fl at cake. 
+Structural characteristics of the 
+human placenta 
+Placental shape 
+On the gross anatomic level, the placenta of eutherian 
+animals can be classifi ed according to the physical interactions 
+between fetal and maternal tissues [1] . Such interactions 
+may be restricted to specifi c sites or may be found 
+covering the whole surface of the chorionic sac and the 
+inner uterine surface. On this gross anatomical level, the 
+human placenta is classifi ed as a discoidal placenta, confi ning 
+interactions to a more or less circular area (Fig. 2.1 a). 
+Materno-fetal interdigitations 
+The next level of classifi cation is based on the interdigitations 
+between maternal and fetal tissues. In the human 
+placenta maternal and fetal tissues are arranged is such a 
+way that there are three - dimensional tree - like structures 
+called villous trees of fetal tissues that fl oat in a lake of 
+maternal blood [1] . Like the knots and branches of a tree, 
+the fetal tissues repeatedly branch into smaller and 
+slender villi (Fig. 2.1 b). 
+Materno-fetal barrier 
+On the level of interactions between uterine and fetal 
+tissues, the human displays an invasive type of implantation 
+and placentation [1] . The uterine epithelium is penetrated, 
+and invasion of fetal cells into maternal tissues 
+results in erosion into maternal vessels leading to bathing 
+of placental villi in the mother Õ s blood. An epithelial layer 
+termed villous trophoblast , which comes into direct contact 
+with maternal blood and which builds the placental 
+barrier between maternal and fetal tissues, covers placental 
+villi (Fig. 2.1 c). 
+This type of placentation is termed haemomonochorial 
+since on the maternal side there is only blood and no 
+longer blood vessels (haemo) and on the fetal side there 
+is only one layer of trophoblast (monochorial) between 
+maternal blood and the fetal capillaries (Fig. 2.1 c). 
+Vascular arrangement 
+It is not only the thickness and exact histological nature 
+of the placental barrier that defi nes the rate of diffusional 
+exchange. Another important determinant is the direction 
+of blood fl ows of mother and fetus in relation to each 
+other. The vascular arrangement of the human placenta 
+cannot be clearly defi ned due to the branching of the 
+villous trees into all directions and a respective maternal 
+blood fl ow somehow bypassing these branches. Therefore, 
+this unpredictable and variable fl ow pattern has been 
+termed multivillous fl ow (Fig. 2.1 d) [1] . 
+16 
+Summary box 2.1 
+¥ The human placenta is a discoidal placenta. 
+¥ The interdigitations between maternal and fetal tissues are 
+arranged as tree -like structures called villous trees, which 
+are surrounded by a multivillous fl ow of maternal blood. 
+¥ The villous trophoblast builds the placental barrier between 
+maternal blood and fetal tissues (haemomonochorial 
+placentation). 
+Macroscopic features of the 
+term placenta 
+Measures 
+The placenta at term displays a round disc - like appearance, 
+with insertion of the umbilical cord in a slightly 
+The Placenta and Fetal Membranes 17 
+basal plate is a colourful mixture of fetal trophoblasts and 
+maternal cells of the decidua, all of which are embedded 
+in trophoblast - secreted matrix - type fi brinoid, decidual 
+extracellular matrices, and fi brin - type fi brinoid. At the 
+placental margin, chorionic plate and basal plate fuse 
+with each other, thereby closing the intervillous space and 
+generating the fetal membranes or chorion laeve . 
+eccentric position on the fetal side of the placenta [1] . The 
+average measures of a delivered placenta at term are as 
+follows: diameter 22 cm, central thickness 2.5 cm, and 
+weight 450 Ð 500 g. However, one has to keep in mind that 
+these data may vary considerably due to the mode of 
+delivery, especially content versus loss of maternal and/ 
+or fetal blood. 
+Tissue a rrangements 
+On the fetal side of the placenta, the avascular amnion 
+covers the chorionic plate . Underneath the amnion, chorionic 
+vessels continue with those of the umbilical cord 
+and are arranged in a star - like pattern. At the other end, 
+these vessels continue with those of the villous trees 
+where the capillary system between arteries and veins is 
+located. The villous trees originate from the chorionic 
+plate and fl oat in a lake of maternal blood [1] . On the 
+maternal side of the placenta, the basal plate is located (Fig. 
+2.1 b). It is an artifi cial surface generated by separation of 
+the placenta from the uterine wall during delivery. The 
+Fig. 2.1 Schematic representation of the structural characteristics 
+of the human placenta. (a) The human placenta displays a 
+discoidal shape. (b) The materno - fetal interdigitations are 
+arranged in villous trees bathing in maternal blood that fl oats 
+through the intervillous space. (c) The hemochorial type of 
+placentation results in a materno - fetal barrier composed of 
+villous trophoblast in direct contact with maternal blood. 
+(d) Fetal and maternal blood fl ows are arranged in a multivillous 
+fl ow. CT, cytotrophoblast; FC, fetal capillary; FEn, fetal 
+endothelium; FEr, fetal erythrocyte; MC, mesenchymal cells; 
+MEr, maternal erythrocyte; ST, syncytiotrophoblast. 
+MEr 
+FEr FEn CT 
+ST 
+MC 
+Villous stroma 
+Fetal blood flow 
+Maternal blood 
+Spiral artery Uterine vein 
+FC 
+Uterine wall 
+Uterine cavity 
+Cervix 
+Umbilical cord 
+Placenta 
+Placental bed 
+Villous trees Umbilical cord 
+Chorionic plate 
+Basal plate 
+Endometrium/decidua 
+Uterine 
+vein 
+Spiral 
+artery 
+Maternal blood 
+in the intervillous space 
+(a) (b) 
+(c) (d) 
+Summary box 2.2 
+The layers of a delivered placenta from the fetal to the 
+maternal side comprise: 
+¥ avascular amnion (epithelium and mesenchyme) 
+¥ vascularized chorionic plate (mesenchyme with blood 
+vessels) 
+¥ villous trees directly connected to the chorionic plate 
+¥ maternal blood in the intervillous space surrounding the 
+villous trees 
+¥ basal plate with a mixture of fetal and maternal cells. 
+18 Chapter 2 
+These spaces fl ow together forming larger lacunae ( lacunar 
+stage ), and are fi nally separated by parts of the syncytiotrophoblast 
+(trabeculae) that cross the syncytial mass 
+from the embryonic to the maternal side [1] . 
+At the end of this stage, at day 12 post conception, the 
+process of implantation is completed. The developing 
+embryo with its surrounding extraembryonic tissues is 
+totally embedded in the endometrium, and the syncytiotrophoblast 
+surrounds the whole surface of the conceptus. 
+Mesenchymal cells derived from the embryo spread 
+over the inner surface of the trophoblast (the extraembryonic 
+mesoderm), thus generating a new combination of 
+trophoblast and mesoderm, termed chorion . 
+The development of the lacunar system subdivides the 
+placenta into its three compartments. 
+1 The embryonically oriented part of the trophoblast 
+together with extraembryonic mesoderm will develop 
+into the chorionic plate . 
+2 The trabeculae will become the anchoring villi , while 
+the growing branches will develop into fl oating villi . The 
+lacunae surrounding the villi will turn into the intervillous 
+space . 
+3 The maternally oriented part of the trophoblast 
+together with components of maternal decidual tissues 
+will develop into the basal plate . 
+Early v illous s tage 
+Starting on day 12 post conception, proliferation of 
+cytotrophoblast pushes trophoblasts to penetrate the 
+syncytial trabeculae, reaching the maternal side of the 
+syncytiotrophoblast by day 14. Further proliferation of 
+trophoblasts inside the trabeculae (day 13) stretches 
+the trabeculae resulting in the development of syncytial 
+side branches fi lled with cytotrophoblasts (primary 
+villi) [1] . 
+Shortly after, the mesenchymal cells from the extraembryonic 
+mesoderm follow the cytotrophoblast and penetrate 
+the trabeculae and the primary villi, thus generating 
+secondary villi with a mesenchymal core. At this stage, 
+there is always a complete cytotrophoblast layer between 
+penetrating mesenchyme and syncytiotrophoblast. 
+Around day 20 Ð 21, vascularization (development of 
+new vessels from haemangioblastic precursor cells) 
+within the villous mesenchyme gives rise to the formation 
+of fi rst placental vessels ( tertiary villi ). Only later will the 
+connection to the vessel system of the embryo proper be 
+established via the umbilical cord. 
+The villi are organized in villous trees that cluster 
+together into a series of spherical units known as lobules 
+or placentomes. Each placentome originates from the chorionic 
+plate by a thick villous trunk stemming from a 
+trabecula. Continuous branching of the main trunk results 
+in daughter villi mostly freely ending in the intervillous 
+space, the fl oating villi. 
+Placental d evelopment 
+Trophoblast l ineage 
+At the transition between morula and blastocyst, the trophoblast 
+lineage is the fi rst to differentiate from the inner 
+cell mass, the embryoblast (Fig. 2.2 ) [2] . Only after attachment 
+of the blastocyst to the endometrial epithelium does 
+further differentiation of the trophoblast occur. Exact 
+knowledge of the processes in the human is still lacking, 
+but it is anticipated that at this stage the fi rst syncytial 
+fusion of trophoblasts takes place. Fusion of those trophoblasts 
+in direct contact with maternal tissues as well 
+as the embryoblast generates the very fi rst syncytiotrophoblast 
+and only this layer is able to penetrate the 
+uterine epithelium (Fig. 2.2 ). 
+Prelacunar s tage 
+At day 7 Ð 8 post conception, the blastocyst has completely 
+crossed the epithelium and is embedded within the 
+endometrium. The developing embryo is completely surrounded 
+by the growing placenta, which at this stage 
+consists of the two fundamental subtypes of the trophoblast. 
+The multinucleated syncytiotrophoblast is in direct 
+contact with maternal tissues, while the mononucleated 
+cytotrophoblast as the stem cell layer of the trophoblast 
+is directed towards the embryo. 
+All the differentiation and developmental stages of the 
+placenta described so far take place before fl uid - fi lled 
+spaces within the syncytiotrophoblast can be detected. 
+This is why this stage is termed Ô prelacunar Õ [1] . 
+Lacunar s tage 
+At day 8 Ð 9 post conception, the syncytiotrophoblast generates 
+a number of fl uid - fi lled spaces within its mass. 
+Fig. 2.2 During implantation of the blastocyst, trophoblast cells 
+in direct contact with maternal tissues syncytially fuse and give 
+rise to the syncytiotrophoblast. Only this multinucleated tissue is 
+able to penetrate the uterine epithelium and to implant the 
+developing embryo. 
+Blastocyst 
+Uterine epithelium 
+Uterine decidual stroma 
+Endometrial gland and capillaries 
+Embryoblast 
+Cytotrophoblast 
+Syncytiotrophoblast
+The Placenta and Fetal Membranes 19 
+the multinucleated trophoblast giant cells (Fig. 2.4 ) at the 
+boundary between endometrium and myometrium. 
+Plugging of spiral arteries 
+The invasion of extravillous trophoblasts is the ultimate 
+means of transforming maternal vessels into large - bore 
+conduits that enable adequate supply of oxygen and 
+nutrients to the placenta [1,7] . However, free transfer of 
+maternal blood to the intervillous space is only established 
+at the end of the fi rst trimester of pregnancy [8] . 
+Before the free transfer of maternal blood can occur, the 
+extent of invasion and thus the number of endovascular 
+trophoblasts is so great that the trophoblasts aggregate 
+within the vessel lumina and plug the distal segments of 
+the spiral arteries (Fig. 2.3 ). Hence, before 10 Ð 12 weeks of 
+gestation, the intervillous space contains mostly glandular 
+secretion products from the eroded uterine glands 
+together with a plasma fi ltrate that is free of maternal 
+blood cells ( histiotrophic nutrition ) (Fig. 2.3 ) [8,9] . 
+The reason for such a paradoxical plugging of already 
+eroded and transformed arteries may be because the lack 
+of blood cells keeps the placenta and the embryo in a 
+low - oxygen environment of less than 20 mmHg in the 
+fi rst trimester of pregnancy. This low - oxygen environment 
+may be necessary to reduce formation of free 
+Trophoblastic cell columns 
+During penetration of the syncytial trabeculae, the 
+cytotrophoblasts reach the maternal endometrial tissues 
+while the following mesenchymal cells do not penetrate 
+to the tips of the trabeculae. At the tips of the anchoring 
+villi multiple layers of cytotrophoblasts develop, 
+referred to as trophoblastic cell columns (Fig. 2.3 ) [1,3] . 
+Only those cytotrophoblasts remain as proliferative stem 
+cells that are in direct contact with the basement membrane 
+separating trophoblast from mesenchyme of the 
+anchoring villi. 
+Subtypes of extravillous trophoblast 
+The formation of cell columns does not result in a complete 
+layer of a trophoblastic shell but rather is mostly organized 
+as separated columns from which extravillous trophoblasts 
+invade into maternal uterine tissues (Fig. 2.3 ) [1] . All 
+these cells migrate as interstitial trophoblast into the 
+endometrial stroma [4] , while a subset of the interstitial 
+trophoblast further penetrates the wall of the uterine spiral 
+arteries ( intramural trophoblast ), fi nally reaching the vessels Õ 
+lumen ( endovascular trophoblast ) (Fig. 2.3 ) [5] . Another 
+subset of the interstitial trophoblast penetrates the walls 
+of uterine glands, fi nally opening such glands towards 
+the intervillous space ( endoglandular trophoblast ) (Fig. 2.4 ) 
+[6] . Some of the interstitial trophoblasts fuse and generate 
+Fig. 2.3 Schematic representation of the 
+developing embryo and its surrounding 
+tissues at about 8 Ð 10 weeks of pregnancy. 
+The amnionic cavity with the embryo inside 
+is marked off by the amnion that has 
+already contacted the chorion. From the 
+chorion, villous trees protrude into the 
+intervillous space where some villi have 
+direct contact with the basal plate 
+(anchoring villi). At these sites trophoblastic 
+cell columns are the source for all 
+extravillous trophoblast cells invading 
+maternal tissues. Interstitial trophoblast 
+cells derived from these columns invade 
+endometrium and myometrium, while a 
+subset of these cells penetrates the spiral 
+arteries fi rst as intramural and then as 
+endovascular trophoblast cells . Onset of 
+maternal blood fl ow into the placenta starts 
+in the upper regions of the placenta (the 
+abembryonic pole) where development is 
+slightly delayed. The local high 
+concentrations of oxygen contribute to the 
+regression of villi at the abembryonic pole. 
+This in turn leads to the formation of the 
+smooth chorion, the fetal membranes. 
+Chorion Uterine 
+epithelium 
+Amnionic cavity 
+Embryo 
+Endometrium 
+Spiral artery 
+Villous 
+trees 
+Intervillous 
+space Umbilical 
+cord 
+Trophoblastic cell column 
+Interstitial trophoblast 
+Intramural/endovascular trophoblast 
+Placenta 
+Amnion
+20 Chapter 2 
+Fig. 2.4 Trophoblast differentiation and subtypes. The 
+trophoblast lineage is the fi rst to develop at the blastocyst stage. 
+From this stage onwards, further differentiation leads to the 
+generation of the syncytiotrophoblast and subsequently to the 
+two main trophoblast types of placental villi, villous 
+cytotrophoblast and villous syncytiotrophoblast. The trophoblast 
+cells that start to invade maternal tissues are termed extravillous 
+trophoblast. From the interstitital trophoblast all other subtypes 
+of extravillous trophoblast develop. 
+Trophoblast of blastocyst 
+Cytotrophoblast 
+Extravillous 
+cytotrophoblast 
+Trophoblastic cell column 
+Interstitial trophoblast 
+Intramural trophoblast 
+Endoglandular trophoblast 
+Multinucleated Endovascular trophoblast 
+trophoblast 
+giant cells 
+Villous 
+cytotrophoblast 
+Syncytiotrophoblast 
+Villous 
+syncytiotrophoblast 
+Summary box 2.3 
+¥ Blastocyst stage: differentiation of the trophoblast lineage. 
+¥ Day 7 Ð 8 post conception: prelacunar stage of placental 
+development. 
+¥ Day 8 Ð 9 post conception: lacunar stage of placental 
+development. 
+¥ Day 12 post conception: implantation completed, embryo 
+completely surrounded by placenta. 
+¥ Day 14 post conception: differentiation of extravillous 
+trophoblast. 
+¥ Day 20 post conception: development of placental vessels 
+and blood cells independent of vessel development in the 
+embryo proper. 
+¥ First trimester: histiotrophic nutrition. 
+¥ Second and third trimester: haemotrophic nutrition. 
+radicals that affect the growing embryo in this critical 
+stage of tissue and organ development [10,11] . 
+Onset of m aternal b lood fl ow 
+At the end of the fi rst trimester the trophoblastic plugs 
+become pervious and maternal blood cells enter the intervillous 
+space, establishing the fi rst arterial blood fl ow to 
+the placenta ( haemotrophic nutrition ) [8,11] . The infl ow 
+starts in those upper parts of the placenta that are closer 
+to the endometrial epithelium (the abembryonic pole of the 
+placenta) (Fig. 2.3 ). These sites are characterized by a 
+slight delay in development since the deeper parts at the 
+embryonic pole have been the fi rst to develop directly after 
+implantation (Fig. 2.3 ). Therefore, at these upper sites the 
+plugs inside the vessels contain fewer cells, enabling 
+blood cells to penetrate the plugs earlier, and thus blood 
+fl ow starts at these sites fi rst. Here the placental villi 
+degenerate in larger parts and the chorion becomes secondarily 
+smooth. The regression leads to the formation of 
+the fetal membrane or chorion laeve. The remaining part 
+of the placenta develops into the chorion frondosum , the 
+defi nitive disc - shaped placenta. 
+Basic s tructure of v illi 
+Villous t rophoblast 
+The branches of the syncytial trabeculae are the forerunners 
+of the placental villi. Throughout gestation the 
+syncytial cover remains and forms the placental barrier 
+between maternal blood fl oating in the intervillous space 
+and the fetal vessels within the mesenchymal core of the 
+villi [1] . 
+Villous c ytotrophoblast 
+The layer of mononucleated villous cytotrophoblast cells 
+is the basal layer of the villous trophoblast compartment 
+resting on the basal lamina underneath the multinucleated 
+layer of syncytiotrophoblast (see Fig. 2.1 c) [1] . 
+Villous cytotrophoblasts are a heterogeneous population: 
+a subset proliferate throughout gestation (in contrast to 
+the mouse, which terminally differentiates its chorionic 
+trophoblast in mid - gestation), some exhibit a progenitor 
+status because they can be induced to differentiate along 
+the extravillous pathway, while others are in varying 
+stages of differentiation, preparing for syncytial fusion 
+directed by the transcription factor GCM1 (glial cell 
+missing - 1) [12,13] . The number of villous cytotrophoblasts 
+continuously increases during pregnancy, from 
+about 1 . 10 9 at 13 Ð 16 weeks to about 6 . 10 9 at 37 Ð 41 
+weeks of gestation. These cells are gradually dispersed 
+into a discontinuous layer in the third trimester due to the 
+rapid expansion and specialization of the peripheral placental 
+villi responsible for gas and nutrient exchange. 
+Villous cytotrophoblasts do not normally come into 
+direct contact with maternal blood, unless focal damage 
+occurs to the overlying syncytiotrophoblast: if focal areas 
+of syncytiotrophoblast are lost, for example due to focal 
+necrosis, the defi cit is fi lled with fi brin - type fi brinoid (a 
+maternal blood clot product) that covers the exposed 
+cytotrophoblasts [14] . 
+The Placenta and Fetal Membranes 21 
+(IUGR) this physiology is likely disturbed in favour 
+of greater apoptotic shedding, while in cases of pre - 
+eclampsia this physiology is disturbed in favour of both 
+greater apoptotic shedding and the release of necrotic and 
+aponecrotic material into the maternal circulation [15,18] . 
+Trophoblast release 
+Throughout gestation, syncytial knots are released into 
+the maternal circulation and are mostly lodged in the 
+capillary bed of the lung [19 Ð 21] . Hence, they can be 
+found in uterine vein blood but not in arterial or peripheral 
+venous blood of a pregnant woman. It has been estimated 
+that in late gestation up to 150 000 such corpuscles 
+or 2 Ð 3 g of trophoblast material can enter the maternal 
+circulation each day [1] . 
+Current knowledge places the multinucleated syncytial 
+knots as products generated by apoptotic mechanisms 
+[15,20] . As such, they are surrounded by a tightly sealed 
+plasma membrane not releasing any content into the 
+maternal blood. Hence, induction of an infl ammatory 
+response in the mother is not a normal feature of pregnancy. 
+However, during placental pathologies with a 
+disturbed trophoblast turnover such as pre - eclampsia, 
+the release of syncytiotrophoblast material is altered 
+[20,22,23] . This necrotic or aponecrotic release of trophoblast 
+material could contribute to the endothelial damage 
+typical of pre - eclampsia [19,20,22,23] . 
+Villous stroma 
+The stromal villous core comprises the population of 
+fi xed and moving connective tissue cells, including: 
+¥ mesenchymal cells and fi broblasts in different stages of 
+differentiation up to myofi broblasts [24] ; 
+¥ placental macrophages (Hofbauer cells); and 
+¥ placental vessels with smooth muscle cells and endothelial 
+cells [1] . 
+Oxygen as regulator of villous development 
+There is increasing recognition of the role that oxidative 
+stress inside the placenta plays in the pathophysiology of 
+pregnancy disorders ranging from miscarriage to pre - 
+eclampsia [1,8,10,11,25,26] . During the fi rst trimester, 
+villous trophoblast is well adapted to low oxygen, and it 
+appears that trophoblast is more susceptible to raised 
+oxygen rather than low oxygen [20,27] . Hence, during the 
+fi rst trimester if the abembryonic part of the placenta is 
+oxygenated by onset of maternal blood fl ow, villi display 
+increased evidence of oxidative stress, become avascular 
+and fi nally regress. These physiological changes result in 
+the formation of the smooth chorion, the chorion laeve 
+(see Fig. 2.3 ). 
+If such early onset of maternal blood fl ow and consequently 
+early onset of oxygenation also occurs in the 
+embryonic part of the placenta, damage to the whole 
+placenta will result. The most severe cases are missed 
+Syncytiotrophoblast 
+The syncytiotrophoblast is a multinucleated layer without 
+lateral cell borders, hence there is a single syncytiotrophoblast 
+covering all villi of a single placenta [1] . Microvilli 
+on its apical surface provide amplifi cation of the surface 
+(sevenfold) and are in direct contact with the maternal 
+blood fl oating within the intervillous space (see Fig. 2.1 c). 
+Growth and maintenance of the syncytiotrophoblast is 
+dependent on the fusion with the underlying cytotrophoblasts, 
+since syncytial nuclei do not proliferate. 
+Within the syncytiotrophoblast the incorporated nuclei 
+fi rst exhibit a large and ovoid shape, while during maturation 
+they become smaller and denser. Finally, they 
+display envelope convolution, increased packing density 
+and increased heterochromatinization [15] . These are the 
+typical features of apoptosis, a physiological process in 
+the normal placenta. 
+Syncytial fusion by far exceeds the needs for growth of 
+the placental villi. Continuous syncytial fusion brings 
+new cellular material into the syncytiotrophoblast including 
+proteins like Bcl - 2 and Mcl - 1 that focally retard apoptosis 
+[16] . Although a subset of syncytial nuclei is capable 
+of RNA transcription in normal pregnancy [17] , syncytial 
+fusion remains critical for maintaining the functional 
+and structural integrity of the syncytiotrophoblast, for 
+example secretion of hormones such as chorionic gonadotrophin 
+and the surface expression of energy - dependent 
+transporters for the uptake of molecules such as glucose 
+or amino acids. Consequently, the nuclei that are incorporated 
+into the syncytiotrophoblast remain within this 
+layer for at least 3 Ð 4 weeks. Then, the older nuclei accumulate 
+and are packed into protrusions of the apical 
+membrane known as syncytial kots [15] . 
+Trophoblast turnover 
+Like every epithelium, the villous trophoblast exhibits the 
+phenomenon of continuous turnover comprising [1] : 
+1 proliferation of a subset of cytotrophoblast progenitor 
+cells; 
+2 differentiation of post - proliferative mononucleated 
+daughter cells (2 . 3 days); 
+3 syncytial fusion of fi nally differentiated cells with the 
+overlying syncytiotrophoblast; 
+4 further differentiation and maturation within the syncytiotrophoblast 
+(3 Ð 4 weeks); 
+5 ageing and late apoptosis at specifi c sites of the 
+syncytiotrophoblast; 
+6 packing of old material into syncytial knots; and fi nally 
+7 extrusion of membrane - sealed apoptotic corpuscles 
+(syncytial knots) into the maternal circulation. 
+The majority of apoptotic syncytial knots are extruded 
+from the syncytiotrophoblast surface into the maternal 
+circulation [16] . In pathological pregnancies the molecular 
+control of trophoblast differentiation is altered. In 
+cases of severe early - onset intrauterine growth restriction 
+22 Chapter 2 
+Layers of the c horion l aeve 
+The layers of the chorion laeve, from the fetal to the 
+maternal side, are as follows (Fig. 2.5 ). 
+1 Amnionic epithelium . A single cuboideal epithelium 
+secreting and resorbing the amnionic fl uid and involved 
+in removal of carbon dioxide and pH regulation [31] . 
+2 Amnionic mesoderm . A thin layer of avascular connective 
+tissue separated from the amnionic epithelium by a basement 
+membrane. 
+3 Chorionic mesoderm . This second layer of connective 
+tissue is separated from the amnionic mesoderm by 
+slender fl uid - fi lled clefts. It is continuous with the connective 
+tissue of the chorionic plate, which contains the 
+branching vessels to and from the umbilical and villous 
+vessels. 
+4 Extravillous trophoblast of the fetal membranes . This specifi 
+c type of extravillous trophoblast does not display 
+invasive properties and is separated from the chorionic 
+mesoderm by a basement membrane. 
+5 Capsular decidua . This layer of maternal cells is directly 
+attached to the extravillous trophoblast. At the end of the 
+implantation process, the decidua closes again over the 
+developing embryo, generating the capsular decidua. 
+During the early second trimester, the capsular decidua 
+comes into direct contact with the opposite wall of the 
+uterus, causing obliteration of the uterine cavity. 
+miscarriages, while less severe cases may continue but 
+may lead to pathologies such as pre - eclampsia and IUGR 
+[8,11] . It is becoming increasingly evident that the aetiology 
+of pre - eclampsia involves increased oxidative stress, 
+mostly without changes in the extravillous subset of trophoblast 
+[28] . Recent data point to hyperoxic changes or 
+to the occurrence of fl uctuating oxygen concentrations 
+[20,29] . 
+Summary box 2.4 
+Villous t rophoblast a s the o utermost e pithelial l ayer of 
+p lacental v illi 
+¥ Cytotrophoblast: progenitor cells to maintain the 
+syncytiotrophoblast throughout pregnancy. 
+¥ Syncytiotrophoblast: multinucleated, in direct contact with 
+maternal blood. 
+¥ Syncytiotrophoblast: shedding of apoptotic material into 
+maternal blood, at the end of gestation about 3 g daily. 
+¥ Pre - eclampsia: quantity and quality of syncytial shedding 
+are altered. More fragments are released, mostly owing to 
+necrosis and aponecrosis. 
+Villous s troma 
+¥ Mesenchymal cells and fi broblasts. 
+¥ Macrophages (Hofbauer cells). 
+¥ Vessels with media and endothelium. 
+Fig. 2.5 Layers of the fetal membranes. The amnionic epithelium 
+is a simple epithelium that secretes and resorbs the amnionic 
+fl uid. The two layers of connective tissues (amnionic and 
+chorionic mesoderm) are separated by fl uid - fi lled clefts. The 
+extravillous trophoblast of the fetal membranes displays a 
+non - invasive phenotype and is embedded in a self - secreted 
+matrix, termed matrix - type fi brinoid. Finally, on the maternal 
+side, the fetal membranes are covered by the capsular decidua of 
+maternal origin. 
+Amnionic epithelium 
+(resting on a basement membrane) 
+Amnionic mesoderm 
+(avascular; separated from the chorionic 
+mesoderm by slender, fluid filled clefts) 
+Chorionic mesoderm 
+(vascular; separated from extravillous 
+trophoblast by a basement membrane) 
+Extravillous trophoblast 
+(embedded in self-secreted 
+matrix-type fibrinoid) 
+Capsular decidua 
+(decidualized endometrial stroma in 
+the chorion laeve) 
+Fetal m embranes 
+During early embryonic development, the amnionic cavity 
+increases in size and fi nally surrounds and encases the 
+complete embryo. Fluid accumulation within the amnionic 
+cavity leads to complete separation of the embryo 
+from surrounding extraembryonic tissues, leaving only 
+the developing umbilical cord as the connection between 
+placenta and embryo. The amnionic mesenchyme comes 
+into direct contact with the chorionic mesoderm lining the 
+inner surface of the chorionic sac (see Fig. 2.3 ). Both tissue 
+layers do not fuse, and it remains that amnion and chorion 
+can easily slide against each other [1,30] . 
+As described above, it is only at the implantation/ 
+embryonic pole that the defi nitive placenta develops. 
+Owing to regression of villi, most of the surface of the 
+chorionic sac (about 70%) develops in such a way that the 
+early chorionic plate, together with the amnion, remnants 
+of villi and the covering decidual tissues ( capsular decidua ), 
+fuse and form a multilayered compact structure termed 
+the chorion laeve or fetal membranes. 
+The Placenta and Fetal Membranes 23 
+Doppler ultrasound in placental assessment is determining 
+maternal fl ow in the uterine arteries [36] . This screening 
+test is performed either at the 18 Ð 20 week anatomical 
+ultrasound or at a separate 22 - week visit [37] . Integration 
+of placental ultrasound, uterine artery Doppler and fi rst - 
+and second - trimester biochemistry screening tests (PAPP - 
+A, hCG, PP13 and AFP) is an effective way of screening 
+for serious placental insuffi ciency syndromes before they 
+threaten fetal viability, thereby directing care to a high - 
+risk pregnancy unit [38,39] . 
+Pregnancies with multiparameter placental dysfunction 
+in the 19 Ð 22 week window exhibit a 40% positive 
+predictive value of delivery before 32 weeks due to 
+clinical complications of placental insuffi ciency (IUGR, 
+pre - eclampsia, abruption, stillbirth). Placental villous infarction 
+complicates over 60% of such cases yet maternal 
+thrombophilia is rare [38] . Since the normal healthy placenta 
+expresses surface anticoagulant proteins, abnormal 
+formation of the placenta may be the underlying cause of 
+multifocal placental infarction. If this is the case, placental 
+function testing in subsequent pregnancies may be a 
+better determinant of future risk than maternal thrombophilia 
+screening in the non - pregnant period. 
+Colour power Doppler 
+Colour power angiography (CPA) is an extented application 
+in Doppler ultrasound and velocimetry. CPA 
+can be used to map the vasculature within the placenta 
+when combined with three - dimensional reconstruction 
+(Fig. 2.6 ). This technique is able to identify red blood cells 
+in vessels with a diameter of more than 200 . m [40] . 
+Because the technique is three - dimensional, it can also 
+be used to measure the proximal uterine arteries and 
+therefore determine uterine artery blood fl ow rather 
+than the descriptive assessment of the fl ow velocity waveform 
+used in current practice. 
+Characteristics of the chorion laeve 
+After separation from the uterine wall, the fetal membranes 
+have a mean thickness of about 200 Ð 300 . m at 
+term [1] . The presence of the capsular decidua on the 
+outer surface of the fetal membranes after delivery indicates 
+that separation of the membranes takes place 
+between maternal tissues rather than along the materno - 
+fetal interface. Owing to the absence of vascular structures 
+inside the connective tissues of the fetal membranes, 
+all paraplacental exchange between fetal membranes and 
+fetus has to pass the amnionic fl uid. 
+Summary box 2.5 
+Layers of the fetal membrane, the chorion laeve 
+¥ Amnionic epithelium. 
+¥ Amnionic mesoderm. 
+¥ Chorionic mesoderm. 
+¥ Extravillous trophoblast. 
+¥ Decidua caspularis (maternal tissues). 
+Ultrasound 
+Using ultrasound just a few days after the expected menstrual 
+period, a gestational sac with a diameter of 2 Ð 3 mm 
+can be detected within the uterine endometrium. 
+Developmental changes in the structure and organization 
+of the placenta and membranes can be seen by ultrasound 
+[32] . Minor anatomical variations, such as cysts and lakes, 
+can readily be distinguished from lesions that destroy 
+functioning villous tissue, such as infarcts and intervillous 
+thrombi. Small placentas typically have eccentric 
+cords, due to chorionic regression, and can have progressive 
+parenchymal lesions, features typical of early - onset 
+IUGR [33] . It is important to document placental location 
+and cord insertion. Pathological placental invasion (placenta 
+percreta) may be suspected by ultrasound, and can 
+be confi rmed by magnetic resonance imaging (MRI) [34] . 
+Doppler ultrasound 
+Pulsed and colour Doppler ultrasound are valuable techniques 
+for placental assessment. Umbilical cord fl ow can 
+be visualized at 7 Ð 8 weeks, though end - diastolic fl ow 
+(EDF) is not established until 14 weeks. Early - onset IUGR 
+may be characterized by absent EDF in the umbilical 
+arteries even by 22 weeks [33] , associated with small malformed 
+placentas and defective angiogenesis in the gas - 
+exchanging terminal placental villi [35] . A major role for 
+Summary box 2.6 
+Ultrasound ( including Doppler and colour power 
+Doppler ultrasound) 
+¥ Week 3: visualization of the gestational sac. 
+¥ Week 7 Ð8: visualization of blood fl ow in the umbilical cord. 
+¥ Week 13 until delivery: visualization of placental vessels 
+with diameter larger than 200 .m. 
+¥ Week 14: establishment of EDF in the umbilical arteries. 
+¥ Week 18 Ð22: screening of uterine arteries for pathological 
+fl ow patterns. 
+¥ Week 22: early -onset IUGR can be predicted by absent 
+EDF in the umbilical arteries. 
+24 Chapter 2 
+7 Pijnenborg R , Bland JM , Robertson WB , Brosens I . Uteroplacental 
+arterial changes related to interstitial trophoblast migration in 
+early human pregnancy . Placenta 1983 ; 4 : 397 Ð 413 . 
+8 Jauniaux E , Watson AL , Hempstock J , Bao YP , Skepper JN , 
+Burton GJ . Onset of maternal arterial bloodfl ow and placental 
+oxidative stress: a possible factor in human early pregnancy 
+failure . Am J Pathol 2000 ; 157 : 2111 Ð 2122 . 
+9 Burton GJ , Jauniaux E , Charnock - Jones DS . Human early placental 
+development: potential roles of the endometrial glands . 
+Placenta 2007 ; 28 ( Suppl A ): S64 Ð S69 . 
+10 Burton GJ , Hempstock J , Jauniaux E . Oxygen, early embryonic 
+metabolism and free radical - mediated embryopathies . Reprod 
+BioMed Online 2003 ; 6 : 84 Ð 96 . 
+11 Jauniaux E , Hempstock J , Greenwold N , Burton GJ . Trophoblastic 
+oxidative stress in relation to temporal and regional differences 
+in maternal placental blood fl ow in normal and abnormal early 
+pregnancies . Am J Pathol 2003 ; 162 : 115 Ð 125 . 
+12 Baczyk D , Dunk C , Huppertz B et al . Bi - potential behaviour of 
+cytotrophoblasts in fi rst trimester chorionic villi . Placenta 
+2006 ; 27 : 367 Ð 374 . 
+13 Baczyk D , Drewlo S , Proctor L , Dunk C , Lye S , Kingdom J . 
+Glial cell missing - 1 transcription factor is required for the dif- 
+References 
+1 Benirschke K , Kaufmann P , Baergen R . Pathology of the Human 
+Placenta . New York : Springer , 2006 . 
+2 Hemberger M . Genetic Ð epigenetic intersection in trophoblast 
+differentiation: implications for extraembryonic tissue function 
+. Epigenetics 2010 ; 5 : 24 Ð 29 . 
+3 Kemp B , Kertschanska S , Kadyrov M , Rath W , Kaufmann P , 
+Huppertz B . Invasive depth of extravillous trophoblast correlates 
+with cellular phenotype: a comparison of intra - and extrauterine 
+implantation sites . Histochem Cell Biol 2002 ; 117 : 401 Ð 414 . 
+4 Kurman RJ , Main CS , Chen HC . Intermediate trophoblast: 
+a distinctive form of trophoblast with specifi c morphological, 
+biochemical and functional features . Placenta 1984 ; 5 : 
+349 Ð 369 . 
+5 Kaufmann P , Black S , Huppertz B . Endovascular trophoblast 
+invasion: implications for the pathogenesis of intrauterine 
+growth retardation and preeclampsia . Biol Reprod 2003 ; 69 : 1 Ð 7 . 
+6 Moser G , Gauster M , Orendi K , Glasner A , Theuerkauf R , 
+Huppertz B . Endoglandular trophoblast, an alternative route of 
+trophoblast invasion? Analysis with novel confrontation co - 
+culture models . Hum Reprod 2010 ; 25 : 1127 Ð 1136 . 
+Fig. 2.6 Development of placental blood 
+fl ow. Left column: Typical three - 
+dimensional power Doppler scans from 
+placentas of normal pregnant women at 
+weeks 18, 24, 34 and 38. The fl ow signals 
+within placental villi (white arrows) 
+increase in extent, intensity, width and 
+height with advancing pregnancy. At term 
+(38 weeks) tree - like structures can be 
+visualized. Since only anterior placentas 
+have been used for these scans, the uterine 
+wall (UW) is always at the top of the scan 
+while the chorionic plate (CP) is always at 
+the bottom of the scan. (Courtesy of Justin 
+Konje, Leicester, UK.) Right column: 
+Synoptic view of characteristic features of 
+placental blood fl ow throughout pregnancy 
+as depicted by three - dimensional power 
+Doppler. (Adapted from drawings of Peter 
+Kaufmann, Aachen, Germany.) 
+18 w 
+UW 
+UW 
+UW 
+UW 
+CP
+CP 
+CP 
+CP 
+18 w 
+24 w 
+34 w 
+38 w 
+Maternal 
+Maternal 
+Maternal 
+Maternal 
+Fetal 
+Fetal 
+Fetal 
+Fetal 
+24 w 
+32 w 
+38 w
+The Placenta and Fetal Membranes 25 
+34 Warshak CR , Eskander R , Hull AD et al . Accuracy of ultrasonography 
+and magnetic resonance imaging in the diagnosis 
+of placenta accreta . Obstet Gynecol 2006 ; 108 : 573 Ð 581 . 
+35 Krebs C , Macara LM , Leiser R , Bowman AW , Greer IA , Kingdom 
+JC . Intrauterine growth restriction with absent end - diastolic 
+fl ow velocity in the umbilical artery is associated with maldevelopment 
+of the placental terminal villous tree . Am J Obstet 
+Gynecol 1996 ; 175 : 1534 Ð 1542 . 
+36 Jauniaux E , Jurkovic D , Campbell S , Hustin J . Doppler ultrasound 
+features of the developing placental circulations: correlation 
+with anatomic fi ndings . Am J Obstet Gynecol 1992 ; 166 : 
+585 Ð 587 . 
+37 Alkazaleh F , Reister F , Kingdom JCP . Doppler ultrasound . In: 
+Rumak CM , Wilson SR , Charboneau JW (eds) Obstetric 
+Ultrasound , 4th edn . Philadelphia : Elsevier Mosby , 2004 . 
+38 Toal M , Keating S , Machin G et al . Determinants of adverse 
+perinatal outcome in high - risk women with abnormal uterine 
+artery Doppler images . Am J Obstet Gynecol 2008 ; 198 : 330.e1 Ð 7 . 
+39 Costa SL , Proctor L , Dodd JM et al . Screening for placental 
+insuffi ciency in high - risk pregnancies: is earlier better? Placenta 
+2008 ; 29 : 1034 Ð 1040 . 
+40 Konje JC , Huppertz B , Bell SC , Taylor DJ , Kaufmann P . 
+3 - dimensional colour power angiography for staging human 
+placental development . Lancet 2003 ; 362 : 1199 Ð 1201 . 
+41 Mayhew TM , Leach L , McGee R , Ismail WW , Myklebust R , 
+Lammiman MJ . Proliferation, differentiation and apoptosis in 
+villous trophoblast at 13 Ð 41 weeks of gestation (including 
+observations on annulate lamellae and nuclear pore complexes . 
+Placenta 1999 ; 20 : 407 Ð 422 . 
+42 Burton GJ , Jauniaux E . Placental oxidative stress: from miscarriage 
+to preeclampsia . J Soc Gynecol Investig 2004 ; 11 : 342 Ð 352 . 
+43 Chaddha V , Viero S , Huppertz B , Kingdom J . Developmental 
+biology of the placenta and the origins of placental insuffi - 
+ciency . Semin Fetal Neonat Med 2004 ; 9 : 357 Ð 369 . 
+44 Dugoff L . First - and second - trimester maternal serum markers 
+for aneuploidy and adverse obstetric outcomes . Obstet Gynecol 
+2010 ; 115 : 1052 Ð 1061 . 
+Further reading 
+Structural characteristics of the placenta, see [1] 
+Defi nition of fi brinoid, see [14] 
+Trophoblast and its changes during pre - eclampsia, see [28] 
+Detailed descriptions of pathologies and their impact on macroscopic 
+features of the placenta, see [1] 
+Classifi cation of villi and the types of villi, see [1] 
+Stereological parameters of the growing placenta, see [41] 
+Syncytial fusion and the involvement of apoptosis, see [19, 20] 
+Impact of oxygen on placental development and placental - related 
+disorders of pregnancy, see [42] 
+Composition and characteristics of fetal membranes, see [31] 
+Rupture of fetal membranes, see [30] 
+Placental assessment by ultrasound, see [43] 
+Placental Doppler, see [32, 36, 37] 
+Developmental placental pathology, see [1, 43] 
+Placental biochemistry in clinical practice, see [44] 
+Role of a placenta clinic, see www.mountsinai.on.ca/care/ 
+placenta - clinic 
+ferentiation of the human trophoblast . Cell Death Differ 2009 ; 16 : 
+719 Ð 727 . 
+14 Kaufmann P , Huppertz B , Frank HG . The fi brinoids of the 
+human placenta: origin, composition and functional relevance . 
+Ann Anat 1996 ; 178 : 485 Ð 501 . 
+15 Huppertz B . IFPA Award in Placentology Lecture. Biology of 
+the placental syncytiotrophoblast: myths and facts . Placenta 
+2010 ; 31 (Suppl): S75 Ð S81 . 
+16 Huppertz B , Kadyrov M , Kingdom JC . Apoptosis and its role 
+in the trophoblast . Am J Obstet Gynecol 2006 ; 195 : 29 Ð 39 . 
+17 Ellery PM , Cindrova - Davies T , Jauniaux E , Ferguson - Smith AC , 
+Burton GJ . Evidence for transcriptional activity in the syncytiotrophoblast 
+of the human placenta . Placenta 2009 ; 30 : 329 Ð 334 . 
+18 Goswami D , Tannetta DS , Magee LA et al . Excess syncytiotrophoblast 
+microparticle shedding is a feature of early - onset pre - 
+eclampsia, but not normotensive intrauterine growth restriction . 
+Placenta 2006 ; 27 : 56 Ð 61 . 
+19 Huppertz B , Tews DS , Kaufmann P . Apoptosis and syncytial 
+fusion in human placental trophoblast and skeletal muscle . Int 
+Rev Cytol 2001 ; 205 : 215 Ð 253 . 
+20 Huppertz B , Kingdom J . Apoptosis in the trophoblast: role of 
+apoptosis in placental morphogenesis . J Soc Gynecol Investig 
+2004 ; 11 : 353 Ð 362 . 
+21 Ikl Ž FA . Trophoblastzellen im str š menden Blut . Schweiz Med 
+Wochenschr 1961 ; 91 : 934 Ð 945 . 
+22 Johansen M , Redman CW , Wilkins T , Sargent IL . Trophoblast 
+deportation in human pregnancy: its relevance for pre - 
+eclampsia . Placenta 1999 ; 20 : 531 Ð 539 . 
+23 Redman CWG , Sargent IL . Placental debris, oxidative stress 
+and pre - eclampsia . Placenta 2000 ; 21 : 597 Ð 602 . 
+24 Graf R , Matejevic D , Schuppan D , Neudeck H , Shakibaei M , 
+Vetter K . Molecular anatomy of the perivascular sheath in 
+human placental stem villi: the contractile apparatus and its 
+association to the extracellular matrix . Cell Tissue Res 1997 ; 290 : 
+601 Ð 607 . 
+25 Burton GJ , Jauniaux E , Charnock - Jones DS . The infl uence of the 
+intrauterine environment on human placental development . Int 
+J Dev Biol 2010 ; 54 : 303 Ð 312 . 
+26 Kingdom JCP , Kaufmann P . Oxygen and placental villous development: 
+origins of fetal hypoxia . Placenta 1997 ; 18 : 613 Ð 621 . 
+27 Zamudio S . The placenta at high altitude . High Altitude Med Biol 
+2003 ; 4 : 171 Ð 191 . 
+28 Huppertz B . Placental origins of preeclampsia: challenging the 
+current hypothesis . Hypertension 2008 ; 51 : 970 Ð 975 . 
+29 Burton GJ , Woods AW , Jauniaux E , Kingdom JC . Rheological 
+and physiological consequences of conversion of the maternal 
+spiral arteries for uteroplacental blood fl ow during human 
+pregnancy . Placenta 2009 ; 30 : 473 Ð 482 . 
+30 Menon R , Fortunato SJ . The role of matrix degrading enzymes 
+and apoptosis in rupture of membranes . J Soc Gynecol Investig 
+2004 ; 11 : 427 Ð 437 . 
+31 Schmidt W . The amniotic fl uid compartment: the fetal habitat . 
+Adv Anat Embryol Cell Biol 1992 ; 127 : 1 Ð 100 . 
+32 Alkazaleh F , Viero S , Kingdom JCP . The placenta . In: Rumak 
+CM , Wilson SR , Charboneau JW (eds) Obstetric Ultrasound , 4th 
+edn . Philadelphia : Elsevier Mosby , 2004 . 
+33 Proctor LK , Toal M , Keating S et al . Placental size and the prediction 
+of severe early - onset intrauterine growth restriction in 
+women with low pregnancy - associated plasma protein - A . 
+Ultrasound Obstet Gynecol 2009 ; 34 : 274 Ð 282 . 

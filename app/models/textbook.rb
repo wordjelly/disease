@@ -5,7 +5,8 @@ class Textbook
 	## @param[String] sax_object_class : the class that is to be used for instantiating the SaxObject[Optional]. Defaults to SaxObject
 	## @param[String] textbook_name : the name of the textbook[REQUIRED]/
 	## @return[nil]
-	## @working : 
+	## @working : will call saxparser, and create an index for the textbook, in 
+	## elasticsearch. the name of the index will be prefixed by "documents-"
 	def self.add_textbook(textbook_file_path,textbook_json_structure_file_path,sax_object_class)
 
 		raise "textbook file path not provided" unless textbook_file_path

@@ -11,7 +11,7 @@ class Churchill::ChurchillObject < SaxObject
 			#puts "title is: #{title}"
 			#puts "title 0 is: #{title[0]}"
 			if titles[title[0]]	
-				puts "got title ------------ #{line}"
+				#puts "got title ------------ #{line}"
 				return ["on",clear_numbers_newlines_and_excess_spaces(title[0])]			
 			else
 				return ["off",title[0]]
