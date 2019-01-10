@@ -138,8 +138,20 @@ class SaxParserTest < ActiveSupport::TestCase
 	end
 =end
 
+=begin
 	def test_parses_oxford_ent
 		Textbook.add_textbook("#{Rails.root}/vendor/oxford_ent.txt","#{Rails.root}/vendor/oxford_ent_json_structure.json","Oxford::Ent")
+	end
+=end
+
+=begin
+	def test_parses_evidence_based_gynecology
+		Textbook.add_textbook("#{Rails.root}/vendor/gynecology_evidence_based_algorithms.txt","#{Rails.root}/vendor/gyn_evi_algo.json","Obstetrics::EvidenceObject")
+	end
+=end
+	
+	def test_paediatric_algorithms
+		Textbook.add_textbook("#{Rails.root}/vendor/paediatric_algorithms.txt","#{Rails.root}/vendor/paediatric_algo.json","Paediatric::Algorithm")
 	end
 
 end

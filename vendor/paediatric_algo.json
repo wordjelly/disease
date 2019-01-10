@@ -1,0 +1,27 @@
+{
+	"name" : "_doc",
+	"process_with" : "title_processor", 
+	"textbook_name" : "Paediatric Algorithms",
+	"searchable" : true,
+	"components" : [
+		{
+			"name" : "Management", 
+			"process_with" : "management_processor",
+			"components" : [],
+			"searchable" : true
+		},
+		{
+			"name" : "Differential Diagnosis", 
+			"process_with" : "differential_diagnosis_processor",
+			"components" : [],
+			"searchable" : true
+		},
+		{
+			"name" : "Investigations", 
+			"process_with" : "investigations_processor",
+			"components" : [],
+			"searchable" : true,
+			"contains_tests" : true
+		}
+	]		
+}

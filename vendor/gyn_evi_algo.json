@@ -1,0 +1,37 @@
+{
+	"name" : "_doc",
+	"process_with" : "title_processor", 
+	"textbook_name" : "Gynecology Evidence Based Algorithms",
+	"components" : [
+		{
+		    "name" : "background",
+			"process_with" : "background_processor",
+			"components" : [],
+			"searchable" : true
+		},
+		{
+			"name" : "risks", 
+			"process_with" : "risks_processor",
+			"components" : [],
+			"searchable" : true
+		},
+		{
+			"name" : "clinical_features", 
+			"process_with" : "clinical_features_processor",
+			"components" : [],
+			"searchable" : true
+		},
+		{
+			"name" : "investigations",
+			"process_with" : "investigations_processor",
+			"components" : [],
+			"contains_tests" : true
+		},
+		{
+			"name" : "management",
+			"process_with" : "management_processor",
+			"components" : [],
+			"contains_tests" : true	
+		}
+	]		
+}
