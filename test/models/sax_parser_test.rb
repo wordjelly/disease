@@ -150,8 +150,14 @@ class SaxParserTest < ActiveSupport::TestCase
 	end
 =end
 	
+=begin
 	def test_paediatric_algorithms
 		Textbook.add_textbook("#{Rails.root}/vendor/paediatric_algorithms.txt","#{Rails.root}/vendor/paediatric_algo.json","Paediatric::Algorithm")
+	end
+=end
+	
+	def test_gets_allergy_contents
+		Oxford::Allergy.get_allergy_contents("#{Rails.root}/vendor/oxford_allergy.txt","#{Rails.root}/vendor/oxford_allergy_contents.txt")
 	end
 
 end

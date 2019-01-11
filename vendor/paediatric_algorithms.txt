@@ -1,8 +1,8 @@
-[SECTION]Algorithms in
+Algorithms in
 
 PEDIATRICS
 
-[SECTION][SECTION]Algorithms in
+Algorithms in
 
 PEDIATRICS
 Editors
@@ -26,7 +26,7 @@ Pramod Jog
 The Health Sciences Publisher
 New Delhi | London | Panama
 
-[SECTION]Jaypee Brothers Medical Publishers (P) Ltd
+Jaypee Brothers Medical Publishers (P) Ltd
 Headquarters
 Jaypee Brothers Medical Publishers (P) Ltd
 4838/24, Ansari Road, Daryaganj
@@ -83,7 +83,7 @@ Algorithms in Pediatrics / Anand S Vasudev, Nitin K Shah
 First Edition: 2017
 ISBN: 978-93-5152-160-0
 
-[SECTION]Contributors
+Contributors
 
 EDITORS
 Anand S Vasudev DNB D Ped DCP MNAMS MICP (USA) FIAP FIMSA
@@ -200,7 +200,7 @@ Neonatology
 Sir HN Reliance Foundation Hospital
 Mumbai, Maharashtra, India
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 
 Ashish Mehta MD DCH
 
@@ -349,7 +349,7 @@ Senior Consultant, Apollo, Max,
 Pentamed and Sundar Lal Jain Hospital
 New Delhi, India
 
-[SECTION]Contributors
+Contributors
 
 CONTRIBUTING AUTHORS
 Kochurani Abraham DCH
@@ -530,7 +530,7 @@ Kolkata, West Bengal, India
 
 vii
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 
 Sushmita Banerjee DCH MSc MRCPI
 
@@ -712,7 +712,7 @@ Neonatology, Ashna Childrens Hospital
 and Arushee Childcare Hospital
 Mumbai, Maharashtra, India
 
-[SECTION]Contributors
+Contributors
 
 Shalu Gupta MD
 
@@ -897,7 +897,7 @@ New Delhi, India
 
 ix
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 
 Rashmi Kumar
 
@@ -1079,7 +1079,7 @@ Professor
 Indira Gandhi Institute of Child Health
 Bangalore, Karnataka, India
 
-[SECTION]Contributors
+Contributors
 
 Nitin Pant MS MCh
 Assistant Professor
@@ -1252,7 +1252,7 @@ Mumbai, Maharashtra,India
 
 xi
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 
 Sarita Sanke MD
 
@@ -1438,7 +1438,7 @@ Anurag M Srivastava MS
 Consultant, Rockland Hospital
 New Delhi, India
 
-[SECTION]Contributors
+Contributors
 
 Nidhi Sugandhi MS MCh
 
@@ -1571,7 +1571,7 @@ Thiruvananthapuram, Kerala, India
 
 xiii
 
-[SECTION][SECTION]Foreword
+Foreword
 
 Pramod Jog MD DNB FIAP
 Professor of Pediatrics
@@ -1607,7 +1607,7 @@ evaluation of common pediatric signs and symptoms in clinical practice.
 With the help of history, focused examination, and minimum investigations, pediatricians in office practice can reach a
 working diagnosis and lay down immediate priorities in management.
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 
 There is rarely a single acceptable approach to any given problem, and not all diagnoses can fit neatly into an algorithm.
 Even though the protocols cannot be considered all-inclusive, the goal is to facilitate a logical and efficient stepwise
@@ -1620,7 +1620,7 @@ available investigative and therapeutic resources.
 
 xvi
 
-[SECTION]Preface
+Preface
 
 It gives us immense pleasure to present to you the 1st edition of “Algorithms in Pediatrics”. Pediatrics is rapidly advancing
 with the growth of its subspecialties. At times, it becomes difficult for busy pediatricians, whether in practice, in teaching
@@ -1641,7 +1641,7 @@ We are also grateful to our respective spouses for being tolerant and supportive
 Anand S Vasudev
 Nitin K Shah
 
-[SECTION][SECTION]Contents
+Contents
 
 13. Neonatal Seizures
 
@@ -1786,7 +1786,7 @@ Sushma P Desai
 
 94
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 
 24. Adolescent Depression/Suicidal
 Tendency and Its Management
@@ -1968,7 +1968,7 @@ Baldev S Prajapati, Rajal B Prajapati
 
 235
 
-[SECTION]Contents
+Contents
 
 52. Algorithmic Approach to Short
 Duration Fever without Focus
@@ -2154,7 +2154,7 @@ Surender K Yachha, Moinak S Sarma
 
 xxi
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 
 78. Approach to Upper Gastrointestinal
 Bleed in Children
@@ -2357,7 +2357,7 @@ Aspi J Irani
 
 526
 
-[SECTION]Contents
+Contents
 
 109. Gynecomastia in Children
 
@@ -2559,7 +2559,7 @@ Vibhu Mendiratta, Nikita, Sarita Sanke
 
 xxiii
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 
 Section 17: Ophthalmology
 
@@ -2677,7 +2677,7 @@ Premal Naik, Hitesh B Chauhan
 
 767
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 Chapter
 
 1
@@ -2766,7 +2766,7 @@ reassessment at every step (Algorithm 1).
 
 11/18/2016 4:55:34 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 Algorithm 1
 Indian Academy of Pediatrics Neonatal Resuscitation Program First Golden Minute algorithm for neonatal resuscitation
 
@@ -2834,7 +2834,7 @@ starting CCs. Consider intubation if CC is to begin. The
 
 11/18/2016 4:55:35 PM
 
-[SECTION]Chapter 1: Neonatal Resuscitation
+Chapter 1: Neonatal Resuscitation
 2 thumb encircling hands technique may generate higher
 peak systolic and coronary perfusion pressure than the 2 finger
 technique, hence the 2 thumb encircling hands technique is
@@ -2972,7 +2972,7 @@ severe bradycardia, then proceed to PPV.
 
 11/18/2016 4:55:35 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 an understanding of the relevant neonatal data and ethical
 issues, including the rights of the newborn and the parents.
 The ideal situation is one where the healthcare team and
@@ -3096,7 +3096,7 @@ ch-01.indd 4
 
 11/18/2016 4:55:35 PM
 
-[SECTION]Chapter
+Chapter
 
 2
 
@@ -3193,7 +3193,7 @@ Based on the expected cause, investigations should be planned:
 
 11/18/2016 4:56:09 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 •
 •
 •
@@ -3263,7 +3263,7 @@ blood gas; PCV, packed cell volume.
 
 11/18/2016 4:56:10 PM
 
-[SECTION]Chapter 2: Apnea
+Chapter 2: Apnea
 
 {{
 
@@ -3358,7 +3358,7 @@ ch-02.indd 7
 
 11/18/2016 4:56:10 PM
 
-[SECTION]Chapter
+Chapter
 
 3
 
@@ -3455,7 +3455,7 @@ be thought of as a cause. Congenital heart disease usually
 
 11/18/2016 4:56:45 PM
 
-[SECTION]Chapter 3: Respiratory Distress in Newborn
+Chapter 3: Respiratory Distress in Newborn
 manifests with symptoms like respiratory distress after some
 duration after birth; acquired pneumonias will also manifest
 later than 48 hours after birth.
@@ -3596,7 +3596,7 @@ pattern in mild disease and a “white out” picture in severe disease.
 
 11/18/2016 4:56:45 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 
 Fig. 2: Chest X-ray showing hyperinflation of lung fields, bilateral
 streaky opacities radiating from hilum and fluid in the horizontal
@@ -3671,7 +3671,7 @@ Blood sugar should be monitored and kept in normal range
 
 11/18/2016 4:56:45 PM
 
-[SECTION]Chapter 3: Respiratory Distress in Newborn
+Chapter 3: Respiratory Distress in Newborn
 
 A
 
@@ -3709,7 +3709,7 @@ Experience is required for the successful application of CPAP,
 
 11/18/2016 4:56:46 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 especially with short binasal prongs. Single prong method may
 be beneficial for nurseries who have less experience with short
 binasal prongs or when application of short binasal prongs
@@ -3807,7 +3807,7 @@ ch-03.indd 12
 
 11/18/2016 4:56:46 PM
 
-[SECTION]Chapter
+Chapter
 
 4
 
@@ -3922,7 +3922,7 @@ Neuromuscular disorders.
 
 11/24/2016 12:15:57 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 
 OXYGEN THERAPY
 
@@ -4071,7 +4071,7 @@ patient are essential to maintaining patient safety
 
 11/24/2016 12:15:57 PM
 
-[SECTION]Chapter 4: Respiratory Support in Newborns
+Chapter 4: Respiratory Support in Newborns
 •
 
 Variable flow CPAP: variable flow CPAP represents a
@@ -4196,7 +4196,7 @@ in the inability to effectively measure distending pressure.
 
 11/24/2016 12:15:57 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 
 Noninvasive Positive Pressure Ventilation
 This is a method of assisted ventilation without an endotracheal
@@ -4333,7 +4333,7 @@ Apnea
 
 11/24/2016 12:15:57 PM
 
-[SECTION]Chapter 4: Respiratory Support in Newborns
+Chapter 4: Respiratory Support in Newborns
 •
 
 Bronchopulmonary dysplasia
@@ -4506,7 +4506,7 @@ arterial carbon dioxide; INSURE, intubatio-surfactant-extubation; LR, labor room
 
 11/24/2016 12:15:58 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 Algorithm 2
 Management of meconium aspiration syndrome
 
@@ -4635,7 +4635,7 @@ MAP, mean airway pressure.
 
 11/24/2016 12:15:58 PM
 
-[SECTION]Chapter 4: Respiratory Support in Newborns
+Chapter 4: Respiratory Support in Newborns
 
 Suctioning
 •
@@ -4713,7 +4713,7 @@ ch-04.indd 19
 
 11/24/2016 12:15:58 PM
 
-[SECTION]Chapter
+Chapter
 
 5
 
@@ -4813,7 +4813,7 @@ pulmonary flow
 
 11/24/2016 1:55:28 PM
 
-[SECTION]Chapter 5: Persistent Pulmonary Hypertension of the Newborn
+Chapter 5: Persistent Pulmonary Hypertension of the Newborn
 blood gas may show similar findings (PaO2 >20 mm, higher
 in the preductal sample). A subset of infants may have rightto-left shunting only at the level of the foramen ovale and not
 at the ductus, and may fail to show differential cyanosis.
@@ -4918,7 +4918,7 @@ ch-05.indd 21
 
 11/24/2016 1:55:28 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 Algorithm 2
 Outline of management of persistent pulmonary
 hypertension of the newborn
@@ -5053,7 +5053,7 @@ ventilation of the neonate, 4th ed. Philadelphia: WB Saunders; 2003. pp. 19-46.
 
 11/24/2016 1:55:28 PM
 
-[SECTION]Chapter
+Chapter
 
 6
 
@@ -5177,7 +5177,7 @@ High initial fluid intake
 
 11/18/2016 4:59:22 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 
 CLINICAL FEATURES
 
@@ -5278,7 +5278,7 @@ ch-06.indd 24
 
 11/18/2016 4:59:22 PM
 
-[SECTION]Chapter 6: Bronchopulmonary Dysplasia
+Chapter 6: Bronchopulmonary Dysplasia
 Table 3: X-ray staging and appearance of bronchopulmonary
 dysplasia
 Stage
@@ -5422,7 +5422,7 @@ the inspired oxygen concentration.
 
 11/18/2016 4:59:23 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 Bronchopulmonary dysplasia spells: BPD spells which are
 sudden episodes of cyanosis and desaturation due to expiratory
 flow limitation may require sedation and paralysis.
@@ -5562,7 +5562,7 @@ IV, intravenous; PO, per os.
 
 11/18/2016 4:59:23 PM
 
-[SECTION]Chapter 6: Bronchopulmonary Dysplasia
+Chapter 6: Bronchopulmonary Dysplasia
 
 Clinical Pearl
 • Respiratory strategies aim to minimize lung injury and
@@ -5650,7 +5650,7 @@ ch-06.indd 27
 
 11/18/2016 4:59:23 PM
 
-[SECTION]Chapter
+Chapter
 
 7
 
@@ -5732,7 +5732,7 @@ to distinguish between patients with and without PDA.
 
 11/18/2016 5:00:42 PM
 
-[SECTION]Chapter 7: Patent Ductus Arteriosus
+Chapter 7: Patent Ductus Arteriosus
 Algorithm 1
 Clinical presentation of patent ductus arteriosus
 
@@ -5819,7 +5819,7 @@ The reported closure rate with the second dose is 40%.
 
 11/18/2016 5:00:42 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 
 Clinical Pearl
 • Not all patent ductus arteriosus require closure. The optimal
@@ -5987,7 +5987,7 @@ ibuprofen? J Perinatol. 2008; 28(1):S60-2.
 
 11/18/2016 5:00:42 PM
 
-[SECTION]Chapter
+Chapter
 
 8
 
@@ -6072,7 +6072,7 @@ ch-08.indd 31
 
 11/18/2016 5:02:01 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 
 Clues on History Suggesting Etiology
 •
@@ -6316,7 +6316,7 @@ in table 4.
 
 11/18/2016 5:02:01 PM
 
-[SECTION]Chapter 8: Neonatal Shock
+Chapter 8: Neonatal Shock
 Algorithm 2
 Management of neonatal shock
 
@@ -6424,7 +6424,7 @@ Philadelphia Neonatal Blood Pressure Study Group. J Perinatol. 1995;15(6):
 
 11/18/2016 5:02:01 PM
 
-[SECTION]9
+9
 
 Chapter
 
@@ -6668,7 +6668,7 @@ Postnatal age (weeks)
 
 11/18/2016 5:03:27 PM
 
-[SECTION]Chapter 9: Anemia in Neonate
+Chapter 9: Anemia in Neonate
 2. Increased RBC destruction:
 {{ Intrinsic causes: hereditary RBC disorders (rare),
 including RBC enzyme defects (e.g., glucose-6phosphate dehydrogenase (G6PD) deficiency, hexo­
@@ -6835,7 +6835,7 @@ ch-09.indd 35
 
 11/18/2016 5:03:27 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 
 INVESTIGATIONS (ALGORITHM 1)
 •
@@ -6920,7 +6920,7 @@ ch-09.indd 36
 
 11/18/2016 5:03:28 PM
 
-[SECTION]Chapter 9: Anemia in Neonate
+Chapter 9: Anemia in Neonate
 Weight gain less than 10 g/kg/day over the previous
 4 days while receiving more than 100 kcal/kg/day
 {{ An increase in the number or severity of apnea and
@@ -7084,7 +7084,7 @@ delivery to tissues is clinically desired.
 
 11/18/2016 5:03:28 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 
 SUGGESTED READINGs
 1. Aher S, Ohlsson A. Early versus late erythropoietin for preventing red blood cell
@@ -7137,7 +7137,7 @@ ch-09.indd 38
 
 11/18/2016 5:03:28 PM
 
-[SECTION]Chapter
+Chapter
 
 10
 
@@ -7190,7 +7190,7 @@ ch-10.indd 39
 
 11/24/2016 12:28:56 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 Table 1: Hemostatic system in a neonate in comparison to adults
 Component of
 hemostatic system
@@ -7338,7 +7338,7 @@ after birth) or late onset (2–12 weeks) VKDB.
 
 11/24/2016 12:28:56 PM
 
-[SECTION]Chapter 10: Bleeding Neonate
+Chapter 10: Bleeding Neonate
 
 Laboratory Investigations
 Essential laboratory investigations which should be done in
@@ -7422,7 +7422,7 @@ ch-10.indd 41
 
 11/24/2016 12:28:56 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 (apheresis unit). It is stored at room temperature and has a
 shelf-life of 5 days. A dose of 10 mL/kg is usually sufficient to
 increase the platelet count above therapeutic threshold.
@@ -7483,7 +7483,7 @@ ch-10.indd 42
 
 11/24/2016 12:28:57 PM
 
-[SECTION]Chapter
+Chapter
 
 11
 
@@ -7603,7 +7603,7 @@ Common causes of pathological NNH are given in table 2.
 
 11/18/2016 5:05:12 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 •
 
 Table 2: Common causes of pathological neonatal hyper­
@@ -8095,7 +8095,7 @@ Exchange
 
 11/18/2016 5:05:13 PM
 
-[SECTION]Chapter 11: Neonatal Hyperbilirubinemia (Unconjugated)
+Chapter 11: Neonatal Hyperbilirubinemia (Unconjugated)
 Table 4: Guidelines for treatment of jaundice in neonates 33 to more than 38 weeks
 Postnatal
 age (h)
@@ -8585,7 +8585,7 @@ ch-11.indd 45
 
 11/18/2016 5:05:13 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 
 Clinical Pearl
 • While interpreting National Institute for Health and Clinical
@@ -8631,7 +8631,7 @@ ch-11.indd 46
 
 11/18/2016 5:05:13 PM
 
-[SECTION]Chapter
+Chapter
 
 12
 
@@ -8744,7 +8744,7 @@ phlebitis.
 
 11/24/2016 12:30:05 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 
 MANAGEMENT OF
 ASYMPTOMATIC HYPOGLYCEMIA
@@ -8822,7 +8822,7 @@ IV, intravenous; GIR, gluscose infusion rate.
 
 11/24/2016 12:30:06 PM
 
-[SECTION]Chapter 12: Hypoglycemia
+Chapter 12: Hypoglycemia
 
 Drugs for the Treatment
 of Refractory Hypoglycemia
@@ -8888,7 +8888,7 @@ ch-12.indd 49
 
 11/24/2016 12:30:06 PM
 
-[SECTION]Chapter
+Chapter
 
 13
 
@@ -9009,7 +9009,7 @@ disease, sulfite oxidase deﬁciency
 
 11/18/2016 5:13:41 PM
 
-[SECTION]Chapter 13: Neonatal Seizures
+Chapter 13: Neonatal Seizures
 9. Epilepsy syndromes: benign idiopathic neonatal
 convulsions, benign familial neonatal seizures, benign
 nonfamilial (idiopathic) neonatal seizures, early infantile
@@ -9205,7 +9205,7 @@ phenobarbitone remains the first choice in neonatal seizures.
 
 11/18/2016 5:13:41 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 
 PROGNOSIS
 Dependent on the cause of seizures, e.g., in case of late-onset
@@ -9279,7 +9279,7 @@ EEG, electroencephalogram.
 
 11/18/2016 5:13:42 PM
 
-[SECTION]Chapter 13: Neonatal Seizures
+Chapter 13: Neonatal Seizures
 
 Key points
 
@@ -9315,7 +9315,7 @@ ch-13.indd 53
 
 11/18/2016 5:13:42 PM
 
-[SECTION]Chapter
+Chapter
 
 14
 
@@ -9430,7 +9430,7 @@ Temperature instability
 
 11/24/2016 12:30:50 PM
 
-[SECTION]Chapter 14: Neonatal Sepsis
+Chapter 14: Neonatal Sepsis
 •
 •
 
@@ -9588,7 +9588,7 @@ ch-14.indd 55
 
 11/24/2016 12:30:51 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 Continued
 Antibiotic/antifungal
 
@@ -9736,7 +9736,7 @@ All severely symptomatic infants should be started on anti­
 
 11/24/2016 12:30:51 PM
 
-[SECTION]Chapter 14: Neonatal Sepsis
+Chapter 14: Neonatal Sepsis
 Algorithm 1
 
 Algorithm 2
@@ -9829,7 +9829,7 @@ Columbus, Ohio: Ross Laboratories; 2010.
 
 11/24/2016 12:30:51 PM
 
-[SECTION]Chapter
+Chapter
 
 15
 
@@ -9979,7 +9979,7 @@ Unfortunately, these services are available only in few tertiary
 
 11/24/2016 12:33:08 PM
 
-[SECTION]Chapter 15: Approach to Congenital Heart Disease
+Chapter 15: Approach to Congenital Heart Disease
  Algorithm 1
 
  Algorithm 2
@@ -10044,7 +10044,7 @@ venous blood
 
 11/24/2016 12:33:08 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 Table 3: Clinical features helpful in distinguishing respiratory from cardiac cyanosis
 History
 Respiration
@@ -10181,7 +10181,7 @@ Family history.
 
 11/24/2016 12:33:08 PM
 
-[SECTION]Chapter 15: Approach to Congenital Heart Disease
+Chapter 15: Approach to Congenital Heart Disease
 •
 •
 
@@ -10365,7 +10365,7 @@ Surgery (complex) Norwood
 
 11/24/2016 12:33:09 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
  Algorithm 4
 
 TAPVC, total anomalous pulmonary venous connection; DOV, double outlet ventricle; DIV, double inlet ventricle; TGA, transposition of the great
@@ -10408,7 +10408,7 @@ ch-15.indd 62
 
 11/24/2016 12:33:09 PM
 
-[SECTION]Chapter
+Chapter
 
 16
 
@@ -10505,7 +10505,7 @@ constitute the most important aspect of first golden hour.
 
 11/18/2016 5:19:23 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 
 PRINCIPLES OF GOLDEN HOUR
 CARE (Figure 1 and Algorithm 1)
@@ -10549,7 +10549,7 @@ parenteral nutrition.
 
 11/18/2016 5:19:24 PM
 
-[SECTION]Chapter 16: First Golden Hour Management of Preterm
+Chapter 16: First Golden Hour Management of Preterm
 •
 •
 •
@@ -10625,7 +10625,7 @@ ch-16.indd 65
 
 11/18/2016 5:19:24 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 Table 1: Acceptable oxygen saturations in preterm newborns
 in delivery room
 Time from birth in minutes
@@ -10789,7 +10789,7 @@ J Med. 2012;367(26):2495-504.
 
 11/18/2016 5:19:24 PM
 
-[SECTION]Chapter
+Chapter
 
 17
 
@@ -10874,7 +10874,7 @@ be shifted to neonatal intensive care unit (NICU) for further
 
 11/18/2016 5:24:21 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 Table 1: Suggested monitoring in moderate to severe cases of perinatal asphyxia
 Organ system
 Temperature
@@ -11030,7 +11030,7 @@ oxygen saturations should be targeted between 90 and 95%.
 
 11/18/2016 5:24:21 PM
 
-[SECTION]Chapter 17: Perinatal Hypoxia
+Chapter 17: Perinatal Hypoxia
 Table 3: Thompson score
 Signs
 
@@ -11221,7 +11221,7 @@ prognosis of the baby.
 
 11/18/2016 5:24:21 PM
 
-[SECTION]Section 1: Neonatology
+Section 1: Neonatology
 Algorithm 1
 Algorithm for management of an asphyxiated baby
 
@@ -11274,7 +11274,7 @@ ch-17.indd 70
 
 11/18/2016 5:24:22 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 Chapter
 
 18
@@ -11361,7 +11361,7 @@ progestin alone are used in these methods. The mechanism
 
 11/24/2016 12:34:33 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 Table 1: List of hormonal contraceptives
 Methods
 
@@ -11497,7 +11497,7 @@ in box 1. The most commonly used pill in India is Mala-D
 
 11/24/2016 12:34:33 PM
 
-[SECTION]Chapter 18: Teen Pregnancy and Contraception
+Chapter 18: Teen Pregnancy and Contraception
 + ethinyl estradiol) which is also supplied by Government
 of India. Other oral contraceptive pills (OCPs) are Ovral-L,
 Novelon, Femilon, and Loette.
@@ -11626,7 +11626,7 @@ pills)
 
 11/24/2016 12:34:34 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 •
 •
 •
@@ -11707,7 +11707,7 @@ ch-18.indd 74
 
 11/24/2016 12:34:34 PM
 
-[SECTION]Chapter 18: Teen Pregnancy and Contraception
+Chapter 18: Teen Pregnancy and Contraception
 given at schools and adolescents clinics, health clinics, and/
 or, youth organizations have to be geared up to tackle this
 problem in India.
@@ -11744,7 +11744,7 @@ ch-18.indd 75
 
 11/24/2016 12:34:34 PM
 
-[SECTION]Chapter
+Chapter
 
 19
 
@@ -11827,7 +11827,7 @@ Is there any physical violence at home?
 
 11/18/2016 5:34:37 PM
 
-[SECTION]Chapter 19: HEEADSSS Assessment of the Adolescent Child
+Chapter 19: HEEADSSS Assessment of the Adolescent Child
 
 Education and Employment
 •
@@ -12010,7 +12010,7 @@ affirmations, reflective listening and summary statements
 
 11/18/2016 5:34:37 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 
 WRAPPING UP THE SESSION
 At the end of the HEEADSSS assessment, the pediatrician
@@ -12072,7 +12072,7 @@ ch-19.indd 78
 
 11/18/2016 5:34:37 PM
 
-[SECTION]Chapter
+Chapter
 
 20
 
@@ -12172,7 +12172,7 @@ of RBCs.
 
 11/18/2016 5:36:46 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 
 Mechanism of Anemia of Chronic Diseases
 In a chronic disease, anemia is caused either due to decreased
@@ -12264,7 +12264,7 @@ ch-20.indd 80
 
 11/18/2016 5:36:46 PM
 
-[SECTION]Chapter 20: Adolescent Anemia
+Chapter 20: Adolescent Anemia
 
 •
 •
@@ -12377,7 +12377,7 @@ ch-20.indd 81
 
 11/18/2016 5:36:47 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 Algorithm  3
 Treatment of anemia
 
@@ -12466,7 +12466,7 @@ anemia.
 
 11/18/2016 5:36:47 PM
 
-[SECTION]Chapter 20: Adolescent Anemia
+Chapter 20: Adolescent Anemia
 
 SUGGESTED READINGS
 1. Means RT, Glader B. Anemia: general considerations. In: Greer JP (Ed). Wintrobe’s
@@ -12514,7 +12514,7 @@ ch-20.indd 83
 
 11/18/2016 5:36:47 PM
 
-[SECTION]Chapter
+Chapter
 
 21
 
@@ -12602,7 +12602,7 @@ syndromes may also have writing difficulties and would
 
 11/18/2016 5:39:17 PM
 
-[SECTION]Chapter 21: Academics and Career Choices in Adolescents: Approach in the Pediatric Office Setting
+Chapter 21: Academics and Career Choices in Adolescents: Approach in the Pediatric Office Setting
  Algorithm 1
 Academics and career choices
 
@@ -12627,7 +12627,7 @@ the child how they see themselves 10 years from now and
 
 11/18/2016 5:39:17 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 working backwards may help. More often the child knows what
 they do not want to do, before they know what they want to.
 Taking into consideration their interests, personality,
@@ -12691,7 +12691,7 @@ ch-21.indd 86
 
 11/18/2016 5:39:17 PM
 
-[SECTION]Chapter
+Chapter
 
 22
 
@@ -12790,7 +12790,7 @@ and male-pattern alopecia.
 
 11/18/2016 5:43:06 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 
 NIH, National Institute of Health;PCOS, polycystic ovarian syndrome; PCO, polycystic ovaries on ultrasound.
 
@@ -12894,7 +12894,7 @@ considered and excluded prior to the diagnosis of PCOS.
 
 11/18/2016 5:43:06 PM
 
-[SECTION]Chapter 22: Polycystic Ovarian Syndrome and Menstrual Problems in Adolescents
+Chapter 22: Polycystic Ovarian Syndrome and Menstrual Problems in Adolescents
 Table 2: Diagnosis and differential diagnosis
 Differential diagnosis
 
@@ -12998,7 +12998,7 @@ in box 2 and table 3.
 
 11/18/2016 5:43:06 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 Algorithm 2
 Pathophysiology of polycystic ovarian syndrome
 
@@ -13135,7 +13135,7 @@ ch-22.indd 90
 
 11/18/2016 5:43:06 PM
 
-[SECTION]Chapter 22: Polycystic Ovarian Syndrome and Menstrual Problems in Adolescents
+Chapter 22: Polycystic Ovarian Syndrome and Menstrual Problems in Adolescents
 Algorithm  3
 
 IR, insulin resistance; PCOS, polycystic ovarian syndrome.
@@ -13200,7 +13200,7 @@ trimester miscarriage rate is as high as 30–50% (Table 4).
 
 11/18/2016 5:43:07 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 Table 4: Management of infertility
 Clomiphene
 
@@ -13319,7 +13319,7 @@ PCOS, polycystic ovarian syndrome; BMI, body mass index.
 
 11/18/2016 5:43:07 PM
 
-[SECTION]Chapter 22: Polycystic Ovarian Syndrome and Menstrual Problems in Adolescents
+Chapter 22: Polycystic Ovarian Syndrome and Menstrual Problems in Adolescents
 
 A
 
@@ -13444,7 +13444,7 @@ Diagnostic Imaging. 5th ed. St. Louis, MO: Mosby; 2011.
 
 11/18/2016 5:43:07 PM
 
-[SECTION]Chapter
+Chapter
 
 23
 
@@ -13531,7 +13531,7 @@ in case of parental incest.
 
 11/18/2016 5:45:22 PM
 
-[SECTION]Chapter 23: Approach to a Case of Sexual Abuse in Children/Adolescent
+Chapter 23: Approach to a Case of Sexual Abuse in Children/Adolescent
 Most often reported form of incest is father-daughter and
 stepfather-daughter incest, mother/stepmother-daughter form
 contributes to a small portion of the remaining incest. Sibling
@@ -13664,7 +13664,7 @@ matter to anyone.
 
 11/18/2016 5:45:22 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 
 Clinical Pearls
 • About 40% of girls and 25% of boys are sexually abused before
@@ -13803,7 +13803,7 @@ peers
 
 11/18/2016 5:45:22 PM
 
-[SECTION]Chapter 23: Approach to a Case of Sexual Abuse in Children/Adolescent
+Chapter 23: Approach to a Case of Sexual Abuse in Children/Adolescent
 
 Physical Examination
 •
@@ -13946,7 +13946,7 @@ subject matter is very personal and/or embarrassing.
 
 11/18/2016 5:45:22 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 
 PHARMACOLOGICAL MANAGEMENT
 
@@ -14078,7 +14078,7 @@ ch-23.indd 98
 
 11/18/2016 5:45:22 PM
 
-[SECTION]Chapter 23: Approach to a Case of Sexual Abuse in Children/Adolescent
+Chapter 23: Approach to a Case of Sexual Abuse in Children/Adolescent
 
 SEXUAL ABUSE AND EXISTING LEGAL SYSTEM
 •
@@ -14122,7 +14122,7 @@ ch-23.indd 99
 
 11/18/2016 5:45:23 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 
 Key points
 
@@ -14211,7 +14211,7 @@ ch-23.indd 100
 
 11/18/2016 5:45:23 PM
 
-[SECTION]Chapter
+Chapter
 
 24
 
@@ -14303,7 +14303,7 @@ difficulties
 
 11/18/2016 5:49:21 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 •
 •
 
@@ -14446,7 +14446,7 @@ Provide diagnosis; rate severity: mild, moderate, or severe
 
 11/18/2016 5:49:21 PM
 
-[SECTION]Chapter 24: Adolescent Depression/Suicidal Tendency and Its Management
+Chapter 24: Adolescent Depression/Suicidal Tendency and Its Management
 
 EDUCATE
 •
@@ -14587,7 +14587,7 @@ complaints, unexplained behavioral changes, teenage
 
 11/18/2016 5:49:21 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 Algorithm  1
 Treatment protocol for management of depression
 
@@ -14654,7 +14654,7 @@ obsessive compulsive disorder.
 
 11/18/2016 5:49:21 PM
 
-[SECTION]Chapter 24: Adolescent Depression/Suicidal Tendency and Its Management
+Chapter 24: Adolescent Depression/Suicidal Tendency and Its Management
 Algorithm 3
 Pharmacotherapy of major depressive disorder
 
@@ -14763,7 +14763,7 @@ with OCD.
 
 11/18/2016 5:49:21 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 Algorithm 4
 Major depression (nonpsychotic)
 
@@ -14826,7 +14826,7 @@ or can be premeditated. Emotional development is at its peak
 
 11/18/2016 5:49:22 PM
 
-[SECTION]Chapter 24: Adolescent Depression/Suicidal Tendency and Its Management
+Chapter 24: Adolescent Depression/Suicidal Tendency and Its Management
 Algorithm 5
 Major depressive disorder
 
@@ -14902,7 +14902,7 @@ and copy cat suicides.
 
 11/18/2016 5:49:22 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 
 Risk Factors for Suicide
 •
@@ -15004,7 +15004,7 @@ suicidal behavior are low cerebrospinal fluid 5-HIAA (the main
 
 11/18/2016 5:49:22 PM
 
-[SECTION]Chapter 24: Adolescent Depression/Suicidal Tendency and Its Management
+Chapter 24: Adolescent Depression/Suicidal Tendency and Its Management
 Algorithm 7
 Treatment of bipolar II depression
 
@@ -15076,7 +15076,7 @@ ch-24.indd 109
 
 11/18/2016 5:49:22 PM
 
-[SECTION]Chapter
+Chapter
 
 25
 
@@ -15181,7 +15181,7 @@ Intervention implications
 
 11/24/2016 12:35:26 PM
 
-[SECTION]Chapter 25: Teen Aggression: Steps in Management
+Chapter 25: Teen Aggression: Steps in Management
 Table 2: Diagnostic features of disruptive behavior disorders
 Features
 
@@ -15328,7 +15328,7 @@ Good work habits, extracurricular activities
 
 11/24/2016 12:35:26 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
 Box 4: Prevention and parent support
 
 Box 5: Assessment
@@ -15454,7 +15454,7 @@ ways of dealing with conflicts
 
 11/24/2016 12:35:27 PM
 
-[SECTION]Chapter 25: Teen Aggression: Steps in Management
+Chapter 25: Teen Aggression: Steps in Management
 •
 
 Limitations: lack of motivation, immature cognition, and
@@ -15596,7 +15596,7 @@ Caring/not violating privacy
 
 11/24/2016 12:35:27 PM
 
-[SECTION]Section 2: Adolescence
+Section 2: Adolescence
  Algorithm 1
 Steps in management of teens aggression
 
@@ -15665,7 +15665,7 @@ ch-25.indd 114
 
 11/24/2016 12:35:27 PM
 
-[SECTION]Section 3: Immunization
+Section 3: Immunization
 Chapter
 
 26
@@ -15751,7 +15751,7 @@ genicity (or efficacy) and safety are comparable or equivalent
 
 11/19/2016 12:47:29 PM
 
-[SECTION]Section 3: Immunization
+Section 3: Immunization
 to monovalent or combination products licensed previously.
 The combination vaccine may be used interchangeably with
 monovalent formulations and other combination products
@@ -15913,7 +15913,7 @@ Above 15 months: single dose.
 
 11/19/2016 12:47:29 PM
 
-[SECTION]Chapter 26: Immunization in Childhood
+Chapter 26: Immunization in Childhood
 If the first dose was administered at age 7 through
 11 months, administer the second dose at least 4 weeks later
 and a final dose at age 12–18 months at least 8 weeks after the
@@ -16069,7 +16069,7 @@ No need to give stand alone measles vaccine
 
 11/19/2016 12:47:29 PM
 
-[SECTION]Section 3: Immunization
+Section 3: Immunization
 
 Catch-up Vaccination
 •
@@ -16242,7 +16242,7 @@ doses should be 6 months
 
 11/19/2016 12:47:29 PM
 
-[SECTION]Chapter 26: Immunization in Childhood
+Chapter 26: Immunization in Childhood
 •
 •
 •
@@ -16404,7 +16404,7 @@ outbreak in campaigns.
 
 11/19/2016 12:47:29 PM
 
-[SECTION]Section 3: Immunization
+Section 3: Immunization
 
 Rabies Vaccine
 •
@@ -16533,7 +16533,7 @@ ch-26.indd 120
 
 11/19/2016 12:47:29 PM
 
-[SECTION]Chapter
+Chapter
 
 27
 
@@ -16624,7 +16624,7 @@ vaccine; PCV, pneumococcal conjugate vaccine.
 
 11/19/2016 12:48:26 PM
 
-[SECTION]Section 3: Immunization
+Section 3: Immunization
 Table 2: Vaccination in a child presenting at the age of 3 years
 Vaccine
 Hepatitis B
@@ -16728,7 +16728,7 @@ ch-27.indd 122
 
 11/19/2016 12:48:26 PM
 
-[SECTION]Chapter
+Chapter
 
 28
 
@@ -16831,7 +16831,7 @@ immunoglobulin + antirabies vaccine
 
 11/19/2016 12:49:28 PM
 
-[SECTION]Section 3: Immunization
+Section 3: Immunization
 PEP to preexposure vaccination by skipping the vaccine dose
 on day 14 and administering it on day 28 while using Essen
 schedule. The observation period is valid for dogs and cats
@@ -16950,7 +16950,7 @@ Apply irritants like soil, chilies, oil, herbs, chalk, betel leaves, etc.
 
 11/19/2016 12:49:28 PM
 
-[SECTION]Chapter 28: Animal Bites
+Chapter 28: Animal Bites
 dose on each day, i.e., day 3, 7, 14, and 28). It is emphasized
 that doubling the first dose of CCV is not a replacement to
 RIG. A full course of vaccine should follow thorough wound
@@ -17074,7 +17074,7 @@ received full course of rabies vaccine.
 
 11/19/2016 12:49:28 PM
 
-[SECTION]Section 3: Immunization
+Section 3: Immunization
 Algorithm 1
 Algorithm for management of children exposed to animal bites
 
@@ -17117,7 +17117,7 @@ ch-28.indd 126
 
 11/19/2016 12:49:29 PM
 
-[SECTION]Chapter
+Chapter
 
 29
 
@@ -17189,7 +17189,7 @@ timelines are given in algorithm 2. From the programmatic
 
 11/24/2016 12:36:29 PM
 
-[SECTION]Section 3: Immunization
+Section 3: Immunization
 Table 1: Types of adverse event following immunizations
 Types of adverse event Examples
 Vaccine reaction
@@ -17286,7 +17286,7 @@ Ministry of Health and Family Welfare; GoI, Government of India.
 
 11/24/2016 12:36:29 PM
 
-[SECTION]Chapter 29: Adverse Event Following Immunization
+Chapter 29: Adverse Event Following Immunization
 •
 •
 
@@ -17333,7 +17333,7 @@ ch-29.indd 129
 
 11/24/2016 12:36:30 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 Chapter
 
 30
@@ -17448,7 +17448,7 @@ intubation
 
 11/19/2016 12:56:34 PM
 
-[SECTION]Chapter 30: Approach to Respiratory Distress in Children
+Chapter 30: Approach to Respiratory Distress in Children
 •
 •
 
@@ -17601,7 +17601,7 @@ history taking may be done only after the child is stabilized
 
 11/19/2016 12:56:34 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 Table 4: Signs of life-threatening illness in a child with
 respiratory distress
 Airway
@@ -17784,7 +17784,7 @@ combativeness, diaphoresis
 
 11/19/2016 12:56:34 PM
 
-[SECTION]Chapter 30: Approach to Respiratory Distress in Children
+Chapter 30: Approach to Respiratory Distress in Children
 could be the end result of any progressive cardiorespiratory
 pathology as well. Similarly, though see-saw respiration is
 classically seen in neuromuscular weakness, it could be seen
@@ -17864,7 +17864,7 @@ Ch-30.indd 133
 
 11/19/2016 12:56:34 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 
 Key points
 
@@ -17915,7 +17915,7 @@ Ch-30.indd 134
 
 11/19/2016 12:56:34 PM
 
-[SECTION]Chapter
+Chapter
 
 31
 
@@ -17997,7 +17997,7 @@ Axillary
 
 11/19/2016 1:41:33 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 results in weak peripheral pulses while a low systemic vascular
 resistance (SVR) and increased blood flow to the skin in
 distributive shock results in bounding pulses.
@@ -18119,7 +18119,7 @@ systolic blood pressure within the normal range with signs of
 
 11/19/2016 1:41:33 PM
 
-[SECTION]Chapter 31: Recognition of Child in Shock
+Chapter 31: Recognition of Child in Shock
 Table 2: Definition of hypotension by systolic blood pressure
 and age
 
@@ -18339,7 +18339,7 @@ Ch-31.indd 137
 
 11/19/2016 1:41:33 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
  Algorithm 1
 Recognition of shock
 
@@ -18408,7 +18408,7 @@ Ch-31.indd 138
 
 11/19/2016 1:41:33 PM
 
-[SECTION]Chapter
+Chapter
 
 32
 Croup
@@ -18475,7 +18475,7 @@ bronchilolitis
 
 11/19/2016 1:48:51 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 
 SEVERITY OF CROUP
 While most have only “barking” cough and hoarse cry, few
@@ -18576,7 +18576,7 @@ oxygen support
 
 11/19/2016 1:48:51 PM
 
-[SECTION]Chapter 32: Croup
+Chapter 32: Croup
 which signifies subglottic narrowing, whereas the lateral neck
 view may reveal a distended hypopharynx (ballooning) during
 inspiration (see the images below) (Figs 4 and 5). However,
@@ -18662,7 +18662,7 @@ of croup depends on the degree of severity
 
 11/19/2016 1:48:52 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 •
 •
 •
@@ -18766,7 +18766,7 @@ To decide severity, refer Table 1.
 
 11/19/2016 1:48:52 PM
 
-[SECTION]Chapter 32: Croup
+Chapter 32: Croup
 Spasmodic croup (recurrent croup) typically presents at
 night with the sudden onset of “croupy” cough and stridor. The
 child may have had mild upper respiratory complaints prior
@@ -18895,7 +18895,7 @@ Ch-32.indd 143
 
 11/19/2016 1:48:52 PM
 
-[SECTION]Chapter
+Chapter
 
 33
 
@@ -18981,7 +18981,7 @@ final mechanism.
 
 11/19/2016 1:50:51 PM
 
-[SECTION]Chapter 33: Approach to a Child with Acute Febrile Encephalopathy
+Chapter 33: Approach to a Child with Acute Febrile Encephalopathy
 
 ETIOLOGY
 The etiology of AFE varies from infectious etiologies to
@@ -19158,7 +19158,7 @@ of metabolism; SOLs, space occupying lesions; TBM, tuberculous meningitis.
 
 11/19/2016 1:50:51 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 Algorithm 1
 Approach to a child with acute febrile encephalopathy
 
@@ -19172,7 +19172,7 @@ Ch-33.indd 146
 
 11/19/2016 1:50:51 PM
 
-[SECTION]Chapter 33: Approach to a Child with Acute Febrile Encephalopathy
+Chapter 33: Approach to a Child with Acute Febrile Encephalopathy
 adequacy of airway, breathing, and circulatory function,
 irrespective of the etiology. Depending on the degree of
 instability, this initial management may actually precede the
@@ -19300,7 +19300,7 @@ breathing, and circulation
 
 11/19/2016 1:50:51 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 altered sensorium. Acute elevation of ICP will not cause
 papilledema in the acute stages. Hence, its absence must
 not be taken as a reassuring sign. Neither, will a computed
@@ -19433,7 +19433,7 @@ recent illness. Disorders in which encephalopathy may be
 
 11/19/2016 1:50:52 PM
 
-[SECTION]Chapter 33: Approach to a Child with Acute Febrile Encephalopathy
+Chapter 33: Approach to a Child with Acute Febrile Encephalopathy
 Table 3: Important clues in the history of acute febrile
 encephalopathy
 History
@@ -19629,7 +19629,7 @@ to endocarditis and subsequently intracranial abscess).
 
 11/19/2016 1:50:52 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 
 Detailed neurological examination
 The neurological examination is targeted to document
@@ -19776,7 +19776,7 @@ This respiratory pattern indicates a very poor prognosis
 
 11/19/2016 1:50:52 PM
 
-[SECTION]Chapter 33: Approach to a Child with Acute Febrile Encephalopathy
+Chapter 33: Approach to a Child with Acute Febrile Encephalopathy
 Table 6: Important clues in neurological examination in acute
 febrile encephalopathy
 CNS signs
@@ -19955,7 +19955,7 @@ be associated with severe anemia and thrombocytopenia.
 
 11/19/2016 1:50:52 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 Hypoglycemia and electrolyte imbalance are usually associated
 with CNS infection and they may contribute to altered
 sensorium. Serum creatinine and blood urea are helpful to
@@ -20153,7 +20153,7 @@ is recommended in all patients with suspected CNS infections
 
 11/19/2016 1:50:52 PM
 
-[SECTION]Chapter 33: Approach to a Child with Acute Febrile Encephalopathy
+Chapter 33: Approach to a Child with Acute Febrile Encephalopathy
 Box 3: Contraindications of lumbar puncture
 Lumbar puncture should be deferred in patients with
 • Abnormal breathing patterns
@@ -20283,7 +20283,7 @@ Box 5: Indications of magnetic resonance imaging
 
 11/19/2016 1:50:52 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 
 Clinical Pearls
 • Empirical treatment should be started pending the results of
@@ -20404,7 +20404,7 @@ studies (coagulopathy) are recommended.
 
 11/19/2016 1:50:52 PM
 
-[SECTION]Chapter 33: Approach to a Child with Acute Febrile Encephalopathy
+Chapter 33: Approach to a Child with Acute Febrile Encephalopathy
 
 Step 6: Supportive Care
 After stabilization of the airway, breathing, and circulation,
@@ -20525,7 +20525,7 @@ Early stabilization and institution of nonspecific-supportive
 
 11/19/2016 1:50:52 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 measures remain the cornerstone of management, and
 identification of the cause and its appropriate treatment need
 to be instituted in order to ensure the survival and also to
@@ -20645,7 +20645,7 @@ Ch-33.indd 156
 
 11/19/2016 1:50:52 PM
 
-[SECTION]Chapter
+Chapter
 
 34
 
@@ -20730,7 +20730,7 @@ It may need one of the following advanced airway interventions:
 
 11/19/2016 1:52:47 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 •
 •
 •
@@ -20866,7 +20866,7 @@ General Management
 
 11/19/2016 1:52:47 PM
 
-[SECTION]Chapter 34: Management of a Child with Respiratory Distress
+Chapter 34: Management of a Child with Respiratory Distress
 
 •
 •
@@ -21073,7 +21073,7 @@ Ch-34.indd 159
 
 11/19/2016 1:52:48 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 Table 3: Management of croup
 Mild
 
@@ -21246,7 +21246,7 @@ Supportive measures: antipyretics, IV fluids, etc.
 
 11/19/2016 1:52:48 PM
 
-[SECTION]Chapter 34: Management of a Child with Respiratory Distress
+Chapter 34: Management of a Child with Respiratory Distress
 Algorithm 1
 Step-wise management of a child with respiratory distress
 
@@ -21326,7 +21326,7 @@ Ch-34.indd 161
 
 11/19/2016 1:52:48 PM
 
-[SECTION]Chapter
+Chapter
 
 35
 
@@ -21437,7 +21437,7 @@ transport for hospitalization.
 
 11/24/2016 12:40:16 PM
 
-[SECTION]Chapter 35: Hypovolemic Shock
+Chapter 35: Hypovolemic Shock
 
 Prevention of Further Injury
 
@@ -21606,7 +21606,7 @@ RL, Ringer’s lactate.
 
 11/24/2016 12:40:17 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 
 How fast?
 
@@ -21740,7 +21740,7 @@ Ch-35.indd 164
 
 11/24/2016 12:40:17 PM
 
-[SECTION]Chapter 35: Hypovolemic Shock
+Chapter 35: Hypovolemic Shock
 Algorithm 1
 Algorithm for management of hypovolemic shock
 
@@ -21786,7 +21786,7 @@ Care Resusc. 2000;2(1):55-65.
 
 11/24/2016 12:40:17 PM
 
-[SECTION]Chapter
+Chapter
 
 36
 
@@ -21898,7 +21898,7 @@ UTI, urinary tract infection; CHD, congenital heart defect; VUR, vesicoureteral 
 
 11/24/2016 12:42:35 PM
 
-[SECTION]Chapter 36: Approach to Fever in Children
+Chapter 36: Approach to Fever in Children
 
 EXAMINATION
 
@@ -22069,7 +22069,7 @@ Gram’s stain is considered abnormal.
 
 11/24/2016 12:42:35 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 Table 5: Interpreting hemogram
 Total leukocyte count
 
@@ -22269,7 +22269,7 @@ Ch-36.indd 168
 
 11/24/2016 12:42:35 PM
 
-[SECTION]Chapter 36: Approach to Fever in Children
+Chapter 36: Approach to Fever in Children
 
 •
 
@@ -22344,7 +22344,7 @@ Ch-36.indd 169
 
 11/24/2016 12:42:36 PM
 
-[SECTION]Chapter
+Chapter
 
 37
 
@@ -22432,7 +22432,7 @@ Ch-37.indd 170
 
 11/24/2016 12:43:42 PM
 
-[SECTION]Chapter 37: Approach to Poisoning in Children
+Chapter 37: Approach to Poisoning in Children
 Continued
 Ingestion
 
@@ -22655,7 +22655,7 @@ Ch-37.indd 171
 
 11/24/2016 12:43:42 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 hypovolemia, followed by inotropes and specific antitoxins
 as these can correct hypotension rapidly. In some poisonings,
 inotropes can worsen hypotension. In a similar fashion,
@@ -22769,7 +22769,7 @@ Ch-37.indd 172
 
 11/24/2016 12:43:42 PM
 
-[SECTION]Chapter 37: Approach to Poisoning in Children
+Chapter 37: Approach to Poisoning in Children
 
 Gastric Lavage
 
@@ -22951,7 +22951,7 @@ Ch-37.indd 173
 
 11/24/2016 12:43:42 PM
 
-[SECTION]Section 4: Office Emergencies
+Section 4: Office Emergencies
 Algorithm 1
 Management of poisoning
 
@@ -23006,7 +23006,7 @@ Ch-37.indd 174
 
 11/24/2016 12:43:43 PM
 
-[SECTION]CHAPTER
+CHAPTER
 
 38
 
@@ -23108,7 +23108,7 @@ cutaneous tissue, fascia, muscle, and bone
 • Small areas may heal from the edges after
 weeks
 
-[SECTION]SECTION 4: Office Emergencies
+SECTION 4: Office Emergencies
 
 Fig. 1: Superficial partial thickness burn
 
@@ -23162,7 +23162,7 @@ perfusion. Ringer lactate 10–20 mL/kg/h is initially infused
 until proper fluid replacement can be calculated. All high
 tension electrical burns require forced alkaline diuresis to
 
-[SECTION]CHAPTER 38: Approach to Burns in Children
+CHAPTER 38: Approach to Burns in Children
 TABLE 2: Barlow chart for estimating the percentage of burn area
 Body part
 
@@ -23446,7 +23446,7 @@ Left foot
 
 177
 
-[SECTION]SECTION 4: Office Emergencies
+SECTION 4: Office Emergencies
 avoid renal damage due to myoglobinuria caused by muscle
 injury. There is high risk of arrhythmias in electrical burns, so
 cardiac monitoring should be started immediately on arrival
@@ -23563,7 +23563,7 @@ as topical antibacterial burn dressing. Oral sodium chloride,
 4 g/m² BSA/day is given in 4–6 divided doses to maintain
 sodium above 130 mEq/L.
 
-[SECTION]CHAPTER 38: Approach to Burns in Children
+CHAPTER 38: Approach to Burns in Children
 Potassium: Maintain levels above 3 mEq/L. Potassium losses
 are increased with 0.5% silver nitrate solution or in patients on
 aminoglycosides, diuretics, or amphotericin.
@@ -23689,7 +23689,7 @@ pulmonary emboli.
 
 179
 
-[SECTION]SECTION 4: Office Emergencies
+SECTION 4: Office Emergencies
 ALGORITHM 1
 
 the hospital stay. Services of child therapists may be required
@@ -23755,7 +23755,7 @@ Brothers; 2011.
 5. Papinir HS. Initial management of a major burn II; assessment and resuscitation.
 BMJ. 2004:329;101-3.
 
-[SECTION]CHAPTER
+CHAPTER
 
 39
 
@@ -23862,7 +23862,7 @@ bite through clothing or leather boots) (Fig. 2):
 numbness in the limbs, stiffness or tetany of hands and
 feet, and dizziness.
 
-[SECTION]SECTION 4: Office Emergencies
+SECTION 4: Office Emergencies
 
 Fig. 1: Examination of bitten snake; poisonous versus nonpoisonous
 snake
@@ -23910,7 +23910,7 @@ Diagnosis of the snake responsible for the bite
 
 182
 
-[SECTION]CHAPTER 39: Approach to Envenomation
+CHAPTER 39: Approach to Envenomation
 ALGORITHM 2
 Management of snake envenomation
 
@@ -23993,7 +23993,7 @@ pathy)
 
 183
 
-[SECTION]SECTION 4: Office Emergencies
+SECTION 4: Office Emergencies
 ǅǅ This test is done to assess effectiveness of
 ASV and deciding its subsequent doses
 –– Neostigmine:
@@ -24088,7 +24088,7 @@ for evidence of DIC.
 
 Fig. 3: Red scorpion
 
-[SECTION]CHAPTER 39: Approach to Envenomation
+CHAPTER 39: Approach to Envenomation
 
 *Aggressive supportive measure may reduce mortality.
 DIC, disseminated intravascular coagulation.
@@ -24120,7 +24120,7 @@ Prazosin:
 
 185
 
-[SECTION]SECTION 4: Office Emergencies
+SECTION 4: Office Emergencies
 •
 
 •
@@ -24213,7 +24213,7 @@ Bee and wasp sting management
 186
 IM, intramuscular; IV, intravenous; PO, per os.
 
-[SECTION]CHAPTER 39: Approach to Envenomation
+CHAPTER 39: Approach to Envenomation
 
 •
 
@@ -24325,7 +24325,7 @@ of snake-bites. Regional office for South-East Asia, New Delhi; 2010.
 
 187
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 Chapter
 
 40
@@ -24391,7 +24391,7 @@ consciousness, work of breathing, and color. It is “from the
 
 11/19/2016 2:46:59 PM
 
-[SECTION]Chapter 40: Recognition and Assessment of Critically Ill Child
+Chapter 40: Recognition and Assessment of Critically Ill Child
 
 Airway
 
@@ -24518,7 +24518,7 @@ types and severity of retractions indicating breathing difficulty.
 
 11/19/2016 2:46:59 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 Algorithm 2
 Approach to sick child
 
@@ -24555,7 +24555,7 @@ trauma, control of bleeding. Look for following points:
 
 11/19/2016 2:46:59 PM
 
-[SECTION]Chapter 40: Recognition and Assessment of Critically Ill Child
+Chapter 40: Recognition and Assessment of Critically Ill Child
 Algorithm 3
 Approach to collapsed child
 
@@ -24648,7 +24648,7 @@ sternum towards
 
 11/19/2016 2:47:00 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 varies with age (as noted in table 3); tachycardia can be an
 early sign of hypoxia or low perfusion, but it can also reflect less
 serious conditions (e.g., fever, anxiety, and pain). Bradycardia
@@ -24926,7 +24926,7 @@ The child does not respond to any stimulus
 
 11/19/2016 2:47:00 PM
 
-[SECTION]Chapter 40: Recognition and Assessment of Critically Ill Child
+Chapter 40: Recognition and Assessment of Critically Ill Child
 Table 7: Glosgow coma scale for adults and modified Glosgow coma scale for infants and children*
 Response
 
@@ -25167,7 +25167,7 @@ Change in mental status.
 
 11/19/2016 2:47:00 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 
 Initial Stabilization
 Things required at all practice locations (hospital or private
@@ -25280,7 +25280,7 @@ Ch-40.indd 194
 
 11/19/2016 2:47:00 PM
 
-[SECTION]Chapter
+Chapter
 
 41
 
@@ -25366,7 +25366,7 @@ warm shock)
 
 11/19/2016 2:58:10 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 Box 2: Severe sepsis
 Any of the is following thought to be due to infection:
 • Sepsis-induced hypotension
@@ -25504,7 +25504,7 @@ of metabolic (glucose and calcium) and hormonal (thyroid, hydrocortisone, insuli
 
 11/19/2016 2:58:10 PM
 
-[SECTION]Chapter 41: Septic Shock
+Chapter 41: Septic Shock
 Algorithm 1
 Algorithm for time sensitive, goal-directed stepwise management of hemodynamic support in infants and children. Proceed to next step
 if shock persists. 1) First hour goals—Restore and maintain heart rate thresholds, capillary refill ≤2 seconds, and normal blood pressure in
@@ -25543,7 +25543,7 @@ pituitary axis failure (e.g., purpura fulminans, congenital
 
 11/19/2016 2:58:10 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 adrenal hyperplasia, prior recent steroid exposure, hypo­
 thalamic/pituitary abnormality) and remains in shock despite
 epinephrine or norepinephrine infusion, then hydrocortisone
@@ -25657,7 +25657,7 @@ Ch-41.indd 198
 
 11/19/2016 2:58:10 PM
 
-[SECTION]Chapter 41: Septic Shock
+Chapter 41: Septic Shock
 Continued
 • Follow American College of Critical Care Medicine-Pediatric Life Support guidelines for the management of
 septic shock
@@ -25762,7 +25762,7 @@ Ch-41.indd 199
 
 11/19/2016 2:58:11 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 
 Clinical Pearls
 • Septic patients may have warm shock or cold shock with or
@@ -25845,7 +25845,7 @@ Ch-41.indd 200
 
 11/19/2016 2:58:11 PM
 
-[SECTION]Chapter
+Chapter
 
 42
 
@@ -25931,7 +25931,7 @@ OR
 
 11/19/2016 2:59:36 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 •
 
 Phenobarbital (PB) 20 mg/kg over 5–10 min.
@@ -26019,7 +26019,7 @@ Clinical Pearls
 
 11/19/2016 2:59:36 PM
 
-[SECTION]Chapter 42: Status Epilepticus
+Chapter 42: Status Epilepticus
 
 Key points
 
@@ -26053,7 +26053,7 @@ Ch-42.indd 203
 
 11/19/2016 2:59:36 PM
 
-[SECTION]Chapter
+Chapter
 
 43
 
@@ -26139,7 +26139,7 @@ alert one to the possibility of cardiogenic origin of shock:
 
 11/19/2016 3:02:13 PM
 
-[SECTION]Chapter 43: Cardiogenic Shock
+Chapter 43: Cardiogenic Shock
 Algorithm 1
 Cardiogenic shock management according to cause
 
@@ -26190,7 +26190,7 @@ Ch-43.indd 205
 
 11/19/2016 3:02:13 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 
 Causes of Cardiogenic Shock
 
@@ -26324,7 +26324,7 @@ response. Crystalloids remain the fluid of choice.
 
 11/19/2016 3:02:13 PM
 
-[SECTION]Chapter 43: Cardiogenic Shock
+Chapter 43: Cardiogenic Shock
 In a fluid overloaded child with stable blood pressure,
 diuretics may be judiciously used later on in the course of the
 management.
@@ -26466,7 +26466,7 @@ Vasoconstricts +++
 
 11/19/2016 3:02:13 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 
 Key points
 
@@ -26509,7 +26509,7 @@ Ch-43.indd 208
 
 11/19/2016 3:02:13 PM
 
-[SECTION]Chapter
+Chapter
 
 44
 
@@ -26600,7 +26600,7 @@ adjacent skull.
 
 11/19/2016 3:03:43 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 Algorithm 1
 Pediatric head trauma
 
@@ -26646,7 +26646,7 @@ intubation to avoid sudden rise in ICP.
 
 11/19/2016 3:03:44 PM
 
-[SECTION]Chapter 44: Head Injury in Infants and Children
+Chapter 44: Head Injury in Infants and Children
 Table 1: Modified Glasgow Coma Scale in pediatrics
 Eye opening
 Spontaneous
@@ -26802,7 +26802,7 @@ Advanced monitoring like jugular venous oxygenation and
 
 11/19/2016 3:03:44 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 
 212
 
@@ -26934,7 +26934,7 @@ Cochrane Database Syst Rev. 2007;24(1):CD001049.
 
 11/19/2016 3:03:44 PM
 
-[SECTION]Chapter
+Chapter
 
 45
 
@@ -27033,7 +27033,7 @@ systemic vascular resistance to maintain perfusion.
 
 11/19/2016 3:05:14 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 Algorithm 1
 Primary survey meant to discover life-threatening conditions and stabilize patient
 
@@ -27102,7 +27102,7 @@ and dislodgement
 
 11/19/2016 3:05:14 PM
 
-[SECTION]Chapter 45: Trauma in Children
+Chapter 45: Trauma in Children
 Box 2: Indications for a definitive airway
 •
 •
@@ -27255,7 +27255,7 @@ Clinical findings associated with intra-abdominal injury:
 
 11/19/2016 3:05:14 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 
 Indications for Surgery
 •
@@ -27310,7 +27310,7 @@ Ch-45.indd 216
 
 11/19/2016 3:05:14 PM
 
-[SECTION]Chapter
+Chapter
 
 46
 
@@ -27417,7 +27417,7 @@ shown in table 4.
 
 11/19/2016 3:06:31 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 Algorithm 1
 Approach to a child with poisoning
 
@@ -27530,7 +27530,7 @@ Continued
 
 11/19/2016 3:06:32 PM
 
-[SECTION]Chapter 46: Poisoning in Children
+Chapter 46: Poisoning in Children
 Continued
 Toxidrome
 
@@ -27805,7 +27805,7 @@ childbearing age.
 
 11/19/2016 3:06:32 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 Table 4: Clinical manifestations of poisoning
 Clinical
 manifestations
@@ -28039,7 +28039,7 @@ the patient’s status can change rapidly, it is essential to
 
 11/19/2016 3:06:32 PM
 
-[SECTION]Chapter 46: Poisoning in Children
+Chapter 46: Poisoning in Children
 reassess the patient often and monitor the need for ventilator
 support. Blood glucose should be obtained from patient
 with ingestion of oral hypoglycemic agents, alcohol, and
@@ -28161,7 +28161,7 @@ antidote (Table 5). Antidotes are usually given after the patient
 
 11/19/2016 3:06:32 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 Table 5: Selected antidotes
 Antidote
 
@@ -28333,7 +28333,7 @@ Ch-46.indd 222
 
 11/19/2016 3:06:32 PM
 
-[SECTION]Chapter
+Chapter
 
 47
 
@@ -28434,7 +28434,7 @@ Test to be done on admission and 6 hourly.
 
 11/19/2016 3:08:08 PM
 
-[SECTION]Section 5: Intensive Care
+Section 5: Intensive Care
 
 Treatment
 
@@ -28588,7 +28588,7 @@ Ch-47.indd 224
 
 11/19/2016 3:08:08 PM
 
-[SECTION]Chapter 47: Snakebite Envenomation
+Chapter 47: Snakebite Envenomation
 Algorithm 1
 
 ABC, airway, breathing, and circulation; ASV, anti-snake venom; inj., injection; 20-min WBCT, 20-minute whole blood clotting test; IV, intravenous.
@@ -28638,7 +28638,7 @@ Ch-47.indd 225
 
 11/19/2016 3:08:09 PM
 
-[SECTION]Chapter
+Chapter
 
 48
 
@@ -28726,7 +28726,7 @@ A: Accidents (trauma).
 
 11/19/2016 3:10:17 PM
 
-[SECTION]Chapter 48: Initial Approach to a Comatose Child
+Chapter 48: Initial Approach to a Comatose Child
 Table 1: Quick guide to causes of coma
 Febrile
 
@@ -28851,7 +28851,7 @@ Ch-48.indd 227
 
 11/19/2016 3:10:18 PM
 
-[SECTION]Section 6: Infectious Diseases
+Section 6: Infectious Diseases
 Chapter
 
 49
@@ -28934,7 +28934,7 @@ with fever and no apparent focus of infection with broadspectrum antimicrobial a
 
 11/24/2016 12:46:59 PM
 
-[SECTION]Chapter 49: Fever without Focus in Infants Less than 3 Months of Age
+Chapter 49: Fever without Focus in Infants Less than 3 Months of Age
 in the hospital until the results of cultures of the blood, urine
 and cerebrospinal fluid (CSF) are known. Although sometimes
 perceived as the “safe” approach, such management
@@ -29036,7 +29036,7 @@ laboratory criteria (Box 1).
 
 11/24/2016 12:47:00 PM
 
-[SECTION]Section 6: Infectious Diseases
+Section 6: Infectious Diseases
 Box 1: Low-risk criteria for infants with fever 1–3 months of
 age
 Low-risk clinical criteria
@@ -29140,7 +29140,7 @@ Ch-49.indd 230
 
 11/24/2016 12:47:00 PM
 
-[SECTION]Chapter
+Chapter
 
 50
 
@@ -29224,7 +29224,7 @@ specific treatment.
 
 11/19/2016 3:15:18 PM
 
-[SECTION]Section 6: Infectious Diseases
+Section 6: Infectious Diseases
 Algorithm 1
 Causes of acute encephalitis syndrome
 
@@ -29302,7 +29302,7 @@ substance abuse
 
 11/19/2016 3:15:18 PM
 
-[SECTION]Chapter 50: Acute Viral Encephalitis
+Chapter 50: Acute Viral Encephalitis
 Algorithm 2
 Approach to a child with acute encephalitis syndrome
 
@@ -29419,7 +29419,7 @@ infections, and coagulation defects to be treated accordingly
 
 11/19/2016 3:15:19 PM
 
-[SECTION]Section 6: Infectious Diseases
+Section 6: Infectious Diseases
 •
 •
 
@@ -29491,7 +29491,7 @@ Ch-50.indd 234
 
 11/19/2016 3:15:19 PM
 
-[SECTION]Chapter
+Chapter
 
 51
 
@@ -29549,7 +29549,7 @@ the potential to result in abnormal growth and bone or joint
 
 11/19/2016 3:43:40 PM
 
-[SECTION]Section 6: Infectious Diseases
+Section 6: Infectious Diseases
 deformity. During the later part of infancy, the physis forms,
 obliterating the transphyseal blood vessels. Joint involvement
 once the physis forms may occur in joint where the metaphysis
@@ -29702,7 +29702,7 @@ conditions. Leukocytosis with increased polymorphs is
 
 11/19/2016 3:43:40 PM
 
-[SECTION]Chapter 51: Acute Osteomyelitis
+Chapter 51: Acute Osteomyelitis
 Box 2: Laboratory investigations
 • No specific laboratory tests
 • Leukocytosis with raised polymorphs
@@ -29845,7 +29845,7 @@ vancomycin is substituted for cloxacillin
 
 11/19/2016 3:43:40 PM
 
-[SECTION]Section 6: Infectious Diseases
+Section 6: Infectious Diseases
 Box 4: Antibiotic therapy
 Neonates
 • Inj. cefotaxime 200 mg/kg/day divided in three doses IV + inj.
@@ -29998,7 +29998,7 @@ Involvement of joint
 
 11/19/2016 3:43:41 PM
 
-[SECTION]Chapter 51: Acute Osteomyelitis
+Chapter 51: Acute Osteomyelitis
 Algorithm 1
 Management of acute osteomyelitis
 
@@ -30047,7 +30047,7 @@ and surgical localization of osteomyelitis. Sensitivity ranges
 
 11/19/2016 3:43:41 PM
 
-[SECTION]Section 6: Infectious Diseases
+Section 6: Infectious Diseases
 from 90 to 100% Radionuclide bone scanning is useful when
 osteomyelitis is suspected but difficult to ascertain clinically. It
 is less sensitive in neonates.
@@ -30139,7 +30139,7 @@ Ch-51.indd 240
 
 11/19/2016 3:43:41 PM
 
-[SECTION]Chapter
+Chapter
 
 52
 
@@ -30228,7 +30228,7 @@ dehydrated or has signs of early sepsis, hospitalization
 
 11/19/2016 3:45:20 PM
 
-[SECTION]Section 6: Infectious Diseases
+Section 6: Infectious Diseases
 Algorithm 1
 Approach to short duration fever without focus in older infants and children
 
@@ -30347,7 +30347,7 @@ Textbook of Pediatric Infectious Diseases, 4th ed. Philadelphia, WB Saunders;
 
 11/19/2016 3:45:21 PM
 
-[SECTION]Chapter
+Chapter
 
 53
 
@@ -30454,7 +30454,7 @@ Continued
 
 11/19/2016 4:02:50 PM
 
-[SECTION]Section 6: Infectious Diseases
+Section 6: Infectious Diseases
 
 Confluent Desquamative Rash (Table 3)
 
@@ -30632,7 +30632,7 @@ Ch-53.indd 244
 
 11/19/2016 4:02:50 PM
 
-[SECTION]Chapter 53: Fever with Rash
+Chapter 53: Fever with Rash
 
 Vesiculobullous Rash (Table 4)
 
@@ -30787,7 +30787,7 @@ Ch-53.indd 245
 
 11/19/2016 4:02:50 PM
 
-[SECTION]Chapter
+Chapter
 
 54
 
@@ -30871,7 +30871,7 @@ CRP has limited sensitivity/specificity for diagnosing sepsis,
 
 11/19/2016 4:04:38 PM
 
-[SECTION]Chapter 54: Approach to Managing New Onset Fever in the Intensive Care Unit
+Chapter 54: Approach to Managing New Onset Fever in the Intensive Care Unit
 a serum procalcitonin level of more than 2 ng/mL is highly
 specific for serious bacterial infection in a previously stable
 patient. Procalcitonin can also be high due to previous surgery/
@@ -31005,7 +31005,7 @@ Ch-54.indd 247
 
 11/19/2016 4:04:38 PM
 
-[SECTION]Section 6: Infectious Diseases
+Section 6: Infectious Diseases
 Algorithm 1
 Algorithmic approach to new onset fever in intensive care unit
 
@@ -31084,7 +31084,7 @@ designing empirical regimes.
 
 11/19/2016 4:04:38 PM
 
-[SECTION]Chapter 54: Approach to Managing New Onset Fever in the Intensive Care Unit
+Chapter 54: Approach to Managing New Onset Fever in the Intensive Care Unit
 
 Key points
 
@@ -31130,7 +31130,7 @@ Ch-54.indd 249
 
 11/19/2016 4:04:39 PM
 
-[SECTION]Chapter
+Chapter
 
 55
 
@@ -31212,7 +31212,7 @@ option in this setting.
 
 11/19/2016 4:09:11 PM
 
-[SECTION]Chapter 55: Infant Born to Human Immunodeficiency Virus Infected Mother
+Chapter 55: Infant Born to Human Immunodeficiency Virus Infected Mother
 
 ANTIRETROVIRAL PROPHYLAXIS
 Many trials have demonstrated gradual reduction of the in
@@ -31342,7 +31342,7 @@ of results, confirmation of specificity by hybridization, choice
 
 11/19/2016 4:09:11 PM
 
-[SECTION]Section 6: Infectious Diseases
+Section 6: Infectious Diseases
 of material from which HIV-1 is amplified, and the primers
 used for amplification will all predict the reliability of HIV
 DNA PCR. Thus, diagnosis of HIV should never be based on
@@ -31446,7 +31446,7 @@ WHO.
 
 11/19/2016 4:09:11 PM
 
-[SECTION]Chapter
+Chapter
 
 56
 
@@ -31528,7 +31528,7 @@ urinalysis and culture, hepatic transaminases, and abdominal
 
 11/19/2016 4:13:38 PM
 
-[SECTION]Section 6: Infectious Diseases
+Section 6: Infectious Diseases
 
 254
 
@@ -31629,7 +31629,7 @@ AKT, empirical antitubercular therapy?
 
 11/19/2016 4:13:38 PM
 
-[SECTION]Chapter 56: Fever of Unknown Origin
+Chapter 56: Fever of Unknown Origin
 
 Clinical Pearls
 • Infections particularly tuberculosis is the commonest cause for
@@ -31693,7 +31693,7 @@ Ch-56.indd 255
 
 11/19/2016 4:13:39 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 Chapter
 
 57
@@ -31780,7 +31780,7 @@ categorized by the organ of origin. Abdominal masses in the
 
 11/19/2016 4:15:32 PM
 
-[SECTION]Chapter 57: A Mass in the Abdomen: The Way to Diagnosis
+Chapter 57: A Mass in the Abdomen: The Way to Diagnosis
 Table 1: Differential diagnosis based on organ of origin in the
 non-neonatal age group
 Organ
@@ -31992,7 +31992,7 @@ in table 3.
 
 11/19/2016 4:15:32 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 Table 3: History: special points
 History
 
@@ -32206,7 +32206,7 @@ gap between the family and the oncology center.
 
 11/19/2016 4:15:32 PM
 
-[SECTION]Chapter 57: A Mass in the Abdomen: The Way to Diagnosis
+Chapter 57: A Mass in the Abdomen: The Way to Diagnosis
 Algorithm 1
 Algorithmic approach to diagnosis of an abdominal mass in a child
 
@@ -32309,7 +32309,7 @@ Metab Clin North Am. 2000;29(1):127-39.
 
 11/19/2016 4:15:32 PM
 
-[SECTION]CHAPTER
+CHAPTER
 
 58
 
@@ -32479,7 +32479,7 @@ Adult women
 Hb, hemoglobin; RBC, red blood cell; Hct, hematocrit; MCV, mean corpuscular volume; MCH, mean corpuscular hemoglobin; MCHC, mean corpuscular hemoglobin
 concentration.
 
-[SECTION]CHAPTER 58: Approach to a Child with Persistent Anemia
+CHAPTER 58: Approach to a Child with Persistent Anemia
 fetofetal hemorrhage and occult hemorrhage, or due to
 hemolysis as a result of isoimmunization, uncommonly
 glucose-6-phosphate dehydrogenase (G6PD) deficiency,
@@ -32592,7 +32592,7 @@ occasionally in severe chronic IDA (Fig. 3).
 
 261
 
-[SECTION]SECTION 7: Hematology/Oncology
+SECTION 7: Hematology/Oncology
 
 Eyes
 Fanconi’s anemia may have microphthalmia and micro­
@@ -32626,7 +32626,7 @@ Fig. 3: Hemolytic facies in a thalassemic child
 
 Fig. 5: Blue sclera in a child with iron deficiency anemia
 
-[SECTION]CHAPTER 58: Approach to a Child with Persistent Anemia
+CHAPTER 58: Approach to a Child with Persistent Anemia
 
 Clinical Pearls
 • Presence of blue sclera, platonychia or koilonychias, and/or
@@ -32653,7 +32653,7 @@ Fig. 10: Gum hypertrophy in a child with acute promyelocytic leukemia
 
 263
 
-[SECTION]SECTION 7: Hematology/Oncology
+SECTION 7: Hematology/Oncology
 
 LABORATORY APPROACH TO ANEMIA
 
@@ -32766,7 +32766,7 @@ deficiency
 MCV, mean corpuscular volume; RDW, red cell distribution width; IDA, iron
 deficiency anemia
 
-[SECTION]CHAPTER 58: Approach to a Child with Persistent Anemia
+CHAPTER 58: Approach to a Child with Persistent Anemia
 Hemoglobin distribution width (HDW): it is obtained
 from the histogram of MCHC and depicts the hemoglobin
 distribution. Combining MCV, RDW, and HDW can offer better
@@ -32862,7 +32862,7 @@ irregularly spaced large, coarse projections or
 
 265
 
-[SECTION]SECTION 7: Hematology/Oncology
+SECTION 7: Hematology/Oncology
 
 Fig. 15: Spherocytes in a peripheral smear of a child with hereditary
 spherocytosis
@@ -32926,7 +32926,7 @@ poisoning, thalassemias, etc.
 –– Heinz body: seen on a reticulocyte smear (supravital
 staining), as a deep purple, irregularly shaped small
 
-[SECTION]CHAPTER 58: Approach to a Child with Persistent Anemia
+CHAPTER 58: Approach to a Child with Persistent Anemia
 
 ––
 
@@ -32998,7 +32998,7 @@ cells in thalassemia major
 
 267
 
-[SECTION]SECTION 7: Hematology/Oncology
+SECTION 7: Hematology/Oncology
 
 CONCLUSION
 With detailed history taking and relevant clinical examination,
@@ -33060,7 +33060,7 @@ Inc.; 2009.
 of adolescent girls from rural area and urban slum. Indian Pediatr. 1994;31:
 127-32.
 
-[SECTION]Chapter
+Chapter
 
 59
 
@@ -33156,7 +33156,7 @@ History regarding the type and site of bleeding.
 
 11/19/2016 4:50:54 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 
 Physical Examination
 Fever and toxic appearance may suggest infection, malig­nancy,
@@ -33245,7 +33245,7 @@ done to reach a correct diagnosis.
 
 11/19/2016 4:50:54 PM
 
-[SECTION]Chapter 59: Algorithmic Approach to Thrombocytopenia in Children
+Chapter 59: Algorithmic Approach to Thrombocytopenia in Children
 
 Key points
 
@@ -33292,7 +33292,7 @@ ch-59.indd 271
 
 11/19/2016 4:50:54 PM
 
-[SECTION]Chapter
+Chapter
 
 60
 
@@ -33381,7 +33381,7 @@ width (RDW) is a measure of anisocytosis and normally
 
 11/19/2016 4:59:31 PM
 
-[SECTION]Chapter 60: Algorithmic Laboratory Approach to a Child with Anemia
+Chapter 60: Algorithmic Laboratory Approach to a Child with Anemia
 Box 1: Red blood cell indices and their normal values
 MCV = hematocrit (%)/RBC count (×1012/L) × 10
 Normal value: 70–84 fL at 1 year. Mean 80 fL by 5 years
@@ -33543,7 +33543,7 @@ Pappenheimer bodies in sideroblastic anemia. Evaluating the
 
 11/19/2016 4:59:31 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 morphology of the WBCs may be useful in diagnosing certain
 anemias like megaloblastic anemia and other hematological
 diseases where anemia is secondary to another cause,
@@ -33673,7 +33673,7 @@ ch-60_copy.indd 274
 
 11/19/2016 4:59:32 PM
 
-[SECTION]Chapter 60: Algorithmic Laboratory Approach to a Child with Anemia
+Chapter 60: Algorithmic Laboratory Approach to a Child with Anemia
 is important as an increase (usually a value of between 4 and
 7%) is considered diagnostic of β-thalassemia trait. If, after
 evaluation of the common causes, a diagnosis has not been
@@ -33743,7 +33743,7 @@ ch-60_copy.indd 275
 
 11/19/2016 4:59:32 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 Algorithm  4
 Approach to normocytic anemias
 
@@ -33819,7 +33819,7 @@ Philadelphia: Lippincott Williams and Wilkins; 2007.
 
 11/19/2016 4:59:32 PM
 
-[SECTION]Chapter
+Chapter
 
 61
 
@@ -33902,7 +33902,7 @@ deficiency child who needs a more detailed investigation.
 
 11/19/2016 5:02:19 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 Box 1: Clinical features of primary immunodeficiency
 disorders
 Adaptive immunity
@@ -34021,7 +34021,7 @@ ch-61.indd 278
 
 11/19/2016 5:02:19 PM
 
-[SECTION]Chapter 61: Recurrent Unusual Infections in a Child: The Way Forward
+Chapter 61: Recurrent Unusual Infections in a Child: The Way Forward
 Continued
 Primary immunodeficiency
 Immunization history
@@ -34113,7 +34113,7 @@ ch-61.indd 279
 
 11/19/2016 5:02:19 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 Table 2: Signature infections in certain immunodeficiencies
 Infection
 
@@ -34232,7 +34232,7 @@ IgE are generally greater than 2,000 IU/mL
 
 11/19/2016 5:02:20 PM
 
-[SECTION]Chapter 61: Recurrent Unusual Infections in a Child: The Way Forward
+Chapter 61: Recurrent Unusual Infections in a Child: The Way Forward
  Algorithm  2
 
 HIV, human immunodeficiency virus; PCR, polymerase chain reaction; ELISA, enzyme-linked immunosorbent assay.
@@ -34328,7 +34328,7 @@ are given in table 3.
 
 11/19/2016 5:02:20 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 Table 3: Causes of isolated neutropenia
 Acquired neutropenias
 
@@ -34409,7 +34409,7 @@ ch-61.indd 282
 
 11/19/2016 5:02:20 PM
 
-[SECTION]Chapter
+Chapter
 
 62
 
@@ -34494,7 +34494,7 @@ infections
 
 11/19/2016 5:03:45 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 Algorithm  1
 Approach to persistent fever with hepatosplenomegaly in a child
 
@@ -34572,7 +34572,7 @@ the age group of 2–10 years. In an infant, a careful birth history
 
 11/19/2016 5:03:46 PM
 
-[SECTION]Chapter 62: Approach to Persistent Fever with Hepatosplenomegaly in a Child
+Chapter 62: Approach to Persistent Fever with Hepatosplenomegaly in a Child
 including birth weight may uncover risk factors for perinatally
 acquired infections that include hepatitis B, toxoplasmosis,
 syphilis, cytomegalovirus, rubella, herpes simplex, enterovirus,
@@ -34691,7 +34691,7 @@ in liver and spleen.
 
 11/19/2016 5:03:46 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 
 Other Investigations
 •
@@ -34811,7 +34811,7 @@ ch-62.indd 286
 
 11/19/2016 5:03:47 PM
 
-[SECTION]Chapter
+Chapter
 
 63
 
@@ -34901,7 +34901,7 @@ Slipped ligature, granuloma
 
 11/19/2016 5:05:17 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 taneous subcutaneous and mucous membrane bleeds like
 petechiae, purpura, superficial, and few ecchymosis, epistaxis,
 and menorrhagia. It is often controlled by pressure and once
@@ -35033,7 +35033,7 @@ Is the bleeding due to congenital or acquired cause?
 
 11/19/2016 5:05:18 PM
 
-[SECTION]Chapter 63: Approach to a Bleeding Child
+Chapter 63: Approach to a Bleeding Child
 
 EXAMINATION
 
@@ -35190,7 +35190,7 @@ normal size platelets are seen as in aregenerative cause of
 
 11/19/2016 5:05:21 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 Table 3: Interpretation of screening tests for bleeding
 Clinical
 bleeding
@@ -35455,7 +35455,7 @@ is mixed with 1 mL of pooled normal plasma and aPTT
 
 11/19/2016 5:05:21 PM
 
-[SECTION]Chapter 63: Approach to a Bleeding Child
+Chapter 63: Approach to a Bleeding Child
 Algorithm 1
 Approach to a bleeding child
 
@@ -35601,7 +35601,7 @@ ADP
 
 11/19/2016 5:05:21 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 Algorithm 2
 Correction studies when activated partial thromboplastin time is prolonged
 
@@ -35697,7 +35697,7 @@ disease.
 
 11/19/2016 5:05:22 PM
 
-[SECTION]Chapter 63: Approach to a Bleeding Child
+Chapter 63: Approach to a Bleeding Child
 
 SUGGESTED READINGs
 1. Bachmann HF. Diagnostic approach to mild bleeding disorders. Semin Hematol.
@@ -35732,7 +35732,7 @@ ch-63.indd 293
 
 11/19/2016 5:05:22 PM
 
-[SECTION]Chapter
+Chapter
 
 64
 
@@ -35810,7 +35810,7 @@ a specimen in citrate anticoagulant in which clumping
 
 11/24/2016 1:42:45 PM
 
-[SECTION]Chapter 64: Clinic Pathological Approach to Coagulation Disorder
+Chapter 64: Clinic Pathological Approach to Coagulation Disorder
 Algorithm 2
 Workup of a patient with a defect in primary hemostatic mechanism
 
@@ -35868,7 +35868,7 @@ and results are reported in seconds.
 
 11/24/2016 1:42:46 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 Algorithm 4
 Evaluation of a child with bleeding or abnormal coagulation screening tests
 
@@ -35934,7 +35934,7 @@ factor deficiency, specific factor assays should be performed.
 
 11/24/2016 1:42:46 PM
 
-[SECTION]Chapter 64: Clinic Pathological Approach to Coagulation Disorder
+Chapter 64: Clinic Pathological Approach to Coagulation Disorder
 Table 1: Causes of prolonged prothrombin time and activated partial thromboplastin time
 Prolonged PT
 
@@ -36067,7 +36067,7 @@ fibrinolysis, PAI-1 deficiency, α2-AP deficiency.
 
 11/24/2016 1:42:46 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 
 Bleeding Time (Using a Device
 Appropriate for Size of Child)
@@ -36196,7 +36196,7 @@ Program. 2012;2012:191-7.
 
 11/24/2016 1:42:46 PM
 
-[SECTION]Chapter
+Chapter
 
 65
 
@@ -36294,7 +36294,7 @@ Churg-Strauss disease
 
 11/19/2016 5:08:57 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 Helminthiasis: worldwide, helminthiasis is the most common
 cause of eosinophilia. It can be associated with tissue
 nematodes, cestodes, and trematodes. All parasitic infections,
@@ -36429,7 +36429,7 @@ tissues.
 
 11/19/2016 5:08:57 PM
 
-[SECTION]Chapter 65: Algorithmic Approach to Eosinophilia in Children
+Chapter 65: Algorithmic Approach to Eosinophilia in Children
  Algorithm  1
 Approach to a patient with eosinophilia
 
@@ -36515,7 +36515,7 @@ variant HES (M-HES) and lymphocytic variant HES (L-HES).
 
 11/19/2016 5:08:57 PM
 
-[SECTION]Section 7: Hematology/Oncology
+Section 7: Hematology/Oncology
 
 Key points
 
@@ -36606,7 +36606,7 @@ ch-65.indd 302
 
 11/19/2016 5:08:57 PM
 
-[SECTION]Section 8: Pulmonology
+Section 8: Pulmonology
 Chapter
 
 66
@@ -36724,7 +36724,7 @@ ICT, intracranial tension; CNS, central nervous system.
 
 11/19/2016 5:11:47 PM
 
-[SECTION]Section 8: Pulmonology
+Section 8: Pulmonology
 
 CLINICAL FEATURES
 
@@ -36930,7 +36930,7 @@ intracranial tension.
 
 11/19/2016 5:11:47 PM
 
-[SECTION]Chapter 66: Approach to a Child with Respiratory Distress
+Chapter 66: Approach to a Child with Respiratory Distress
 Algorithm 1
 Management of a child with respiratory distress
 
@@ -36942,7 +36942,7 @@ ch-66.indd 305
 
 11/19/2016 5:11:48 PM
 
-[SECTION]Section 8: Pulmonology
+Section 8: Pulmonology
 Continued
 
 TABC, temperament assessment battery for children; NS, normal saline; DPT, diptheria-pertussis-tetanus; CXR, chest X-ray; AP, anteroposterior; ICD, implantable
@@ -36956,7 +36956,7 @@ ch-66.indd 306
 
 11/19/2016 5:11:49 PM
 
-[SECTION]Chapter 66: Approach to a Child with Respiratory Distress
+Chapter 66: Approach to a Child with Respiratory Distress
 
 CONCLUSION
 
@@ -37002,7 +37002,7 @@ ch-66.indd 307
 
 11/19/2016 5:11:49 PM
 
-[SECTION]Chapter
+Chapter
 
 67
 
@@ -37108,7 +37108,7 @@ Posterior laryngeal cleft
 
 11/19/2016 5:15:58 PM
 
-[SECTION]Chapter 67: Assessing and Managing a Child with Stridor
+Chapter 67: Assessing and Managing a Child with Stridor
 Table 2: Voice changes with localization of site of stridor
 Change in
 voice
@@ -37250,7 +37250,7 @@ improvements within hours. The recommended dose of
 
 11/19/2016 5:15:58 PM
 
-[SECTION]Section 8: Pulmonology
+Section 8: Pulmonology
 
 •
 
@@ -37373,7 +37373,7 @@ ch-67.indd 310
 
 11/19/2016 5:15:58 PM
 
-[SECTION]Chapter 67: Assessing and Managing a Child with Stridor
+Chapter 67: Assessing and Managing a Child with Stridor
 Algorithm 1
 Algorithm for approach to a child with stridor
 
@@ -37435,7 +37435,7 @@ ch-67.indd 311
 
 11/19/2016 5:15:58 PM
 
-[SECTION]Chapter
+Chapter
 
 68
 
@@ -37519,7 +37519,7 @@ summarized in table 2.
 
 11/19/2016 5:19:10 PM
 
-[SECTION]Chapter 68: Recurrent Wheezing in Infants and Preschool Children
+Chapter 68: Recurrent Wheezing in Infants and Preschool Children
 Table 1: New classification of phenotypes of wheezing by the European Respiratory Society
 Episodic viral wheeze
 
@@ -37715,7 +37715,7 @@ ch-68.indd 313
 
 11/19/2016 5:19:10 PM
 
-[SECTION]Section 8: Pulmonology
+Section 8: Pulmonology
 
 Clinical Pearls
 • Preschool wheeze is a very common disorder and usually does
@@ -37841,7 +37841,7 @@ Persistent wheezing >4 weeks
 
 11/19/2016 5:19:10 PM
 
-[SECTION]Chapter 68: Recurrent Wheezing in Infants and Preschool Children
+Chapter 68: Recurrent Wheezing in Infants and Preschool Children
 
 Regular Prophylaxis
 The key issues while considering long-term treatments are:
@@ -37911,7 +37911,7 @@ ch-68.indd 315
 
 11/19/2016 5:19:11 PM
 
-[SECTION]Section 8: Pulmonology
+Section 8: Pulmonology
 
 Key points
 
@@ -37979,7 +37979,7 @@ ch-68.indd 316
 
 11/19/2016 5:19:11 PM
 
-[SECTION]Chapter
+Chapter
 
 69
 
@@ -38077,7 +38077,7 @@ Bradycardia
 
 11/19/2016 5:21:45 PM
 
-[SECTION]Section 8: Pulmonology
+Section 8: Pulmonology
 Box 2: Risk factors for potentially fatal asthma in children
 
 Clinical Pearls
@@ -38287,7 +38287,7 @@ PEF, peak expiratory flow.
 
 11/19/2016 5:21:45 PM
 
-[SECTION]Chapter 69: Managing Acute Severe Asthma
+Chapter 69: Managing Acute Severe Asthma
 Table 2: Doses of common drug used in acute severe asthma
 Dose
 Short-acting b-agonists
@@ -38436,7 +38436,7 @@ nebulized with combination with nebulized ipratropium
 
 11/19/2016 5:21:45 PM
 
-[SECTION]Section 8: Pulmonology
+Section 8: Pulmonology
 Algorithm 1
 Algorithm for management of acute severe asthma
 
@@ -38481,7 +38481,7 @@ to the axon terminal; therefore promoting a bronchodilating
 
 11/19/2016 5:21:45 PM
 
-[SECTION]Chapter 69: Managing Acute Severe Asthma
+Chapter 69: Managing Acute Severe Asthma
 effect. It has been usually recommended as an add-on therapy
 after the first hour of treatment with salbutamol and steroids
 (GINA 2015, Evidence level A). One large open-labeled trail
@@ -38577,7 +38577,7 @@ ch-69.indd 321
 
 11/19/2016 5:21:45 PM
 
-[SECTION]Chapter
+Chapter
 
 70
 
@@ -38708,7 +38708,7 @@ syndrome.
 
 11/19/2016 5:23:07 PM
 
-[SECTION]Chapter 70: Management of Bronchiolitis
+Chapter 70: Management of Bronchiolitis
 
 CLINICAL FEATURES AND COURSE
 Bronchiolitis typically starts with fever and rhinorrhea.
@@ -38826,7 +38826,7 @@ of oxygen because hypoxemia is seen in moderate to severe
 
 11/19/2016 5:23:07 PM
 
-[SECTION]Section 8: Pulmonology
+Section 8: Pulmonology
 Table 2: Evidence-based recommendations for treatment of
 bronchiolitis
 Intervention
@@ -38973,7 +38973,7 @@ antibiotics. It also stressed that the future research should
 
 11/19/2016 5:23:07 PM
 
-[SECTION]Chapter 70: Management of Bronchiolitis
+Chapter 70: Management of Bronchiolitis
 Algorithm 1
 Algorithmic approach and management of a child with bronchiolitis
 
@@ -39037,7 +39037,7 @@ rate of hospitalization after RSV infection. It is administered
 
 11/19/2016 5:23:07 PM
 
-[SECTION]Section 8: Pulmonology
+Section 8: Pulmonology
 Table 3: Recommendations for respiratory syncytial virus
 immunoprophylaxis with palivizumab
 
@@ -39224,7 +39224,7 @@ saline solution for acute bronchiolitis in infants. Cochrane Database Syst Rev.
 
 11/19/2016 5:23:07 PM
 
-[SECTION]Chapter
+Chapter
 
 71
 
@@ -39328,7 +39328,7 @@ ch-71.indd 327
 
 11/23/2016 10:30:11 AM
 
-[SECTION]Section 8: Pulmonology
+Section 8: Pulmonology
 is neutrophilic inflammation, peribronchial fibrosis, and
 accompanying pulmonary and bronchial vascular changes.
 Pathologically, bronchiectasis may be classified as cylindrical (or
@@ -39433,7 +39433,7 @@ from dry to weight.
 
 11/23/2016 10:30:11 AM
 
-[SECTION]Chapter 71: Management of Bronchiectasis
+Chapter 71: Management of Bronchiectasis
 
 TREATMENT
 Therapy for bronchiectasis may be needed for acute exacer­
@@ -39548,7 +39548,7 @@ be individualized.
 
 11/23/2016 10:30:11 AM
 
-[SECTION]Section 8: Pulmonology
+Section 8: Pulmonology
 
 SURGICAL TREATMENT
 There are no randomized trials comparing medical versus
@@ -39615,7 +39615,7 @@ ch-71.indd 330
 
 11/23/2016 10:30:11 AM
 
-[SECTION]Chapter 71: Management of Bronchiectasis
+Chapter 71: Management of Bronchiectasis
 
 Key points
 High index of suspicious is required to diagnose bronchiectasis
@@ -39671,7 +39671,7 @@ ch-71.indd 331
 
 11/23/2016 10:30:11 AM
 
-[SECTION]Section 9: Cardiology
+Section 9: Cardiology
 Chapter
 
 72
@@ -39756,7 +39756,7 @@ Congestive heart failure broad classification
 
 11/19/2016 5:55:20 PM
 
-[SECTION]Chapter 72: Management of Congestive Heart Failure in Infants and Children: An Algorithmic Approach
+Chapter 72: Management of Congestive Heart Failure in Infants and Children: An Algorithmic Approach
 Most congenital structural heart diseases are remediable
 either surgically or by intervention. Many acquired heart
 diseases are also amenable to correction, e.g., mitral stenosis,
@@ -39908,7 +39908,7 @@ pressure
 
 11/19/2016 5:55:20 PM
 
-[SECTION]Section 9: Cardiology
+Section 9: Cardiology
  Algorithm 2
 Evaluation and treatment of congestive heart failure
 
@@ -40005,7 +40005,7 @@ Acute aortic and mitral regurgitation
 
 11/19/2016 5:55:21 PM
 
-[SECTION]Chapter 72: Management of Congestive Heart Failure in Infants and Children: An Algorithmic Approach
+Chapter 72: Management of Congestive Heart Failure in Infants and Children: An Algorithmic Approach
 Mostly, causes of CHF in infancy are mechanical problems
 which need mechanical solutions—either surgical or
 interventional.
@@ -40116,7 +40116,7 @@ ACEI, angiotensin converting enzyme inhibitors.
 
 11/19/2016 5:55:21 PM
 
-[SECTION]Section 9: Cardiology
+Section 9: Cardiology
 digoxin, angiotensin converting enzyme (ACE) inhibitors and
 β-blockers.
 
@@ -40175,7 +40175,7 @@ assist device.
 
 11/19/2016 5:55:21 PM
 
-[SECTION]Chapter 72: Management of Congestive Heart Failure in Infants and Children: An Algorithmic Approach
+Chapter 72: Management of Congestive Heart Failure in Infants and Children: An Algorithmic Approach
 Continued
 
  Algorithm 12
@@ -40321,7 +40321,7 @@ ch-72.indd 337
 
 11/19/2016 5:55:21 PM
 
-[SECTION]Chapter
+Chapter
 
 73
 
@@ -40408,7 +40408,7 @@ associated with coughing followed by chest pain.
 
 11/19/2016 5:58:05 PM
 
-[SECTION]Chapter 73: Approach to a Child with Chest Pain
+Chapter 73: Approach to a Child with Chest Pain
 Box 1: Causes of chest pain in pediatrics
 Chest wall and musculoskeletal
 • Chest wall strain/trauma (exercise, overuse injury, forceful
@@ -40528,7 +40528,7 @@ childhood with angina pain. The typical ECG pattern is that
 
 11/19/2016 5:58:05 PM
 
-[SECTION]Section 9: Cardiology
+Section 9: Cardiology
 
 340
 
@@ -40656,7 +40656,7 @@ Abnormal vital signs or physical findings
 
 11/19/2016 5:58:06 PM
 
-[SECTION]Chapter 73: Approach to a Child with Chest Pain
+Chapter 73: Approach to a Child with Chest Pain
 The history should begin with the onset of pain, with the
 knowledge that acute pain is more likely to be caused by an
 identifiable organic cause. The pain that makes child awaken
@@ -40773,7 +40773,7 @@ when the history and physical examination are not conclusive.
 
 11/19/2016 5:58:06 PM
 
-[SECTION]Section 9: Cardiology
+Section 9: Cardiology
 Algorithm 1
 Approach to chest pain
 
@@ -40844,7 +40844,7 @@ ch-73.indd 342
 
 11/19/2016 5:58:06 PM
 
-[SECTION]Chapter
+Chapter
 
 74
 
@@ -40936,7 +40936,7 @@ Smaller group belongs to cardiac and endocrinal etiology.
 
 11/19/2016 5:59:37 PM
 
-[SECTION]Section 9: Cardiology
+Section 9: Cardiology
 •
 
 Central nervous system
@@ -41098,7 +41098,7 @@ disease.
 
 11/19/2016 5:59:37 PM
 
-[SECTION]Chapter 74: Systemic Hypertension
+Chapter 74: Systemic Hypertension
 
 How Will You Approach
 a Child with Hypertension?
@@ -41273,7 +41273,7 @@ hypertensives.
 
 11/19/2016 5:59:37 PM
 
-[SECTION]Section 9: Cardiology
+Section 9: Cardiology
 
 Indications for Antihypertensive Drug
 Therapy in Children
@@ -41373,7 +41373,7 @@ ch-74.indd 346
 
 11/19/2016 5:59:37 PM
 
-[SECTION]Chapter 74: Systemic Hypertension
+Chapter 74: Systemic Hypertension
 Table 3: Drug treatment of hypertension
 Drug
 
@@ -41463,7 +41463,7 @@ ch-74.indd 347
 
 11/19/2016 5:59:37 PM
 
-[SECTION]Chapter
+Chapter
 
 75
 
@@ -41545,7 +41545,7 @@ and avoid direct sun exposure.
 
 11/19/2016 6:01:10 PM
 
-[SECTION]Chapter 75: Pediatrician’s Perspective for Postoperative Follow-up of a Child
+Chapter 75: Pediatrician’s Perspective for Postoperative Follow-up of a Child
 
 PAIN RELIEF
 Most of the children at the time of discharge are on round-theclock or SOS nonsteroidal anti-inflammatory drug (NSAID;
@@ -41658,7 +41658,7 @@ and should be considered for pneumococcal and influenza
 
 11/19/2016 6:01:10 PM
 
-[SECTION]Section 9: Cardiology
+Section 9: Cardiology
 Algorithm 1
 General care of post of child
 
@@ -41758,7 +41758,7 @@ increased risk of heart disease in the next child.
 
 11/19/2016 6:01:11 PM
 
-[SECTION]Chapter 75: Pediatrician’s Perspective for Postoperative Follow-up of a Child
+Chapter 75: Pediatrician’s Perspective for Postoperative Follow-up of a Child
 
 Key points
 
@@ -41792,7 +41792,7 @@ ch-75.indd 351
 
 11/19/2016 6:01:11 PM
 
-[SECTION]Section 10: Gastroenterology
+Section 10: Gastroenterology
 Chapter
 
 76
@@ -41870,7 +41870,7 @@ Ch-76.indd 352
 
 11/24/2016 1:47:53 PM
 
-[SECTION]Chapter 76: Chronic Diarrhea in Children Less than 3 Years of Age
+Chapter 76: Chronic Diarrhea in Children Less than 3 Years of Age
 Box 2: Systemic causes of chronic diarrhea in children less
 than 3 years of age
 Common causes
@@ -41987,7 +41987,7 @@ cated disease and non-response to elimination diet
 
 11/24/2016 1:47:53 PM
 
-[SECTION]Section 10: Gastroenterology
+Section 10: Gastroenterology
 
 Treatment
 All animal milk/milk products have to be eliminated
@@ -42043,7 +42043,7 @@ Ch-76.indd 354
 
 11/24/2016 1:47:53 PM
 
-[SECTION]Chapter 76: Chronic Diarrhea in Children Less than 3 Years of Age
+Chapter 76: Chronic Diarrhea in Children Less than 3 Years of Age
 
 SECONDARY LACTOSE INTOLERANCE
 This condition is commonly seen as a cause of persistent
@@ -42176,7 +42176,7 @@ Ch-76.indd 355
 
 11/24/2016 1:47:53 PM
 
-[SECTION]Section 10: Gastroenterology
+Section 10: Gastroenterology
 Continued
 • Shwachman-Diamond syndrome
 {{ Exocrine pancreatic insufficiency (steatorrhea) beginning in
@@ -42337,7 +42337,7 @@ the complete resolution of diarrhea
 
 11/24/2016 1:47:53 PM
 
-[SECTION]Chapter 76: Chronic Diarrhea in Children Less than 3 Years of Age
+Chapter 76: Chronic Diarrhea in Children Less than 3 Years of Age
  Algorithm  2
 Approach to intractable diarrhea of infancy
 
@@ -42423,7 +42423,7 @@ syndrome in North Indian children. Indian J Gastroenterol. 1993;12:120-5.
 
 11/24/2016 1:47:54 PM
 
-[SECTION]Chapter
+Chapter
 
 77
 
@@ -42536,7 +42536,7 @@ Ch-77.indd 358
 
 11/21/2016 9:53:05 AM
 
-[SECTION]Chapter 77: Chronic Diarrhea in Children More than 3 Years of Age
+Chapter 77: Chronic Diarrhea in Children More than 3 Years of Age
 Box 1: Causes according to age of onset (in order of priority)
 • Common causes
 {{ Celiac disease
@@ -42665,7 +42665,7 @@ disease (CD) and (2) ulcerative colitis (UC). In approximately
 
 11/21/2016 9:53:05 AM
 
-[SECTION]Section 10: Gastroenterology
+Section 10: Gastroenterology
 Algorithm  1
 Approach to management of chronic diarrhea in children more than 3 years of age: major etiologies
 
@@ -42717,7 +42717,7 @@ complete examination with growth charting, perianal and
 
 11/21/2016 9:53:05 AM
 
-[SECTION]Chapter 77: Chronic Diarrhea in Children More than 3 Years of Age
+Chapter 77: Chronic Diarrhea in Children More than 3 Years of Age
 Box 2: Classical clinical features and workup of celiac disease
 
 Box 3: Diagnosis and treatment of celiac disease
@@ -42844,7 +42844,7 @@ identifying the segment by 99Tc albumin scintigraphy
 
 11/21/2016 9:53:06 AM
 
-[SECTION]Section 10: Gastroenterology
+Section 10: Gastroenterology
 Box 5: Clinical features of common immunodeficiency states
 (above 3 years of age)
 Common features
@@ -43035,7 +43035,7 @@ Endoscopy
 
 11/21/2016 9:53:06 AM
 
-[SECTION]Chapter 77: Chronic Diarrhea in Children More than 3 Years of Age
+Chapter 77: Chronic Diarrhea in Children More than 3 Years of Age
 Table 3: Diagnostic modalities available for inflammatory bowel disease
 Diagnostic modality
 
@@ -43199,7 +43199,7 @@ without relapse after completion of therapy is observed
 
 11/21/2016 9:53:06 AM
 
-[SECTION]Section 10: Gastroenterology
+Section 10: Gastroenterology
 Table 5: Drugs used in inflammatory bowel disease (second line therapy)
 Drug
 
@@ -43372,7 +43372,7 @@ differentiate intestinal tuberculosis from Crohn’s disease
 
 11/21/2016 9:53:06 AM
 
-[SECTION]Chapter 77: Chronic Diarrhea in Children More than 3 Years of Age
+Chapter 77: Chronic Diarrhea in Children More than 3 Years of Age
 as they mimic each other in clinical presentation but have
 different treatment. One should also suspect MDR-TB in
 patients with a definite diagnosis of abdominal tuberculosis
@@ -43488,7 +43488,7 @@ Ch-77.indd 365
 
 11/21/2016 9:53:06 AM
 
-[SECTION]CHAPTER
+CHAPTER
 
 78
 
@@ -43568,7 +43568,7 @@ melena
 toward systemic causes like thrombocytopenia and
 coagulopathy.
 
-[SECTION]CHAPTER 78: Approach to Upper Gastrointestinal Bleed in Children
+CHAPTER 78: Approach to Upper Gastrointestinal Bleed in Children
 ALGORITHM 1
 Approach to a patient with acute upper gastrointestinal bleeding
 
@@ -43650,7 +43650,7 @@ Munchausen’s syndrome by proxy
 
 367
 
-[SECTION]SECTION 10: Gastroenterology
+SECTION 10: Gastroenterology
 TABLE 2: Clues in history and examination toward etiology of
 upper gastrointestinal bleeding
 Likely diagnosis
@@ -43753,7 +43753,7 @@ cross matching should be done in all patients at admission.
 Fig. 2: Upper gastrointestinal endoscopy showing gastric varices
 with red color signs on retroversion
 
-[SECTION]CHAPTER 78: Approach to Upper Gastrointestinal Bleed in Children
+CHAPTER 78: Approach to Upper Gastrointestinal Bleed in Children
 General supportive measures: a good venous access, intake
 output monitoring, oxygen supplementation (if required), and
 charting of vitals are mandatory. Blood transfusion should be
@@ -43845,7 +43845,7 @@ stricture esophagus and rarely perforation.
 
 369
 
-[SECTION]SECTION 10: Gastroenterology
+SECTION 10: Gastroenterology
 TABLE 3: Drugs used to control upper gastrointestinal bleeding
 Drugs for acid suppression
 Antacids
@@ -43982,7 +43982,7 @@ pump inhibitors infusion should be initiated in any patient
 suspected to have nonvariceal bleeding from the upper
 gastrointestinal tract as it reduces both the incidence of highrisk stigmata of hemorrhage on endoscopy [37.2 vs. 46.5%;
 
-[SECTION]CHAPTER 78: Approach to Upper Gastrointestinal Bleed in Children
+CHAPTER 78: Approach to Upper Gastrointestinal Bleed in Children
 odds ratio (OR) 0.67, 95% confidence interval (CI) 0.54–0.84)
 and the need for endoscopic hemostasis (8.6 vs. 11.7%; OR
 0.68, 0.50–0.93).
@@ -44116,7 +44116,7 @@ medical and endoscopic therapy.
 
 371
 
-[SECTION]SECTION 10: Gastroenterology
+SECTION 10: Gastroenterology
 
 SUGGESTED READINGS
 1. de Franchis R. Evolving consensus in portal hypertension. Report of the Baveno
@@ -44147,7 +44147,7 @@ systematic review. Pediatr Crit Care Med. 2010;11:124-32.
 12. Yachha SK, Khanduri A, Sharma BC, Kumar M. Gastrointestinal bleeding in children.
 J Gastroenterol Hepatol. 1996;11:903-7.
 
-[SECTION]CHAPTER
+CHAPTER
 
 79
 
@@ -44242,7 +44242,7 @@ Intestinal duplication
 Segmental enteritis
 Vascular malformations
 
-[SECTION]SECTION 10: Gastroenterology
+SECTION 10: Gastroenterology
 
 MANAGEMENT OF LOWER
 GASTROINTESTINAL BLEED
@@ -44344,7 +44344,7 @@ colonoscopy (blue rubber bleb nevus syndrome)
 Fig. 2: Oral buccal mucosal pigmentation and colonic polyps (Peutz
 Jegher’s syndrome)
 
-[SECTION]CHAPTER 79: Management of Lower Gastrointestinal Bleed
+CHAPTER 79: Management of Lower Gastrointestinal Bleed
 
 Examination
 General: in children with acute lower gastrointestinal bleed
@@ -44415,7 +44415,7 @@ Fig. 5: Abdominal ultrasound showing target sign “intussusception”
 
 375
 
-[SECTION]SECTION 10: Gastroenterology
+SECTION 10: Gastroenterology
 Ileocolonoscopy: early colonoscopy helps both in diagnosis
 and therapy of mucosal lesions of the colon. The overall yield
 ranges from 69 to 80%. Bowel preparation is safely achieved in
@@ -44447,7 +44447,7 @@ Fig. 7: Rectal varices
 
 Fig. 10: Irregular colonic ulcer: Crohn’s disease
 
-[SECTION]CHAPTER 79: Management of Lower Gastrointestinal Bleed
+CHAPTER 79: Management of Lower Gastrointestinal Bleed
 Impaction of the capsule may occur if there is an underlying
 stricture
 
@@ -44542,7 +44542,7 @@ gastrointestinal injury. Proton pump inhibitors score over
 
 377
 
-[SECTION]SECTION 10: Gastroenterology
+SECTION 10: Gastroenterology
 
 •
 
@@ -44640,7 +44640,7 @@ Management of lower gastrointestinal bleeding after stabilization of child
 *Radionuclide studies RBC tagged/pertechnetate.
 LGIB, lower gastrointestinal bleeding; RNS, radio nuclide studies; UGIE, upper gastrointestinal endocospy.
 
-[SECTION]CHAPTER 79: Management of Lower Gastrointestinal Bleed
+CHAPTER 79: Management of Lower Gastrointestinal Bleed
 
 CONCLUSION
 
@@ -44717,7 +44717,7 @@ Amer. 1994;93-188.
 
 379
 
-[SECTION]Chapter
+Chapter
 
 80
 
@@ -44806,7 +44806,7 @@ Idiopathic
 
 11/21/2016 10:41:25 AM
 
-[SECTION]Chapter 80: Acute Liver Failure
+Chapter 80: Acute Liver Failure
 Table 2: Diagnostic workup for acute liver failure in children
 General workup Total and conjugated bilirubin, AST, ALT, GGTP,
 alkaline phosphatase, prothrombin time (INR),
@@ -44914,7 +44914,7 @@ be given. This can be repeated if serum osmolality is less than
 
 11/21/2016 10:41:25 AM
 
-[SECTION]Section 10: Gastroenterology
+Section 10: Gastroenterology
 Box 1: Specific therapy of common causes of pediatric acute
 liver failure
 Neonatal hemochromatosis
@@ -45034,7 +45034,7 @@ factor V concentration of less than 25%, as recommended in
 
 11/21/2016 10:41:25 AM
 
-[SECTION]Chapter 80: Acute Liver Failure
+Chapter 80: Acute Liver Failure
 the consensus statement, are by far the best available criteria
 for listing for liver transplantation. Acute fulminant Wilson’s
 disease has a high mortality necessitating liver transplantation
@@ -45163,7 +45163,7 @@ the mainland of China. Hepatobiliary Pancreat Dis Int. 2012;11:250-5.
 
 11/21/2016 10:41:25 AM
 
-[SECTION]Chapter
+Chapter
 
 81
 
@@ -45273,7 +45273,7 @@ clearance
 
 11/21/2016 10:43:35 AM
 
-[SECTION]Chapter 81: Corrosive Injury in Children
+Chapter 81: Corrosive Injury in Children
 Algorithm 1
 Pathogenesis of corrosive ingestion
 
@@ -45376,7 +45376,7 @@ effusion.
 
 11/21/2016 10:43:35 AM
 
-[SECTION]Section 10: Gastroenterology
+Section 10: Gastroenterology
 
 Laboratory Investigations
 Investigations to look for acidosis, dyselectrolytemia, dis­
@@ -45515,7 +45515,7 @@ equivalence of nasojejunal feeding with jejunostomy feeding
 
 11/21/2016 10:43:35 AM
 
-[SECTION]Chapter 81: Corrosive Injury in Children
+Chapter 81: Corrosive Injury in Children
 Algorithm 2
 Management of corrosive ingestion in children
 
@@ -45615,7 +45615,7 @@ those presenting late. Barium would be the preferable contrast
 
 11/21/2016 10:43:35 AM
 
-[SECTION]Section 10: Gastroenterology
+Section 10: Gastroenterology
 except in children with severe dysphagia where there is a
 possibility of aspiration of the contrast.
 Stricture dilatation before 3 weeks after corrosive injury
@@ -45717,7 +45717,7 @@ Ch-81.indd 388
 
 11/21/2016 10:43:35 AM
 
-[SECTION]Chapter
+Chapter
 
 82
 
@@ -45831,7 +45831,7 @@ that aggravate symptoms should be avoided. Antacids and
 
 11/21/2016 10:48:16 AM
 
-[SECTION]Section 10: Gastroenterology
+Section 10: Gastroenterology
 prokinetics may offer symptom relief in some patients, but
 their routine use is not recommended without an upper GI
 endoscopy. A search for psychological factors may be made in
@@ -45944,7 +45944,7 @@ parents.
 
 11/21/2016 10:48:16 AM
 
-[SECTION]Chapter 82: Chronic Abdominal Pain
+Chapter 82: Chronic Abdominal Pain
 
 Treatment
 The contribution of psychosocial factors should be evaluated
@@ -46095,7 +46095,7 @@ Am. 2002;49(1):53-71.
 
 11/21/2016 10:48:16 AM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 Chapter
 
 83
@@ -46178,7 +46178,7 @@ being raised?
 
 11/21/2016 11:06:11 AM
 
-[SECTION]Chapter 83: Approach to Global Developmental Delay
+Chapter 83: Approach to Global Developmental Delay
 
 Clinical Pearl
 • Remember that a history of delayed cry, although an important
@@ -46292,7 +46292,7 @@ Ch-83.indd 393
 
 11/21/2016 11:06:11 AM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 Algorithm 1
 Approach to diagnosis in a child with global developmental delay/intellectual disability
 
@@ -46338,7 +46338,7 @@ matter involvement
 
 11/21/2016 11:06:11 AM
 
-[SECTION]Chapter 83: Approach to Global Developmental Delay
+Chapter 83: Approach to Global Developmental Delay
 
 Key points
 
@@ -46386,7 +46386,7 @@ Ch-83.indd 395
 
 11/21/2016 11:06:11 AM
 
-[SECTION]Chapter
+Chapter
 
 84
 
@@ -46469,7 +46469,7 @@ with their modes of inheritance are listed in the table 1.
 
 11/24/2016 1:49:14 PM
 
-[SECTION]Chapter 84: Approach to Psychomotor Regression in Children
+Chapter 84: Approach to Psychomotor Regression in Children
 Table: 1 Neurodegenerative disorders and their inheritance
 patterns
 Inheritance
@@ -46615,7 +46615,7 @@ head-to-toe general examination. The examination should
 
 11/24/2016 1:49:14 PM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
  Algorithm 1
 Approach to psychomotor regression in children
 
@@ -46729,7 +46729,7 @@ deficiency (ichthyosis)
 
 11/24/2016 1:49:14 PM
 
-[SECTION]Chapter 84: Approach to Psychomotor Regression in Children
+Chapter 84: Approach to Psychomotor Regression in Children
  Algorithm 2
 Clinical features of neurodegenerative disorders with categorization according to age of onset
 
@@ -46766,7 +46766,7 @@ future genetic counseling (Table 5).
 
 11/24/2016 1:49:15 PM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 Table 3: Visceromegaly associated with neurodegenerative
 disorders
 Hepatosplenomegaly
@@ -46934,7 +46934,7 @@ demonstrate tortuous vessels.
 
 11/24/2016 1:49:15 PM
 
-[SECTION]Chapter 84: Approach to Psychomotor Regression in Children
+Chapter 84: Approach to Psychomotor Regression in Children
 Box 3: Peripheral neuropathies associated with neurodegenerative disorders
 Episodic neuropathy
 • Acute intermittent porphyrias
@@ -47127,7 +47127,7 @@ brainstem evoked response audiometry.
 
 11/24/2016 1:49:15 PM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
  Algorithm 4
 Approach to neuroregression according to major neuroimaging pattern
 
@@ -47171,7 +47171,7 @@ screening.
 
 11/24/2016 1:49:16 PM
 
-[SECTION]Chapter 84: Approach to Psychomotor Regression in Children
+Chapter 84: Approach to Psychomotor Regression in Children
 Box 4: Treatable neurodegenerative/metabolic conditions
 • Wilson’s disease—D-Penicillamine and other chelating agents
 • Aminoacidopathies—specific diets. Nitisinone in tyrosinemia
@@ -47271,7 +47271,7 @@ Ch-84.indd 403
 
 11/24/2016 1:49:16 PM
 
-[SECTION]Chapter
+Chapter
 
 85
 
@@ -47362,7 +47362,7 @@ encephalogram (EEG)
 
 11/24/2016 1:56:12 PM
 
-[SECTION]Chapter 85: Approach to a Child with First Seizure
+Chapter 85: Approach to a Child with First Seizure
 •
 •
 •
@@ -47490,7 +47490,7 @@ precipitated or mimicked on suggestion.
 
 11/24/2016 1:56:12 PM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 
 Breath Holding Spells
 
@@ -47604,7 +47604,7 @@ Ch-85.indd 406
 
 11/24/2016 1:56:12 PM
 
-[SECTION]Chapter 85: Approach to a Child with First Seizure
+Chapter 85: Approach to a Child with First Seizure
 Algorithm 1
 Management of first unprovoked seizure
 
@@ -47652,7 +47652,7 @@ Ch-85.indd 407
 
 11/24/2016 1:56:12 PM
 
-[SECTION]Chapter
+Chapter
 
 86
 
@@ -47743,7 +47743,7 @@ etc.
 
 11/24/2016 1:58:11 PM
 
-[SECTION]Chapter 86: Medical Management of Epilepsy
+Chapter 86: Medical Management of Epilepsy
 
 Indications of Electroencephalogram
 Electroencephalogram is recommended as part of the
@@ -47900,7 +47900,7 @@ relation to your patient.
 
 11/24/2016 1:58:11 PM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 Table 2: Choosing the appropriate antiepileptic drug
 Partial seizures
 
@@ -48197,7 +48197,7 @@ epileptic drugs.
 
 11/24/2016 1:58:12 PM
 
-[SECTION]Chapter 86: Medical Management of Epilepsy
+Chapter 86: Medical Management of Epilepsy
 Table 4: Preferred drugs for different epileptic syndromes
 Severe myoclonic epilepsy of
 infancy (Dravet syndrome)
@@ -48376,7 +48376,7 @@ Ch-86.indd 411
 
 11/24/2016 1:58:12 PM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 Algorithm 2
 Algorithm for a Newly Diagnosed Epilepsy
 
@@ -48454,7 +48454,7 @@ travelling, or illness
 
 11/24/2016 1:58:12 PM
 
-[SECTION]Chapter 86: Medical Management of Epilepsy
+Chapter 86: Medical Management of Epilepsy
 •
 •
 •
@@ -48591,7 +48591,7 @@ Ch-86.indd 413
 
 11/24/2016 1:58:12 PM
 
-[SECTION]Chapter
+Chapter
 
 87
 
@@ -48674,7 +48674,7 @@ Social stigma.
 
 11/24/2016 1:58:59 PM
 
-[SECTION]Chapter 87: Approach to Refractory Epilepsies
+Chapter 87: Approach to Refractory Epilepsies
 
 RISK FACTORS OF Drugrefractory epilepsy
 A number of prospective studies have attempted to identify
@@ -48822,7 +48822,7 @@ Tics
 
 11/24/2016 1:59:00 PM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 
 Antiepileptic Drugs
 Medical management with AEDs remains the first-line
@@ -48952,7 +48952,7 @@ drug.
 
 11/24/2016 1:59:00 PM
 
-[SECTION]Chapter 87: Approach to Refractory Epilepsies
+Chapter 87: Approach to Refractory Epilepsies
 Algorithm  1
 Surgical approach in drug refractory epilpsy
 
@@ -48989,7 +48989,7 @@ Ch-87.indd 417
 
 11/24/2016 1:59:00 PM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 12 years of age. Approximately 30–40% of patients achieve
 a greater than 50% reduction in seizure frequency. Serious
 adverse events are rare.
@@ -49067,7 +49067,7 @@ Ch-87.indd 418
 
 11/24/2016 1:59:00 PM
 
-[SECTION]Chapter
+Chapter
 
 88
 
@@ -49183,7 +49183,7 @@ Conversion reaction.
 
 11/21/2016 11:18:26 AM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 •
 
 CLUES IN HISTORY AND EXAMINATION
@@ -49291,7 +49291,7 @@ Ch-88.indd 420
 
 11/21/2016 11:18:26 AM
 
-[SECTION]Chapter 88: Acute Flaccid Paralysis
+Chapter 88: Acute Flaccid Paralysis
 
 Acute Inflammatory Polyradiculo­
 neuropathy (Guillain-Barre Syndrome)
@@ -49520,7 +49520,7 @@ Ch-88.indd 421
 
 11/21/2016 11:18:26 AM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 take samples for polioviruses from the stool specimen, soon
 after the diagnosis and then they will follow-up the cases and
 do the needful.
@@ -49562,7 +49562,7 @@ Ch-88.indd 422
 
 11/21/2016 11:18:26 AM
 
-[SECTION]Chapter
+Chapter
 
 89
 
@@ -49655,7 +49655,7 @@ Of particular importance are the following:
 
 11/21/2016 11:21:04 AM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 
 A
 
@@ -49721,7 +49721,7 @@ episodic tachypnea. Cognitive disabilities are variable.
 
 11/21/2016 11:21:05 AM
 
-[SECTION]Chapter 89: Approach to Floppy Infant
+Chapter 89: Approach to Floppy Infant
 Many other syndromes have central hypotonia. Among
 them, Down syndrome is usually diagnosed early due to
 presence of typical facies.
@@ -49860,7 +49860,7 @@ congenital myopathy
 
 11/21/2016 11:21:05 AM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 
 Clinical Pearl
 • A very high creatine phosphokinase value usually points
@@ -49945,7 +49945,7 @@ Ch-89.indd 426
 
 11/21/2016 11:21:05 AM
 
-[SECTION]CHAPTER
+CHAPTER
 
 90
 
@@ -50084,7 +50084,7 @@ feeling in the ear
 Dysdiadochokinesia, dyssynergia, and
 dysmetria
 
-[SECTION]SECTION 11: Neurology
+SECTION 11: Neurology
 One important clinical clue for vitamin B12 deficiency
 state is the presence of hyperpigmentation over the dorsum of
 interphalangeal joints, knuckles, palmar creases, intertriginous
@@ -50217,7 +50217,7 @@ Table 2 describes the localizing features of different signs.
 SOL, space occupying lesion; GBS, Guillain-Barré syndrome; ADEM, acute
 disseminated encephalomyelitis, MS, multiple sclerosis.
 
-[SECTION]CHAPTER 90: Approach to Ataxia
+CHAPTER 90: Approach to Ataxia
 •
 
 •
@@ -50372,7 +50372,7 @@ episodic ataxias.
 
 429
 
-[SECTION]SECTION 11: Neurology
+SECTION 11: Neurology
 TABLE 3: Hereditary episodic ataxias
 Features
 
@@ -50489,7 +50489,7 @@ cerebellar ataxia:
 {{ Joubert’s syndrome
 {{ Dandy-Walker syndrome
 
-[SECTION]CHAPTER 90: Approach to Ataxia
+CHAPTER 90: Approach to Ataxia
 Chiari malformation
 Rhombencephalosynapsis
 Congenital cerebellar hypoplasia:
@@ -50620,7 +50620,7 @@ dysarthria occur early
 
 431
 
-[SECTION]SECTION 11: Neurology
+SECTION 11: Neurology
 
 •
 
@@ -50756,7 +50756,7 @@ pathy
 ǅǅ Plasma exchange is useful apart from
 restriction of dietary phytanic acid.
 
-[SECTION]CHAPTER 90: Approach to Ataxia
+CHAPTER 90: Approach to Ataxia
 {{
 
 Congenital disorder of glycosylation (carbohydrate
@@ -50824,7 +50824,7 @@ Summary of approach to ataxias in children
 433
 GBS; Guillain-Barre syndrome; MS, multiple sclerosis.
 
-[SECTION]SECTION 11: Neurology
+SECTION 11: Neurology
 
 KEY POINTS
 
@@ -50897,7 +50897,7 @@ literature. Neurol India. 2000;48;78-80.
 glycosylation. Pediatric Research. 2002;52: 618-624.
 13. Jayakumar V. Childhood ataxias. Reviews in Neurology. 2008;14:339-372.
 
-[SECTION]Chapter
+Chapter
 
 91
 
@@ -50987,7 +50987,7 @@ The reported incidence for ischemic stroke has increased
 
 11/21/2016 11:31:35 AM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 
 Fig. 2: T2 weighted magnetic resonance imaging of brain: left
 hemispheric atrophy in chronic stage of hemiconvulsion-hemiplegiaepilepsy syndrome
@@ -51055,7 +51055,7 @@ older infants and children (Box 4).
 
 11/21/2016 11:31:35 AM
 
-[SECTION]Chapter 91: Acute Hemiplegia in Children: An Algorithm for Diagnosis and Treatment
+Chapter 91: Acute Hemiplegia in Children: An Algorithm for Diagnosis and Treatment
 Box 4: Clinical presentation of sinus venous thrombosis
 • Headache, papilledema, and
 6th nerve palsy
@@ -51146,7 +51146,7 @@ demyelinating syndrome of the central nervous system.
 
 11/21/2016 11:31:36 AM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 Algorithm 2
 Management of acute hemiplegia in children
 
@@ -51224,7 +51224,7 @@ and prognosis.
 
 11/21/2016 11:31:36 AM
 
-[SECTION]Chapter 91: Acute Hemiplegia in Children: An Algorithm for Diagnosis and Treatment
+Chapter 91: Acute Hemiplegia in Children: An Algorithm for Diagnosis and Treatment
 
 SUGGESTED READINGs
 1. Alper G. Acute disseminated encephalomyelitis. J Child Neurol. 2012;27(11):
@@ -51285,7 +51285,7 @@ Ch-91.indd 439
 
 11/21/2016 11:31:36 AM
 
-[SECTION]Chapter
+Chapter
 
 92
 
@@ -51398,7 +51398,7 @@ DTR, deep tendon seflexes.
 
 11/21/2016 11:33:57 AM
 
-[SECTION]Chapter 92: Approach to a Child with Spastic Paraplegia
+Chapter 92: Approach to a Child with Spastic Paraplegia
 
 Types of spinal cord disorders
 Spinal cord disorders can be extramedullary or intra­medullary
@@ -51540,7 +51540,7 @@ Late and less severe
 
 11/21/2016 11:33:57 AM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 Table 4: Clinical features of various spinal cord syndromes
 Spinal cord syndrome
 
@@ -51718,7 +51718,7 @@ the extension of disease into soft tissues. Treatment is with
 
 11/21/2016 11:33:57 AM
 
-[SECTION]Chapter 92: Approach to a Child with Spastic Paraplegia
+Chapter 92: Approach to a Child with Spastic Paraplegia
 antitubercular drugs and surgical intervention is indicated in
 acute and severe paraparesis secondary to compression and
 unstable spine.
@@ -51847,7 +51847,7 @@ Springer; 1984. p. 61.
 
 11/21/2016 11:33:58 AM
 
-[SECTION]Chapter
+Chapter
 
 93
 
@@ -51930,7 +51930,7 @@ tension between 25–30 mmHg. Proper nursing care must
 
 11/21/2016 11:35:51 AM
 
-[SECTION]Chapter 93: Acute Febrile Encephalopathy
+Chapter 93: Acute Febrile Encephalopathy
 Box 1: Causes of acute febrile encephalopathy/acute encephalopathy syndrome (AFE/AES)
 Neuroinfections
 • Viruses
@@ -52057,7 +52057,7 @@ administered as an intravenous infusion over 1 hour every
 
 11/21/2016 11:35:51 AM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
  Algorithm 1
 Approach to diagnosis in acute febrile encephalopathy
 
@@ -52141,7 +52141,7 @@ Ch-93.indd 446
 
 11/21/2016 11:35:51 AM
 
-[SECTION]Chapter 93: Acute Febrile Encephalopathy
+Chapter 93: Acute Febrile Encephalopathy
 Continued
 Supportive care and treatment
 • Maintain euglycemia, control fever, maintain hydration
@@ -52242,7 +52242,7 @@ Pediatrics. 2012;49:897-903.
 
 11/21/2016 11:35:52 AM
 
-[SECTION]Chapter
+Chapter
 
 94
 
@@ -52339,7 +52339,7 @@ of movement disorder, and one must be able to identify, the
 
 11/24/2016 2:17:05 PM
 
-[SECTION]Chapter 94: Approach to Pediatric Movement Disorders
+Chapter 94: Approach to Pediatric Movement Disorders
 Algorithm 1
 Categorization of movement disorders
 
@@ -52468,7 +52468,7 @@ other neurologic findings, part of a static condition, or
 
 11/24/2016 2:17:06 PM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 appearing in conjunction with a loss of other previously
 acquired skills.
 A comprehensive general examination is further required
@@ -52614,7 +52614,7 @@ Ch-94.indd 450
 
 11/24/2016 2:17:06 PM
 
-[SECTION]Chapter 94: Approach to Pediatric Movement Disorders
+Chapter 94: Approach to Pediatric Movement Disorders
 Table 3: Drug-induced movement disorders
 Type of movement disorder
 
@@ -52825,7 +52825,7 @@ and multidisciplinary according to the type, the common
 
 11/24/2016 2:17:06 PM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 Algorithm 3
 Brain MRI changes in movement disorders
 
@@ -52943,7 +52943,7 @@ Following is a short discussion of movement disorders.
 
 11/24/2016 2:17:06 PM
 
-[SECTION]Chapter 94: Approach to Pediatric Movement Disorders
+Chapter 94: Approach to Pediatric Movement Disorders
 
 Dystonia
 Though dystonia is a common symptom in neurology, it is
@@ -53036,7 +53036,7 @@ Hemidystonia: when one side of the body is involved.
 
 11/24/2016 2:17:07 PM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 
 Clinical Pearl
 Acute dystonias can be remembered by VITS:
@@ -53164,7 +53164,7 @@ Ch-94.indd 454
 
 11/24/2016 2:17:07 PM
 
-[SECTION]Chapter 94: Approach to Pediatric Movement Disorders
+Chapter 94: Approach to Pediatric Movement Disorders
 Hyperparathryoidism/hypoparathryoidism, pseudo­
 hypopara­thyroidism—Basal ganglia calcification.
 Autoimmune:
@@ -53268,7 +53268,7 @@ dystonia
 
 11/24/2016 2:17:07 PM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 
 Rigidity
 A form of hypertonia in which resistance to passive movement
@@ -53381,7 +53381,7 @@ Clinical Pearl
 
 11/24/2016 2:17:07 PM
 
-[SECTION]Chapter 94: Approach to Pediatric Movement Disorders
+Chapter 94: Approach to Pediatric Movement Disorders
 
 Stereotypy
 Described as repeated, purposeless movements
@@ -53512,7 +53512,7 @@ edition. Saunders Elsevier, 2010.
 
 11/24/2016 2:17:07 PM
 
-[SECTION]Chapter
+Chapter
 
 95
 
@@ -53622,7 +53622,7 @@ diagnoses (80% of diagnoses are suspected based on history).
 
 11/21/2016 1:38:30 PM
 
-[SECTION]Chapter 95: Afebrile Encephalopathy: Bedside Approach to Diagnosis and Management
+Chapter 95: Afebrile Encephalopathy: Bedside Approach to Diagnosis and Management
 
 VARIED ETIOLOGIES AND
 THEIR BRIEF PRESENTATION Algorithm 1
@@ -53701,7 +53701,7 @@ Ch-95.indd 459
 
 11/21/2016 1:38:30 PM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 An EDTA sample should be stored in case of sudden
 death and further pregnancy counseling can be possible after
 performing appropriate genetic analysis.
@@ -53810,7 +53810,7 @@ Ch-95.indd 460
 
 11/21/2016 1:38:31 PM
 
-[SECTION]Chapter 95: Afebrile Encephalopathy: Bedside Approach to Diagnosis and Management
+Chapter 95: Afebrile Encephalopathy: Bedside Approach to Diagnosis and Management
 Table 2: Course of illness as clue to diagnoses
 
 Continued
@@ -54009,7 +54009,7 @@ fundus has great localizing and diagnostic value.
 
 11/21/2016 1:38:31 PM
 
-[SECTION]Section 11: Neurology
+Section 11: Neurology
 
 MANAGEMENT
 Management of acute encephalopathy involves stabili­
@@ -54068,7 +54068,7 @@ Ch-95.indd 462
 
 11/21/2016 1:38:31 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 Chapter
 
 96
@@ -54150,7 +54150,7 @@ well as radiologically. They are (i) metaphyseal dysplasia,
 
 11/24/2016 2:18:39 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 
 A
 
@@ -54194,7 +54194,7 @@ show tongue-like radiolucency projecting from growth plate
 
 11/24/2016 2:18:39 PM
 
-[SECTION]Chapter 96: Approach to Rickets in Children
+Chapter 96: Approach to Rickets in Children
 into metaphysis whereas in rickets growth plate is uniformly
 wide. Biochemical changes will be different from rickets as
 SAP levels are low and serum calcium and phosphate levels
@@ -54255,7 +54255,7 @@ vitamin D); C, Nonhealing rickets
 
 11/24/2016 2:18:40 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 
 Clinical Pearl
 • Vitamin D deficiency rickets previously called as nutritional
@@ -54373,7 +54373,7 @@ straight forward therapy for vitamin D defects alone.
 
 11/24/2016 2:18:40 PM
 
-[SECTION]Chapter 96: Approach to Rickets in Children
+Chapter 96: Approach to Rickets in Children
 
 Vitamin D-dependent rickets Type 1
 History, examination, and laboratory features suggestive of
@@ -54508,7 +54508,7 @@ Continued
 
 11/24/2016 2:18:40 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 Continued
 
 Types of
@@ -54608,7 +54608,7 @@ ch-96.indd 468
 
 11/24/2016 2:18:40 PM
 
-[SECTION]Chapter
+Chapter
 
 97
 
@@ -54697,7 +54697,7 @@ abnormalities in water balance, with history of vomiting
 
 11/21/2016 12:05:06 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 or diarrhea and clinical features of dehydration, hypo- or
 hypervolemia.
 Abnormalities in K+ balance may present as an emergency
@@ -54844,7 +54844,7 @@ are affected by body position and stress, therefore, standard
 
 11/21/2016 12:05:06 PM
 
-[SECTION]Chapter 97: Disorders of Sodium and Potassium
+Chapter 97: Disorders of Sodium and Potassium
 levels are described according to body position in which
 sample is taken (e.g., on 2-hour supine samples).
 Note: Spurious hyponatremia (due to high serum lipids or proteins) is
@@ -54919,7 +54919,7 @@ ch-97.indd 471
 
 11/21/2016 12:05:06 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 
 CONCLUSION
 Sodium and potassium abnormalities occur in a large number
@@ -54971,7 +54971,7 @@ ch-97.indd 472
 
 11/21/2016 12:05:06 PM
 
-[SECTION]CHAPTER
+CHAPTER
 
 98
 
@@ -55057,7 +55057,7 @@ Parasitic infestations
 • Filariasis, trichinosis, hydatid disease
 • Amebiasis (Entamoeba histolytica)
 
-[SECTION]SECTION 12: Nephrology
+SECTION 12: Nephrology
 ALGORITHM 1
 Algorithm of approach to the patient with acute glomerulonephritis
 
@@ -55148,7 +55148,7 @@ components and renal components (molecular mimicry);
 and alteration of a normal renal antigen eliciting autoimmune
 reactivity.
 
-[SECTION]CHAPTER 98: Acute Glomerulonephritis
+CHAPTER 98: Acute Glomerulonephritis
 Much of the early work on the pathogenesis of APSGN
 focused on the group A-specific streptococcal M proteins
 but it has now been discounted as the nephritogenic antigen
@@ -55216,7 +55216,7 @@ GBM also causes effacement of podocyte foot processes, which leads to loss of pr
 
 475
 
-[SECTION]SECTION 12: Nephrology
+SECTION 12: Nephrology
 
 Autoimmune Reactivity
 Though a number of autoimmune findings have been reported
@@ -55318,7 +55318,7 @@ children. Patients may present with clinical and radiologic
 signs of pulmonary edema. Evidence for congestive heart
 failure may be found in almost half of these children. Initially,
 
-[SECTION]CHAPTER 98: Acute Glomerulonephritis
+CHAPTER 98: Acute Glomerulonephritis
 blood pressure is high, buthypotension occurs in later stages
 when heart failure and shock supervenes. Other atypical
 presentations of poststreptococcal GN have been listed in the
@@ -55427,7 +55427,7 @@ polymorphs (hematoxylin and eosin)
 
 477
 
-[SECTION]SECTION 12: Nephrology
+SECTION 12: Nephrology
 complex deposition. Immunoelectronmicroscopy has facili­
 tated the demonstration of IgG, C3, and SPEB within the
 subepithelial humps.
@@ -55505,7 +55505,7 @@ benzathine penicillin G or alternatively oral penicillin V for
 10 days is recommended. Erythromycin or azithromycin are
 used in patients allergic to penicillin.
 
-[SECTION]CHAPTER 98: Acute Glomerulonephritis
+CHAPTER 98: Acute Glomerulonephritis
 
 Clinical Pearls
 Antibiotic therapy in acute poststreptococcal glomerulo­
@@ -55627,7 +55627,7 @@ glomerulonephritis. J Am Soc Nephrol. 2008;19(10):1855-864.
 
 479
 
-[SECTION]CHAPTER
+CHAPTER
 
 99
 
@@ -55689,7 +55689,7 @@ eumorphic RBCs (Fig. 1) suggest bleeding from the urinary
 
 Fig. 1: Urine microscopy showing normal red blood cell
 
-[SECTION]CHAPTER 99: Approach to Hematuria in Children
+CHAPTER 99: Approach to Hematuria in Children
 TABLE 3: Clinical pointers in history to identify the causes of
 hematuria
 Clinical signs/symptoms
@@ -55841,7 +55841,7 @@ also cause hematuria rarely. An ultrasound kidney, ureter,
 
 481
 
-[SECTION]SECTION 12: Nephrology
+SECTION 12: Nephrology
 ALGORITHM 1
 Approach to gross hematuria
 
@@ -55905,7 +55905,7 @@ USG, ultrasonography; CT, computed tomography; D/D, differential diagnosis;
 C/S, culture sensitivity.
 *Urine spot calcium/creatinine ratio (>0.2 mg/mg abnormal)
 
-[SECTION]CHAPTER 99: Approach to Hematuria in Children
+CHAPTER 99: Approach to Hematuria in Children
 
 Indications for Renal Biopsy
 Glomerular hematuria persisting for more than 4 weeks and
@@ -56021,7 +56021,7 @@ hematuria on most occasions.
 
 483
 
-[SECTION]SECTION 12: Nephrology
+SECTION 12: Nephrology
 
 Clinical Pearls
 Hematuria and proteinuria
@@ -56054,7 +56054,7 @@ practical approach. Pediatr Nephrol. 1994;8:756-61.
 8. Wood EG. Asymptomatic hematuria in childhood: A practical approach to evaluation.
 Indian J Pediatr. 1999;66:207-14.
 
-[SECTION]Chapter
+Chapter
 
 100
 
@@ -56138,7 +56138,7 @@ be required to diagnose or rule out a UTI. Those who have sat
 
 11/24/2016 2:22:15 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 Algorithm 1
 Algorithm for diagnosis and management of UTI
 
@@ -56168,7 +56168,7 @@ within 30–60 minutes. If a delay is anticipated, the sample
 
 11/24/2016 2:22:16 PM
 
-[SECTION]Chapter 100: Approach to Urinary Tract Infection
+Chapter 100: Approach to Urinary Tract Infection
 should be stored in the refrigerator at 4°C (to a maximum of
 24 h). This implies that the urine sample will not be left on the
 table for 2 hours before being given in the lab. This is because it
@@ -56288,7 +56288,7 @@ antibiotics is detrusor instability in children that presents with
 
 11/24/2016 2:22:16 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 frequency, urgency, and dysuria. They also will have daytime
 wetting, the information usually not being volunteered. Again,
 stimulant drinks worsen this condition and no amount of
@@ -56438,7 +56438,7 @@ after the treatment of the UTI.
 
 11/24/2016 2:22:16 PM
 
-[SECTION]Chapter 100: Approach to Urinary Tract Infection
+Chapter 100: Approach to Urinary Tract Infection
 There is no role for checking urine regularly (once a week/
 fortnight/month) for reasons made very clear above. If the
 child has symptoms, he/she should have urine tests done.
@@ -56566,7 +56566,7 @@ UTI also! So it’s not all doom and gloom!
 
 11/24/2016 2:22:16 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 
 Key points
 
@@ -56633,7 +56633,7 @@ ch-100.indd 490
 
 11/24/2016 2:22:16 PM
 
-[SECTION]Chapter
+Chapter
 
 101
 
@@ -56718,7 +56718,7 @@ malformation, and maternal diabetes mellitus.
 
 11/21/2016 12:53:39 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 Table 1: Hydronephrosis grading systems
 Grade 0: Normal
 
@@ -56856,7 +56856,7 @@ in relation to severity of HN. There is practically no role of
 
 11/21/2016 12:53:40 PM
 
-[SECTION]Chapter 101: Antenatal Renal Anomalies: Outcome and Postnatal Management
+Chapter 101: Antenatal Renal Anomalies: Outcome and Postnatal Management
 Table 2: Postnatal evaluation of antenatal hydronephrosis— timing of imaging studies
 USG
 
@@ -56936,7 +56936,7 @@ ch-101.indd 493
 
 11/21/2016 12:53:40 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 If HN is persisting on the second USG, then a micturating
 cystourethrogram (MCUG) is performed to rule out VUR.
 Infants with normal MCUG and increasing HN will require
@@ -57053,7 +57053,7 @@ grades 1–2 VUR.
 
 11/21/2016 12:53:40 PM
 
-[SECTION]Chapter 101: Antenatal Renal Anomalies: Outcome and Postnatal Management
+Chapter 101: Antenatal Renal Anomalies: Outcome and Postnatal Management
 
 PELVIURETERIC JUNCTION OBSTRUCTION
 Pelviureteric junction obstruction is often due to lack of or
@@ -57172,7 +57172,7 @@ of the baby between birth and 3 months of age. Unilateral
 
 11/21/2016 12:53:40 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 fetal HN of any severity does not need any intervention or
 early delivery.
 With bilateral severe HN, possibilities of PUV, VUR, PUJO
@@ -57280,7 +57280,7 @@ ch-101.indd 496
 
 11/21/2016 12:53:40 PM
 
-[SECTION]Chapter
+Chapter
 
 102
 
@@ -57365,7 +57365,7 @@ are all indicative of a prerenal AKI.
 
 11/21/2016 12:55:37 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 
 Diagnosis
 Elevated blood urea nitrogen or urea and serum creatinine is a
@@ -57491,7 +57491,7 @@ with overall survival rate. Fluid overload more than 10%
 
 11/21/2016 12:55:37 PM
 
-[SECTION]Chapter 102: Acute Kidney Injury
+Chapter 102: Acute Kidney Injury
 Algorithm 1
 Assessment of initial fluid status and management
 
@@ -57601,7 +57601,7 @@ Neph. 2013;11;2199-206.
 
 11/21/2016 12:55:37 PM
 
-[SECTION]Chapter
+Chapter
 
 103
 
@@ -57712,7 +57712,7 @@ bedtime, and a low nocturnal secretion of antidiuretic hormone.
 
 11/21/2016 12:57:03 PM
 
-[SECTION]Chapter 103: Enuresis
+Chapter 103: Enuresis
 Reduced functional nocturnal bladder capacity increases
 with age, so younger children have a small normal functional
 bladder capacity. Presence of constipation further reduces
@@ -57804,7 +57804,7 @@ ch-103.indd 501
 
 11/21/2016 12:57:03 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 
 MANAGEMENT
 
@@ -57926,7 +57926,7 @@ underlying rhythm disorders is recommended
 
 11/21/2016 12:57:04 PM
 
-[SECTION]Chapter 103: Enuresis
+Chapter 103: Enuresis
 for special occasions or long-term use to maintain dryness.
 For long-term use, DDAVP may be used for 3 months then
 3-month quantities; a slow stepwise dose reduction over 6–7
@@ -58010,7 +58010,7 @@ ch-103.indd 503
 
 11/21/2016 12:57:04 PM
 
-[SECTION]Chapter
+Chapter
 
 104
 
@@ -58138,7 +58138,7 @@ for savory foods, and salt craving
 
 11/21/2016 12:58:59 PM
 
-[SECTION]Chapter 104: Approach to Renal Tubular Disorders in Children
+Chapter 104: Approach to Renal Tubular Disorders in Children
 4. Rickets with phosphate wasting: Fanconi’s syndrome,
 XLHHR.
 
@@ -58230,7 +58230,7 @@ ch-104.indd 505
 
 11/21/2016 12:59:00 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 Algorithm 2
 Evaluation of a patient with renal tubular acidosis
 
@@ -58398,7 +58398,7 @@ U-B PCO2, urine to blood PCO2 gradient.
 
 11/21/2016 12:59:00 PM
 
-[SECTION]Chapter 104: Approach to Renal Tubular Disorders in Children
+Chapter 104: Approach to Renal Tubular Disorders in Children
 
 TRP, tubular reabsorption of phosphate; GFR, glomerular filtration rate; TmP/GFR, tubular maximum for phosphate, corrected GFR.
 
@@ -58461,7 +58461,7 @@ citrate3– to the readily absorbable citrate2–
 
 11/21/2016 12:59:00 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 Algorithm 3
 Evaluation of a patient with metabolic alkalosis and hypokalemia
 
@@ -58601,7 +58601,7 @@ base
 
 11/21/2016 12:59:00 PM
 
-[SECTION]Chapter 104: Approach to Renal Tubular Disorders in Children
+Chapter 104: Approach to Renal Tubular Disorders in Children
 •
 •
 •
@@ -58670,7 +58670,7 @@ ch-104.indd 509
 
 11/21/2016 12:59:00 PM
 
-[SECTION]Chapter
+Chapter
 
 105
 
@@ -58771,7 +58771,7 @@ that initial episode of nephrotic syndrome be treated with
 
 11/24/2016 2:23:33 PM
 
-[SECTION]Chapter 105: Nephrotic Syndrome in Children
+Chapter 105: Nephrotic Syndrome in Children
 prednisolone at 2 mg/kg (max 60 mg) or 60 mg/m2 in single or
 divided dose for 6 weeks followed by 1.5 mg/kg (max 40 mg)
 or 40 mg/m2 single morning dose on alternate days for next
@@ -58827,7 +58827,7 @@ ch-105.indd 511
 
 11/24/2016 2:23:34 PM
 
-[SECTION]Section 12: Nephrology
+Section 12: Nephrology
 Table 2: Drugs used for treatment of steroid-sensitive nephrotic syndrome
 Drugs
 
@@ -58981,7 +58981,7 @@ angiotensin receptor blockers.
 
 11/24/2016 2:23:34 PM
 
-[SECTION]Chapter 105: Nephrotic Syndrome in Children
+Chapter 105: Nephrotic Syndrome in Children
 
 Key points
 
@@ -59027,7 +59027,7 @@ ch-105.indd 513
 
 11/24/2016 2:23:34 PM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 Chapter
 
 106
@@ -59111,7 +59111,7 @@ of sex steroids.
 
 11/25/2016 9:41:46 AM
 
-[SECTION]Chapter 106: Approach to Short Stature
+Chapter 106: Approach to Short Stature
 Box 1: Causes of short stature
 • Physiological short stature:
 {{ Idiopathic short stature
@@ -59229,7 +59229,7 @@ and should be looked for.
 
 11/25/2016 9:41:46 AM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 
 MANAGEMENT
 
@@ -59364,7 +59364,7 @@ it from the standing height to get the subischial limb length.
 
 11/25/2016 9:41:46 AM
 
-[SECTION]Chapter 106: Approach to Short Stature
+Chapter 106: Approach to Short Stature
 Table 1: Pointers toward diagnosis from history
 Small for gestational age
 (SGA)
@@ -59526,7 +59526,7 @@ ch-106.indd 517
 
 11/25/2016 9:41:46 AM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 patient. This is a fairly reliable method that can be used in
 day-to-day practice.
 	  The TW 3 atlas is more exhaustive method, wherein
@@ -59653,7 +59653,7 @@ ch-106.indd 518
 
 11/25/2016 9:41:46 AM
 
-[SECTION]Chapter 106: Approach to Short Stature
+Chapter 106: Approach to Short Stature
 
 Management Strategies
 Treatment of the underlying condition usually leads to
@@ -59764,7 +59764,7 @@ ch-106.indd 519
 
 11/25/2016 9:41:46 AM
 
-[SECTION]Chapter
+Chapter
 
 107
 
@@ -59845,7 +59845,7 @@ individuals.
 
 11/21/2016 2:12:32 PM
 
-[SECTION]Chapter 107: Childhood Obesity
+Chapter 107: Childhood Obesity
 Table 1: Causes of obesity
 Class
 
@@ -59993,7 +59993,7 @@ ch-107.indd 521
 
 11/21/2016 2:12:32 PM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 
 Cardiovascular
 
@@ -60155,7 +60155,7 @@ ch-107.indd 522
 
 11/21/2016 2:12:33 PM
 
-[SECTION]Chapter 107: Childhood Obesity
+Chapter 107: Childhood Obesity
 Table 5: Features of common causes of obesity
 Disorder
 
@@ -60350,7 +60350,7 @@ aminotransferase.
 
 11/21/2016 2:12:33 PM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 autoimmune hepatitis). Sleep studies may be required in the
 presence of snoring, day time somnolence, or lethargy.
 
@@ -60469,7 +60469,7 @@ minutes daily. The overall screen time should be limited to
 
 11/21/2016 2:12:33 PM
 
-[SECTION]Chapter 107: Childhood Obesity
+Chapter 107: Childhood Obesity
 less than 2 hours a day. Television should be removed from
 children’s bedrooms, and avoided in children under 2 years.
 
@@ -60534,7 +60534,7 @@ ch-107.indd 525
 
 11/21/2016 2:12:33 PM
 
-[SECTION]Chapter
+Chapter
 
 108
 
@@ -60626,7 +60626,7 @@ tyrosine phosphatase) with low C-peptide values in a child
 
 11/21/2016 2:14:05 PM
 
-[SECTION]Chapter 108: An Approach to Hyperglycemia
+Chapter 108: An Approach to Hyperglycemia
 with acute onset of symptoms of DM confirms the diagnosis
 of T1DM. One should look for associated autoimmune
 disorders, both endocrine (thyroid dysfunction, adrenal
@@ -60720,7 +60720,7 @@ diabetes” and are likely to need insulin in the near future
 
 11/21/2016 2:14:05 PM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 Algorithm 2
 Approach to a patient with mild symptoms suggestive of
 hyperglycemia and a patient with clinical picture/setting
@@ -60827,7 +60827,7 @@ those with defects in ABCC8 or KCJN11
 
 11/21/2016 2:14:05 PM
 
-[SECTION]Chapter 108: An Approach to Hyperglycemia
+Chapter 108: An Approach to Hyperglycemia
 4. Homozygous inactivating mutations of the gene encoding
 glucokinase must be suspected in PNDM with history
 of consanguinity especially if both parents have mild
@@ -60952,7 +60952,7 @@ those with exocrine deficiency.
 
 11/21/2016 2:14:06 PM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 
 STRESS HYPERGLYCEMIA
 Stress hyperglycemia refers to transiently elevated blood
@@ -61078,7 +61078,7 @@ must be confirmed with laboratory estimation of plasma
 
 11/21/2016 2:14:06 PM
 
-[SECTION]Chapter 108: An Approach to Hyperglycemia
+Chapter 108: An Approach to Hyperglycemia
 
 •
 •
@@ -61195,7 +61195,7 @@ unit adds to the stress! J Diabetes Sci Technol. 2012;6(1):37-47.
 
 11/21/2016 2:14:06 PM
 
-[SECTION]Chapter
+Chapter
 
 109
 
@@ -61280,7 +61280,7 @@ estrogen action
 
 11/21/2016 2:15:55 PM
 
-[SECTION]Chapter 109: Raghupathy Palany
+Chapter 109: Raghupathy Palany
 Box 1: Clinical approach for evaluation of gynecomastia
 History
 • Duration of symptoms,
@@ -61454,7 +61454,7 @@ controlled studies are lacking:
 
 11/21/2016 2:15:55 PM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
  Algorithm 1
 Approach to gynecomastia estrogen excess, androgen deficiency, or androgen/estrogen imbalance
 
@@ -61529,7 +61529,7 @@ Pediatr Clin North Am. 1990;37:1389-404.
 
 11/21/2016 2:15:55 PM
 
-[SECTION]CHAPTER
+CHAPTER
 
 110
 
@@ -61611,7 +61611,7 @@ Peripheral precocious puberty (PPP) or gonadotropinindependent precocious pubert
 of sex steroids from any organ which is outside the
 hypothalamic-pituitary-gonadal axis and independent of
 
-[SECTION]SECTION 13: Endocrinology
+SECTION 13: Endocrinology
 TABLE 1: Classification of sexual maturity rating (Tanner’s staging) in boys
 Pubertal
 stage
@@ -61837,7 +61837,7 @@ hamartoma. Prematurity, intrauterine growth retardation, and
 adoption may be associated with PP. Developmental delay and
 behavioral disturbances are associated with CNS involvement as
 
-[SECTION]CHAPTER 110: Precocious Puberty
+CHAPTER 110: Precocious Puberty
 Box 1: Etiology of precocious puberty
 Central isosexual precocious puberty in girls and boys
 • Idiopathic (common in girls): sporadic, familial
@@ -61951,7 +61951,7 @@ an orchidometer and measure the stretched penile length
 
 537
 
-[SECTION]SECTION 13: Endocrinology
+SECTION 13: Endocrinology
 may be high in children with 11β-hydroxylase deficiency or
 adrenal tumor. Abdominal examination may reveal adrenal or
 ovarian mass as well as enlarged uterus. Firm hepatomegaly
@@ -62047,7 +62047,7 @@ intravenous or subcutaneous GnRH (2.5 µg/kg; maximum
 100 µg). Normal prepubertal children show a peak increment
 of 3–4 IU/L of LH and 2–3 IU/L of FSH. Pubertal LH levels
 
-[SECTION]CHAPTER 110: Precocious Puberty
+CHAPTER 110: Precocious Puberty
 (>6 IU/L) and LH to FSH ratio greater than 0.9 are diagnostic
 of CPP. A predominant FSH response is seen in premature
 thelarche. However, this test is difficult to do, due to the limited
@@ -62158,7 +62158,7 @@ Hypothyroidism is managed with thyroxine replacement.
 
 539
 
-[SECTION]SECTION 13: Endocrinology
+SECTION 13: Endocrinology
 ALGORITHM 1
 Approach to the diagnosis in a girl with precocious puberty
 
@@ -62175,7 +62175,7 @@ T4, thyroxine; TSH, thyroid-stimulating hormone; LH, luteinizing hormone; FSH, f
 gonadotropin-dependent precocious puberty; CPP, central precocious puberty; GIPP, gonadotropin-independent precocious puberty; PPP, peripheral precocious
 puberty; CAH, congenital adrenal hyperplasia; MRI, magnetic resonance imaging; CNS, central nervous system; hCG, human chorionic gonadotropin.
 
-[SECTION]CHAPTER 110: Precocious Puberty
+CHAPTER 110: Precocious Puberty
 In CPP, long-acting GnRH analogs are the mainstay of
 treatment. They decrease the episodic release of GnRH due
 to their continued high levels, causing desensitization of
@@ -62264,7 +62264,7 @@ diagnosis and management. Indian J Pediatr. 2014;81:76-83.
 
 541
 
-[SECTION]Chapter
+Chapter
 
 111
 
@@ -62348,7 +62348,7 @@ of glucose production, which increase the blood glucose to
 
 11/21/2016 2:27:52 PM
 
-[SECTION]Chapter 111: Persistent Hypoglycemia in Newborns and Infants
+Chapter 111: Persistent Hypoglycemia in Newborns and Infants
 greater than 45 mg/dL by 12 hours of birth. Initiation of feeding
 after birth maintains ongoing supply of energy substrates.
 Breastfed newborns have lower blood glucose and higher
@@ -62455,7 +62455,7 @@ trisomy 13 syndromes
 
 11/21/2016 2:27:53 PM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 Box 2: Etiology of persistent hypoglycemia in newborns,
 infants, and children
 Hyperinsulinism
@@ -62569,7 +62569,7 @@ appropriate hormone replacement.
 
 11/21/2016 2:27:53 PM
 
-[SECTION]Chapter 111: Persistent Hypoglycemia in Newborns and Infants
+Chapter 111: Persistent Hypoglycemia in Newborns and Infants
 
 Disorders of Carbohydrate Metabolism
 Glycogen storage disorders (GSDs) are AR enzyme deficiencies
@@ -62735,7 +62735,7 @@ death if prolonged untreated episode
 
 11/21/2016 2:27:53 PM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 Table 2: Clues to diagnosis of persistent hypoglycemia in
 children
 Points in history
@@ -62932,7 +62932,7 @@ persistent hypoglycemia is given below.
 
 11/21/2016 2:27:53 PM
 
-[SECTION]Chapter 111: Persistent Hypoglycemia in Newborns and Infants
+Chapter 111: Persistent Hypoglycemia in Newborns and Infants
 Box 4: Criteria for diagnosis of hyperinsulinism
 Glucose infusion rate >8 mg/kg/min laboratory plasma blood
 glucose <50 mg/dL with
@@ -63056,7 +63056,7 @@ necessary.
 
 11/21/2016 2:27:53 PM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 Algorithm 1
 Diagnostic algorithm for persistent hypoglycemia
 
@@ -63200,7 +63200,7 @@ ch-111.indd 548
 
 11/21/2016 2:27:53 PM
 
-[SECTION]Chapter
+Chapter
 
 112
 
@@ -63282,7 +63282,7 @@ genitalia. History should include family history of DSDs,
 
 11/21/2016 2:39:10 PM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 Table 1: An example of classification of disorder of sex development
 Sex chromosome DSD
 • 45,X (Turner
@@ -63434,7 +63434,7 @@ the etiological diagnosis and are listed in table 2.
 
 11/21/2016 2:39:10 PM
 
-[SECTION]Chapter 112: Approach to a Child with Disorder of Sex Development
+Chapter 112: Approach to a Child with Disorder of Sex Development
 
 Physical Examination
 
@@ -63552,7 +63552,7 @@ infant
 
 11/21/2016 2:39:11 PM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 least 200 cells should be examined. The results of the karyotype
 permit classification of the infant into one of three diagnostic
 categories (XX DSD, XY DSD, and mixed sex chromosome
@@ -63674,7 +63674,7 @@ conjunction with common urogenital sinus repair. Procedures
 
 11/21/2016 2:39:11 PM
 
-[SECTION]Chapter 112: Approach to a Child with Disorder of Sex Development
+Chapter 112: Approach to a Child with Disorder of Sex Development
 Algorithm 1
 A simplified practical algorithmic approach to a child with ambiguous genitalia
 
@@ -63735,7 +63735,7 @@ ch-112.indd 553
 
 11/21/2016 2:39:11 PM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 Algorithm  3
 Approach to a child with XX disorder of sex development
 
@@ -63756,7 +63756,7 @@ ch-112.indd 554
 
 11/21/2016 2:39:11 PM
 
-[SECTION]Chapter 112: Approach to a Child with Disorder of Sex Development
+Chapter 112: Approach to a Child with Disorder of Sex Development
 
 Key points
 
@@ -63805,7 +63805,7 @@ ch-112.indd 555
 
 11/21/2016 2:39:11 PM
 
-[SECTION]Chapter
+Chapter
 
 113
 
@@ -63887,7 +63887,7 @@ levels are up to 9 mU/mL.
 
 11/21/2016 2:40:38 PM
 
-[SECTION]Chapter 113: Approach to Thyroid Disorders in Children
+Chapter 113: Approach to Thyroid Disorders in Children
 
 Clinical Pearl
 • Congenital hypothyroidism confirmation should be done
@@ -63978,7 +63978,7 @@ ch-113.indd 557
 
 11/21/2016 2:40:38 PM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 
 Clinical Pearl
 • Thyroid stimulating hormone takes 4–6 weeks to change.
@@ -64093,7 +64093,7 @@ at the size of the gland, the number, size, and appearance of
 
 11/21/2016 2:40:38 PM
 
-[SECTION]Chapter 113: Approach to Thyroid Disorders in Children
+Chapter 113: Approach to Thyroid Disorders in Children
 nodules and cervical lymph nodes. A fine needle aspiration
 cytology (FNAC) to look for malignancy should be done from
 a nodule which is single, suspicious looking, or increasing in
@@ -64171,7 +64171,7 @@ ch-113.indd 559
 
 11/21/2016 2:40:38 PM
 
-[SECTION]Chapter
+Chapter
 
 114
 
@@ -64264,7 +64264,7 @@ either renovascular or glomerular and hence, presence of
 
 11/21/2016 2:42:09 PM
 
-[SECTION]Chapter 114: Endocrine Hypertension in Children
+Chapter 114: Endocrine Hypertension in Children
 Table 1: Clinical clues to underlying cause
 Endocrine hypertension
 
@@ -64430,7 +64430,7 @@ electrolytes, routine urine analysis, testing for presence of
 
 11/21/2016 2:42:09 PM
 
-[SECTION]Section 13: Endocrinology
+Section 13: Endocrinology
 Algorithm 1
 Approach to endocrine hypertension
 
@@ -64496,7 +64496,7 @@ target for age, gender, and height.
 
 11/21/2016 2:42:10 PM
 
-[SECTION]Chapter 114: Endocrine Hypertension in Children
+Chapter 114: Endocrine Hypertension in Children
 In mild cases as also in adolescents with primary
 hypertension, this could be achieved by nonpharmacological
 means like dietary modifications, weight reduction, regular
@@ -64575,7 +64575,7 @@ ch-114.indd 563
 
 11/21/2016 2:42:10 PM
 
-[SECTION]Section 14: Rheumatology
+Section 14: Rheumatology
 Chapter
 
 115
@@ -64696,7 +64696,7 @@ RA, reactive arthritis.
 
 11/21/2016 2:52:28 PM
 
-[SECTION]Chapter 115: Approach to Oligoarthritis
+Chapter 115: Approach to Oligoarthritis
 
 Clinical Pearls
 • Most cases of postinfectious/reactive arthritis (RA) are selflimiting
@@ -64813,7 +64813,7 @@ synovitis and associated collagen disorder.
 
 11/21/2016 2:52:28 PM
 
-[SECTION]Section 14: Rheumatology
+Section 14: Rheumatology
 
 APPROACH TO ACUTE
 ONSET OLIGOARTICULAR ARTHRITIS
@@ -64947,7 +64947,7 @@ arthritis), HLA B27 (suspected enthesitis).
 
 11/21/2016 2:52:28 PM
 
-[SECTION]Chapter 115: Approach to Oligoarthritis
+Chapter 115: Approach to Oligoarthritis
 
 Key points
 
@@ -64986,7 +64986,7 @@ ch-115.indd 567
 
 11/21/2016 2:52:29 PM
 
-[SECTION]Chapter
+Chapter
 
 116
 
@@ -65074,7 +65074,7 @@ days to weeks. Polyarticular JIA, tubercular arthritis, sarcoidosis,
 
 11/21/2016 2:54:12 PM
 
-[SECTION]Chapter 116: Approach to Polyarthritis
+Chapter 116: Approach to Polyarthritis
 Algorithm 1
 Algorithmic approach to polyarthritis
 
@@ -65169,7 +65169,7 @@ extra-articular manifestations form an important step toward
 
 11/21/2016 2:54:12 PM
 
-[SECTION]Section 14: Rheumatology
+Section 14: Rheumatology
 arriving at a diagnosis. A systemic approach in examination
 has to focus on identifying the following.
 
@@ -65385,7 +65385,7 @@ Continued
 
 11/21/2016 2:54:12 PM
 
-[SECTION]Chapter 116: Approach to Polyarthritis
+Chapter 116: Approach to Polyarthritis
 
 Laboratory tests
 
@@ -65557,7 +65557,7 @@ ch-116.indd 571
 
 11/21/2016 2:54:13 PM
 
-[SECTION]Section 14: Rheumatology
+Section 14: Rheumatology
 lupus. However, the main factor influencing the prognosis is
 how early one has been able to identify the possible etiology of
 polyarthritis and initiate the treatment.
@@ -65614,7 +65614,7 @@ ch-116.indd 572
 
 11/21/2016 2:54:13 PM
 
-[SECTION]Chapter
+Chapter
 
 117
 
@@ -65661,7 +65661,7 @@ ch-117.indd 573
 
 11/21/2016 2:56:15 PM
 
-[SECTION]Section 14: Rheumatology
+Section 14: Rheumatology
 Algorithm 2
 Approach to fever with monoarhritis
 
@@ -65769,7 +65769,7 @@ ch-117.indd 574
 
 11/21/2016 2:56:15 PM
 
-[SECTION]Chapter 117: Fever with Arthritis: An Algorithmic Approach
+Chapter 117: Fever with Arthritis: An Algorithmic Approach
 Box 2: Preliminary investigations to be considered for the
 evaluation of monoarthritis
 Basic screening
@@ -65901,7 +65901,7 @@ involvement. Tumors, such as synovial cell sarcoma or
 
 11/21/2016 2:56:15 PM
 
-[SECTION]Section 14: Rheumatology
+Section 14: Rheumatology
 bone tumors like osteosarcoma and Ewing’s sarcoma, can
 rarely present as single joint involvement with fever. In any
 malignancy, bone pain is usually prominent, and other features,
@@ -66056,7 +66056,7 @@ serologic testing for viral pathogens, swabs for gonococcal
 
 11/21/2016 2:56:15 PM
 
-[SECTION]Chapter 117: Fever with Arthritis: An Algorithmic Approach
+Chapter 117: Fever with Arthritis: An Algorithmic Approach
 anti-La, anti-Smith, anti-ribonucleoprotein, anti-Scl 70), and
 antineutrophil cytoplasmic antibody.
 
@@ -66132,7 +66132,7 @@ ch-117.indd 577
 
 11/21/2016 2:56:16 PM
 
-[SECTION]Chapter
+Chapter
 
 118
 
@@ -66214,7 +66214,7 @@ PAN, polyarteritis nodosa.
 
 11/21/2016 2:58:15 PM
 
-[SECTION]Chapter 118: Childhood Vasculitis
+Chapter 118: Childhood Vasculitis
 
 Fig. 1: Schematic diagram showing vascular injury causing different changes including aneurysm formation
 
@@ -66263,7 +66263,7 @@ organ involved:
 
 11/21/2016 2:58:15 PM
 
-[SECTION]Section 14: Rheumatology
+Section 14: Rheumatology
 Algorithm 1
 Approach to childhood vasculitis
 
@@ -66337,7 +66337,7 @@ ch-118.indd 580
 
 11/21/2016 2:58:16 PM
 
-[SECTION]Chapter 118: Childhood Vasculitis
+Chapter 118: Childhood Vasculitis
 its main branches (mandatory criterion), plus at least one of
 the following four features:
 • Decreased peripheral artery pulse(s) and/or claudication
@@ -66460,7 +66460,7 @@ arteritis)
 
 11/21/2016 2:58:16 PM
 
-[SECTION]Section 14: Rheumatology
+Section 14: Rheumatology
 •
 •
 •
@@ -66611,7 +66611,7 @@ criterion. So, difficult to diagnose in resource poor country
 
 11/21/2016 2:58:16 PM
 
-[SECTION]Chapter 118: Childhood Vasculitis
+Chapter 118: Childhood Vasculitis
 
 ))
 The mainstay of therapy for PAN includes steroids and various
@@ -66697,7 +66697,7 @@ ch-118.indd 583
 
 11/21/2016 2:58:16 PM
 
-[SECTION]CHAPTER
+CHAPTER
 
 119
 
@@ -66775,7 +66775,7 @@ features may be present and may help or confuse treating
 physician further. Irritability is usually extreme in infants to
 the extent that clinician may think of pyogenic meningitis.
 
-[SECTION]CHAPTER 119: Kawasaki Disease
+CHAPTER 119: Kawasaki Disease
 
 Fig. 1: Nonexudative conjunctivitis sparing limbus
 
@@ -66808,7 +66808,7 @@ similar clinical features
 
 585
 
-[SECTION]SECTION 14: Rheumatology
+SECTION 14: Rheumatology
 
 Fig. 6: Prominent Beau’s lines
 
@@ -66895,7 +66895,7 @@ Think of another diagnosis in presence of:
 • Bullous or vesicular rash
 • Diffuse lymphadenopathy.
 
-[SECTION]CHAPTER 119: Kawasaki Disease
+CHAPTER 119: Kawasaki Disease
 
 TREATMENT
 Standard treatment of KD involves administration of IVIg
@@ -67001,7 +67001,7 @@ and most patients respond briskly to this treatment.
 
 587
 
-[SECTION]SECTION 14: Rheumatology
+SECTION 14: Rheumatology
 
 KEY POINTS
 
@@ -67043,7 +67043,7 @@ clinical features, diagnosis, treatment and outcomes. J Paediatrics and Child He
 7. Zhang T, Yanagawa H, Oki I, Nakamura Y, Yashiro M, Ojima T, et al. Factors related
 to cardiac sequelae of Kawasaki disease. Eur J Pediatr. 1999;158:694-7.
 
-[SECTION]CHAPTER
+CHAPTER
 
 120
 
@@ -67103,7 +67103,7 @@ failure. The renal manifestations have been reported to be
 seen in about 40% of patients and about 1–3% of the patient’s
 progress to an end-stage renal disease (ESRD). Acute pain in
 
-[SECTION]SECTION 14: Rheumatology
+SECTION 14: Rheumatology
 the scrotum can sometimes bring the child to medical attention
 and might indicate testicular ischemia.
 
@@ -67209,7 +67209,7 @@ Serum creatinine might be increased in cases of nephritis
 
 IgA, immunoglobulin A; USG, ultrasonography; BP, blood pressure.
 
-[SECTION]CHAPTER 120: Henoch-Schönlein Purpura
+CHAPTER 120: Henoch-Schönlein Purpura
 
 COURSE
 
@@ -67263,7 +67263,7 @@ patients with indolent nephritis.
 
 591
 
-[SECTION]CHAPTER
+CHAPTER
 
 121
 
@@ -67372,7 +67372,7 @@ Psychosis in the absence of offending drugs or
 metabolic derangements
 Continued
 
-[SECTION]CHAPTER 121: Systemic Lupus Erythematosus
+CHAPTER 121: Systemic Lupus Erythematosus
 •
 
 Continued
@@ -67482,7 +67482,7 @@ systemic lupus erythematosus
 
 593
 
-[SECTION]SECTION 14: Rheumatology
+SECTION 14: Rheumatology
 TABLE 2: The varied clinical manifestations of SLE
 System
 Constitutional
@@ -67611,7 +67611,7 @@ can be rarely due to pancreatitis, mesenteric vasculitis, or
 mesenteric thrombosis or even renal vein thrombosis and
 these conditions need to be addressed very urgently.
 
-[SECTION]CHAPTER 121: Systemic Lupus Erythematosus
+CHAPTER 121: Systemic Lupus Erythematosus
 
 Clinical Pearl
 • Along with making the diagnosis, describing the extent of
@@ -67740,7 +67740,7 @@ lupus nephritis which is often already decided by this time;
 
 595
 
-[SECTION]SECTION 14: Rheumatology
+SECTION 14: Rheumatology
 however, it is to ascertain the class of nephritis which can then
 guide the level of treatment.
 The International Society of Nephrology and the Renal
@@ -67866,7 +67866,7 @@ regular follow-up and disease monitoring is very important.
 Pregnancy and fertility are specific areas that need very careful
 counseling and a rheumatologist has to remain part of the loop
 
-[SECTION]CHAPTER 121: Systemic Lupus Erythematosus
+CHAPTER 121: Systemic Lupus Erythematosus
 from the advice of planning pregnancy through the pregnancy
 and delivery. Medications have to be explained with awareness
 of potential side effects. The relationship between the
@@ -67907,7 +67907,7 @@ patients
 
 597
 
-[SECTION]CHAPTER
+CHAPTER
 
 122
 
@@ -67975,7 +67975,7 @@ However, 25% of children have onset before 4 years of age.
 Fig. 1: Juvenile dermatomyositis. Erythematous, scaly papules noted
 over extensor surfaces of small joints, and wrist and elbows
 
-[SECTION]CHAPTER 122: Approach to Juvenile Dermatomyositis
+CHAPTER 122: Approach to Juvenile Dermatomyositis
 muscle weakness may be impressive, the deep tendon reflexes
 are usually preserved.
 
@@ -68083,7 +68083,7 @@ eyelids
 
 599
 
-[SECTION]SECTION 14: Rheumatology
+SECTION 14: Rheumatology
 
 Autoantibodies
 Antinuclear antibodies may be positive in 10–85%. Myositis
@@ -68174,7 +68174,7 @@ approaches to juvenile dermatomyositis (JDM) across North America: The Childhood
 Arthritis and Rheumatology Research Alliance (CARRA) JDM Treatment Survey. J
 Rheumatol. 2010;37;1953-61.
 
-[SECTION]Chapter
+Chapter
 
 123
 
@@ -68260,7 +68260,7 @@ Although many children give a history of minor trauma, it is
 
 11/22/2016 10:12:05 AM
 
-[SECTION]Section 14: Rheumatology
+Section 14: Rheumatology
 very rare to see osteomyelitis complicating a closed fracture
 treated by nonoperative means. Other notable features
 of epidemiology including the male preponderance and
@@ -68379,7 +68379,7 @@ the investigation of choice for the early diagnosis.
 
 11/22/2016 10:12:05 AM
 
-[SECTION]Chapter 123: Acute Osteoarticular Infections
+Chapter 123: Acute Osteoarticular Infections
 
 TREATMENT
 A local antibiogram would be of paramount importance in
@@ -68451,7 +68451,7 @@ ch-123.indd 603
 
 11/22/2016 10:12:05 AM
 
-[SECTION]Section 14: Rheumatology
+Section 14: Rheumatology
 
 Conclusion
 The number of bone and joint infections resulting from vaccine
@@ -68546,7 +68546,7 @@ hematogenous osteomyelitis of childhood: prospective, randomized trial on
 
 11/22/2016 10:12:06 AM
 
-[SECTION]Chapter
+Chapter
 
 124
 
@@ -68645,7 +68645,7 @@ Vasculitis
 
 11/22/2016 10:13:36 AM
 
-[SECTION]Section 14: Rheumatology
+Section 14: Rheumatology
 out. Specific serologic testing should include antinuclear
 antibodies (ANA), antineutrophil cytoplasmic antibodies
 (ANCA), rheumatoid factor, and anticyclic citrullinated
@@ -68795,7 +68795,7 @@ choroiditis
 
 11/22/2016 10:13:36 AM
 
-[SECTION]Chapter 124: Eye Involvement: Beyond Infections
+Chapter 124: Eye Involvement: Beyond Infections
 Table 4: Standardization of Uveitis Nomenclature working
 goup descriptors of uveitis
 Category
@@ -68954,7 +68954,7 @@ ch-124.indd 607
 
 11/22/2016 10:13:36 AM
 
-[SECTION]Section 14: Rheumatology
+Section 14: Rheumatology
 chronic persistent. Rheumatoid factor positivity generally
 has a protective role for uveitis.
 
@@ -69021,7 +69021,7 @@ ch-124.indd 608
 
 11/22/2016 10:13:36 AM
 
-[SECTION]Section 15: Pediatric Surgery
+Section 15: Pediatric Surgery
 Chapter
 
 125
@@ -69106,7 +69106,7 @@ gradually one phase merges into another (Table 1).
 
 11/24/2016 2:28:04 PM
 
-[SECTION]Section 15: Pediatric Surgery
+Section 15: Pediatric Surgery
 Table 1: Stages of empyema
 Stage
 
@@ -69257,7 +69257,7 @@ improvement. Thrombocytosis is common in many chronic
 
 11/24/2016 2:28:04 PM
 
-[SECTION]Chapter 125: Empyema Thoracis: Management Algorithm
+Chapter 125: Empyema Thoracis: Management Algorithm
 inflammatory conditions including empyema. However, low
 platelet count with low hemoglobin in a child with empyema
 should alert the physician about possibility of the hemolytic
@@ -69375,7 +69375,7 @@ Remaining needs surgical intervention.
 
 11/24/2016 2:28:04 PM
 
-[SECTION]Section 15: Pediatric Surgery
+Section 15: Pediatric Surgery
 Algorithm 1
 Management algorithm for empyema in children
 
@@ -69429,7 +69429,7 @@ lung expansion.
 
 11/24/2016 2:28:04 PM
 
-[SECTION]Chapter 125: Empyema Thoracis: Management Algorithm
+Chapter 125: Empyema Thoracis: Management Algorithm
 The term primary and secondary VATS is used for the
 procedures performed before or after the trial of standard
 management, respectively. VATS offsets many disadvantages
@@ -69557,7 +69557,7 @@ center or an open surgery at appropriate time.
 
 11/24/2016 2:28:05 PM
 
-[SECTION]Section 15: Pediatric Surgery
+Section 15: Pediatric Surgery
 
 SUGGESTED READINGs
 1. Alexiou C, Goyal A, Firmin RK, Hickey MS. Is open thoracotomy still a good
@@ -69643,7 +69643,7 @@ ch-125.indd 614
 
 11/24/2016 2:28:05 PM
 
-[SECTION]CHAPTER
+CHAPTER
 
 126
 
@@ -69728,7 +69728,7 @@ Associated symptoms which have a significant bearing are:
 {{ Nonbilious vomiting:
 –– Common with a routine gastroenteritis
 
-[SECTION]SECTION 15: Pediatric Surgery
+SECTION 15: Pediatric Surgery
 TABLE 1: Associated clinical features in a patient with acute abdominal pain
 Vomiting
 
@@ -69879,7 +69879,7 @@ A neonate with a scaphoid abdomen or distension
 restricted to upper half could possibly either be:
 –– A high bowel atresia (duodenal/high jejunal)
 
-[SECTION]CHAPTER 126: Evaluation of Acute Abdominal Pain in Children
+CHAPTER 126: Evaluation of Acute Abdominal Pain in Children
 
 •
 
@@ -70009,7 +70009,7 @@ Kussmaul’s respiration indicates diabetic ketoacidosis.
 
 617
 
-[SECTION]SECTION 15: Pediatric Surgery
+SECTION 15: Pediatric Surgery
 
 Abdominal Examination
 The abdominal movements should be observed, and the
@@ -70138,7 +70138,7 @@ Fig. 3: Demonstrating the correct method of palpation of abdomen
 Diagnostic
 laparoscopy
 
-[SECTION]CHAPTER 126: Evaluation of Acute Abdominal Pain in Children
+CHAPTER 126: Evaluation of Acute Abdominal Pain in Children
 •
 •
 •
@@ -70199,7 +70199,7 @@ their knees up against their abdomen, and appear to be in
 
 619
 
-[SECTION]SECTION 15: Pediatric Surgery
+SECTION 15: Pediatric Surgery
 severe pain. There may be associated symptoms like vomiting;
 however, this is rarely persistent. Most infantile colics subside
 within a few hours. The closest differential which one needs to
@@ -70304,7 +70304,7 @@ Intestinal obstruction
 Sickle cell crisis
 Meckel’s diverticulum
 
-[SECTION]CHAPTER 126: Evaluation of Acute Abdominal Pain in Children
+CHAPTER 126: Evaluation of Acute Abdominal Pain in Children
 
 Abdominal Trauma
 Abdominal trauma can be accidental or intentional. There
@@ -70424,7 +70424,7 @@ Williams and Wilkins; 6th revised edition.
 
 621
 
-[SECTION]CHAPTER
+CHAPTER
 
 127
 
@@ -70517,7 +70517,7 @@ life and is unlikely to descend after 3 months. At 1 year of age,
 the prevalence of UDT is around 0.8–1%, which is similar to
 that in adults.
 
-[SECTION]CHAPTER 127: Management of Undescended Testis: Cryptorchidism
+CHAPTER 127: Management of Undescended Testis: Cryptorchidism
 
 COMPLICATIONS AND SEQUELS
 
@@ -70650,7 +70650,7 @@ detection
 
 623
 
-[SECTION]SECTION 15: Pediatric Surgery
+SECTION 15: Pediatric Surgery
 decreased serum inhibin B concentration are endocrinologic
 markers of testicular dysfunction.
 
@@ -70733,7 +70733,7 @@ Management algorithm for bilateral undescended testis
 624
 DSD, disorders of sex differentiation.
 
-[SECTION]CHAPTER 127: Management of Undescended Testis: Cryptorchidism
+CHAPTER 127: Management of Undescended Testis: Cryptorchidism
 
 Surgical Treatment
 
@@ -70827,7 +70827,7 @@ Timeline for surgery in undescended testis
 
 625
 
-[SECTION]SECTION 15: Pediatric Surgery
+SECTION 15: Pediatric Surgery
 ALGORITHM 3
 Treatment algorithm for undescended testis
 
@@ -70881,7 +70881,7 @@ Fig. 2: Laparoscopic findings during second stage of Stephen-Fowler
 orchidopexy showing collaterals between artery to vas deferens and
 testicular artery
 
-[SECTION]CHAPTER 127: Management of Undescended Testis: Cryptorchidism
+CHAPTER 127: Management of Undescended Testis: Cryptorchidism
 The second stage SF orchidopexy is usually performed after 6
 months, wherein the testis is brought down to scrotum on the
 pedicle of vas. The two stage orchidopexy has success rate of
@@ -71015,7 +71015,7 @@ Urol. 2014;10(1):186-92.
 
 627
 
-[SECTION]SECTION 15: Pediatric Surgery
+SECTION 15: Pediatric Surgery
 5. Baker LA, Docimo SG, Surer I, Peters C, Cicek L, Diamond DA, et al. A multiinstitutional analysis of laparoscopic orchidopexy. BJU Int. 2001;87:484-9.
 6. Barthold JS, González R. The epidemiology of congenital cryptorchidism, testicular
 ascent and orchidopexy. J Urol. 2003;170:2396-401.
@@ -71077,7 +71077,7 @@ exposures and risk of testicular germ-cell cancer. Int J Cancer. 2000;87:438-43.
 28. Zilberman D, Inbar Y, Heyman Z, Shinhar D, Bilik R, Avigad I, et al. Torsion of the
 cryptorchid testis—can it be salvaged? J Urol. 2006;175(6):2287-9; discussion 2289.
 
-[SECTION]CHAPTER
+CHAPTER
 
 128
 
@@ -71153,7 +71153,7 @@ testis with a transverse lie should warn about the possibility of
 torsion. Absence of cremasteric reflex indicates torsion. This
 is elicited by stroking the medial side of the thigh which gives
 
-[SECTION]SECTION 15: Pediatric Surgery
+SECTION 15: Pediatric Surgery
 demonstrate any difference in tissue saturation between
 testis that had undergone torsion and normal testis.
 
@@ -71256,7 +71256,7 @@ allopurinol, calcium channel blockers, oxypurinol, and super­
 oxide dismutase. But, none of these studies have produced
 enough evidence to allow its usage in human beings.
 
-[SECTION]CHAPTER 128: Acute Scrotum
+CHAPTER 128: Acute Scrotum
 ALGORITHM 1
 
 Fig. 2: Testis with torsion and gangrene
@@ -71327,7 +71327,7 @@ J Pediatr Surg. 1994;29(4):553-6.
 
 631
 
-[SECTION]Chapter
+Chapter
 
 129
 
@@ -71412,7 +71412,7 @@ Elder than 2 years age:
 
 11/22/2016 10:48:36 AM
 
-[SECTION]Chapter 129: Per-rectal Bleeding
+Chapter 129: Per-rectal Bleeding
  Algorithm 1
 Basic algorithm of per-rectal bleeding
 
@@ -71539,7 +71539,7 @@ often insufficient to accurately make a diagnosis
 
 11/22/2016 10:48:37 AM
 
-[SECTION]Section 15: Pediatric Surgery
+Section 15: Pediatric Surgery
 •
 
 Meckel’s radionuclide scan with technetium 99 m
@@ -71661,7 +71661,7 @@ avulsed and protrude from the anus. This is called an external
 
 11/22/2016 10:48:37 AM
 
-[SECTION]Chapter 129: Per-rectal Bleeding
+Chapter 129: Per-rectal Bleeding
 pile (although it is quite distinct from the usual piles). This
 can get infected leading to further worsening of the pain and
 tenderness.
@@ -71789,7 +71789,7 @@ malignant potential.
 
 11/22/2016 10:48:37 AM
 
-[SECTION]Section 15: Pediatric Surgery
+Section 15: Pediatric Surgery
 If the clinical history is strongly suggestive of the diagnosis of
 an intestinal polyp, but it is not felt on a per-rectal examination,
 then a colonoscopy under GA is essential.
@@ -71911,7 +71911,7 @@ ch-129.indd 636
 
 11/22/2016 10:48:37 AM
 
-[SECTION]CHAPTER
+CHAPTER
 
 130
 
@@ -71993,7 +71993,7 @@ Clinical Presentation and Examination
 The typical presentation of inguinal hernia in boys is a smooth
 painless swelling in the groin, which bulges on crying or
 
-[SECTION]SECTION 15: Pediatric Surgery
+SECTION 15: Pediatric Surgery
 
 Fig. 1: Left-sided hernia in a boy. Note the left inguinoscrotal
 swelling. The right testis has been pushed due to the large hernia
@@ -72054,7 +72054,7 @@ Algorithm for management of hernia/hydrocele in an infant
 
 638
 
-[SECTION]CHAPTER 130: Inguinal Hernia
+CHAPTER 130: Inguinal Hernia
 
 Timing of Surgery
 Infants
@@ -72164,7 +72164,7 @@ they are rare. Also, they are brilliantly transilluminant.
 
 639
 
-[SECTION]SECTION 15: Pediatric Surgery
+SECTION 15: Pediatric Surgery
 in unusual varieties (abdominoscrotal hydroceles). Most
 hydroceles resolve spontaneously as the processus obliterates
 by the age of 1 year and surgery is only required if the hydrocele
@@ -72261,7 +72261,7 @@ Fig. 3: Laparoscopic view of left hernia in a boy. The vas and vessels
 are clearly visible in the magnified view, hence less likely to be injured
 during repair
 
-[SECTION]CHAPTER 130: Inguinal Hernia
+CHAPTER 130: Inguinal Hernia
 
 Clinical Pearls
 Indications of surgery in hydrocele
@@ -72329,7 +72329,7 @@ hence require surgery.
 
 641
 
-[SECTION]Chapter
+Chapter
 
 131
 
@@ -72452,7 +72452,7 @@ ANH, antenatal hydronephrosis
 
 11/22/2016 10:55:42 AM
 
-[SECTION]Chapter 131: Antenatal Hydronephrosis
+Chapter 131: Antenatal Hydronephrosis
 
 Information from a
 Good Antenatal Ultrasound Scan
@@ -72535,7 +72535,7 @@ ch-131.indd 643
 
 11/22/2016 10:55:43 AM
 
-[SECTION]Section 15: Pediatric Surgery
+Section 15: Pediatric Surgery
 Following the ultrasound scan, a VCUG is done. There is
 no doubt that the conventional VCUG is preferred to a direct
 radionuclide cystogram (DRCG) because the latter does not
@@ -72663,7 +72663,7 @@ do need, requires an early surgical evaluation.
 
 11/22/2016 10:55:43 AM
 
-[SECTION]Chapter 131: Antenatal Hydronephrosis
+Chapter 131: Antenatal Hydronephrosis
 
 SUGGESTED READINGS
 1. Ansari MS, Ayyildiz HS, Jayanthi VR. Is voiding cystourethrogram necessary in all
@@ -72787,7 +72787,7 @@ ch-131.indd 645
 
 11/22/2016 10:55:43 AM
 
-[SECTION]CHAPTER
+CHAPTER
 
 132
 
@@ -72887,7 +72887,7 @@ Presently, the endoscopic treatment of VUR by
 dextranomer/hyaluronic acid (DXHA) is increasingly
 viewed as first line therapy for reflux (Figs 2A and B)
 
-[SECTION]CHAPTER 132: Management of Vesicoureteric Reflux
+CHAPTER 132: Management of Vesicoureteric Reflux
 
 A
 
@@ -72936,7 +72936,7 @@ expense and the need for in-patient hospitalization.
 
 647
 
-[SECTION]SECTION 15: Pediatric Surgery
+SECTION 15: Pediatric Surgery
 •
 
 •
@@ -73005,7 +73005,7 @@ Management of vesicoureteric reflux
 VUR, vesicoureteric reflux; UTI, urinary tract infections; DMSA, dimercaptosuccinic acid; PRA, plasma renin activity.
 *If recurrent UTIs develop during the waiting period, then some other temporizing surgery, such as lower ureteric pop-off mechanism, should be offered to the patient.
 
-[SECTION]CHAPTER 132: Management of Vesicoureteric Reflux
+CHAPTER 132: Management of Vesicoureteric Reflux
 Raised plasma renin activity (PRA) indicates that
 activation of renin angiotensin system has already
 begun
@@ -73141,7 +73141,7 @@ VUR (grades I and II)
 
 649
 
-[SECTION]SECTION 15: Pediatric Surgery
+SECTION 15: Pediatric Surgery
 
 ))
 Therefore, identifying urinary abnormalities [by ultra­
@@ -73309,7 +73309,7 @@ Verma A, Panda SS, Bajpai M. Role of endoscopic treatment of vesicoureteric refl
 downgrading renin angiotensin system activation. J Pediatr Urol. 2014;10(2):386-90.
 doi: 10.1016/j.jpurol.2013.10.015. Epub 2013 Nov 8.
 
-[SECTION]CHAPTER
+CHAPTER
 
 133
 
@@ -73372,7 +73372,7 @@ Preceding respiratory/gastrointestinal symptoms
 
 <25%
 
-[SECTION]SECTION 15: Pediatric Surgery
+SECTION 15: Pediatric Surgery
 
 A
 
@@ -73444,7 +73444,7 @@ Treatment options:
 ■■ Pros: avoids radiation
 ■■ Cons: operator dependent
 
-[SECTION]CHAPTER 133: Intussusception
+CHAPTER 133: Intussusception
 –– Fluoroscopy
 ■■ Pros: Confidence
 ■■ Cons: Radiation.
@@ -73562,7 +73562,7 @@ pathologic lead points to avoid surgery. Repeat enema is both
 
 653
 
-[SECTION]SECTION 15: Pediatric Surgery
+SECTION 15: Pediatric Surgery
 Problems:
 • Delayed presentation (meain 48 h)
 {{ Rectal bleeding, vomiting, dehydration
@@ -73649,7 +73649,7 @@ reduction of intussusception: clinical experience and pressure correlates. Radio
 20. West KW, Stephens B, Vane DW, Grosfeld JL. Intussusception: current management in
 infants and children. Surgery. 1987;102:704-10.
 
-[SECTION]Chapter
+Chapter
 
 134
 
@@ -73755,7 +73755,7 @@ PATHOLOGICAL JAUNDICE
 
 11/22/2016 11:08:06 AM
 
-[SECTION]Section 15: Pediatric Surgery
+Section 15: Pediatric Surgery
 Box 2: Causes of conjugated hyperbilirubinemia cholestasis
 Obstructive cholestasis
 •
@@ -73898,7 +73898,7 @@ time, coagulation factor levels)
 
 11/22/2016 11:08:06 AM
 
-[SECTION]Chapter 134: Neonatal Jaundice: Surgical Perspective
+Chapter 134: Neonatal Jaundice: Surgical Perspective
 diagnosis may be established only on the operating table with
 the help of intraoperative cholangiogram (IOC).
 
@@ -73989,7 +73989,7 @@ ductal anatomy are also clearly seen with an IOC (Fig. 5).
 
 11/22/2016 11:08:07 AM
 
-[SECTION]Section 15: Pediatric Surgery
+Section 15: Pediatric Surgery
 Box 4: Additional tests for neonatal hepatitis/cholestasis
 • Serum a1-antitrypsin level and phenotype
 • Serologies and cultures for viruses (TORCH agents, parvovirus
@@ -74065,7 +74065,7 @@ along with a firm or hard, cirrhotic enlarged liver confirms
 
 11/22/2016 11:08:07 AM
 
-[SECTION]Chapter 134: Neonatal Jaundice: Surgical Perspective
+Chapter 134: Neonatal Jaundice: Surgical Perspective
 Algorithm 1
 Management of neonate with jaundice
 
@@ -74102,7 +74102,7 @@ hypertension may progressively worsen due to initial liver
 
 11/22/2016 11:08:07 AM
 
-[SECTION]Section 15: Pediatric Surgery
+Section 15: Pediatric Surgery
 damage and can cause life threatening variceal bleeding and
 hypersplenism.
 
@@ -74227,7 +74227,7 @@ Publishing; 2008..
 
 11/22/2016 11:08:08 AM
 
-[SECTION]Section 16: Dermatology
+Section 16: Dermatology
 Chapter
 
 135
@@ -74310,7 +74310,7 @@ it essential to differentiate it from AD. Here, examination
 
 11/22/2016 11:10:02 AM
 
-[SECTION]Section 16: Dermatology
+Section 16: Dermatology
 Algorithm  1
 Approach to a patient with eczematous dermatitis
 
@@ -74356,7 +74356,7 @@ and possibly years. It nearly always requires:
 
 11/22/2016 11:10:03 AM
 
-[SECTION]Chapter 135: Atopic Dermatitis
+Chapter 135: Atopic Dermatitis
 •
 •
 
@@ -74427,7 +74427,7 @@ ch-135.indd 663
 
 11/22/2016 11:10:04 AM
 
-[SECTION]Chapter
+Chapter
 
 136
 
@@ -74517,7 +74517,7 @@ defined porcelain hypopigmented plaques with epidermal
 
 11/22/2016 11:11:27 AM
 
-[SECTION] Algorithm 1
+ Algorithm 1
 
 Approach to a child with hypopigmented macules
 
@@ -74529,7 +74529,7 @@ ch-136.indd 665
 
 11/22/2016 11:11:27 AM
 
-[SECTION]Section 16: Dermatology
+Section 16: Dermatology
 atrophy and follicular atrophy. Vitiligo is a common disorder of
 depigmentation occurring in approximately 1% of the world’s
 population. Various hypotheses have been proposed including
@@ -74588,7 +74588,7 @@ ch-136.indd 666
 
 11/22/2016 11:11:28 AM
 
-[SECTION]Chapter
+Chapter
 
 137
 
@@ -74668,7 +74668,7 @@ according to the food and Drug Administration.
 
 11/22/2016 11:14:05 AM
 
-[SECTION]Section 16: Dermatology
+Section 16: Dermatology
 Algorithm  1
 Approach to pediatric acne depending on age of onset
 
@@ -74722,7 +74722,7 @@ there is evidence of acne scarring, even if the current severity
 
 11/22/2016 11:14:05 AM
 
-[SECTION]Chapter 137: Pediatric Acne
+Chapter 137: Pediatric Acne
 of inflammatory acne is more modest. Typically, 4–8 weeks of
 compliant oral antibiotic use are needed before the clinical
 effects of an oral antibiotic are visible, whereas maximal
@@ -74786,7 +74786,7 @@ ch-137.indd 669
 
 11/22/2016 11:14:06 AM
 
-[SECTION]Chapter
+Chapter
 
 138
 
@@ -74875,7 +74875,7 @@ poorer cosmetic results. Other ablative techniques have been
 
 11/22/2016 11:15:23 AM
 
-[SECTION]Chapter 138: Approach to Congenital Melanocytic Nevus
+Chapter 138: Approach to Congenital Melanocytic Nevus
 tried such as cryotherapy and, more recently, the Q-switched
 ruby laser.
 Parents of children with CMN left in situ should be advised
@@ -74943,7 +74943,7 @@ ch-138.indd 671
 
 11/22/2016 11:15:24 AM
 
-[SECTION]Chapter
+Chapter
 
 139
 
@@ -75026,7 +75026,7 @@ perianal area in the form of diaper rash is also common.
 
 11/22/2016 11:17:23 AM
 
-[SECTION]Chapter 139: Seborrheic Dermatitis
+Chapter 139: Seborrheic Dermatitis
 Algorithm  1
 Seborrheic dermatitis and its differentials: Diagnostic approach
 
@@ -75065,7 +75065,7 @@ in hair bearing areas of the face and involvement of flexures
 
 11/22/2016 11:17:24 AM
 
-[SECTION]Section 16: Dermatology
+Section 16: Dermatology
 and perianal area is less common. Centrofacial erythema is
 prominent with greasy scales over eyebrows, nasolabial folds
 and retroauricular region. Absence of flushing, telangiectasias
@@ -75198,7 +75198,7 @@ treatment for cradle cap? J Fam Pract. 2007;56(3):232-3.
 
 11/22/2016 11:17:24 AM
 
-[SECTION]Section 17: Ophthalmology
+Section 17: Ophthalmology
 Chapter
 
 140
@@ -75304,7 +75304,7 @@ member?
 
 11/24/2016 2:36:06 PM
 
-[SECTION]Section 17: Ophthalmology
+Section 17: Ophthalmology
 Table 2: Clinical pointers in history and examination to identify
 the causes of red eye
 Signs
@@ -75560,7 +75560,7 @@ ch-140.indd 676
 
 11/24/2016 2:36:06 PM
 
-[SECTION]Chapter 140: Approach to Red Eye in Children
+Chapter 140: Approach to Red Eye in Children
 •
 
 •
@@ -75719,7 +75719,7 @@ life:
 
 11/24/2016 2:36:06 PM
 
-[SECTION]Section 17: Ophthalmology
+Section 17: Ophthalmology
 Algorithm  1
 Approach to red eye in children
 
@@ -75783,7 +75783,7 @@ ch-140.indd 678
 
 11/24/2016 2:36:07 PM
 
-[SECTION]Chapter 140: Approach to Red Eye in Children
+Chapter 140: Approach to Red Eye in Children
 intense itching with associated rhinitis, asthma, or eczema.
 It is treated with antihistamines, decongestants, and mastcell stabilizers. Referral to an ophthalmologist is necessary
 if child has visual loss, pain, copious purulent discharge, or
@@ -75828,7 +75828,7 @@ ch-140.indd 679
 
 11/24/2016 2:36:07 PM
 
-[SECTION]Chapter
+Chapter
 
 141
 
@@ -75916,7 +75916,7 @@ superior rectus
 
 11/22/2016 11:37:12 AM
 
-[SECTION]Chapter 141: Compensatory Head Posture
+Chapter 141: Compensatory Head Posture
 •
 
 Head tilt:
@@ -75967,7 +75967,7 @@ ch-141.indd 681
 
 11/22/2016 11:37:12 AM
 
-[SECTION]Section 17: Ophthalmology
+Section 17: Ophthalmology
 for sensory fusion is the excitation of corresponding retinal
 elements and that of motor fusion is retinal disparity. However,
 the ultimate goal of all this is to achieve stereopsis. At retinal
@@ -76068,7 +76068,7 @@ Courtesy: Dr Zia Chaudhury
 
 11/22/2016 11:37:13 AM
 
-[SECTION]Chapter 141: Compensatory Head Posture
+Chapter 141: Compensatory Head Posture
 Table 1: Differential diagnosis of ocular head posture
 Face turn
 
@@ -76214,7 +76214,7 @@ Esodeviation less in upgaze, more in downgaze
 
 11/22/2016 11:37:13 AM
 
-[SECTION]Section 17: Ophthalmology
+Section 17: Ophthalmology
 (commonly due to sensory deprivation) whereas jerk
 nystagmus has a slow and a fast component. Although fast
 component is conventionally labeled as the direction of
@@ -76301,7 +76301,7 @@ ch-141.indd 684
 
 11/22/2016 11:37:14 AM
 
-[SECTION]Chapter 141: Compensatory Head Posture
+Chapter 141: Compensatory Head Posture
 
 B
 
@@ -76340,7 +76340,7 @@ invaluable in cases of suspected restrictive problem. One may
 
 11/22/2016 11:37:14 AM
 
-[SECTION]Section 17: Ophthalmology
+Section 17: Ophthalmology
 refer to any standard book on squint for details of methods of
 examination. Examination of nervous system, especially of
 cranial nerves, may be very informative in relevant cases.
@@ -76462,7 +76462,7 @@ Am J Ophthalmol. 2005;140(1):65-8.
 
 11/22/2016 11:37:14 AM
 
-[SECTION]Chapter
+Chapter
 
 142
 
@@ -76535,7 +76535,7 @@ sensory branches of fifth nerve.
 
 11/22/2016 11:38:50 AM
 
-[SECTION]Section 17: Ophthalmology
+Section 17: Ophthalmology
 
 Epiphora
 
@@ -76730,7 +76730,7 @@ the cause
 
 11/22/2016 11:38:50 AM
 
-[SECTION]Chapter 142: Pediatric Epiphora
+Chapter 142: Pediatric Epiphora
 misnomer. Condition subsides in cooler months. About 95%
 of cases undergo remission in late teens. Pharmacological
 treatment constitutes following:
@@ -76860,7 +76860,7 @@ ch-142.indd 689
 
 11/22/2016 11:38:50 AM
 
-[SECTION]Section 17: Ophthalmology
+Section 17: Ophthalmology
 Algorithm 1
 Management of congenital nasolacrimal duct block
 
@@ -76950,7 +76950,7 @@ ch-142.indd 690
 
 11/22/2016 11:38:51 AM
 
-[SECTION]Chapter
+Chapter
 
 143
 
@@ -77028,7 +77028,7 @@ B, exodeviation
 
 11/22/2016 11:40:58 AM
 
-[SECTION]Section 17: Ophthalmology
+Section 17: Ophthalmology
 •
 
 Manifest squint (heterotropia): it is present even when
@@ -77188,7 +77188,7 @@ Pictorial vision tests
 
 11/22/2016 11:40:58 AM
 
-[SECTION]Chapter 143: Deviation of Eyes
+Chapter 143: Deviation of Eyes
 •
 •
 
@@ -77305,7 +77305,7 @@ ch-143.indd 693
 
 11/22/2016 11:40:58 AM
 
-[SECTION]Section 17: Ophthalmology
+Section 17: Ophthalmology
 Algorithm 2
 Algorithmic approach to esodeviation
 
@@ -77318,7 +77318,7 @@ ch-143.indd 694
 
 11/22/2016 11:40:59 AM
 
-[SECTION]Chapter 143: Deviation of Eyes
+Chapter 143: Deviation of Eyes
 
 Key points
 
@@ -77361,7 +77361,7 @@ ch-143.indd 695
 
 11/22/2016 11:40:59 AM
 
-[SECTION]Chapter
+Chapter
 
 144
 
@@ -77449,7 +77449,7 @@ should follow the light as it is moved to and fro
 
 11/22/2016 11:43:02 AM
 
-[SECTION]Chapter 144: Decreased Vision in Children
+Chapter 144: Decreased Vision in Children
 Algorithm 1
 Decreased vision in children
 
@@ -77520,7 +77520,7 @@ electrodes.
 
 11/22/2016 11:43:02 AM
 
-[SECTION]Section 17: Ophthalmology
+Section 17: Ophthalmology
 
 Toddlers
 Allen’s picture cards are used which consist of familiar objects,
@@ -77590,7 +77590,7 @@ and a hypothesis. Hum Neurobiol. 1984;3(2):61-74.
 
 11/22/2016 11:43:02 AM
 
-[SECTION]Section 18: Ear, Nose, and Throat
+Section 18: Ear, Nose, and Throat
 Chapter
 
 145
@@ -77684,7 +77684,7 @@ to develop and the ganglion cell population decreases.
 
 11/22/2016 11:47:41 AM
 
-[SECTION]Section 18: Ear, Nose, and Throat
+Section 18: Ear, Nose, and Throat
 Once this critical time period elapses even proper
 amplification will not help this child.
 It is therefore important to detect hearing loss early. Studies
@@ -77765,7 +77765,7 @@ Fig. 1: Organ of corti
 
 11/22/2016 11:47:42 AM
 
-[SECTION]Chapter 145: Hearing Screening and Management in Newborn
+Chapter 145: Hearing Screening and Management in Newborn
 For the purpose of AABR measurements disposable surface
 electrodes are placed high on the forehead and on the mastoid
 and electrical activity traced. The stimulus is in the form of
@@ -77854,7 +77854,7 @@ ch-145.indd 701
 
 11/22/2016 11:47:42 AM
 
-[SECTION]Section 18: Ear, Nose, and Throat
+Section 18: Ear, Nose, and Throat
 Algorithm 1
 Suggested algorithm for workup of hearing impaired infants
 
@@ -77868,7 +77868,7 @@ ch-145.indd 702
 
 11/22/2016 11:47:43 AM
 
-[SECTION]Chapter 145: Hearing Screening and Management in Newborn
+Chapter 145: Hearing Screening and Management in Newborn
 
 Key points
 
@@ -77890,7 +77890,7 @@ ch-145.indd 703
 
 11/22/2016 11:47:43 AM
 
-[SECTION]CHAPTER
+CHAPTER
 
 146
 
@@ -77955,7 +77955,7 @@ The etiology of hoarseness may be:
 Fig. 1: Five-year-old child with hoarseness and cystic swelling free
 edge of left true cord
 
-[SECTION]CHAPTER 146: Hoarseness in Pediatric Age Group
+CHAPTER 146: Hoarseness in Pediatric Age Group
 
 Vocal Polyps
 
@@ -78024,7 +78024,7 @@ Fig. 3: Sulcus vocalis
 
 Fig. 4: Juvenile papilloma (endoscopic view)
 
-[SECTION]SECTION 18: Ear, Nose, and Throat
+SECTION 18: Ear, Nose, and Throat
 
 Acute or Chronic Laryngitis
 It may present as dysphonia causing vocal fold edema.
@@ -78124,7 +78124,7 @@ evaluated seriously; otherwise it may progress in to a life
 Fig. 5: Videostroboscope for examination of the vibratory edge of
 the vocal fold
 
-[SECTION]CHAPTER 146: Hoarseness in Pediatric Age Group
+CHAPTER 146: Hoarseness in Pediatric Age Group
 ALGORITHM 1
 
 URTI, upper respiratory tract infection; PND, paroxysmal nocturnal dyspnea, PPI, proton pump inhibitor, RRP, recurrent respiratory papillomatosis, MLS,
@@ -78182,7 +78182,7 @@ arytenoidectomy.
 
 707
 
-[SECTION]SECTION 18: Ear, Nose, and Throat
+SECTION 18: Ear, Nose, and Throat
 Unilateral cord paralysis not responding to voice therapy
 may need injection or medialization thyroplasty.
 
@@ -78265,7 +78265,7 @@ J Speech Hear Disord. 1975;40(2):211-5.
 (pVHI): a new tool for evaluating pediatric dysphonia. Int J Pediatr Otorhinolaryngol.
 2007;71(1):77-82.
 
-[SECTION]CHAPTER
+CHAPTER
 
 147
 
@@ -78352,7 +78352,7 @@ the nasopharyngeal orifice of the eustachian tube to the
 furthermost mastoid air cells. Three main segments are the
 eustachian tube; middle ear (tympanum); and the air cells of
 
-[SECTION]SECTION 18: Ear, Nose, and Throat
+SECTION 18: Ear, Nose, and Throat
 
 Classic Theory
 The classic explanation proposes that eustachian tube
@@ -78455,7 +78455,7 @@ than 3 months, Pseudomonas species predominate.
 In other more recent studies, viruses have been isolated
 in conjunction with bacteria in 15–20% of cases of AOM.
 
-[SECTION]CHAPTER 147: Otitis Media with Effusion
+CHAPTER 147: Otitis Media with Effusion
 Respiratory syncytial virus (RSV) and influenza virus were the
 most frequent.
 The primary difference with the pathogens in OME
@@ -78571,7 +78571,7 @@ Fig. 2: Thin tympanic membrane showing fluid level
 
 711
 
-[SECTION]SECTION 18: Ear, Nose, and Throat
+SECTION 18: Ear, Nose, and Throat
 •
 •
 •
@@ -78707,7 +78707,7 @@ The criterion for documentation of an MEE is myringotomy,
 which has the advantage of increased exposure and better
 suctioning relative to tympanocentesis. Only disadvantage
 
-[SECTION]CHAPTER 147: Otitis Media with Effusion
+CHAPTER 147: Otitis Media with Effusion
 is a larger incision with a greater, although small, chance of
 persistent perforation or otorrhea.
 
@@ -78823,7 +78823,7 @@ syndrome
 
 713
 
-[SECTION]SECTION 18: Ear, Nose, and Throat
+SECTION 18: Ear, Nose, and Throat
 
 MYRINGOTOMY
 This section will briefly review myringotomy and aspiration
@@ -78935,7 +78935,7 @@ Yes
 
 TT, tympanostomy tube placement.
 
-[SECTION]CHAPTER 147: Otitis Media with Effusion
+CHAPTER 147: Otitis Media with Effusion
 ALGORITHM 1
 Management of otitis media with effusion
 
@@ -78995,7 +78995,7 @@ above all possibility of sequelae and complications in later life.
 
 715
 
-[SECTION]SECTION 18: Ear, Nose, and Throat
+SECTION 18: Ear, Nose, and Throat
 
 PITFALLS
 Thorough investigations required for persistence of OME as in
@@ -79076,7 +79076,7 @@ meta-analytic attempt to resolve the brouhaha. JAMA. 1993;270(11):1344-51.
 antioxidants in otitis media with effusion in children. Otolaryngol Head Neck Surg.
 2004;131(6):797-803.
 
-[SECTION]Chapter
+Chapter
 
 148
 
@@ -79163,7 +79163,7 @@ other similar diseases.
 
 11/22/2016 12:11:58 PM
 
-[SECTION]Section 18: Ear, Nose, and Throat
+Section 18: Ear, Nose, and Throat
 
 BACTERIOLOGY
 The usual bacteria implicated in sinusitis are Streptococcus
@@ -79281,7 +79281,7 @@ stage of preseptal cellulitis. However, due to advanced stage
 
 11/22/2016 12:11:58 PM
 
-[SECTION]Chapter 148: Pediatric Sinusitis
+Chapter 148: Pediatric Sinusitis
 frequent visual acuity testing and extraocular movement
 testing is warranted. Surgical drainage is indicated if no
 improvement or worsening of symptoms is seen after 48 hours
@@ -79397,7 +79397,7 @@ sinusitis in children:
 
 11/22/2016 12:11:58 PM
 
-[SECTION]Section 18: Ear, Nose, and Throat
+Section 18: Ear, Nose, and Throat
 3. Subdural abscess
 4. Brain abscess
 5. Cavernous sinus thrombophlebitis.
@@ -79514,7 +79514,7 @@ diagnose the complication. In cases of orbital complication,
 
 11/22/2016 12:11:58 PM
 
-[SECTION]Chapter 148: Pediatric Sinusitis
+Chapter 148: Pediatric Sinusitis
 Algorithm  1
 
 Algorithm  2
@@ -79525,7 +79525,7 @@ ch-148.indd 721
 
 11/22/2016 12:11:59 PM
 
-[SECTION]Section 18: Ear, Nose, and Throat
+Section 18: Ear, Nose, and Throat
 prompt surgical drainage of sinuses in addition to IV antibiotics
 is recommended except in Stage 1, where the role of surgery is
 debatable. In Stage 3 and above surgery is a must to prevent
@@ -79616,7 +79616,7 @@ ch-148.indd 722
 
 11/22/2016 12:11:59 PM
 
-[SECTION]Chapter
+Chapter
 
 149
 
@@ -79732,7 +79732,7 @@ bronchus
 
 11/24/2016 2:41:05 PM
 
-[SECTION]Section 18: Ear, Nose, and Throat
+Section 18: Ear, Nose, and Throat
 •
 
 •
@@ -79866,7 +79866,7 @@ cases systemic or nebulized corticosteroids is recommended.
 
 11/24/2016 2:41:05 PM
 
-[SECTION]Chapter 149: Stridor in Children
+Chapter 149: Stridor in Children
 
 Clinical Pearl
 • Repeated clinical examination is most desired intervention as
@@ -79975,7 +79975,7 @@ ch-149.indd 725
 
 11/24/2016 2:41:06 PM
 
-[SECTION]Section 18: Ear, Nose, and Throat
+Section 18: Ear, Nose, and Throat
 
 Physical Signs
 
@@ -80095,7 +80095,7 @@ ch-149.indd 726
 
 11/24/2016 2:41:06 PM
 
-[SECTION]Chapter
+Chapter
 
 150
 
@@ -80179,7 +80179,7 @@ neurologic damage and even death.
 
 11/22/2016 12:14:43 PM
 
-[SECTION]Section 18: Ear, Nose, and Throat
+Section 18: Ear, Nose, and Throat
 Box 2: Symptoms and signs of obstructive sleep apnea
 syndrome
 • History:
@@ -80327,7 +80327,7 @@ Presence of metabolic syndrome
 
 11/22/2016 12:14:43 PM
 
-[SECTION]Chapter 150: Upper Airway Obstruction and Sleep Related Breathing Disorders
+Chapter 150: Upper Airway Obstruction and Sleep Related Breathing Disorders
 Box 3: Symptoms and signs of obstructive sleep apnea
 syndrome
 History:
@@ -80396,7 +80396,7 @@ ch-150.indd 729
 
 11/22/2016 12:14:44 PM
 
-[SECTION]Section 18: Ear, Nose, and Throat
+Section 18: Ear, Nose, and Throat
 Algorithm 3
 Diagnosis and management of uncomplicated obstructive sleep apnea syndrome in children
 
@@ -80437,7 +80437,7 @@ ch-150.indd 730
 
 11/22/2016 12:14:45 PM
 
-[SECTION]Chapter 150: Upper Airway Obstruction and Sleep Related Breathing Disorders
+Chapter 150: Upper Airway Obstruction and Sleep Related Breathing Disorders
 cognitive impairment was seen after adenotonsillectomy.
 Studies suggested that in a majority of children enuresis
 resolves or improves after the surgery.
@@ -80576,7 +80576,7 @@ syndrome, pulmonary edema); death attributable to severe
 
 11/22/2016 12:14:45 PM
 
-[SECTION]Section 18: Ear, Nose, and Throat
+Section 18: Ear, Nose, and Throat
 
 respiratory complications has been reported in patients
 with severe obstructive sleep apnea syndrome. Risk factors
@@ -80676,7 +80676,7 @@ ch-150.indd 732
 
 11/22/2016 12:14:45 PM
 
-[SECTION]Section 19: Orthopedics
+Section 19: Orthopedics
 Chapter
 
 151
@@ -80761,7 +80761,7 @@ in a delayed limp. The clinician should elicit specific details
 
 11/25/2016 5:06:25 PM
 
-[SECTION]Section 19: Orthopedics
+Section 19: Orthopedics
 Algorithm 1
 How to diagnose and treat a baby with septic arthritis
 
@@ -80823,7 +80823,7 @@ ch-151.indd 734
 
 11/25/2016 5:06:26 PM
 
-[SECTION]Chapter 151: Septic Arthritis
+Chapter 151: Septic Arthritis
 
 WHICH ARE OTHER
 DIFFERENTIAL DIAGNOSES?
@@ -80939,7 +80939,7 @@ is essential to prevent necrosis (e.g., head of the femur or
 
 11/25/2016 5:06:26 PM
 
-[SECTION]Section 19: Orthopedics
+Section 19: Orthopedics
 
 A
 
@@ -81012,7 +81012,7 @@ of intravenous treatment varies from 7 days to 5 weeks.
 
 11/25/2016 5:06:26 PM
 
-[SECTION]Chapter 151: Septic Arthritis
+Chapter 151: Septic Arthritis
 
 A
 
@@ -81053,7 +81053,7 @@ ch-151.indd 737
 
 11/25/2016 5:06:26 PM
 
-[SECTION]Section 19: Orthopedics
+Section 19: Orthopedics
 There are many studies which has proven efficacy of
 minimum 3 weeks of intravenous antibiotics followed by 2–3
 weeks of oral therapy (total 4–6 weeks). The author follows the
@@ -81170,7 +81170,7 @@ ch-151.indd 738
 
 11/25/2016 5:06:27 PM
 
-[SECTION]Chapter
+Chapter
 
 152
 
@@ -81235,7 +81235,7 @@ Fig. 1: Mechanical axis of lower limb
 
 11/22/2016 12:21:30 PM
 
-[SECTION]Section 19: Orthopedics
+Section 19: Orthopedics
 Algorithm 1
 Approach to a child with genu varum (bow legs)
 
@@ -81335,7 +81335,7 @@ mechanical axis of the limb. Persistent and severe deformities
 
 11/22/2016 12:21:31 PM
 
-[SECTION]Chapter 152: Angular and Rotational Deformities in Children
+Chapter 152: Angular and Rotational Deformities in Children
 
 Focal Fibrocartilaginous Dysplasia
 Focal fibrocartilaginous dysplasia is a rare cause of unilateral
@@ -81430,7 +81430,7 @@ to the lateral-tibial plateau). If untreated this may lead to gait
 
 11/22/2016 12:21:31 PM
 
-[SECTION]Section 19: Orthopedics
+Section 19: Orthopedics
 Algorithm 2
 Approach to a child with genu valgum (knock knees)
 
@@ -81497,7 +81497,7 @@ or out-toeing while walking. Parents bring their children
 
 11/22/2016 12:21:31 PM
 
-[SECTION]Chapter 152: Angular and Rotational Deformities in Children
+Chapter 152: Angular and Rotational Deformities in Children
 Box 3: Physiologic causes for rotational deformities
 
 Box 4: Pathological causes of rotational deformities
@@ -81586,7 +81586,7 @@ ch-152.indd 743
 
 11/22/2016 12:21:32 PM
 
-[SECTION]Section 19: Orthopedics
+Section 19: Orthopedics
 A comprehensive recording of the patient’s history
 combined with a thorough physical examination are essential
 for differentiating benign from pathologic causes of rotational
@@ -81698,7 +81698,7 @@ deformities.
 
 11/22/2016 12:21:32 PM
 
-[SECTION]Chapter 152: Angular and Rotational Deformities in Children
+Chapter 152: Angular and Rotational Deformities in Children
 
 Tibial Torsion
 Tibial torsion is defined by the angular difference between the
@@ -81822,7 +81822,7 @@ ch-152.indd 745
 
 11/22/2016 12:21:33 PM
 
-[SECTION]Chapter
+Chapter
 
 153
 
@@ -81864,7 +81864,7 @@ ch-153.indd 746
 
 11/22/2016 12:30:07 PM
 
-[SECTION]Chapter 153: Approach to a Child with a Limp
+Chapter 153: Approach to a Child with a Limp
 Box 1: Common abnormal gait patterns
 Short limb gait
 • When limb length discrepancy
@@ -82042,7 +82042,7 @@ suspected.
 
 11/22/2016 12:30:08 PM
 
-[SECTION]Section 19: Orthopedics
+Section 19: Orthopedics
 
 Clinical Pearls
 • Onset, duration, and progress of limp and associated or
@@ -82127,7 +82127,7 @@ Fig. 2: Limb length discrepancy in a child with fibular hemimelia
 
 11/22/2016 12:30:08 PM
 
-[SECTION]Chapter 153: Approach to a Child with a Limp
+Chapter 153: Approach to a Child with a Limp
 to 2 cm. For a greater LLD, lengthening of the short limb with
 an external fixator or an epiphysiodesis of the contralateral
 extremity are options after serial documentation of the
@@ -82212,7 +82212,7 @@ painless limps to prevent future problems.
 
 11/22/2016 12:30:08 PM
 
-[SECTION]Section 19: Orthopedics
+Section 19: Orthopedics
 
 CONCLUSION
 
@@ -82272,7 +82272,7 @@ ch-153.indd 750
 
 11/22/2016 12:30:08 PM
 
-[SECTION]Chapter
+Chapter
 
 154
 
@@ -82325,7 +82325,7 @@ ch-154.indd 751
 
 11/22/2016 5:01:28 PM
 
-[SECTION]Section 19: Orthopedics
+Section 19: Orthopedics
 Algorithm  2
 
 pronated, and resists supination of forearm. There is no
@@ -82452,7 +82452,7 @@ symptoms like swelling, wasting, and fever develop on followup, child should be 
 
 11/22/2016 5:01:29 PM
 
-[SECTION]Chapter 154: Pulled Elbow, Growing Pains, and Flatfoot
+Chapter 154: Pulled Elbow, Growing Pains, and Flatfoot
 
 Clinical Pearl
 Long and vague history, bilateral lower extremity, night pain,
@@ -82547,7 +82547,7 @@ Fig. 2: Same patient showing good arch on tip toe
 
 11/22/2016 5:01:29 PM
 
-[SECTION]Section 19: Orthopedics
+Section 19: Orthopedics
 
 Clinical Pearl
 • Absence of medial longitudinal arch, complaining of awkward
@@ -82651,7 +82651,7 @@ ch-154.indd 754
 
 11/22/2016 5:01:29 PM
 
-[SECTION]CHAPTER
+CHAPTER
 
 155
 
@@ -82716,7 +82716,7 @@ positions of flexion, adduction and inversion at birth. The talus
 Fig. 1: Dissected fetal clubfoot showing typical bony and
 soft-tissue pathology
 
-[SECTION]SECTION 19: Orthopedics
+SECTION 19: Orthopedics
 is in severe plantarflexion, its neck is deflected medially and
 plantarward, and its head is wedge-shaped. The navicular is
 severely medially displaced, in close apposition to the medial
@@ -82802,7 +82802,7 @@ Fig. 2: Technique of Ponseti casting. Note the supination of the forefoot while 
 
 C
 
-[SECTION]CHAPTER 155: Clubfoot Treatment: Current Concepts
+CHAPTER 155: Clubfoot Treatment: Current Concepts
 
 A
 
@@ -82861,7 +82861,7 @@ techniques; however, it deserves mention.
 
 757
 
-[SECTION]SECTION 19: Orthopedics
+SECTION 19: Orthopedics
 
 A
 
@@ -82923,7 +82923,7 @@ lateral aspect of the foot regularly several times a day over a
 number of years. The importance of a regular follow-up and
 prevention of relapse thus cannot be overemphasized.
 
-[SECTION]CHAPTER 155: Clubfoot Treatment: Current Concepts
+CHAPTER 155: Clubfoot Treatment: Current Concepts
 
 A
 
@@ -82940,7 +82940,7 @@ Clubfoot treatment
 
 759
 
-[SECTION]SECTION 19: Orthopedics
+SECTION 19: Orthopedics
 
 Clinical Pearls
 What to tell the parents?
@@ -82983,7 +82983,7 @@ release with internal fixation: a preliminary report. J Bone Joint Surg Am.
 7. Warrier SS, Joshi BB. Use of external fixators for virgin and neglected club feet.
 Speaker Hand Out POSI. 2000. pp. 83-88.
 
-[SECTION]Chapter
+Chapter
 
 156
 
@@ -83094,7 +83094,7 @@ ch-156.indd 761
 
 11/25/2016 5:07:59 PM
 
-[SECTION]Section 19: Orthopedics
+Section 19: Orthopedics
 
 DIAGNOSING Developmental
 dysplasia of the hip
@@ -83197,7 +83197,7 @@ scan. Though practiced in certain parts of Europe, Universal
 
 11/25/2016 5:08:00 PM
 
-[SECTION]Chapter 156: Developmental Dysplasia of the Hip
+Chapter 156: Developmental Dysplasia of the Hip
 
 Fig. 3: Ultrasonography of subluxation of hip
 
@@ -83291,7 +83291,7 @@ different ages
 
 11/25/2016 5:08:00 PM
 
-[SECTION]Section 19: Orthopedics
+Section 19: Orthopedics
 
 Medial Open Reduction
 This is a minimally invasive procedure undertaken in children
@@ -83379,7 +83379,7 @@ Fig. 7: Hyperlordosis
 
 11/25/2016 5:08:00 PM
 
-[SECTION]Chapter 156: Developmental Dysplasia of the Hip
+Chapter 156: Developmental Dysplasia of the Hip
  Algorithm 1
 Management of developmental dysplasia of the hip
 
@@ -83458,11 +83458,11 @@ ch-156.indd 765
 
 11/25/2016 5:08:01 PM
 
-[SECTION]INDEX_.indd 766
+INDEX_.indd 766
 
 11/30/2016 5:36:05 PM
 
-[SECTION]Index
+Index
 Page numbers followed by f refer to figure and t refer to table.
 
 A
@@ -83616,7 +83616,7 @@ development of 260
 
 11/30/2016 5:36:06 PM
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 
 768
 
@@ -83820,7 +83820,7 @@ Barrel shaped chest 24
 
 11/30/2016 5:36:06 PM
 
-[SECTION]Index
+Index
 Bartter’s syndrome 470
 Base-line lung function 330
 Bassen-Kornzweig disease 432
@@ -84024,7 +84024,7 @@ metabolism, disorders of 545
 
 11/30/2016 5:36:06 PM
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 
 770
 
@@ -84230,7 +84230,7 @@ chemical 677
 
 11/30/2016 5:36:06 PM
 
-[SECTION]Index
+Index
 chlamydial 678
 enteroviral 677
 gonococcal 677
@@ -84433,7 +84433,7 @@ Drug-refractory epilepsy, complication of 414
 
 11/30/2016 5:36:06 PM
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 Duodenal
 hematoma 215
 obstruction 619f
@@ -84637,7 +84637,7 @@ meningitis 678
 
 11/30/2016 5:36:06 PM
 
-[SECTION]Index
+Index
 Fatigue 557, 558, 672
 diaphragmatic 14
 Fatty acid 672
@@ -84841,7 +84841,7 @@ Glycemic control 198
 
 11/30/2016 5:36:06 PM
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 Glycogen
 storage 426
 disorder 400, 545, 546
@@ -85046,7 +85046,7 @@ Heterotropia 692
 
 11/30/2016 5:36:06 PM
 
-[SECTION]Index
+Index
 Heterozygosity, loss of 544
 Hexokinase deficiency 35
 Hip
@@ -85250,7 +85250,7 @@ Immunedeficiency, warning signs of 278
 
 11/30/2016 5:36:06 PM
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 
 776
 
@@ -85455,7 +85455,7 @@ L
 
 11/30/2016 5:36:06 PM
 
-[SECTION]Index
+Index
 Laryngotracheitis 139
 Laryngotracheobronchitis 139, 309
 Legg-Calvé-Perthes disease 749
@@ -85659,7 +85659,7 @@ Migraine 73, 438
 
 11/30/2016 5:36:07 PM
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 
 778
 
@@ -85864,7 +85864,7 @@ primary 501
 
 11/30/2016 5:36:07 PM
 
-[SECTION]Index
+Index
 Nocturnal polyuria 500
 Nodular lymphoid hyperplasia cow’s-milk
 protein allergy 377f
@@ -86067,7 +86067,7 @@ nocturnal hemoglobinuria 295
 
 11/30/2016 5:36:07 PM
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 
 780
 
@@ -86270,7 +86270,7 @@ Propylene glycol 674
 
 11/30/2016 5:36:07 PM
 
-[SECTION]Index
+Index
 Prostaglandin E1 335
 Protein
 catabolism of 526
@@ -86473,7 +86473,7 @@ Rhombencephalosynapsis 431
 
 11/30/2016 5:36:07 PM
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 Ribavirin 160, 325, 672
 Ribonucleic acid 232
 Ribosomes, remnants of 267
@@ -86678,7 +86678,7 @@ pathology 755f
 
 11/30/2016 5:36:07 PM
 
-[SECTION]Index
+Index
 releases 757
 Sore throat 420
 Sounds, abnormal 131t
@@ -86880,7 +86880,7 @@ immune 269, 270
 
 11/30/2016 5:36:07 PM
 
-[SECTION]Algorithms in Pediatrics
+Algorithms in Pediatrics
 
 784
 
@@ -87084,7 +87084,7 @@ Vesiculobullous rash 243, 245, 245t
 
 11/30/2016 5:36:07 PM
 
-[SECTION]Index
+Index
 Vestibular dysfunction 427
 Video-assisted thoracoscopic surgery 612
 Violaceous striae 521
@@ -87181,4 +87181,3 @@ INDEX_.indd 785
 
 11/30/2016 5:36:07 PM
 
-[SECTION]
