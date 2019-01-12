@@ -1,0 +1,45 @@
+{
+	"name" : "_doc",
+	"process_with" : "title_processor", 
+	"textbook_name" : "Oxford Allergy Manual",
+	"searchable" : true,
+	"components" : [
+		{
+		    "name" : "aetiology",
+			"process_with" : "aetiology_processor",
+			"components" : [],
+			"searchable" : true
+		},
+		{
+			"name" : "cause", 
+			"process_with" : "cause_processor",
+			"components" : [],
+			"searchable" : true
+		},
+		{
+			"name" : "presentation", 
+			"process_with" : "presentation_processor",
+			"components" : [],
+			"searchable" : true
+		},
+		{
+			"name" : "diagnosis",
+			"process_with" : "diagnosis_processor",
+			"components" : [],
+			"contains_tests" : true,
+			"searchable" : true
+		},
+		{
+			"name" : "treatment",
+			"process_with" : "treatment_processor",
+			"components" : [],
+			"searchable" : true
+		},
+		{
+			"name" : "clinical features",
+			"process_with" : "clinical_features_processor",
+			"components" : [],
+			"searchable" : true
+		}
+	]		
+}
