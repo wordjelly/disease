@@ -1,4 +1,8 @@
 class Oxford::Allergy < Oxford::Oxford
+
+	EXCLUSIONS = ["part","chapter","introduction"]
+
+
 	def self.get_allergy_contents(allergy_book_file_path_and_name,contents_file_path_and_name)
 		titles = []
 		## first manage the character conversion to utf 8.
@@ -6,10 +10,10 @@ class Oxford::Allergy < Oxford::Oxford
 		s.force_encoding('UTF-8')
 		s = s.encode('UTF-8', 'binary', invalid: :replace, undef: :replace, replace: '')
 		s.split(/\r|\n|\t/).each do |line|
-			
 			line.strip.scan(/^(?<title>[A-Z][a-z][0-9A-Za-z\)\(\-\,\:\s]*)\s+\d+/) do |title|
-				
-				titles << title
+				unless EXCLUSIONS.include? title.strip.downcase
+					titles << title
+				end
 			end
 		end
 		IO.write(contents_file_path_and_name,JSON.generate(titles.flatten.uniq.compact.map{|c| c.gsub(/\d+/,'').strip}))
@@ -22,9 +26,6 @@ class Oxford::Allergy < Oxford::Oxford
 	def title_processor(line)
 		section_name = nil
 		
-		if line.strip =~ //
-
-		end
 
 		line.strip.scan(/^(?<title>[A-Z][a-z][A-Za-z\s\)\:\,\-\(\–\,\)0-9\+]+\n?$)/) do |title|
 

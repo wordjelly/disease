@@ -162,8 +162,33 @@ class SaxParserTest < ActiveSupport::TestCase
 	end
 =end
 
+=begin
 	def test_adds_allergy_textbook
 		Textbook.add_textbook("#{Rails.root}/vendor/oxford_allergy.txt","#{Rails.root}/vendor/oxford_allergy_json_structure.json","Oxford::Allergy")
 	end
+=end
+	
+=begin
+	def test_gets_dermatology_contents
+		Oxford::Dermatology.get_dermatology_contents("#{Rails.root}/vendor/oxford_dermatology.txt","#{Rails.root}/vendor/oxford_dermatology_contents.txt")
+	end
+=end
+	
+=begin
+	def test_adds_dermatology_textbook
+		Textbook.add_textbook("#{Rails.root}/vendor/oxford_dermatology.txt","#{Rails.root}/vendor/oxford_dermatology_json_structure.json","Oxford::Dermatology")
+	end
+=end
 
+=begin
+	def test_gets_dermatology_contents
+		Oxford::Surgery.get_contents("#{Rails.root}/vendor/oxford_surgery.txt","#{Rails.root}/vendor/oxford_surgery_contents.txt")
+	end
+=end
+
+=begin
+	def test_adds_surgery_textbook
+		Textbook.add_textbook("#{Rails.root}/vendor/oxford_surgery.txt","#{Rails.root}/vendor/oxford_surgery_json_structure.json","Oxford::Surgery")
+	end
+=end
 end
