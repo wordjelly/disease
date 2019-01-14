@@ -29,7 +29,7 @@ class Oxford::Surgery < Oxford::Oxford
 	def title_processor(line)
 		section_name = nil
 		
-		line.strip.scan(/^(?<title>[A-Za-z\s\:]+)\s\d+$/) do |title|
+		line.strip.scan(/^(?<title>[A-Za-z\s\:]+)$/) do |title|
 
 			applicable_topics = topics.select{|c| title[0].strip == c}
 

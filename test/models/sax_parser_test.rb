@@ -179,7 +179,6 @@ class SaxParserTest < ActiveSupport::TestCase
 		Textbook.add_textbook("#{Rails.root}/vendor/oxford_dermatology.txt","#{Rails.root}/vendor/oxford_dermatology_json_structure.json","Oxford::Dermatology")
 	end
 =end
-
 =begin
 	def test_gets_dermatology_contents
 		Oxford::Surgery.get_contents("#{Rails.root}/vendor/oxford_surgery.txt","#{Rails.root}/vendor/oxford_surgery_contents.txt")
@@ -191,4 +190,86 @@ class SaxParserTest < ActiveSupport::TestCase
 		Textbook.add_textbook("#{Rails.root}/vendor/oxford_surgery.txt","#{Rails.root}/vendor/oxford_surgery_json_structure.json","Oxford::Surgery")
 	end
 =end
+
+=begin
+	def test_adds_rheumatology_contents
+		Oxford::Rheumatology.get_contents("#{Rails.root}/vendor/oxford_rheumatology.txt","#{Rails.root}/vendor/oxford_rheumatology_contents.txt")
+	end
+=end
+
+=begin
+	def test_adds_rheumatology_textbook
+		Textbook.add_textbook("#{Rails.root}/vendor/oxford_rheumatology.txt","#{Rails.root}/vendor/oxford_rheumatology_json_structure.json","Oxford::Rheumatology")
+	end
+=end
+
+=begin
+	def test_adds_respiratory_contents
+		Oxford::Respiratory.get_contents("#{Rails.root}/vendor/oxford_respiratory_medicine.txt","#{Rails.root}/vendor/oxford_respiratory_medicine_contents.txt")
+	end
+=end
+
+=begin
+	def test_adds_respiratory_medicine_textbook
+		Textbook.add_textbook("#{Rails.root}/vendor/oxford_respiratory_medicine.txt","#{Rails.root}/vendor/oxford_respiratory_json_structure.json","Oxford::Respiratory")
+	end
+=end
+
+=begin
+	def test_adds_general_practise_contents
+		Oxford::GeneralPractise.get_contents("#{Rails.root}/vendor/oxford_general_practise.txt","#{Rails.root}/vendor/oxford_general_practise_contents.txt")
+	end
+=end
+	
+=begin
+	def test_adds_general_practise_textbook
+		Textbook.add_textbook("#{Rails.root}/vendor/oxford_general_practise.txt","#{Rails.root}/vendor/oxford_general_practise_json_structure.json","Oxford::GeneralPractise")
+	end
+=end
+
+=begin
+	def test_adds_nephrology_contents
+		Oxford::Nephrology.get_contents("#{Rails.root}/vendor/oxford_nephrology.txt","#{Rails.root}/vendor/oxford_nephrology_contents.txt")
+	end
+=end
+	
+=begin
+	def test_adds_nephrology_textbook
+		Textbook.add_textbook("#{Rails.root}/vendor/oxford_nephrology.txt","#{Rails.root}/vendor/oxford_nephrology_json_structure.json","Oxford::Nephrology")
+	end
+=end
+
+=begin
+	def test_adds_neurology_contents
+		Oxford::Neurology.get_contents("#{Rails.root}/vendor/oxford_neurology.txt","#{Rails.root}/vendor/oxford_neurology_contents.txt")
+	end
+=end
+
+=begin
+	def test_adds_neurology_textbook
+		Textbook.add_textbook("#{Rails.root}/vendor/oxford_neurology.txt","#{Rails.root}/vendor/oxford_neurology_json_structure.json","Oxford::Neurology")
+	end
+=end
+	
+=begin
+	def test_adds_geriatrics_contents
+		Oxford::Geriatrics.get_contents("#{Rails.root}/vendor/oxford_geriatrics.txt","#{Rails.root}/vendor/oxford_geriatrics_contents.txt")
+	end
+=end
+=begin
+	def test_adds_geriatrics_textbook
+		Textbook.add_textbook("#{Rails.root}/vendor/oxford_geriatrics.txt","#{Rails.root}/vendor/oxford_geriatrics_json_structure.json","Oxford::Geriatrics")
+	end
+=end
+	
+=begin
+	def test_adds_tropical_medicine_contents
+		Oxford::TropicalMedicine.get_contents("#{Rails.root}/vendor/oxford_tropical_medicine.txt","#{Rails.root}/vendor/oxford_tropical_medicine_contents.txt")
+	end
+=end
+
+	def test_adds_tropical_medicine_textbook
+		Textbook.add_textbook("#{Rails.root}/vendor/oxford_tropical_medicine.txt","#{Rails.root}/vendor/oxford_tropical_medicine_json_structure.json","Oxford::TropicalMedicine")
+	end
+
 end
