@@ -1,6 +1,5 @@
 class Oxford::Oxford < SaxObject
 
-
 	## geriatrics, and general practise, neuro, nephro, respiratory
 
 	def add_topics(s)

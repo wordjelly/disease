@@ -106,9 +106,9 @@ class SaxParser
 		self.text.split(/\r|\n|\t/).each do |line|
 			on_line(line)
 		end
-		puts "saxparser title text"
-		puts SaxParser.get_object.title_text.to_s
-		puts SaxParser.get_object.content_text.to_s
+		#puts "saxparser title text"
+		#puts SaxParser.get_object.title_text.to_s
+		#puts SaxParser.get_object.content_text.to_s
 		SaxParser.get_object.commit
 		SaxParser::flush_bulk
 	end

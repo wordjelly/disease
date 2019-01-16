@@ -1,28 +1,10 @@
-== README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+1. SaxParser, holds @@root_sax_object -> an individual sax object that
+is instantiated for whichever textbook you want to parse. This is a class variable.
+2. Hierarchy : this has to be the json representation of a saxobject, it can contain components, and each component can contain subcomponents. It is converted into a SaxObject, when the parser is initalized.
+3. A default hierarchy is also provided, which basically just consists of a title.
+4. Look at the tests to see how to parse the textbook.
+5. About topics : Some of the textbooks the topics had to be derived first, and only then could the text be chunked. For this the SaxObject, has two convenience methods. 
+a. get_topics : this can be called, to set/return the @topics instance variable. It internally calls #add_topics. In most cases there is no need to direclty override get_topics. Rather, better to override add_topics, since that is the only customization needed in each textbook. get_topics can be called from any of the processors, registered on the components, for eg: title_processor. Look at Oxford::Oxford, and Oxford::TropicalMedicine, to see how these have been individually called.
+6. Textbook class is only a convenience wrapper class, that provides the external callable interface for parsing textbooks. There is no need to instantiate saxparser directly. Refer to the tests to see how Textbook is instantiated and called.
+7. You need elasticsearch up and running locally for this to work. SaxParser also provides a class to update the local index to a remote cluster. Check the initializer config/initializers/es.rb to see how the two es clients have been initalized. You can add the details of your clusters there.
