@@ -26,10 +26,8 @@ class Paediatric::Algorithm < SaxObject
 
 	def title_processor(line)
 		section_name = nil
-		
 		line.strip.scan(/^(?<title>Chapter)$/) do |title|
 			if title[0]
-
 				return ["on",clear_numbers_newlines_and_excess_spaces(title[0])]			
 			else
 				return ["off",title[0]]

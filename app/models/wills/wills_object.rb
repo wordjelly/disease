@@ -23,8 +23,8 @@ class Wills::WillsObject < SaxObject
 		}
 
 		unless section_name.blank?
-			#puts "got a section:"
-			#puts section_name
+			puts "got a section:"
+			puts section_name
 			#exit(1)
 			return ["on",section_name]
 		else
@@ -67,8 +67,6 @@ class Wills::WillsObject < SaxObject
 		end
 	end
 
-	def commit
-		super
-	end
+	
 
 end

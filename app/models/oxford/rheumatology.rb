@@ -1,6 +1,23 @@
 class Oxford::Rheumatology < Oxford::Oxford
 
+	def add_topics(s)
+		titles = []
 
+		s.scan(/\[SECTION\]Chapter\s\d+\n(?<chapter_contents>[A-Za-z\s,\(\)\-]+)\n{2}/) do |chapter_contents|
+			#puts " ----- chapter contents 0 --- "
+			#puts chapter_contents[0].to_s
+			chapter_contents[0].split(/\n/).each do |ct|
+				#puts "ct is: #{ct}"
+				#unless EXCLUSIONS.include? ct.downcase
+					titles << ct unless exclude? ct
+				#end
+			end
+		end	
+
+		titles
+	end
+
+=begin
 	EXCLUSIONS = ["introduction","chapter"]
 
 
@@ -28,6 +45,8 @@ class Oxford::Rheumatology < Oxford::Oxford
 		puts titles.size
 		IO.write(contents_file_path_and_name,JSON.generate(titles))
 	end
+=end
+
 
 	## here we have only a title processor, we don't go for subsections.
 	## will first have to remove those sections from the 
@@ -37,7 +56,7 @@ class Oxford::Rheumatology < Oxford::Oxford
 		
 		line.scan(/^(?<title>[A-Za-z\s,\(\)\-]+)$/) do |title|
 
-			applicable_topics = topics.select{|c| title[0].strip == c}
+			applicable_topics = get_topics.select{|c| title[0].strip == c}
 
 			if applicable_topics.size > 0
 
@@ -50,5 +69,6 @@ class Oxford::Rheumatology < Oxford::Oxford
 		return ["off",line]
 	
 	end
+
 
 end	

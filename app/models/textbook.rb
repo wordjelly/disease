@@ -7,25 +7,26 @@ class Textbook
 	## @return[nil]
 	## @working : will call saxparser, and create an index for the textbook, in 
 	## elasticsearch. the name of the index will be prefixed by "documents-"
-	def self.add_textbook(textbook_file_path,textbook_json_structure_file_path,sax_object_class)
+	def self.add_textbook(textbook_file_path,textbook_json_structure_file_path,sax_object_class,textbook_name=nil)
 
 		raise "textbook file path not provided" unless textbook_file_path
 		
-		raise "textbook json structure file not provided" unless textbook_json_structure_file_path
-
 		sax_object_class ||= "SaxObject"
 
-		sp = SaxParser.new({:file_path => textbook_file_path, :hierarchy => IO.read(textbook_json_structure_file_path), :sax_object_class => sax_object_class})
+		sp = SaxParser.new({:file_path => textbook_file_path, :hierarchy => textbook_json_structure_file_path, :sax_object_class => sax_object_class,:textbook_name => textbook_name})
 
-		## delete and recreate only if it does not exist.
 		SaxParser.get_object.delete_and_create_index
 
 		sp.analyze_file		
 
 		SaxParser.update_workup
 
-		puts "updating to remote."
-		SaxParser.get_object.update_to_remote
+		puts SaxParser.get_object.topics.to_s
+
+		#puts "updating to remote."
+		#SaxParser.get_object.update_to_remote
+
+
 
 	end
 

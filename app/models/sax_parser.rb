@@ -46,12 +46,31 @@ class SaxParser
 =end 
 	def parse_file
 		text = IO.read(self.file_path)
-
 	end
 
+	## @param[String] textbook_name : REQUIRED : the name of the textbook for which the default hierarchy is being applied
+	## @return[Hash] : default json structure, considers the title to be the only block, it is considered to be both searchable and also containing_tests
+	## it is the most basic structure possible.
+	## if a null json_structure file is passed then this is used.
+	def default_json_structure(textbook_name)
+		{
+			"name" => "_doc",
+			"process_with" => "title_processor", 
+			"textbook_name" => textbook_name,
+			"contains_tests" => true,
+			"searchable" => true,
+			"components" => []		
+		}
+	end
+
+
 	## @param[Hash] args : arguments for the sax_parser.
-	## it MUST CONTAIN : file_path ( the path to the text file to be read), hierarchy (the json string containing the hierarchy for parsing the text file.), if either of these two are absent, will raise an error.
-	## will call JSON.parse(args[:hierarchy]) so the hierarchy must be a valid json string representation of a #SaxObject
+	## REQUIRED PARAMETERS
+	## => : file_path : ( the path to the text file to be read),
+	## OPTIONAL PARAMETERS
+	## => : textbook_name : if hierarchy is not provided in the arguments, the textbook name MUST be provided.
+	## => : hierarchy : (the json string containing the hierarchy for parsing the text file.) will call JSON.parse(args[:hierarchy]) so the hierarchy must be a valid json string representation of a #SaxObject. If textbook name is not provided in the arguments, then hierarchy MUST be provided.
+	## First checks if a :hierarchy attribute is provided in the arguments, and tries to load the json_structure from that. If a hierarchy is not provided, will check for the :textbook_name to exist and will use the default hierarchy.
 	## will read the file_path and set the "text" attribute to the text in that file. WIll enforce UTF-8 encoding on that text, and replace any invalid bytes with an empty '' string.
 	## will throw an error if any of these steps encounters a problem, like if the file cannot be read, or the hierarchy is not a valid json string etc.
 	## will call put_index and build an index out of the hierarchy into elasticsearch.
@@ -59,13 +78,20 @@ class SaxParser
 	## the fields will be the components defined in the hierarchy, all will have two mappings : 'raw' : which will be the text mapping, and the name of the field itself, which will correspond to a 'keyword' mapping.
 	## components, will be treated as nested objects.
 	def initialize(args)
+		## default hierarchy is used from sax_parser
 		raise "please provide the file_path attribute" unless args[:file_path]
 		self.file_path = args[:file_path]
 		self.text = set_text
-		raise "please provide hierarchy json string" unless args[:hierarchy]
-		self.hierarchy = JSON.parse(args[:hierarchy])
+		#raise "please provide hierarchy json string" unless args[:hierarchy]
+		if args[:hierarchy]
+			self.hierarchy = JSON.parse(IO.read(args[:hierarchy]))
+		else
+			raise "textbook name not provided" unless args[:textbook_name]
+			self.hierarchy = default_json_structure(args[:textbook_name])
+		end
 		self.sax_object_class = args[:sax_object_class] || "SaxObject"
 		@@root_sax_object = self.sax_object_class.constantize.new(self.hierarchy)
+		@@root_sax_object.textbook_file_path = args[:file_path]
 		super(args)
 	end
 
@@ -80,7 +106,9 @@ class SaxParser
 		self.text.split(/\r|\n|\t/).each do |line|
 			on_line(line)
 		end
-		## commit the second one only if it has a title.
+		puts "saxparser title text"
+		puts SaxParser.get_object.title_text.to_s
+		puts SaxParser.get_object.content_text.to_s
 		SaxParser.get_object.commit
 		SaxParser::flush_bulk
 	end

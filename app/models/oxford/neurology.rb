@@ -1,4 +1,5 @@
 class Oxford::Neurology < Oxford::Oxford
+=begin
 	EXCLUSIONS = ["part","chapter","introduction","treatment","investigations","history","diagnosis","management","causes","pathophysiology","clinical","assessment","features","imaging","epidemiology","diagnostic","procedures","overview","background","complications","anatomy","physiology","indications","contraindications","terminology","symptoms"]
 
 	def topics
@@ -26,6 +27,7 @@ class Oxford::Neurology < Oxford::Oxford
 		puts titles.size
 		IO.write(contents_file_path_and_name,JSON.generate(titles))
 	end
+=end
 
 	## here we have only a title processor, we don't go for subsections.
 	def title_processor(line)
@@ -33,7 +35,7 @@ class Oxford::Neurology < Oxford::Oxford
 		
 		line.strip.scan(/^(?<title>[A-Za-z\s\:]+)$/) do |title|
 
-			applicable_topics = topics.select{|c| title[0].strip == c}
+			applicable_topics = get_topics.select{|c| title[0].strip == c}
 
 			if applicable_topics.size > 0
 				return ["on",clear_numbers_newlines_and_excess_spaces(title[0])]

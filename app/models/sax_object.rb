@@ -11,6 +11,7 @@ class SaxObject
 	## for the others, it doesnt matter, but a field has to be tagged as workup.
 
 	include Virtus.model
+	## class variable to store topics
 	
 	## name of a function.
 
@@ -19,14 +20,12 @@ class SaxObject
 	attribute :content_text, String
 	attribute :title_text, String
 
+
 	## should be provided in the json file.
 	attribute :textbook_name, String
-	## does it contain tests ?
-	## then it will be used to detect the tests.
-	## so that should be done at the same time.
-	## the root document contains the tests
-	## so while parsing or setting that field, before commit, 
-	## so copy to makes more sense.
+
+	attr_accessor :textbook_file_path
+	attr_accessor :topics
 	attr_accessor :contains_tests
 	attr_accessor :components
 	attr_accessor :state
@@ -43,6 +42,63 @@ class SaxObject
 	## you can define one field as workup.
 	## wherever the tests are .
 	
+	#######################################################################
+	##
+	##
+	## TOPICS AND RELATED FUNCTIONS.
+	##
+	##
+	#######################################################################
+
+	TOPICS = []
+
+
+	def exclusions
+		["definition", "investigation", "treatment", "background", "classification", "epidemiology", "pathology", "pathophysiology", "management", "etiology", "symptoms", "signs", "etiopathogenesis", "differential", "diagnosis", "clinical", "features", "follow-up", "pathogenesis", "imaging", "mri", "etiologies", "incidence", "causes", "monitoring", "laboratory", "introduction", "part", "chapter", "investigations", "history", "assessment", "diagnostic", "procedures", "overview", "complications", "anatomy", "physiology", "indications", "contraindications", "terminology"]
+	end
+
+	##@return[Boolean] : true if the text provided should be excluded. 
+	def exclude?(text)
+		puts "text to exclude"
+		puts text.to_s
+		!exclusions.select{|c| text =~ /#{c}/i}.blank?		
+	end
+
+	## this is used to actually process the topic.
+	## can be overriden if all that has to be changed is the regex.
+	## here we can accept the text of the file as input, and return the topics
+	## as an array as output
+	## @return[Array] topics : the array of topics.
+	## you are encouraged to override this method if required, so this should be the only method touched in any of the overriding classes.
+	## lets test with the first oxford class.
+	def add_topics(text)	
+		[]
+	end
+	
+	def get_topics
+		
+		if self.topics.blank?
+
+			self.topics = []
+
+			s = IO.read(textbook_file_path)
+			
+			s.force_encoding('UTF-8')
+			
+			s = s.encode('UTF-8', 'binary', invalid: :replace, undef: :replace, replace: '')
+
+			self.topics = add_topics(s)
+
+			self.topics = self.topics.flatten.map!{|c| c.gsub(/\d+/,'').strip}.reject{|c| c.blank?}.compact.uniq
+			puts "total topics: #{self.topics.size}"
+		end
+
+		self.topics
+
+	end
+
+	###########################################################################
+
 
 	SETTINGS = {
 		index: { 
@@ -84,21 +140,6 @@ class SaxObject
 		}
 	}	 
 	
-=begin
-	COMMON_FIELD_MAPPING = 
-	{
-		:type => 'keyword', 
-		:fields => {
-	        :raw => { 
-	          	:type =>  'text',
-		 	    :analyzer => "nGram_analyzer",
-				:search_analyzer => "whitespace_analyzer"
-	        }
-	    },
-		:copy_to => []
-	}
-=end
-
 	#######################################################################
 	##
 	##
@@ -198,10 +239,6 @@ class SaxObject
 			mapping[self.name.to_sym][:properties].merge!(component.to_mapping)
 		end
 
-		#puts "mapping is:"
-		#puts mapping.to_s
-
-
 		mapping
 
 	end
@@ -275,14 +312,8 @@ class SaxObject
 			self.state = "on"
 			SaxParser.switch_off(self.name)
 			if self.name == "_doc"
-				#puts "on for title with line: #{response[1]}"
-				# prematurely committing.
-				# because it thinks that this is the end.
-				unless self.content_text.blank?
-					commit
-					self.state = "on"
-					## so it's not getting the second one.
-				end
+				commit
+				self.state = "on"
 			end
 		elsif response[0] == "off"
 			self.components.each do |component|
@@ -320,11 +351,28 @@ class SaxObject
 	##
 	####################################################################
 	def commit
-		unless self.content_text.blank?
+
+		if self.has_content?
+			puts "called commit-----------#{self.title_text}"
 			document = { index:  { _index: get_index_name, _type: '_doc',  data: self.as_json } }
 			SaxParser::add_bulk_item(document)
 			reset
+		else
+			puts self.attributes.to_s
+			puts self.to_json.to_s
+			puts "didnt commit, because content text is blank"
 		end
+	end
+
+
+	def has_content?
+		return true unless self.content_text.blank?
+		components_have_content = false
+		self.components.each do |c|
+			components_have_content = c.has_content?
+			break if components_have_content == true
+		end
+		components_have_content
 	end
 	
 	## now comes the part of merging in another 
@@ -363,7 +411,7 @@ class SaxObject
 			#puts hit._id.to_s
 			#puts "hit source is:"
 			#puts hit._source.to_s
-			puts hit._source.to_json
+			#puts hit._source.to_json
 			#k = SaxObject.new(hit._source.to_hash)
 
 			bulk_arr << {
