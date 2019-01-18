@@ -20,7 +20,7 @@ class SaxParserTest < ActiveSupport::TestCase
 
 	end
 
-
+=begin
 	def test_generate_index_mapping_from_hierarchy
 		sp = SaxParser.new({:file_path => "#{Rails.root}/vendor/wills.txt", :hierarchy => "#{Rails.root}/vendor/wills_json_structure.json"})
 		SaxParser.get_object.delete_and_create_index
@@ -82,7 +82,7 @@ class SaxParserTest < ActiveSupport::TestCase
 		assert_equal count[:count],2
 	
 	end
-
+=end
 
 	#######################################################################
 	##
@@ -96,6 +96,7 @@ class SaxParserTest < ActiveSupport::TestCase
 		Textbook.add_textbook("#{Rails.root}/vendor/oxford_allergy.txt","#{Rails.root}/vendor/oxford_allergy_json_structure.json","Oxford::Allergy")
 	end
 
+=begin
 	def test_adds_dermatology_textbook
 		Textbook.add_textbook("#{Rails.root}/vendor/oxford_dermatology.txt",nil,"Oxford::Dermatology","Oxford Dermatology")
 	end
@@ -174,6 +175,6 @@ class SaxParserTest < ActiveSupport::TestCase
 	def test_adds_dewhurst
 		Textbook.add_textbook("#{Rails.root}/vendor/dewhurst.txt","#{Rails.root}/vendor/dewhurst_json_structure.json","Obstetrics::DewhurstObject",nil)		
 	end
-
+=end
 
 end

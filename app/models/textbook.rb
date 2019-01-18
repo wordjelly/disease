@@ -1,5 +1,88 @@
 class Textbook
 
+	def self.build_query(text)
+		{
+			"size" => 100,
+		  	"query" => {
+		    	"bool" => {
+		      		"should" => [
+				        {
+				          	"match" => {
+			            		"title" => {
+			              			"query" => text,
+			              			"boost" => 5
+			            		}
+				          	}
+				        },
+				        {
+				          	"match_phrase" => {
+				            	"searchable" => {
+				              		"query" => text,
+				              		"slop" => 10,
+				              		"boost" => 2
+				            	}
+				          	}
+				        }
+		     	 	]
+		    	}
+		  	},
+		  	"aggs" => {
+			    "disease_aggs" => {
+			      	"terms" => {
+			        	"field" => "title_text",
+			        	"order" => {
+			          		"max_score" => "desc"
+			        	}, 
+			        	"size" => 100
+			      	},
+			      	"aggs" => {
+			        	"max_score" => {
+			          		"max" => {
+			           	 		"script" => "_score"
+			          		}
+			       		},
+			        	"workup_aggs" => {
+				          	"terms" => {
+				            	"field" => "workup",
+				            	"size" => 30
+				          	}
+			        	}
+			    	}	
+			   	}
+		  	}
+		}
+
+	end
+
+	def self.hits_to_hash(mash)
+		hits_hash = {}
+		mash.hits.hits.map{|c|	
+			hits_hash[c["_source"]["title_text"]] = c["_source"]["content_text"]
+		}
+		hits_hash
+	end
+
+	def self.search(text)
+
+		query = build_query(text)
+		search_hits_array = []
+		response = $remote_es_client.search index: "documents-*", body: build_query(text)
+		mash = Hashie::Mash.new response
+		hits_hash = hits_to_hash(mash)
+		#puts "hits hash is:"
+		#puts hits_hash.to_s
+		#exit(1)
+		mash.aggregations.disease_aggs["buckets"].each do |bucket|
+			search_hit = {
+				:title => bucket["key"],
+				:tests => bucket["workup_aggs"]["buckets"].map{|c| c["key"]},
+				:content =>  hits_hash[bucket["key"]]
+			}
+			search_hits_array << search_hit
+		end
+		search_hits_array
+	end	
+
 	## @param[String] textbook_file_path : the absolute path of the .txt file containing the textbook[REQUIRED]
 	## @param[String] textbook_json_structure_file_path : the absolute path of the .json file which contains the structure of the textbook[REQUIRED]
 	## @param[String] sax_object_class : the class that is to be used for instantiating the SaxObject[Optional]. Defaults to SaxObject
@@ -23,15 +106,10 @@ class Textbook
 
 		puts SaxParser.get_object.topics.to_s
 
-		#puts "updating to remote."
-		#SaxParser.get_object.update_to_remote
+		puts "updating to remote."
+		SaxParser.get_object.update_to_remote
 
 
-
-	end
-
-
-	def self.search_textbooks(query_string)
 
 	end
 
