@@ -66,7 +66,8 @@ class Textbook
 
 		query = build_query(text)
 		search_hits_array = []
-		response = $remote_es_client.search index: "documents-*", body: build_query(text)
+		cli = (Rails.env["development"] || Rails.env["test"]) ? Elasticsearch::Persistence.client : $remote_es_client
+		response = cli.search index: "documents-*", body: build_query(text)
 		mash = Hashie::Mash.new response
 		hits_hash = hits_to_hash(mash)
 		#puts "hits hash is:"

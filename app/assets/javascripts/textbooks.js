@@ -23,11 +23,15 @@ $(document).on('submit','#search_form',function(event){
 	  type: "GET",
 	  data:{query: $("#search").val()
 	    }, 
+	  beforeSend : function(xhr){
+	  	$("#progress_bar").show();
+	  },
 	  success: function(response){
 	   	$('#search_results').html("");
 	    _.each(response['results'],function(search_result,index,list){
 	    	render_search_result(search_result);
 	    });
+	    $("#progress_bar").hide();
 	  }
 	});
 	
