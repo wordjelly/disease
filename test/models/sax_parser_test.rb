@@ -92,6 +92,13 @@ class SaxParserTest < ActiveSupport::TestCase
 	##
 	#######################################################################b
 
+=begin
+	def test_adds_wills_eye_manual
+
+		Textbook.add_textbook("#{Rails.root}/vendor/wills.txt","#{Rails.root}/vendor/wills_json_structure.json","Wills::WillsObject",nil)
+
+	end
+
 	def test_adds_allergy_textbook
 		Textbook.add_textbook("#{Rails.root}/vendor/oxford_allergy.txt","#{Rails.root}/vendor/oxford_allergy_json_structure.json","Oxford::Allergy")
 	end
@@ -164,17 +171,16 @@ class SaxParserTest < ActiveSupport::TestCase
 
 	end
 
-	
-	def test_adds_wills_eye_manual
-
-		Textbook.add_textbook("#{Rails.root}/vendor/wills.txt","#{Rails.root}/vendor/wills_json_structure.json","Wills::WillsObject",nil)
-
-	end
-
 
 	def test_adds_dewhurst
 		Textbook.add_textbook("#{Rails.root}/vendor/dewhurst.txt","#{Rails.root}/vendor/dewhurst_json_structure.json","Obstetrics::DewhurstObject",nil)		
 	end
+=end
 
+	def test_adds_oxford_lab_investigations
+		Textbook.add_textbook("#{Rails.root}/vendor/oxford_lab.txt",nil,"Oxford::Lab","Oxford Manual of Laboratory Investigations")
+	end
+
+	
 
 end

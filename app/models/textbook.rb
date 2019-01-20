@@ -8,7 +8,7 @@ class Textbook
 		      		"should" => [
 				        {
 				          	"match" => {
-			            		"title" => {
+			            		"title_text.raw" => {
 			              			"query" => text,
 			              			"boost" => 5
 			            		}

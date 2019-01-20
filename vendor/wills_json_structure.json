@@ -22,7 +22,7 @@
 			"searchable" : true
 		},
 		{
-			"name" : "workup",
+			"name" : "patient_workup",
 			"process_with" : "workup_processor",
 			"components" : [],
 			"contains_tests" : true

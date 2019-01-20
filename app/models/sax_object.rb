@@ -2,6 +2,8 @@ require 'elasticsearch/persistence/model'
 
 class SaxObject
 
+	PROTECTED_FIELDS = ["workup","workup_text","searchable"]
+
 	## we now move to update tests
 	## like which field to search for workup?
 	## and where to add it.
@@ -152,10 +154,19 @@ class SaxObject
 		to_mapping
 	end
 
+
+	def is_protected_field?
+		raise "you cannot use #{self.name} in your mappings as it is a protected name" if SaxObject::PROTECTED_FIELDS.include? self.name
+	end
+
 	## if a particular item is searchable, then 
 	## we can on calling to_mapping, set that mapping on it.
 	def to_mapping
+
+		is_protected_field?
+
 		mapping = nil
+
 		######################### BASIC MAPPING ############################
 		mapping = {
 			self.name.to_sym => {
@@ -191,6 +202,10 @@ class SaxObject
 	          	}
           	}
 		}
+
+		#either you cannot have a field name workup in the components
+		## or whatever. 
+		## should raise an error called workup
 		#puts "mapping becomes first --------------:"
 		#puts "commong field mapping ----"
 		#puts COMMON_FIELD_MAPPING
@@ -353,7 +368,7 @@ class SaxObject
 	def commit
 
 		if self.has_content?
-			puts "called commit-----------#{self.title_text}"
+			#puts "called commit-----------#{self.title_text}"
 			document = { index:  { _index: get_index_name, _type: '_doc',  data: self.as_json } }
 			SaxParser::add_bulk_item(document)
 			reset
