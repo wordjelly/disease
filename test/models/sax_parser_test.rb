@@ -175,12 +175,18 @@ class SaxParserTest < ActiveSupport::TestCase
 	def test_adds_dewhurst
 		Textbook.add_textbook("#{Rails.root}/vendor/dewhurst.txt","#{Rails.root}/vendor/dewhurst_json_structure.json","Obstetrics::DewhurstObject",nil)		
 	end
-=end
 
+	
 	def test_adds_oxford_lab_investigations
 		Textbook.add_textbook("#{Rails.root}/vendor/oxford_lab.txt",nil,"Oxford::Lab","Oxford Manual of Laboratory Investigations")
 	end
 
+
+=end
+
+	def test_adds_washington_allergy
+		Textbook.add_textbook("#{Rails.root}/vendor/washington_allergy.txt","#{Rails.root}/vendor/washington_allergy_json_structure.json","Washington::Allergy",nil)
+	end
 	
 
 end
