@@ -1,0 +1,41 @@
+{
+	"name" : "_doc",
+	"process_with" : "title_processor", 
+	"textbook_name" : "Washington Manual of Hematology",
+	"searchable" : true,
+	"components" : [
+		{
+			"name" : "General Principles", 
+			"process_with" : "general_principles_processor",
+			"components" : [],
+			"searchable" : true
+		},
+		{
+			"name" : "Diagnosis", 
+			"process_with" : "diagnosis_processor",
+			"components" : [
+				{
+					"name" : "Clinical Presentation", 
+					"process_with" : "clinical_presentation_processor",
+					"components" : [],
+					"searchable" : true
+				},
+				{
+					"name" : "Differential Diagnosis", 
+					"process_with" : "differential_diagnosis_processor",
+					"components" : [],
+					"searchable" : true
+				},
+				{
+					"name" : "Diagnostic Testing", 
+					"process_with" : "diagnostic_testing_processor",
+					"components" : [],
+					"searchable" : true,
+					"contains_tests" : true
+				}
+			],
+			"searchable" : true,
+			"contains_tests" : true
+		}
+	]		
+}

@@ -1,7 +1,8 @@
-class Washington::Washington < SaxObject
+class Cases::Case < SaxObject
+
 
 	def get_topics
-		
+
 		if self.topics.blank?
 
 			self.topics = []
@@ -12,15 +13,11 @@ class Washington::Washington < SaxObject
 			
 			s = s.encode('UTF-8', 'binary', invalid: :replace, undef: :replace, replace: '')
 
-			s = s.gsub(/\n{2}PART/,'\n')
-
-			s.scan(/Preface(?<title>[A-Za-z\s\'\`\’\d+\.\,\-\/\(\)\:]+)\n{2}/) do |title|
+			s.scan(/CASE\s\d+\:(\n\n)?(?<title>[A-Za-z\s]+)\n/) do |title|
 				
 
-				titles = title[0].split(/\n/).reject{|c| (c.blank?) || (c =~ /^[A-Z]/)}
-
 				
-				self.topics = titles
+				self.topics << title[0].strip
 			
 			end
 
@@ -29,20 +26,17 @@ class Washington::Washington < SaxObject
 			
 		end
 
-		self.topics = self.topics.map{|c| c = c.gsub(/^\.\s/,'')
+		self.topics = self.topics.map{|c| 
+			c = c.gsub(/^\.\s/,'').gsub(/\n\n?History/,'')
 			c
 		}
-		
-		## sometimes general principles of the first topic, and some subsequent sentences get included, we have to get rid of them.
-		## remove general_prinicples
-		if principles_index = self.topics.index("GENERAL PRINCIPLES")
-			self.topics = self.topics.slice(0,principles_index)
-		end
-		
-		
+
+		#puts self.topics.to_s
+		#exit(1)
+
 		self.topics
 
-	end	
+	end
 
 	def title_processor(line)
 		section_name = nil
@@ -60,36 +54,36 @@ class Washington::Washington < SaxObject
 		return ["off",line]
 	end
 
-	def general_principles_processor(line)
-		line.strip.scan(/GENERAL PRINCIPLES/) do |match|
+	def history_processor(line)
+		line.strip.scan(/History/) do |match|
 			return ["on",line.strip]
 		end
 		return ["off",line.strip]
 	end
 
-	def diagnosis_processor(line)
-		line.strip.scan(/DIAGNOSIS/) do |match|
+	def examination_processor(line)
+		line.strip.scan(/Examination/) do |match|
 			return ["on",line.strip]
 		end
 		return ["off",line.strip]
 	end
 
-	def clinical_presentation_processor(line)
-		line.strip.scan(/Clinical Presentation/) do |match|
+	def investigations_processor(line)
+		line.strip.scan(/Investigations/) do |match|
 			return ["on",line.strip]
 		end
 		return ["off",line.strip]
 	end
 
-	def differential_diagnosis_processor(line)
-		line.strip.scan(/Differential Diagnosis/) do |match|
+	def answer_processor(line)
+		line.strip.scan(/ANSWER/) do |match|
 			return ["on",line.strip]
 		end
 		return ["off",line.strip]
 	end
 
-	def diagnostic_testing_processor(line)
-		line.strip.scan(/Diagnostic Testing/) do |match|
+	def key_points_processor(line)
+		line.strip.scan(/KEY POINTS/) do |match|
 			return ["on",line.strip]
 		end
 		return ["off",line.strip]

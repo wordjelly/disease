@@ -1,0 +1,41 @@
+{
+	"name" : "_doc",
+	"process_with" : "title_processor", 
+	"textbook_name" : "Cases in Clinical Medicine",
+	"searchable" : true,
+	"components" : [
+		{
+			"name" : "History", 
+			"process_with" : "history_processor",
+			"components" : [],
+			"searchable" : true
+		},
+		{
+			"name" : "Examination", 
+			"process_with" : "examination_processor",
+			"components" : [],
+			"searchable" : true
+		},
+		{
+			"name" : "Investigations", 
+			"process_with" : "investigations_processor",
+			"components" : [],
+			"searchable" : true,
+			"contains_tests" : true
+		},
+		{
+			"name" : "Answer", 
+			"process_with" : "answer_processor",
+			"components" : [],
+			"searchable" : true,
+			"contains_tests" : true
+		},
+		{
+			"name" : "Key Points", 
+			"process_with" : "key_points_processor",
+			"components" : [],
+			"searchable" : true,
+			"contains_tests" : true
+		}
+	]		
+}

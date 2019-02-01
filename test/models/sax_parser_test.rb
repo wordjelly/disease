@@ -180,13 +180,89 @@ class SaxParserTest < ActiveSupport::TestCase
 	def test_adds_oxford_lab_investigations
 		Textbook.add_textbook("#{Rails.root}/vendor/oxford_lab.txt",nil,"Oxford::Lab","Oxford Manual of Laboratory Investigations")
 	end
-
-
-=end
-
+	
 	def test_adds_washington_allergy
 		Textbook.add_textbook("#{Rails.root}/vendor/washington_allergy.txt","#{Rails.root}/vendor/washington_allergy_json_structure.json","Washington::Allergy",nil)
 	end
+
+	def test_adds_washington_endocrinology
+		Textbook.add_textbook("#{Rails.root}/vendor/washington_endocrinology.txt","#{Rails.root}/vendor/washington_endocrinology_json_structure.json","Washington::Endocrinology",nil)
+	end	
 	
+	def test_adds_washington_gastroenterology
+		Textbook.add_textbook("#{Rails.root}/vendor/washington_gastroenterology.txt","#{Rails.root}/vendor/washington_gastroenterology_json_structure.json","Washington::Gastroenterology",nil)
+	end
+
+	def test_adds_washington_hematology
+		Textbook.add_textbook("#{Rails.root}/vendor/washington_hematology.txt","#{Rails.root}/vendor/washington_hematology_json_structure.json","Washington::Hematology",nil)
+	end
+
+
+	def test_adds_washington_hematology
+		Textbook.add_textbook("#{Rails.root}/vendor/washington_nephrology.txt","#{Rails.root}/vendor/washington_nephrology_json_structure.json","Washington::Nephrology",nil)
+	end
+
+	def test_adds_washington_rheumatology
+		Textbook.add_textbook("#{Rails.root}/vendor/washington_rheumatology.txt","#{Rails.root}/vendor/washington_rheumatology_json_structure.json","Washington::Rheumatology",nil)
+	end
+
+	def test_adds_case_histories_orthopaedics
+		Textbook.add_textbook("#{Rails.root}/vendor/cases_orthopaedics.txt","#{Rails.root}/vendor/cases_orthopaedics_json_structure.json","Cases::Case",nil)
+	end
+=end
+
+
+	def test_adds_case_acute_medicine
+		Textbook.add_textbook("#{Rails.root}/vendor/cases_acute_medicine.txt","#{Rails.root}/vendor/cases_acute_medicine_json_structure.json","Cases::Case",nil)
+	end
+
+
+
+	def test_adds_case_clinical_medicine
+		Textbook.add_textbook("#{Rails.root}/vendor/cases_clinical_medicine.txt","#{Rails.root}/vendor/cases_clinical_medicine_json_structure.json","Cases::Case",nil)
+	end
+
+
+	def test_adds_case_clinical_pathology
+		Textbook.add_textbook("#{Rails.root}/vendor/cases_clinical_pathology.txt","#{Rails.root}/vendor/cases_clinical_pathology_json_structure.json","Cases::Case",nil)
+	end
+
+
+
+	def test_adds_case_dermatology
+		Textbook.add_textbook("#{Rails.root}/vendor/cases_dermatology.txt","#{Rails.root}/vendor/cases_dermatology_json_structure.json","Cases::Case",nil)
+	end
+
+
+	def test_adds_case_general_practise
+		Textbook.add_textbook("#{Rails.root}/vendor/cases_general_practise.txt","#{Rails.root}/vendor/cases_general_practise_json_structure.json","Cases::Case",nil)
+	end
+
+
+	def test_adds_case_obstetrics
+		Textbook.add_textbook("#{Rails.root}/vendor/cases_obstetrics.txt","#{Rails.root}/vendor/cases_obstetrics_json_structure.json","Cases::Case",nil)
+	end
+
+	def test_adds_case_paediatrics
+		Textbook.add_textbook("#{Rails.root}/vendor/cases_paediatrics.txt","#{Rails.root}/vendor/cases_paediatrics_json_structure.json","Cases::Case",nil)
+	end
+
+
+	def test_adds_case_psychiatry
+		Textbook.add_textbook("#{Rails.root}/vendor/cases_psychiatry.txt","#{Rails.root}/vendor/cases_psychiatry_json_structure.json","Cases::Case",nil)
+	end
+
+
+
+	def test_adds_case_radiology
+		Textbook.add_textbook("#{Rails.root}/vendor/cases_radiology.txt","#{Rails.root}/vendor/cases_radiology_json_structure.json","Cases::Case",nil)
+	end
+	
+
+	def test_adds_case_surgery
+		Textbook.add_textbook("#{Rails.root}/vendor/cases_surgery.txt","#{Rails.root}/vendor/cases_surgery_json_structure.json","Cases::Case",nil)
+	end
+
+
 
 end
