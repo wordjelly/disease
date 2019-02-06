@@ -209,7 +209,7 @@ class SaxParserTest < ActiveSupport::TestCase
 	def test_adds_case_histories_orthopaedics
 		Textbook.add_textbook("#{Rails.root}/vendor/cases_orthopaedics.txt","#{Rails.root}/vendor/cases_orthopaedics_json_structure.json","Cases::Case",nil)
 	end
-=end
+
 
 
 	def test_adds_case_acute_medicine
@@ -262,7 +262,11 @@ class SaxParserTest < ActiveSupport::TestCase
 	def test_adds_case_surgery
 		Textbook.add_textbook("#{Rails.root}/vendor/cases_surgery.txt","#{Rails.root}/vendor/cases_surgery_json_structure.json","Cases::Case",nil)
 	end
+=end
 
+	def test_adds_case_files_family_medicine
+		Textbook.add_textbook("#{Rails.root}/vendor/case_files_family_medicine.txt","#{Rails.root}/vendor/case_files_family_medicine_json_structure.json","CaseFiles::CaseFile",nil)
+	end
 
 
 end
