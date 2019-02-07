@@ -262,11 +262,46 @@ class SaxParserTest < ActiveSupport::TestCase
 	def test_adds_case_surgery
 		Textbook.add_textbook("#{Rails.root}/vendor/cases_surgery.txt","#{Rails.root}/vendor/cases_surgery_json_structure.json","Cases::Case",nil)
 	end
-=end
+
 
 	def test_adds_case_files_family_medicine
 		Textbook.add_textbook("#{Rails.root}/vendor/case_files_family_medicine.txt","#{Rails.root}/vendor/case_files_family_medicine_json_structure.json","CaseFiles::CaseFile",nil)
 	end
 
+	def test_adds_case_files_internal_medicine
+		Textbook.add_textbook("#{Rails.root}/vendor/case_files_internal_medicine.txt","#{Rails.root}/vendor/case_files_internal_medicine_json_structure.json","CaseFiles::CaseFile",nil)
+	end
+
+	def test_adds_case_files_critical_care
+		Textbook.add_textbook("#{Rails.root}/vendor/case_files_emergency_medicine.txt","#{Rails.root}/vendor/case_files_emergency_medicine_json_structure.json","CaseFiles::CaseFile",nil)
+	end
+
+	def test_adds_case_files_neuroscience
+		Textbook.add_textbook("#{Rails.root}/vendor/case_files_neuroscience.txt","#{Rails.root}/vendor/case_files_neuroscience_json_structure.json","CaseFiles::CaseFile",nil)
+	end
+
+	def test_adds_case_files_neuroscience
+		Textbook.add_textbook("#{Rails.root}/vendor/case_files_obstetrics.txt","#{Rails.root}/vendor/case_files_obstetrics_json_structure.json","CaseFiles::CaseFile",nil)
+	end
+
+	def test_adds_case_files_orthopaedics
+		Textbook.add_textbook("#{Rails.root}/vendor/case_files_orthopaedics.txt","#{Rails.root}/vendor/case_files_orthopaedics_json_structure.json","CaseFiles::CaseFile",nil)
+	end
+
+	
+	def test_adds_case_files_microbiology
+		Textbook.add_textbook("#{Rails.root}/vendor/case_files_microbiology.txt","#{Rails.root}/vendor/case_files_microbiology_json_structure.json","CaseFiles::CaseFile",nil)
+	end
+
+
+	
+	def test_adds_case_files_neurology
+		Textbook.add_textbook("#{Rails.root}/vendor/case_files_neurology.txt","#{Rails.root}/vendor/case_files_neurology_json_structure.json","CaseFiles::CaseFile",nil)
+	end
+=end
+
+	def test_adds_case_files_paediatrics
+		Textbook.add_textbook("#{Rails.root}/vendor/case_files_paediatrics.txt","#{Rails.root}/vendor/case_files_paediatrics_json_structure.json","CaseFiles::CaseFile",nil)
+	end
 
 end

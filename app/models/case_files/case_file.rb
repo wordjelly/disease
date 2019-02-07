@@ -12,7 +12,7 @@ class CaseFiles::CaseFile < SaxObject
 			
 			s = s.encode('UTF-8', 'binary', invalid: :replace, undef: :replace, replace: '')
 
-			s.scan(/Case\s\d+\n(?<title>[A-Z][A-Za-z\s\-\"\'\d\’\,\“\”]+)\./) do |title|
+			s.scan(/Case\s\d+\n+(?<title>[A-Z][A-Za-z\s\-\"\'\d\’\,\“\”\(\)]+)\./i) do |title|
 								
 
 				# you can only keep the part before the \n.
@@ -30,12 +30,11 @@ class CaseFiles::CaseFile < SaxObject
 			
 		end
 
-		
 		#puts self.topics.to_s
+		#puts self.topics.size
 		#exit(1)
-
 		self.topics
-
+	
 	end
 
 	def title_processor(line)

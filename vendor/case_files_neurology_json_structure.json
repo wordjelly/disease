@@ -1,0 +1,22 @@
+{
+	"name" : "_doc",
+	"process_with" : "title_processor", 
+	"textbook_name" : "Case Files in Neurology",
+	"searchable" : true,
+	"contains_tests" : true,
+	"components" : [
+		{
+			"name" : "Clinical Approach", 
+			"process_with" : "clinical_approach_processor",
+			"components" : [],
+			"searchable" : true,
+			"contains_tests" : true
+		},
+		{
+			"name" : "Treatment", 
+			"process_with" : "treatment_processor",
+			"components" : [],
+			"searchable" : true
+		}
+	]		
+}
