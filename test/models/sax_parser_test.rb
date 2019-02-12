@@ -2,7 +2,6 @@ require 'test_helper'
 
 class SaxParserTest < ActiveSupport::TestCase
 
-
 ## this file has to test a multitude of things.
 ## creates the index
 ## subclasses the object
@@ -10,13 +9,11 @@ class SaxParserTest < ActiveSupport::TestCase
 ## analyzes a file with multiple objects.
 	setup do 
 
-
 		if (Elasticsearch::Persistence.client.indices.exists? index: "documents")
 			puts "deleting index before running test:"
 			delete_index_response = Elasticsearch::Persistence.client.indices.delete index: "documents"
 			puts "delete index response: #{delete_index_response}"
 		end
-
 
 	end
 
@@ -298,10 +295,33 @@ class SaxParserTest < ActiveSupport::TestCase
 	def test_adds_case_files_neurology
 		Textbook.add_textbook("#{Rails.root}/vendor/case_files_neurology.txt","#{Rails.root}/vendor/case_files_neurology_json_structure.json","CaseFiles::CaseFile",nil)
 	end
-=end
+
 
 	def test_adds_case_files_paediatrics
 		Textbook.add_textbook("#{Rails.root}/vendor/case_files_paediatrics.txt","#{Rails.root}/vendor/case_files_paediatrics_json_structure.json","CaseFiles::CaseFile",nil)
 	end
+	
+	def test_adds_obs_correlations_and_case_scenarios
+		Textbook.add_textbook("#{Rails.root}/vendor/obstetrics_correlations.txt","#{Rails.root}/vendor/obstetrics_correlations_json_structure.json","ClinicalCorrelations::ClinicalCorrelation",nil)
+	end
+
+
+	def test_adds_paeds_correlations_and_case_scenarios
+		Textbook.add_textbook("#{Rails.root}/vendor/paediatrics_correlations.txt","#{Rails.root}/vendor/paediatrics_correlations_json_structure.json","ClinicalCorrelations::ClinicalCorrelation",nil)
+	end
+
+	def test_adds_internal_medicine_correlations_and_case_scenarios
+		Textbook.add_textbook("#{Rails.root}/vendor/internal_medicine_correlations.txt","#{Rails.root}/vendor/internal_medicine_correlations_json_structure.json","ClinicalCorrelations::ClinicalCorrelation",nil)
+	end
+	
+	def test_adds_surgery_correlations_and_case_scenarios
+		Textbook.add_textbook("#{Rails.root}/vendor/surgery_correlations.txt","#{Rails.root}/vendor/surgery_correlations_json_structure.json","ClinicalCorrelations::ClinicalCorrelation",nil)
+	end
+=end
+	
+	def test_adds_crash_course_in_internal_medicine
+		Textbook.add_textbook("#{Rails.root}/vendor/crash_course_medicine.txt","#{Rails.root}/vendor/crash_course_medicine_json_structure.json","CrashCourse::CrashCourse",nil)
+	end
+	
 
 end

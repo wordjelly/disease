@@ -1,0 +1,9 @@
+{
+	"name" : "_doc",
+	"process_with" : "title_processor", 
+	"textbook_name" : "Clinical Correlations in Internal Medicine",
+	"searchable" : true,
+	"contains_tests" : true,
+	"components" : [
+	]		
+}

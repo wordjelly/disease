@@ -1,0 +1,30 @@
+{
+	"name" : "_doc",
+	"process_with" : "title_processor", 
+	"textbook_name" : "Crash Course Medicine",
+	"components" : [
+		{
+			"name" : "history", 
+			"process_with" : "history_processor",
+			"components" : [],
+			"searchable" : true
+		},
+		{
+			"name" : "examination", 
+			"process_with" : "examination_processor",
+			"components" : []
+		},
+		{
+			"name" : "investigations",
+			"process_with" : "investigations_processor",
+			"components" : [],
+			"contains_tests" : true
+		},
+		{
+			"name" : "differential_diagnosis",
+			"process_with" : "differential_diagnosis_processor",
+			"components" : [],
+			"contains_tests" : true
+		}
+	]		
+}
