@@ -317,11 +317,43 @@ class SaxParserTest < ActiveSupport::TestCase
 	def test_adds_surgery_correlations_and_case_scenarios
 		Textbook.add_textbook("#{Rails.root}/vendor/surgery_correlations.txt","#{Rails.root}/vendor/surgery_correlations_json_structure.json","ClinicalCorrelations::ClinicalCorrelation",nil)
 	end
-=end
 	
 	def test_adds_crash_course_in_internal_medicine
 		Textbook.add_textbook("#{Rails.root}/vendor/crash_course_medicine.txt","#{Rails.root}/vendor/crash_course_medicine_json_structure.json","CrashCourse::CrashCourse",nil)
 	end
 	
+	def test_adds_crash_course_in_orthopaedics
+		Textbook.add_textbook("#{Rails.root}/vendor/crash_course_rheumatology_and_orthopaedics.txt","#{Rails.root}/vendor/crash_course_rheumatology_and_orthopaedics_json_structure.json","CrashCourse::Orthopaedics",nil)
+	end
+	
+	def test_adds_crash_course_in_obstetrics
+		Textbook.add_textbook("#{Rails.root}/vendor/crash_course_obstetrics.txt","#{Rails.root}/vendor/crash_course_obstetrics_json_structure.json","CrashCourse::CrashCourse",nil)
+	end
+	
+	def test_adds_crash_course_in_gastroenterology
+		Textbook.add_textbook("#{Rails.root}/vendor/crash_course_gastro.txt",nil,"CrashCourse::Gastro","Crash Course Gastroenterology")
+	end	
+
+	def test_adds_crash_course_in_endocrinology
+		Textbook.add_textbook("#{Rails.root}/vendor/crash_course_endocrinology.txt",nil,"CrashCourse::Gastro","Crash Course Endocrinology")
+	end	
+	
+	def test_adds_crash_course_in_hematology
+		Textbook.add_textbook("#{Rails.root}/vendor/crash_course_hematology.txt",nil,"CrashCourse::Gastro","Crash Course Hematology")
+	end	
+
+	def test_adds_crash_course_in_cardio
+		Textbook.add_textbook("#{Rails.root}/vendor/crash_course_cardio.txt",nil,"CrashCourse::Gastro","Crash Course Cardiology")
+	end
+
+	def test_adds_crash_course_in_psychiatry
+		Textbook.add_textbook("#{Rails.root}/vendor/crash_course_psychiatry.txt",nil,"CrashCourse::Gastro","Crash Course Psychiatry")
+	end
+
+=end
+	
+	def test_adds_mayo_gastro
+		Textbook.add_textbook("#{Rails.root}/vendor/mayo_gastro.txt",nil,"Mayo::Mayo","Mayo Manual of Gastroenterology")
+	end
 
 end

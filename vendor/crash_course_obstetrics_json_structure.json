@@ -1,0 +1,8 @@
+{
+	"name" : "_doc",
+	"process_with" : "title_processor", 
+	"textbook_name" : "Crash Course Obstetrics",
+	"searchable" : true,
+	"contains_tests" : true,
+	"components" : []
+}

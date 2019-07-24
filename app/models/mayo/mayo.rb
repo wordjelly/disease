@@ -1,4 +1,4 @@
-class CrashCourse::CrashCourse < SaxObject
+class Mayo::Mayo < SaxObject
 
 	def get_topics
 
@@ -12,14 +12,13 @@ class CrashCourse::CrashCourse < SaxObject
 			
 			s = s.encode('UTF-8', 'binary', invalid: :replace, undef: :replace, replace: '')
 
-			s.scan(/\d\.\s+(?<title>[A-Z][A-Za-z\s]+)\.\s\./) do |title|
+			s.scan(/(\d\.\s+)(?<title>[A-Z][A-Za-z\s\n]+)\d/) do |title|
 				t = title[0]
 				self.topics << t.strip
 			end
 
 			self.topics = self.topics.flatten.map!{|c| c.gsub(/^\.\s/,'').strip}.reject{|c| c.blank?}.compact.uniq
-
-			
+	
 		end
 
 		#puts self.topics.to_s
@@ -46,38 +45,5 @@ class CrashCourse::CrashCourse < SaxObject
 
 		return ["off",line]
 	end
-
-	def history_processor(line)
-		if (line.strip =~ /^History in the patient/) != nil
-			return ["on",line.strip]
-		else
-			return ["off",line.strip]
-		end
-	end
-
-	def examination_processor(line)
-		if (line.strip =~ /^Examining the patient/) != nil
-			return ["on",line.strip]
-		else
-			return ["off",line.strip]
-		end
-	end
-
-	def investigations_processor(line)
-		if (line.strip =~ /^Investigating the patient/) != nil
-			return ["on",line.strip]
-		else
-			return ["off",line.strip]
-		end
-	end
-
-	def differential_diagnosis_processor(line)
-		if (line.strip =~ /^Differential diagnosis in the patient/) != nil
-			return ["on",line.strip]
-		else
-			return ["off",line.strip]
-		end
-	end
-
 
 end
